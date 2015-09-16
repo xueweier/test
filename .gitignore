@@ -2,4 +2,5 @@
 *.swp
 _site/
 _sass/
+css/
 .sass-cache/
