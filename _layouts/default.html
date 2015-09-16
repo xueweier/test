@@ -1,0 +1,62 @@
+---
+top-title: 血衫非弧の一存
+top-url: http://blog.kelu.org/
+author: kelvinblood
+desc: 闲谈杂聊
+
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {% if page.title != null %}
+    <title>{{ page.title }} | {{ page.top-title }} </title>
+    {% else %}
+    <title>{{ page.top-title }} | {{ page.desc }}</title>
+    {% endif %}
+    {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="8; url=/">
+    {% endif %}
+    <link rel="stylesheet" type="text/css" media="all" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="血衫非弧の一存 - Feed" href="/atom.xml">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="alternate" href="{{ page.top-url }}" hreflang="zh-Hans" />
+    <script src="/js/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <div id="logo" class="left">
+        <div class="verticle_center">
+          <a href="/" >
+            <img alt="{{page.top-title}}" src="/assets/resource/logo.png">
+          </a>
+        </div>
+      </div>
+      <div id="search-bar" class="right">
+      </div>
+    </header>
+
+
+    <div id="main">
+      {{ content }}
+    </div> <!-- end of main -->
+
+    <footer>
+      <p class="left"></p>
+      <p class="right">&copy; 2015 <a href="http://kelu.org" title="{{ top-title }}"> 血衫非弧</a> All Rights Reserved.  </p>
+    </footer>
+
+
+    <!-- google-analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-59980179-1', 'auto');
+ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
