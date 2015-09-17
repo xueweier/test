@@ -13,9 +13,11 @@ category: mac
 ### 安装rvm
 
 	$ curl -L https://get.rvm.io | bash -s stable
- 
 
 安装好rvm后需要按照提示 `source ~/.bash_profile` 将rvm添加到环境变量中。
+
+
+
 
 ### 安装ruby
 
@@ -33,3 +35,7 @@ category: mac
 	$ jekyll s
 
 通过 localhost:4000 即可访问。
+
+参考资料:
+
+<http://jekyllcn.com/>
