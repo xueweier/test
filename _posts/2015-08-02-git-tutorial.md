@@ -284,6 +284,15 @@ rebase是回到两个分支的共同祖先，根据要进行衍合的分支dev�
 > 
 你和你的小伙伴们每个人都在dev分支上干活，每个人都有自己的分支，时不时地往dev分支上合并就可以了。
 
+
+## 导出
+
+Git提供了archive命令，可以导出一个干净的项目文档，不包括版本控制文件。
+
+	git archive --format zip -o kelu.zip HEAD
+	git archive -–format zip -o site-$(git log –pretty=format:”%h” -1).zip HEAD
+	
+
 未完待续......
 
 [DO]:https://www.digitalocean.com/?refcode=f595b7f62cc7
