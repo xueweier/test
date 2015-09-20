@@ -13,8 +13,6 @@ category: linux
 
 将你的公钥添加到github上。
 
-
-
     $ ssh-agent bash
     $ ssh-agent -s
     $ ssh-add ~/.ssh/id_rsa

@@ -39,7 +39,7 @@ category: linux
 
 	LC_ALL="en_US.utf8"
 	
-输入`dpkg-reconfigure locale`按照提示选中一下内容
+输入`dpkg-reconfigure locales`按照提示选中一下内容
 
 ![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-09-20%20下午5.29.45.png)
 
