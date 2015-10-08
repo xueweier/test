@@ -33,9 +33,11 @@ category: linux
 	locale: Cannot set LC_CTYPE to default locale: No such file or directory
 	locale: Cannot set LC_ALL to default locale: No such file or directory
 
+以下两种方法不一定都试用，可以都试一遍。
 
+## 办法一
 
-解决办法是在文件/etc/environment中添加如下内容
+在文件/etc/environment中添加如下内容
 
 	LC_ALL="en_US.utf8"
 	
@@ -47,6 +49,21 @@ category: linux
 
 完成以上步骤后重启系统即可。
 
+## 办法二
+
+在`~/.bash_profile`文件开头中添加如下信息即可：
+
+	export LANG="en_US.UTF-8"
+	export LC_COLLATE="en_US.UTF-8"
+	export LC_CTYPE="en_US.UTF-8"
+	export LC_MESSAGES="en_US.UTF-8"
+	export LC_MONETARY="en_US.UTF-8"
+	export LC_NUMERIC="en_US.UTF-8"
+	export LC_TIME="en_US.UTF-8"
+	export LC_ALL=
+
+如果你用的是zsh等其它类型的shell，在相应的配置文件里也输入这些信息即可。
+例如zsh则在文件`~/.zshrc`中添加。
 
 --------------
 digital ocean是一个新兴的vps运营商，如果你也打算使用，可以使用我的推荐链接注册，这样子你我都将得到10美元。[digital ocean][ocean]

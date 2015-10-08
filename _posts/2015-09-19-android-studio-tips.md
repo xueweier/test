@@ -5,6 +5,7 @@ category: Android
 ---
 
 
-* 在Android Studio中，按Alt + Enter 可以导入缺失的类(在Mac中使用option + return)
+* 导入缺失的类：在Android Studio中，按Alt + Enter(在Mac中使用option + return)
+* 快速生成Getter和Setter：菜单栏->code->generate
 
 待更新~
