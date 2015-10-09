@@ -16,8 +16,6 @@ category: linux
 
 插件的使用方法就是把 [vim_config.tgz](http://blog.kelu.org/attachment/2015/01/vim_config.tgz) 在本地用户目录解压就好了。这个配置文件存在用户目录下命名为 `.vimrc`
 
-预览图就是这样啦！
-
 
 
 	" ==========通用设置start================
@@ -105,3 +103,7 @@ category: linux
 	 endif
 	endfunction
 	autocmd BufWritePre * call RemoveTrailingWhitespace()
+
+
+
+有时你需要复制粘贴，不需要自动缩进，可以使用这个命令进行临时取消自动缩进：`:set noai`
