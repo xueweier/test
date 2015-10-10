@@ -107,3 +107,4 @@ oh my zsh 项目提供了完善的插件体系，相关的文件在~/.oh-my-zsh/
 
 * <https://www.v2ex.com/t/215033#reply6>
 * <http://blog.jobbole.com/89609/>
+* [Mac命令行工具强化及使用简单记录](http://uecss.com/zsh-brew-autojump-plugins-shell-for-mac.html)
