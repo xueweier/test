@@ -12,8 +12,9 @@ category: linux
 
 ![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-10-11%20下午1.26.40.png)
 
+你可以以命令行安装无外设模式的dropbox，对于服务器来说维护起来更加方便。也可以以桌面安装的方式安装，符合习惯，并且可以选择同步位置。当然两者混合着来也ok。下面把两种方式都写下来。
 
-## 一 命令行安装
+## 命令行安装
 Dropbox 守护程序可在所有 32 位与 64 位 Linux 服务器上正常运行。若要安装，请在 Linux 终端运行下列命令。
 
 	32-bit:
@@ -39,7 +40,7 @@ Dropbox 守护程序可在所有 32 位与 64 位 Linux 服务器上正常运行
 
 ![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_WeChat_1444541977.jpeg)
 
-## 二 普通安装Dropbox
+## 普通安装Dropbox
 使用上面的方法已经可以安装使用dropbox了。然而无界面的dropbox的不便就是，设置dropbox目录地址不方便。所以可以直接下载deb文件进行安装。当然，服务器上必须要有桌面环境才可。
 
 服务器管理员们常常懒得安装桌面环境，毕竟性能损耗大，也显得没必要。如果环境里没有的话，参考我这一篇[《使用vnc/xrdp连接你的Debian》][blog_link]，安装轻量级的桌面环境jwm即可。
