@@ -31,6 +31,9 @@ category: linux
 	sudo find / -name 'config.default.php'
 	sudo find / -name 'config.inc.php'
 	
+Mac下的安装路径为`/Applications/XAMPP/xamppfiles/phpmyadmin/libraries/config.default.php`  
+`/Applications/XAMPP/xamppfiles/phpmyadmin/config.inc.php`
+	
 找到$cfg['Servers'][$i]['password']  = ' '，
 修改为
 	

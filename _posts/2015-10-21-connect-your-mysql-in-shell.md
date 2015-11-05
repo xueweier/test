@@ -21,8 +21,23 @@ category: linux
 	| performance_schema |
 	+--------------------+
 	3 rows in set (0.00 sec)
+
+	mysql> use kelu
+	Database changed
+	mysql> show tables;
+	+----------------+
+	| Tables_in_kelu  |
+	+----------------+
+	| vpn_chargeRec  |
+	| vpn_online     |
+	| vpn_record     |
+	| vpn_subAccount |
+	| vpn_user       |
+	+----------------+
+	5 rows in set (0.00 sec)
 	
-(本部分待续)
+	mysql> source xxx.sql
+	
 
 ## 脚本
 
@@ -37,6 +52,8 @@ category: linux
 	TABLENAME="test"  
 	  
 接着就是基本的CURD操作.
+
+
 
 ### 创建数据库
 	create_db_sql="create database IF NOT EXISTS ${DBNAME}"
