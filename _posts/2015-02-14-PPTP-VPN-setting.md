@@ -1,17 +1,25 @@
 ---
 layout: post
-title: PPTP的设置
+title: 血衫的网络设置
 category: nichijou
 ---
 
-PPTP在大部分网络下是可以使用的——直连到网络运营商的网络，例如中国电信/联通，或者手机的3G4G网路。不少的第三方网络运营商无法使用，以及在某些无线路由器下无法使用。
 
-建议测试时首先使用3G4G网络测试，测试可用后再换成平时常用的网络。
+<p style="font-size: 1.3em; text-align:center">建议测试时首先使用3G4G网络测试，测试可用后再换成平时常用的网络。</p>
+
+血衫的服务器在大部分网络下是可以使用的——直连到网络运营商的网络，例如中国电信/联通，或者手机的3G4G网路。不少的第三方网络运营商无法使用，以及在某些无线路由器下无法使用。
+
 
 * 在[Windows](#windows)下的设置
 * 在[Mac](#mac)下的设置
 * 在[Android](#android)下的设置
 * 在[iPhone](#iphone)下的设置
+
+<style>
+#phonepic img {
+	max-width: 300px
+}
+</style>
 
 <span id="windows"></span>
 ## 在Windows下的设置
@@ -46,29 +54,45 @@ PPTP在大部分网络下是可以使用的——直连到网络运营商的网�
 ![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-06.png)
 
 ![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-07.png)
-
+<div id="phonepic">
 <span id="android"></span>
+
 ## 在Android下的设置
 
 ![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-01.png)
+<br>
 
 ![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-02.png)
+<br>
+
 
 ![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-03.png)
+<br>
+
 
 ![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-04.png)
+<br>
+
 
 ![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-05.png)
+<br>
 
 <span id="iphone"></span>
+
 ## 在iPhone/iPad下的设置
 
 ![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-01.png)
+<br>
 
 ![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-02.png)
+<br>
 
 ![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-03.png)
+<br>
 
 ![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-04.png)
+<br>
 
 ![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-05.png)
+
+</div>
