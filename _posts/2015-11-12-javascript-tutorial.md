@@ -1,7 +1,7 @@
 ---
 layout: post
 title: javascript入门
-category: linux
+category: front-end
 ---
 
 最近使用javascript的频率比较多，是不是会和PHP弄混。于是记录一些简单的信息信息，避免每次都去查阅手册。注意，这并不是一个完整的入门教程，例如我不会在本文包含最基础的加减乘除此类的信息，主要是一些容易与其他语言混淆的内容。
@@ -45,13 +45,19 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)
 	var flag = true;
 	var arr=["Hello","world"];	// 静态定义（相同数据类型的集合）
 	var arr2= new Array("hello","world","2"); // 
-	var arr3= new Array();
+	var cars= new Array();
+	cars[0]="Audi";
+	cars[1]="BMW";
+	cars[2]="Volvo";
 	
-	数组的显示是[]包裹。
-	
+	数组的显示是[]包裹(使用console.log查看)
+
+
+
+
 #### 对象Object
 
-	对象的显示是{}包裹。
+	对象的显示是{}包裹。(使用console.log查看)
 
 	// 这个people将会以全局方式村子啊。如果加一个var，那就是局部的。
 	people = new Object();
@@ -78,17 +84,17 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)
 
 ### 语句
 
-if else
-for
-while
-switch case
-try catch
-
-for (变量x in 对象array)
-{
-    在此执行代码
-    array[x];
-}
+	if else
+	for
+	while
+	switch case
+	try catch
+	
+	for (变量x in 对象array)
+	{
+	    在此执行代码
+	    array[x];
+	}
 
 ### 函数
 
