@@ -4,8 +4,6 @@ title: sass备忘
 category: front-end
 ---
 
-## Sass 是什么？
-
 本文并不是科普性文章，主要是个人的资料收集和备忘。文章大部分转载自[《SegmentFault - CSS 强化装备！Sass 安装与使用》](http://segmentfault.com/a/1190000003912703)与[《阮一峰 - SASS用法指南》](http://www.ruanyifeng.com/blog/2012/06/sass.html)，需要入门的请移步这两篇文章。
 
 ## 安装配置
