@@ -76,5 +76,3 @@ BeagleBone Black吃灰已久。留着实在可惜。最近又拿出来捣弄了�
 * [BeagleBone Black 之官方Debian系统安装](http://www.lxway.com/40189691.htm)
 * [树莓派入手初体验--镜像烧写+登陆](http://jeremybai.github.io/blog/2014/11/01/raspi-01/)
 * [BeagleBone Black与主机共享网络之配置操作](http://blog.csdn.net/u012019376/article/details/42267655)
-* [树莓派入手初体验--镜像烧写+登陆](http://jeremybai.github.io/blog/2014/11/01/raspi-01/)
-* [树莓派入手初体验--镜像烧写+登陆](http://jeremybai.github.io/blog/2014/11/01/raspi-01/)
