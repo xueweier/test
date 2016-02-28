@@ -6,7 +6,6 @@ auto: true
 lsi: false
 server_port: 4000
 pygments: true
-markdown: redcarpet
 permalink: date
 paginate: 5
 excerpt_separator: "\n\n\n"
