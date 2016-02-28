@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [转]使用 apache ab 做网站压力测试
+title: 使用 apache ab 做网站压力测试【转】
 category: linux
 ---
 
