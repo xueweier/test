@@ -4,9 +4,27 @@ title: javascript入门
 category: front-end
 ---
 
-最近使用javascript的频率比较多，是不是会和PHP弄混。于是记录一些简单的信息信息，避免每次都去查阅手册。注意，这并不是一个完整的入门教程，例如我不会在本文包含最基础的加减乘除此类的信息，主要是一些容易与其他语言混淆的内容。
+最近使用javascript的频率比较多，是不是会和PHP弄混。于是记录一些简单的信息信息，避免每次都去查阅手册。注意，这并不是一个完整的入门教程，例如我不会在本文包含最基础的加减乘除此类的信息。
+
+## 目录
+
+1. 基本知识
+1. js 对象
+1. DOM 文档对象模型
+1. BOM 浏览器对象模型 
 
 ## 基本知识
+
+JavaScript 是因特网上最流行的脚本语言。
+
+1. 语法
+1. 变量
+1. 数据类型
+1. 对象Object
+1. 语句
+1. 函数
+1. 运算
+
 
 ### 语法
 
@@ -20,19 +38,19 @@ category: front-end
 	单行注释以 // 开头。
 	多行注释以 /* 开始，以 */ 结尾。
 
-### 变量声明
+### 变量
 
 	var name="Gates",
 	age=56,
 	job="CEO";
 	
-	未使用值来声明的变量，其值实际上是 undefined
+未使用值来声明的变量，其值实际上是 undefined。
+
+JavaScript 中的所有事物都是对象(拥有属性和方法)。
 	
-	变量类型有：数据类型，字符串、数字、布尔、数组、对象、Null、Undefined。
+变量类型有：数据类型，字符串、数字、布尔、数组、对象、Null、Undefined。
 
 ### 数据类型
-
-JavaScript 中的所有事物都是对象(拥有属性和方法)
 
 	var carname=new String;
 	var x=      new Number;
@@ -51,8 +69,6 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)
 	cars[2]="Volvo";
 	
 	数组的显示是[]包裹(使用console.log查看)
-
-
 
 
 #### 对象Object
@@ -75,12 +91,6 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)
 		this._age = age;
 	}
 	son = new people('bill',23);
-	
-#### null 
-	
-	可以通过赋值为null的方式清除变量
-	cars=null;
-	person=null;
 
 ### 语句
 
@@ -115,12 +125,181 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)
 
 	===	全等（值和类型）	x===5 为 true；x==="5" 为 false
 
-### 事件
+---
+## JS 对象
+### String字符串对象
+
+	String.prototype.indexOf()  查询字符处是否存在
+	String.prototype.match() 内容匹配
 	
-HTML DOM 允许您通过使用 JavaScript 来向 HTML 元素分配事件
+	String.prototype.replace()
+	
+	String.prototype.toString()
+	String.prototype.toUpperCase()
+	String.prototype.trim()  删除前后空格
+	String.prototype.split()
 
-事件句柄　(Event Handlers)
 
+### Date日期对象
+
+	var today = new Date();
+	var birthday = new Date('December 17, 1995 03:24:00');
+	var birthday = new Date('1995-12-17T03:24:00');
+	var birthday = new Date(1995, 11, 17);
+	var birthday = new Date(1995, 11, 17, 3, 24, 0);
+	
+	var unixTimestamp = Date.now(); // in milliseconds
+	
+	还有各种get函数。
+	
+
+### Array数组对象
+
+`concat`
+
+	var new_array = old_array.concat(value1[, value2[, ...[, valueN]]])
+	
+`sort`，`push`末尾追加元素 `reverse`翻转
+
+### Math对象
+
+	Math.PI
+	Math.round(x) 四舍五入
+	Math.random() 随机数
+	Math.pow(x, y)次方
+	Math.max([x[, y[, …]]]) 最大值
+
+---
+
+## DOM 文档对象模型
+
+1. DOM 简介
+1. DOM 对象
+1. DOM 事件
+1. DOM HTML
+1. DOM CSS
+
+### DOM简介
+
+DOM 是 W3C（万维网联盟）的标准。
+
+JavaScript 能够改变页面中的所有 HTML 元素、 属性、CSS 样式，并且能够对页面中的所有事件做出反应。
+
+### DOM 对象
+
+#### document对象
+
+当网页被加载时，浏览器会创建页面的文档对象模型（Document Object Model）。
+Document 对象使我们可以从脚本中对 HTML 页面中的所有元素进行访问。
+
+	方法
+	getElementById()	返回对拥有指定 id 的第一个对象的引用。
+	getElementsByName()	返回带有指定名称的对象集合。
+	getElementsByTagName()	返回带有指定标签名的对象集合。
+
+	属性
+	body
+	cookie	设置或返回与当前文档有关的所有 cookie。
+	domain	返回当前文档的域名。
+	lastModified	返回文档被最后修改的日期和时间。
+	referrer	返回载入当前文档的文档的 URL。
+	title	返回当前文档的标题。
+	URL		返回当前文档的 URL。
+
+	集合
+	all[]	提供对文档中所有 HTML 元素的访问。
+	anchors[]	返回对文档中所有 Anchor 对象的引用。
+	applets	返回对文档中所有 Applet 对象的引用。
+	forms[]	返回对文档中所有 Form 对象引用。
+	images[]	返回对文档中所有 Image 对象引用。
+	links[]	返回对文档中所有 Area 和 Link 对象引用。
+
+在这里顺带说一下jQuery，获取对象的方法为：
+
+	$("button").text(xxx);
+	$("#id").text(xxx);
+	$(".class").text();
+
+#### element对象
+
+在 HTML DOM 中，Element 对象表示 HTML 元素。
+换一种说法，从document对象中的id、标签名或者类名找到的元素，就称为element对象。
+
+Element 对象可以拥有类型为元素节点、文本节点、注释节点的子节点。
+
+	属性 / 方法
+	element.accessKey	设置或返回元素的快捷键。
+	element.appendChild()	向元素添加新的子节点，作为最后一个子节点。
+	element.attributes	返回元素属性的 NamedNodeMap。
+	element.childNodes	返回元素子节点的 NodeList。
+	element.className	设置或返回元素的 class 属性。
+	element.clientHeight	返回元素的可见高度。
+	element.clientWidth	返回元素的可见宽度。
+	element.cloneNode()	克隆元素。
+	element.compareDocumentPosition()	比较两个元素的文档位置。
+	element.contentEditable	设置或返回元素的文本方向。
+	element.dir	设置或返回元素的文本方向。
+	element.firstChild	返回元素的首个子。
+	element.getAttribute()	返回元素节点的指定属性值。
+	element.getAttributeNode()	返回指定的属性节点。
+	element.getElementsByTagName()	返回拥有指定标签名的所有子元素的集合。
+	element.getFeature()	返回实现了指定特性的 API 的某个对象。
+	element.getUserData()	返回关联元素上键的对象。
+	element.hasAttribute()	如果元素拥有指定属性，则返回true，否则返回 false。
+	element.hasAttributes()	如果元素拥有属性，则返回 true，否则返回 false。
+	element.hasChildNodes()	如果元素拥有子节点，则返回 true，否则 false。
+	element.id	设置或返回元素的 id。
+	element.innerHTML	设置或返回元素的内容。
+	element.insertBefore()	在指定的已有的子节点之前插入新节点。
+	element.isContentEditable	设置或返回元素的内容。
+	element.isDefaultNamespace()	如果指定的 namespaceURI 是默认的，则返回 true，否则返回 false。
+	element.isEqualNode()	检查两个元素是否相等。
+	element.isSameNode()	检查两个元素是否是相同的节点。
+	element.isSupported()	如果元素支持指定特性，则返回 true。
+	element.lang	设置或返回元素的语言代码。
+	element.lastChild	返回元素的最后一个子元素。
+	element.namespaceURI	返回元素的 namespace URI。
+	element.nextSibling	返回位于相同节点树层级的下一个节点。
+	element.nodeName	返回元素的名称。
+	element.nodeType	返回元素的节点类型。
+	element.nodeValue	设置或返回元素值。
+	element.normalize()	合并元素中相邻的文本节点，并移除空的文本节点。
+	element.offsetHeight	返回元素的高度。
+	element.offsetWidth	返回元素的宽度。
+	element.offsetLeft	返回元素的水平偏移位置。
+	element.offsetParent	返回元素的偏移容器。
+	element.offsetTop	返回元素的垂直偏移位置。
+	element.ownerDocument	返回元素的根元素（文档对象）。
+	element.parentNode	返回元素的父节点。
+	element.previousSibling	返回位于相同节点树层级的前一个元素。
+	element.removeAttribute()	从元素中移除指定属性。
+	element.removeAttributeNode()	移除指定的属性节点，并返回被移除的节点。
+	element.removeChild()	从元素中移除子节点。
+	element.replaceChild()	替换元素中的子节点。
+	element.scrollHeight	返回元素的整体高度。
+	element.scrollLeft	返回元素左边缘与视图之间的距离。
+	element.scrollTop	返回元素上边缘与视图之间的距离。
+	element.scrollWidth	返回元素的整体宽度。
+	element.setAttribute()	把指定属性设置或更改为指定值。
+	element.setAttributeNode()	设置或更改指定属性节点。
+	element.setIdAttribute()	
+	element.setIdAttributeNode()	
+	element.setUserData()	把对象关联到元素上的键。
+	element.style	设置或返回元素的 style 属性。
+	element.tabIndex	设置或返回元素的 tab 键控制次序。
+	element.tagName	返回元素的标签名。
+	element.textContent	设置或返回节点及其后代的文本内容。
+	element.title	设置或返回元素的 title 属性。
+	element.toString()	把元素转换为字符串。
+	nodelist.item()	返回 NodeList 中位于指定下标的节点。
+	nodelist.length	返回 NodeList 中的节点数。
+	
+
+### DOM 事件
+
+HTML 4.0 的新特性之一是能够使 HTML 事件触发浏览器中的行为，比如当用户点击某个 HTML 元素时启动一段 JavaScript。下面是一个属性列表，可将之插入 HTML 标签以定义事件的行为。
+
+	属性
 	onabort	图像的加载被中断。
 	onblur	元素失去焦点。
 	onchange	域的内容被改变。
@@ -143,6 +322,13 @@ HTML DOM 允许您通过使用 JavaScript 来向 HTML 元素分配事件
 	onsubmit	确认按钮被点击。
 	onunload	用户退出页面。
 
+	移动设备
+	touchstart: 当手指触摸屏幕时触发，即使是一个手指放在屏幕上也会触发。
+	touchmove:当手指在屏幕上滑动时连续地触发，这个事件发生期间，我们可以使用preventDefault()事件可以阻止滚动。
+	touchend: 当手指从屏幕上移开时触发。
+	touchcancel: 当系统停止跟踪触摸时触发
+
+
 用法示例
 
 	<p><a href="http://developer.mozilla.org/" onmouseover="oTooltip.append(event,'Example text 1');" onmousemove="oTooltip.follow(event);" onmouseout="oTooltip.remove();">Move your mouse here&hellip;</a></p>
@@ -162,198 +348,159 @@ HTML DOM 允许您通过使用 JavaScript 来向 HTML 元素分配事件
 	shiftKey	返回当事件被触发时，"SHIFT" 键是否被按下。
 
 
-## 对象
 
-### DOM对象
-网页加载时候，就会产生dom对象
-用dom操作HTML对象。
+### DOM HTML
 
-#### DOM对象获取元素
+在 JavaScript 中，document.write() 可用于直接向 HTML 输出流写内容。
 
-首先需要获得对象，document.getElementByXXX
-在这里顺带说一下jQuery，则是：
+修改 HTML 内容的最简单的方法时使用 innerHTML 属性。
 
-$("button").text(xxx);
-$("#id").text(xxx);
-$(".class").text();
- 
-<script>
-var str = $( "p:first" ).text();
-$( "p:last" ).html( str );
-</script>
-	
-	// 子节点
-	ChildNode.remove() 
-	ChildNode.before() 
-	ChildNode.after() 
-	ChildNode.replaceWith() 
-	
-	// 父节点
-	if (node.parentNode) {
-	  // remove a node from the tree, unless 
-	  // it's not in the tree already
-	  node.parentNode.removeChild(node);
-	}
-	
-	var p = document.createElement("p");
-	document.body.appendChild(p);
+	document.getElementById(id).innerHTML=new HTML
 
-#### 改变HTML
-改变HTML内容 `innerHTML`
-改变属性 直接`.属性值=""`即可
-#### 改变CSS
-`.style.background=""`
+改变 HTML 元素的属性
 
-#### 设置事件监听器
-	target.onclick();	//dom0级，不好用
-	
-	target.addEventListener(type, listener[, useCapture]);
-	EventTarget.removeEventListener();
-	第一个参数是事件的类型 (如 "click" 或 "mousedown").
-	第二个参数是事件触发后调用的函数。
-	第三个参数是个布尔值用于描述事件是冒泡还是捕获。该参数是可选的。
-	
-	添加句柄的好处：添加多个；更好的颗粒度；对所有dom对象有效。
-	
-	对应与jQuery，一般我们使用on函数。
+	document.getElementById(id).attribute=new value
 
-#### 事件对象
+### DOM CSS
 
-	触发dom事件都会产生事件对象。
-	包括
-	event.type，
-	event.target，
-	event.stopPropagation();阻止冒泡对象
-	event.preventDefault();阻止对象默认行为
-	
-	移动设备端：
-	touchstart: 当手指触摸屏幕时触发，即使是一个手指放在屏幕上也会触发。
-	touchmove:当手指在屏幕上滑动时连续地触发，这个事件发生期间，我们可以使用preventDefault()事件可以阻止滚动。
-	touchend: 当手指从屏幕上移开时触发。
-	touchcancel: 当系统停止跟踪触摸时触发
-
-	
-#### 事件流
-	事件冒泡 -由具体向上冒泡
-	事件捕获 -由上往下到具体
-
-### 内置对象
-#### String字符串对象
-
-	String.prototype.indexOf()  查询字符处是否存在
-	String.prototype.match() 内容匹配
-	
-	String.prototype.replace()
-	
-	String.prototype.toString()
-	String.prototype.toUpperCase()
-	String.prototype.trim()  删除前后空格
-	String.prototype.split()
+	document.getElementById(id).style.property=new style
 
 
-#### Date日期对象
+---
 
-	var today = new Date();
-	var birthday = new Date('December 17, 1995 03:24:00');
-	var birthday = new Date('1995-12-17T03:24:00');
-	var birthday = new Date(1995, 11, 17);
-	var birthday = new Date(1995, 11, 17, 3, 24, 0);
-	
-	var unixTimestamp = Date.now(); // in milliseconds
-	
-	还有各种get函数。
-	
 
-#### Array数组对象
+### BOM 浏览器对象模型 
 
-`concat`
+浏览器对象模型（Browser Object Model）尚无正式标准。所有浏览器都支持 window 对象。它表示浏览器窗口。
 
-	var new_array = old_array.concat(value1[, value2[, ...[, valueN]]])
-	
-`sort`，`push`末尾追加元素 `reverse`翻转
+甚至 HTML DOM 的 document 也是 window 对象的属性之一。
 
-#### Math对象
-
-	Math.PI
-	Math.round(x) 四舍五入
-	Math.random() 随机数
-	Math.pow(x, y)次方
-	Math.max([x[, y[, …]]]) 最大值
-
-### 浏览器对象
+1. JS Window. Window 对象表示浏览器中打开的窗口。
+1. JS Navigator. Navigator 对象包含有关浏览器的信息。
+1. JS History. History 对象包含用户（在浏览器窗口中）访问过的 URL。
+1. JS Location. Location 对象包含有关当前 URL 的信息。
+1. JS Screen. Screen 对象包含有关客户端显示屏幕的信息。
 
 #### window对象
+Window 对象表示浏览器中打开的窗口。
+如果文档包含框架（frame 或 iframe 标签），浏览器会为 HTML 文档创建一个 window 对象，并为每个框架创建一个额外的 window 对象。
 
-	window.document.write("高度"+window.innerHeight+"宽度"+window.innerWidth);
-	window.open();
-	window.close();
-	
-	outerHeight
-	outerWidth
-	Window.scrollX     
-	Window.scrollY
-			
-    function btnClick(){
-        window.open('/','windowname','height = 200, width = 100, top = 200');
-    }
-#### 计时器
-setInterval()
-setTimeOut();
+	属性
+	closed	返回窗口是否已被关闭。
+	defaultStatus	设置或返回窗口状态栏中的默认文本。
+	document	对 Document 对象的只读引用。请参阅 Document 对象。
+	history	对 History 对象的只读引用。请参数 History 对象。
+	innerheight	返回窗口的文档显示区的高度。
+	innerwidth	返回窗口的文档显示区的宽度。
+	length	设置或返回窗口中的框架数量。
+	location	用于窗口或框架的 Location 对象。请参阅 Location 对象。
+	name	设置或返回窗口的名称。
+	Navigator	对 Navigator 对象的只读引用。请参数 Navigator 对象。
+	opener	返回对创建此窗口的窗口的引用。
+	outerheight	返回窗口的外部高度。
+	outerwidth	返回窗口的外部宽度。
+	pageXOffset	设置或返回当前页面相对于窗口显示区左上角的 X 位置。
+	pageYOffset	设置或返回当前页面相对于窗口显示区左上角的 Y 位置。
+	parent	返回父窗口。
+	Screen	对 Screen 对象的只读引用。请参数 Screen 对象。
+	self	返回对当前窗口的引用。等价于 Window 属性。
+	status	设置窗口状态栏的文本。
+	top	返回最顶层的先辈窗口。
+	window	window 属性等价于 self 属性，它包含了对窗口自身的引用。
+	screenLeft
+	screenTop
+	screenX
+	screenY 只读整数。声明了窗口的左上角在屏幕上的的 x 坐标和 y 坐标。IE、Safari 和 Opera 支持 screenLeft 和 screenTop，
 
-	var intervalID = window.setInterval(myCallback, 500);
-	
-	function myCallback() {
-	  // Your code here
-	  
-	}
-	
-     var win;
-    function mywin(){
-        win = window.setTimeout(function(){
-            alert("hello");
-        },3000);
-    }
+	方法
+	alert()	显示带有一段消息和一个确认按钮的警告框。
+	blur()	把键盘焦点从顶层窗口移开。
+	clearInterval()	取消由 setInterval() 设置的 timeout。
+	clearTimeout()	取消由 setTimeout() 方法设置的 timeout。
+	close()	关闭浏览器窗口。
+	confirm()	显示带有一段消息以及确认按钮和取消按钮的对话框。
+	createPopup()	创建一个 pop-up 窗口。
+	focus()	把键盘焦点给予一个窗口。
+	moveBy()	可相对窗口的当前坐标把它移动指定的像素。
+	moveTo()	把窗口的左上角移动到一个指定的坐标。
+	open()	打开一个新的浏览器窗口或查找一个已命名的窗口。
+	print()	打印当前窗口的内容。
+	prompt()	显示可提示用户输入的对话框。
+	resizeBy()	按照指定的像素调整窗口的大小。
+	resizeTo()	把窗口的大小调整到指定的宽度和高度。
+	scrollBy()	按照指定的像素值来滚动内容。
+	scrollTo()	把内容滚动到指定的坐标。
+	setInterval()	按照指定的周期（以毫秒计）来调用函数或计算表达式。
+	setTimeout()	在指定的毫秒数后调用函数或计算表达式。
 
+#### Navigator对象
+Navigator 对象包含有关浏览器的信息。
+
+	属性
+	appCodeName	返回浏览器的代码名。
+	appMinorVersion	返回浏览器的次级版本。
+	appName	返回浏览器的名称。
+	appVersion	返回浏览器的平台和版本信息。
+	browserLanguage	返回当前浏览器的语言。
+	cookieEnabled	返回指明浏览器中是否启用 cookie 的布尔值。
+	cpuClass	返回浏览器系统的 CPU 等级。
+	onLine	返回指明系统是否处于脱机模式的布尔值。
+	platform	返回运行浏览器的操作系统平台。
+	systemLanguage	返回 OS 使用的默认语言。
+	userAgent	返回由客户机发送服务器的 user-agent 头部的值。
+	userLanguage	返回 OS 的自然语言设置。
+
+	方法	
+	javaEnabled()	规定浏览器是否启用 Java。
+	taintEnabled()	规定浏览器是否启用数据污点 (data tainting)。
+	
 #### History对象
+History 对象包含用户（在浏览器窗口中）访问过的 URL。
+History 对象是 window 对象的一部分，可通过 window.history 属性对其进行访问。
 
-	function myback(){
-       window.history.back();
-    }
-    window.go(-1);
-	history.back();     // equivalent to clicking back button
-	history.go(-1);     // equivalent to history.back();
-
-
-#### Location对象
-
-	 console.log(window.location);
+	属性
+	length	返回浏览器历史列表中的 URL 数量。
+	方法	
+	back()	加载 history 列表中的前一个 URL。
+	forward()	加载 history 列表中的下一个 URL。
+	go()	加载 history 列表中的某个具体页面。
 	
-	 Location { href="http://localhost:63342/i...m=Home&c=Index&a=charge",  origin="http://localhost:63342",  protocol="http:",  更多...}
-		""
+#### Location对象
+Location 对象包含有关当前 URL 的信息。
+Location 对象是 Window 对象的一个部分，可通过 window.location 属性来访问。
+
+	属性
+	hash	设置或返回从井号 (#) 开始的 URL（锚）。
+	host	设置或返回主机名和当前 URL 的端口号。
+	hostname	设置或返回当前 URL 的主机名。
+	href	设置或返回完整的 URL。
+	pathname	设置或返回当前 URL 的路径部分。
+	port	设置或返回当前 URL 的端口号。
+	protocol	设置或返回当前 URL 的协议。
+	search	设置或返回从问号 (?) 开始的 URL（查询部分）。
+
+	属性
+	assign()	加载新的文档。
+	reload()	重新加载当前文档。
+	replace()	用新的文档替换当前文档。
+		
+
 
 #### Screen对象
 
-console.log(window.screen);
-			
-	availHeight
-	availLeft
-	availTop
-	availWidth
-	colorDepth
-	height
-	left
-	pixelDepth
-	top
-	width
-		
-#### 一些宽度数据
+Screen 对象包含有关客户端显示屏幕的信息。
 
-	screen：屏幕。这一类取到的是关于屏幕的宽度和距离，与浏览器无关，应该是获取window对象的属性。
-	client：使用区、客户区。指的是客户区，当然是指浏览器区域。
-	offset：偏移。指的是目标甲相对目标乙的距离。
-	scroll：卷轴、卷动。指的是包含滚动条的的属性。
-	inner：内部。指的是内部部分，不含滚动条。
-	avail：可用的。可用区域，不含滚动条，易与inner混淆。
-	
-	var offsetWidth =element.offsetWidth;
- 
+	属性
+	availHeight	返回显示屏幕的高度 (除 Windows 任务栏之外)。
+	availWidth	返回显示屏幕的宽度 (除 Windows 任务栏之外)。
+	bufferDepth	设置或返回调色板的比特深度。
+	colorDepth	返回目标设备或缓冲器上的调色板的比特深度。
+	deviceXDPI	返回显示屏幕的每英寸水平点数。
+	deviceYDPI	返回显示屏幕的每英寸垂直点数。
+	fontSmoothingEnabled	返回用户是否在显示控制面板中启用了字体平滑。
+	height	返回显示屏幕的高度。
+	logicalXDPI	返回显示屏幕每英寸的水平方向的常规点数。
+	logicalYDPI	返回显示屏幕每英寸的垂直方向的常规点数。
+	pixelDepth	返回显示屏幕的颜色分辨率（比特每像素）。
+	updateInterval	设置或返回屏幕的刷新率。
+	width	返回显示器屏幕的宽度。
