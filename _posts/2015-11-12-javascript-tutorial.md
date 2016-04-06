@@ -431,7 +431,7 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)。
 
 ---
 
-## DOM 文档对象模型
+## 3 DOM 文档对象模型
 
 1. DOM 简介
 1. DOM 对象
@@ -439,13 +439,13 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)。
 1. DOM HTML
 1. DOM CSS
 
-### DOM简介
+### 3.1 DOM简介
 
 DOM 是 W3C（万维网联盟）的标准。
 
 JavaScript 能够改变页面中的所有 HTML 元素、 属性、CSS 样式，并且能够对页面中的所有事件做出反应。
 
-### DOM 对象
+### 3.2 DOM 对象
 
 #### document对象
 
@@ -555,7 +555,7 @@ Element 对象可以拥有类型为元素节点、文本节点、注释节点的
 	nodelist.length	返回 NodeList 中的节点数。
 	
 
-### DOM 事件
+### 3.3 DOM 事件
 
 HTML 4.0 的新特性之一是能够使 HTML 事件触发浏览器中的行为，比如当用户点击某个 HTML 元素时启动一段 JavaScript。下面是一个属性列表，可将之插入 HTML 标签以定义事件的行为。
 
@@ -609,7 +609,7 @@ HTML 4.0 的新特性之一是能够使 HTML 事件触发浏览器中的行为�
 
 
 
-### DOM HTML
+### 3.4 DOM HTML
 
 在 JavaScript 中，document.write() 可用于直接向 HTML 输出流写内容。
 
@@ -621,7 +621,7 @@ HTML 4.0 的新特性之一是能够使 HTML 事件触发浏览器中的行为�
 
 	document.getElementById(id).attribute=new value
 
-### DOM CSS
+### 3.5 DOM CSS
 
 	document.getElementById(id).style.property=new style
 
@@ -629,7 +629,7 @@ HTML 4.0 的新特性之一是能够使 HTML 事件触发浏览器中的行为�
 ---
 
 
-### BOM 浏览器对象模型 
+### 4 BOM 浏览器对象模型 
 
 浏览器对象模型（Browser Object Model）尚无正式标准。所有浏览器都支持 window 对象。它表示浏览器窗口。
 
@@ -641,7 +641,7 @@ HTML 4.0 的新特性之一是能够使 HTML 事件触发浏览器中的行为�
 1. JS Location. Location 对象包含有关当前 URL 的信息。
 1. JS Screen. Screen 对象包含有关客户端显示屏幕的信息。
 
-#### window对象
+#### 4.1 window对象
 Window 对象表示浏览器中打开的窗口。
 如果文档包含框架（frame 或 iframe 标签），浏览器会为 HTML 文档创建一个 window 对象，并为每个框架创建一个额外的 window 对象。
 
@@ -693,7 +693,7 @@ Window 对象表示浏览器中打开的窗口。
 	setInterval()	按照指定的周期（以毫秒计）来调用函数或计算表达式。
 	setTimeout()	在指定的毫秒数后调用函数或计算表达式。
 
-#### Navigator对象
+#### 4.2 Navigator对象
 Navigator 对象包含有关浏览器的信息。
 
 	属性
@@ -714,7 +714,7 @@ Navigator 对象包含有关浏览器的信息。
 	javaEnabled()	规定浏览器是否启用 Java。
 	taintEnabled()	规定浏览器是否启用数据污点 (data tainting)。
 	
-#### History对象
+#### 4.3 History对象
 History 对象包含用户（在浏览器窗口中）访问过的 URL。
 History 对象是 window 对象的一部分，可通过 window.history 属性对其进行访问。
 
@@ -725,7 +725,7 @@ History 对象是 window 对象的一部分，可通过 window.history 属性对
 	forward()	加载 history 列表中的下一个 URL。
 	go()	加载 history 列表中的某个具体页面。
 	
-#### Location对象
+#### 4.4 Location对象
 Location 对象包含有关当前 URL 的信息。
 Location 对象是 Window 对象的一个部分，可通过 window.location 属性来访问。
 
@@ -746,7 +746,7 @@ Location 对象是 Window 对象的一个部分，可通过 window.location 属�
 		
 
 
-#### Screen对象
+#### 4.5 Screen对象
 
 Screen 对象包含有关客户端显示屏幕的信息。
 
