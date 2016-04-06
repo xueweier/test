@@ -125,7 +125,6 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)。
 
 	===	全等（值和类型）	x===5 为 true；x==="5" 为 false
 
----
 ## 2 JS 对象
 	
 1. JS Array
@@ -427,9 +426,6 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)。
 	NaN	指示某个值是不是数字值。
 	Packages	根 JavaPackage 对象。
 	undefined	指示未定义的值。
-	
-
----
 
 ## 3 DOM 文档对象模型
 
@@ -624,10 +620,6 @@ HTML 4.0 的新特性之一是能够使 HTML 事件触发浏览器中的行为�
 ### 3.5 DOM CSS
 
 	document.getElementById(id).style.property=new style
-
-
----
-
 
 ### 4 BOM 浏览器对象模型 
 
