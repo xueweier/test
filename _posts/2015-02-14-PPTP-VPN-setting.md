@@ -54,7 +54,7 @@ category: nichijou
 ![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-06.png)
 
 ![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-07.png)
-<div id="phonepic">
+
 <span id="android"></span>
 
 ## 在Android下的设置
@@ -94,5 +94,3 @@ category: nichijou
 <br>
 
 ![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-05.png)
-
-</div>
