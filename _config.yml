@@ -1,11 +1,35 @@
+# 目录结构
+source:      .
+destination: ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
+collections: null
+
+# 阅读处理
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# 输出
+permalink:     date
+gems: [jekyll-paginate]
+paginate: 7
+paginate_path: /page:num
+excerpt_separator: "\n\n\n"
+# quiet:    false
+# defaults: []
+timezone: Asia/Shanghai
+
+# 服务器选项
+# detach:  false
+# port:    4000
+# host:    127.0.0.1
 baseurl: /
 url: http://blog.kelu.org
-destination: ./_site
-server: true
-auto: true
+port: 4000
 lsi: false
-server_port: 4000
-pygments: true
-permalink: date
-paginate: 5
-excerpt_separator: "\n\n\n"
+highlighter: pygments
