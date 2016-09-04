@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id="content">
+  <p>{{ page.tagname }} 共 {{ site.tags[page.tagname] | size }} 篇</p>
+  {% for post in site.tags[page.tagname] %}
+    <div class="">
+      <p class=""><span>&#8227;</span><time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date: '%b %d' }}</time></p>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    </div>
+    <div class="">
+      <p>{{ post.description }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<aside id="sidebar" >
+{% include sidebar.html %}
+</aside>

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Hello World
-category: nichijou
+category: life
+tags: life
+
 ---
 
 Hello World!

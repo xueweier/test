@@ -228,7 +228,7 @@ header {
 		.article_more {
 			height: 35px;
 		}
-			.article_more a {
+			.article_more a.article_link {
 				background-image: url(/assets/resource/link.png);
 			    display: block;
 			    overflow: hidden;
@@ -240,10 +240,10 @@ header {
 			    text-indent: 100px;
 			    transition-property: none;
 			}
-			.article_more a:hover {
+			.article_more a.article_link:hover {
 				background-position: 0 -40px;
 			}
-			.article_more a + a {
+			.article_more a.article_link + a {
 				margin-right: 0;
                 background-image: url(/assets/resource/talk.png);
             }

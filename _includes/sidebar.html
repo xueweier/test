@@ -61,10 +61,19 @@
 
             <!-- categories -->
             <div id="sidebar_categories">
-              <h3 class="title">文章目录</h3>
+              <h3 class="title">目录</h3>
               <ul>
                 {% for category in site.categories %}
-                <li> <a href="/{{ category | first | slugize }}.html"> {{ category | first }}</a></li>
+                <li> <a href="/category/{{ category | first | slugize }}.html"> {{ category | first }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+            <!-- categories -->
+            <div id="sidebar_categories">
+              <h3 class="title">标签</h3>
+              <ul>
+                {% for tag in site.tags %}
+                <li> <a href="/tags/{{ tag | first | slugize }}.html"> {{ tag | first }}</a></li>
                 {% endfor %}
               </ul>
             </div>
