@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 数据库入门
-category: linux
+category: tech
+tags: database 
 ---
 
 前几天写的git入门，在开发的时候还蛮用的上的。目前对MySQL的掌握也比较薄弱，一鼓作气，把一些数据库的知识也归纳一下。

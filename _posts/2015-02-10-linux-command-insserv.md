@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux命令之insserv
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 之前在卸载pureftp时候，使用了`update-rc.d pureftpd remove`，收到了这样一个提醒：`update-rc.d: using dependency based boot sequencing`

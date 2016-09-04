@@ -1,7 +1,8 @@
 ---
 layout: post
 title: zsh介绍
-category: linux
+category: tech
+tags: linux zsh tutorial
 ---
 
 先前用的shell是bash(一般程序员都这样吧= =)，接触了一段时间zsh，非常好用的shell，最方便的地方，应该就是命令行补全和命令历史记录共享。下面来记录一下。

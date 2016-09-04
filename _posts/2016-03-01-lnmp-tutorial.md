@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 军哥的lnmp一键安装包
-category: linux
+category: tech
+tags: linux nginx mysql php
 ---
 
 我自己部署的话，一般用的是debian+openresty+postgres+php。虽然如此，为别人快速安装一键部署环境的时候，lnmp依然是最简便易行的选择。

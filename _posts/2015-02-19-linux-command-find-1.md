@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux命令之find (1) - 查找
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 

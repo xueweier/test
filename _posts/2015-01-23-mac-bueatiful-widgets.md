@@ -1,7 +1,8 @@
 ---
 layout: post
 title: uebersicht - 一款漂亮的桌面Widgets
-category: mac
+category: software
+tags: mac
 ---
 
 Übersicht 是Mac下一款可以用来自定义桌面插件的工具。我们可以根据自己的喜好定制不同的Widgets。和Windows下的Rainmeter类似。把玩了一下感觉棒棒的。

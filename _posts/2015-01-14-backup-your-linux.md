@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 备份你的Linux
-category: linux
+category: tech
+tags: linux
 ---
 
 

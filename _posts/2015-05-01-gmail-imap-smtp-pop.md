@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 客户端添加gmail邮箱时smtp和pop3的设置
-category: tech
+category: software
+tags: google email
 ---
 
 ## 收件服务器 IMAP

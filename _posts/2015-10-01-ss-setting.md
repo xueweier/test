@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ss的设置
-category: nichijou
+category: tech
+tags: proxy shadowsocks
 ---
 
 * 在[Windows](#windows)下的设置

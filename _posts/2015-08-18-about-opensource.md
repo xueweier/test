@@ -2,6 +2,7 @@
 layout: post
 title: 关于开源
 category: tech
+tags: rss opensource
 ---
 
 知乎看到了[神奈川][作者]关于开源回答的两个好答案，深以为然，转到自己的blog上，时时勤拂拭。

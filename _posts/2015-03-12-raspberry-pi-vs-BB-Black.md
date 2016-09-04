@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 嵌入式平台选择：树莓派 or BeagleBone Black（BBB）
-category: linux
+category: tech
+tags: rss linux BeagleBone-Black Raspberry-Pi
 ---
 
 本文转载自[极客范](http://www.geekfan.net)，由 [小道空空](http://www.geekfan.net/author/wangqing/) 翻译自 [Michael Leonard](http://makezine.com/magazine/how-to-choose-the-right-platform-raspberry-pi-or-beaglebone-black/)。因为最近刚入了bbb，这篇文章总结的也很好，还有就是极客范也停止更新两个月了，所以转载过来。以下是转载内容：

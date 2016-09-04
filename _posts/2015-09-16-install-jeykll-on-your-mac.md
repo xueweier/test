@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 在Mac下搭建jekyll环境
-category: mac
+category: tech
+tags: mac jekyll github ide
 ---
 
 一直在用github pages来管理自己的Blog。不过一起太懒，都是直接在模板上修改，导致最近修改css查看效果特别麻烦，每次都要commit push之后才看到效果。想着还是在本地也配个环境吧，做下来之后蛮简单的。

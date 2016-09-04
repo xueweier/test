@@ -1,7 +1,8 @@
 ---
 layout: post
 title: root用户删除文件提示：Operation not permitted
-category: linux
+category: tech
+tags: linux linux-command bash
 ---
 
 一些文件看上去可能一切正常，但当您尝试删除的时候，居然也会报错，就象下边一样:

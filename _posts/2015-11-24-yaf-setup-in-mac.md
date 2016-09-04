@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mac下安装yaf
-category: php
+category: tech
+tags: mac php yaf ide
 ---
 
 刚刚加入了新的团队。团队里使用鸟哥惠新宸的yaf框架。于是便在自己电脑上安装了起来，稍微记录一下注意事项。题外话，我也是刚刚才了解到，鸟哥竟然是我的学长😓。。。。。。

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux一键装机 - KeluLinuxKit
-category: linux
+category: tech
+tags: linux
 ---
 
 过年的时候一个服务器的某个端口被GFW了，找了好久才找到这原因。为了找到原因还把机器重装了Orz

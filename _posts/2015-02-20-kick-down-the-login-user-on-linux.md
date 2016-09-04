@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux强制下线已登录用户
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 因为在用tmux的原因，使用lish登陆或者使用小窗口登陆终端后不下线，导致新开的全屏终端只能显示小小的一块，非常碍眼。所以这种时候需要强制让已登录的这些用户下线。

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux命令输入技巧
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 平时经常会输入完全相同的命令，或者类似的命令，可以使用以下几个命令查看和复用曾输入过的命令，提高工作效率。

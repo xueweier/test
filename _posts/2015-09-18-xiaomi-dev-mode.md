@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 开启小米的开发者模式
-category: Android
+category: tech
+tags: android xiaomi
 ---
 
 MIUI的开发者模式真是好找啊⊙﹏⊙b专门网上查了才找到了开启的方法。小米社区也有帖子提到，不过在我的红米2上不太一样。<http://bbs.xiaomi.cn/t-8411215>

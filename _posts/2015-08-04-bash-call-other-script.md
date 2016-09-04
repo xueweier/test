@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 在bash脚本中引用其他脚本
-category: linux
+category: tech
+tags: linux bash linux-command
 ---
 
 ## fork

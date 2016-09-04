@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 血衫的网络设置
-category: nichijou
+category: tech
+tags: proxy pptp
 ---
 
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 计算机丢失msvcr110.dll
-category: dev
+category: software
+tags: dev ide
 ---
 
 完全是新开封的电脑，装了个intellij idea，就报了这个错误。解决办法和百度知道的这个答案一样。——<http://jingyan.baidu.com/article/4f7d57129fa86e1a201927de.html>

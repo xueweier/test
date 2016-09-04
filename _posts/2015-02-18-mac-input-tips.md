@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mac启动终端时指定输入法
-category: mac
+category: software
+tags: mac
 ---
 
 

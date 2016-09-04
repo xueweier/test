@@ -1,7 +1,8 @@
 ---
 layout: post
 title: css3备忘
-category: front-end
+category: tech
+tags: front-end css css3
 ---
 
 本文将会着重记录一下css的高级属性与css3的几个特有的属性（其实目前就两个，有空再回来补）。

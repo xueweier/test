@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 在Linux上使用dropbox
-category: linux
+category: tech
+tags: linux dropbox
 ---
 
 需要在Linux服务器和本地下载东西时，ftp什么的也可行，但我常常在服务器上下载pt资源，每次都下载到本地也是麻烦。索性直接扔到网盘让本地自动同步还更方便。

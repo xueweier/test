@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 在你的Debian上连接到Github
-category: linux
+category: tech
+tags: linux github
 ---
 
 整个过程都是参考的[github的官方文档](https://help.github.com/articles/set-up-git/#platform-linux)。在这稍微做一个记录。

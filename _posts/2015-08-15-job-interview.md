@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 面试题
-category: nichijou
+category: tech
+tags: life
 ---
 
 

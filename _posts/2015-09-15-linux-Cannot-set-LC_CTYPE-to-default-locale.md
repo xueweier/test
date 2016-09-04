@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux的locale设置问题
-category: linux
+category: tech 
+tags: linux locale
 ---
 
 今天新开了一个[digital ocean][ocean]的vps，发现了这个提醒：

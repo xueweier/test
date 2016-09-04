@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux下同步onedrive
-category: linux
+category: tech
+tags: linux microsoft onedrive
 ---
 
 最近入了台surface pro 3，微软附带送了1年的onedrive和skype的服务。skype倒还好可以无压力地用掉。onedrive就很头疼了，在本地上传传得地老天荒还没传完2%，百度云早就传完了。大概是onedrive对国内的用户还不够友好吧。

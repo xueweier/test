@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 使用Maximum Awesome
-category: linux
+category: tech
+tags: linux maximum vim tmux
 ---
 
 [Maximum Awesome](https://github.com/square/maximum-awesome) 是美国移动支付领域Square团队的开源产品，包含了vim和Tmux的配置文件。我也刚刚才接触两个星期，总算把Tmux给弄得手熟，真的超级强悍。vim的配置文件现在还用的不多，光是Tmux的配置，已经能让人爽到不行了。

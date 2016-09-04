@@ -1,7 +1,8 @@
 ---
 layout: post
 title: git 出现warning crlf will be replaced by...
-category: linux
+category: tech 
+tags: git
 ---
 
 我想这应该是下载一个从windows里到处的项目时遇上的。前些天发现了这个问题。在`git commit`时无法提交，提示`warning: LF will be replaced by CRLF…..`。

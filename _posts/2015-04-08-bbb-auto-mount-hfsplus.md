@@ -1,7 +1,8 @@
 ---
 layout: post
 title: bbb自动挂载硬盘
-category: linux
+category: tech
+tags: linux BeagleBone-Black mount disk
 ---
 
 好久没有更新blog了。也是这几天刚把bbb给捡起来继续用了。猛然间发现挂载硬盘貌似好麻烦啊。于是这一篇记录了如何使得bbb自动挂载硬盘。

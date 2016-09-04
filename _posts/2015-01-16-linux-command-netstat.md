@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux命令之netstat命令
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 在Internet RFC标准中，Netstat的定义是： Netstat是在内核中访问网络及相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。

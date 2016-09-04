@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ssh转发代理
-category: nichijou
+category: tech
+tags: linux proxy
 ---
 
 原来这么简单啊= =目前只在Mac下试过，真的好简单！

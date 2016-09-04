@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 新入了一块BB-Black
-category: linux
+category: tech
+tags: linux BeagleBone-Black Raspberry-Pi
 ---
 
 新入了一块BBB，便迫不及待地将它运转起来用。入手的这块bbb全称是 —— BeagleBone BB-BLACK TI AM335x Cortex-A8开发板 REV.C。趁着刚入门的新鲜劲没过去，赶紧先把它拿来当下载器了。图里比较乱😂不要太在意~

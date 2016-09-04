@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 使用shell操作数据库
-category: linux
+category: tech
+tags: linux shell database mysql
 ---
 
 我一般都是用phpmyadmin连接MySQL。偶尔使用shell登陆MySQL时，一些命令常常忘记，于是记录一些MySQL基础的连接操作命令。

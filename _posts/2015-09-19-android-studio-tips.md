@@ -1,7 +1,8 @@
 ---
 layout: post
 title: android studio的一些小技巧
-category: Android
+category: tech
+tags: android ide
 ---
 
 

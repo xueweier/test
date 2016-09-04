@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 在Mac下搭建Android开发环境
-category: mac
+category: tech 
+tags: mac android ide
 ---
 
 五年没有碰过Android开发了。最近一个朋友要去澳门赌钱，让我帮开发一个简单的决策大小红黑的APP。感觉蛮简单的，顺手干了起来。不一样的是当时候用的是eclipse，Google于2013 I/O大会针对Android开发推出的新的开发工具Android Studio，从环境配置开始讲起吧。

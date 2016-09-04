@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux下手动安装Flash插件
-category: linux
+category: software
+tags: linux flash
 ---
 
 Debian桌面需要安装Flash插件才能看视频，安装方法很简单。打开视频页面时会跳出安装请求，点击下载tar.gz包解压。解压之后会在当前目录得到`libflashplayer.so`、`readme.txt`文件和`usr`文件夹。

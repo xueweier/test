@@ -1,7 +1,8 @@
 ---
 layout: post
 title: linux命令之监控命令
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 简单记录一下Linux自带的一些系统状态监控的命令。关于ps和lsof的命令太过复杂，详细用法有空再记录。

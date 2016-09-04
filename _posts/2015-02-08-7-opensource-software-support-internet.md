@@ -2,6 +2,7 @@
 layout: post
 title: 支撑起整个互联网时代的 7 款开源软件
 category: tech
+tags: rss linux openssl mysql eclipse apache hadoop webkit
 ---
 
 原文来自 [oschina-开源中国社区](http://www.oschina.net/news/59493/7-opensource-software-support-internet)

@@ -2,6 +2,7 @@
 layout: post
 title: Git入门
 category: tech
+tags: linux git tutorial
 ---
 
 今天在 [Digital Ocean][DO] 入了一个新服务器。意外地不知道什么时候里面已经有了10美元了。选了最便宜的5美元一个月的服务器，顺便把多年未更新的 [KeluLinuxKit][KeluLinuxKit] 给更新了。算是第一次在生产系统上使用，没想到问题那么多。已经修改好啦。

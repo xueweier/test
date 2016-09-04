@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux命令之Screen
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 之前有遇到过正在给服务器配置东西，程序编译到一半，然后断网了。。重新连上之后发现，之前的编译全白费了Orz于是转向寻找解决方法——解决方法有两个，一个是使用后台运行，也就是命令+&，另一个就是screen了。

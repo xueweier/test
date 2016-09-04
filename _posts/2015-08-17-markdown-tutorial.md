@@ -1,7 +1,8 @@
 ---
 layout: post
 title: markdown入门
-category: linux
+category: tech
+tags: markdown tutorial
 ---
 
 

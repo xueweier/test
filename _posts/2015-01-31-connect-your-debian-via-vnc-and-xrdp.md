@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 使用vnc/xrdp连接你的Debian
-category: linux
+category: tech
+tags: linux
 ---
 
 前言：vnc的配置非常简单，简单到虽然界面显示很挫，依然因为惰性而懒得换。嘛，先记录一下再换Orz

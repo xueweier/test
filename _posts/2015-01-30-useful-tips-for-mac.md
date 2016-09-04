@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 几个关于Mac的小技巧
-category: mac
+category: software
+tags: mac
 ---
 
 今天新发现了几个Mac的小技巧！还蛮实用的！

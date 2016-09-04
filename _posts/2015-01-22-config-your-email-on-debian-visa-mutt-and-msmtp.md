@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 配置mutt和msmtprc从debian中发邮件
-category: linux
+category: tech
+tags: linux mail
 ---
 
 服务器发送邮件主要有两种方式。一种是搭建一个MTA(邮件传输代理)，使用sendmail或POSTFIX进行发送。具体的方法可以看Linode给的Guide，非常的详细。以这种方式搭建要考虑清楚自己是否真的需要一个邮件服务器，因为搭建的过程十分繁琐枯燥。Linode的文档也是一再强调这一点。另一种方式就是本文的mutt+msmpt。特点是轻量，够用。(υ◉ω◉υ)

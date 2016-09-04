@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 写出健壮的 Bash 脚本
-category: linux
+category: tech
+tags: bash linux
 ---
 
 原文来自 [开源中国社区](http://www.oschina.net/news/26744/build-robust-bash-script)。

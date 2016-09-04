@@ -1,7 +1,8 @@
 ---
 layout: post
 title: BeagleBone Black的一些资料
-category: linux
+category: tech
+tags: linux BeagleBone-Black
 ---
 
 前段时间在胡乱捣弄bbb，最后的结果反正是，bbb没办法从eMMC启动了。之前不确定是什么问题，从网上买了Micro HDMI转HDMI的线，忘了自己的显示器是DP口了，只好又买了个HDMI转DVI的线😂。

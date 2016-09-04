@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 屏幕录制软件LICEcap
-category: mac
+category: software
+tags: mac
 ---
 
 今天在给KeluLinuxKit写README的时候，想到编辑器们宣传自己的时候经常带有操作的gif图，觉得棒棒的。今天找了一下果然找到了。确实是居家旅行必备神器啊！

@@ -2,6 +2,7 @@
 layout: post
 title: 林白-《过程》
 category: literature
+tags: literature
 ---
 
 >

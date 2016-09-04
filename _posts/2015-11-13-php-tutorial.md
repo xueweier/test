@@ -1,7 +1,8 @@
 ---
 layout: post
 title: php备忘
-category: linux
+category: tech
+tags: php tutorial
 ---
 
 同上一篇javascript入门，用了这么久的PHP，也还没正经地总结过。记录些容易忘记的。本文的信息并不完整。

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: vim的鼠标模式
-category: linux
+category: tech
+tags: linux vim
 ---
 
 好久之前就发现这个问题了——vim里没有办法右键复制！也不知道怎么想的，每次复制都是退出一遍，cat之后再复制。今天被基友提醒之后说是鼠标模式的原因！赶忙上网找了啥叫鼠标模式Orz~~~~vim的小技巧还真是多.

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mac下使用命令行登陆ftp
-category: mac
+category: tech
+tags: mac ftp
 ---
 
 最近使用forklift下载服务器pureftp上的东西，总是断断续续的，经常下载到99%然后显示下载失败，非常不舒服！原以为是forklift的问题，换了transmit发现同样有这样的现象。看来是ftp服务器搭的有问题~~不过因为用的不多，目前懒的解决了，暂时用Mac的终端命令来用着。其实效率也是蛮高的哦=。=

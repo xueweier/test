@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux命令之sort
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 sort将文件的每一行作为一个单位，相互比较，比较原则是从首字符向后，依次按ASCII码值进行比较，最后将他们按升序输出。记录一下常用的选项。更多选项参照`man sort`。

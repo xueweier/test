@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mac 中 Zsh 下 PATH 环境变量的设置
-category: mac
+category: tech
+tags: mac zsh
 ---
 
 前段时间切换到zsh，今天试着在本地运行jekyll时竟然显示

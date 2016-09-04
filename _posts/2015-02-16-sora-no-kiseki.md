@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 孤独とか痛みとか，どんな君も感じたい
-category: literature
+category: anime
+tags: japanese anime
 ---
 
 星の在り処

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: jQuery入门
-category: Front-end
+category: tech
+tags: Front-end jquery tutorial
 ---
 
 jQuery 是一个 JavaScript 库。jQuery 很容易学习。最近用到了jQuery和Bootstrap，于是记录一下。这一篇是jQuery的一个很粗略的列表总结。

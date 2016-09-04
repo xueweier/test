@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux系统目录简单介绍
-category: linux
+category: tech
+tags: linux
 ---
 
 * /	- 根目录。

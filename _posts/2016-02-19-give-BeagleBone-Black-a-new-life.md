@@ -1,7 +1,8 @@
 ---
 layout: post
 title: BeagleBone Black焕发第二春
-category: linux
+category: tech
+tags: linux BeagleBone-Black
 ---
 
 BeagleBone Black吃灰已久。留着实在可惜。最近又拿出来捣弄了一番。已废旧利用为主要目的。这次总共做了几件事：

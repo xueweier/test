@@ -1,7 +1,8 @@
 ---
 layout: post
 title: git提示Agreeing to the Xcode/iOS license...，不能启动的问题
-category: linux
+category: tech
+tags: mac git xcode
 ---
 
 今天使用git的时候，提示：`Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo`，发现原来是刚更新了xcode，但是一直没有启动，还影响到命令行下git的使用。

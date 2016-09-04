@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linux命令之du & df
-category: linux
+category: tech
+tags: linux linux-command
 ---
 
 du命令是示每个文件和目录的磁盘使用空间的，但是与df命令不同的是Linux du命令是对文件和目录磁盘使用的空间的查看，还是和df命令有一些区别的.

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 使用git@oschina时存储密码
-category: linux
+category: tech
+tags: git oschina
 ---
 
 最近使用了oschina的git服务，虽然不那么稳定（一星期抽风一到两次），应该已经是国内最好的git服务了吧。小团队不需要部署自己的git服务器，减少了不少维护成本。然而有点不足，在服务器上每一次都要输入密码，很是恼人。。。当然做验证这个是非常应该的！（笑(●'◡'●) 

@@ -2,6 +2,7 @@
 layout: post
 title: 什么是全栈工程师?(中文版)
 category: tech
+tags: rss full-stack
 ---
 
 这是一篇老文，来自[segmentfault](http://segmentfault.com/blog/tony/1190000000418169)。感觉写的比较全面，转在小站上留个纪念。

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: windows的word无法打开问题
-category: windows
+category: software
+tags: windows word office
 ---
 
 之前偶遇windows 7下的Word无法打开的情况，必须使用安全模式才能打开文档。重装之后也没用，继续闪退。度娘之后得到的答案是，Word的模板文件坏掉了，需要把它删除，让Word重建模板文件，就解决啦。具体来说就是将

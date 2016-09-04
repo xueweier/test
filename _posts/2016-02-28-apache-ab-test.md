@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 使用 apache ab 做网站压力测试【转】
-category: linux
+category: tech
+tags: linux apache ab-test
 ---
 
 1、先查看一下版本信息 ab -V（注意是大写的V）

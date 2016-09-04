@@ -1,7 +1,8 @@
 ---
 layout: post
 title: javascript入门
-category: front-end
+category: tech
+tags: front-end javascript tutorial
 ---
 
 最近使用javascript的频率比较多，是不是会和PHP弄混。于是记录一些简单的信息信息，避免每次都去查阅手册。注意，这并不是一个完整的入门教程，例如我不会在本文包含最基础的加减乘除此类的信息。

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: linux date时间戳的互相转换
-category: linux
+category: tech
+tags: linux shell time
 ---
 
 因为需要将时间存入数据库中，为了让数据库的数据比较友好，之前采用了`1990-01-01 01:01:01`这种格式。计算相隔时间时，应当如下计算：

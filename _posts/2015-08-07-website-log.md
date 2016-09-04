@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 网站更新日志
-category: log
+category: website
+tags: website
 ---
 
 话说从来没写过网站更新日志。目前暂时也没有时间单独做一个页面。暂时这样吧XD

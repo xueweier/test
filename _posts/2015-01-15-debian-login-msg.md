@@ -1,7 +1,8 @@
 ---
 layout: post
 title: debian登陆信息修改
-category: linux
+category: tech
+tags: linux
 ---
 
 一般我们ssh登陆debian会出现以下的信息。

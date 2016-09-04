@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 通过PhpMyAdmin修改MySQL的root密码
-category: linux
+category: tech
+tags: linux mysql phpmyadmin database
 ---
 
 今天在本地装了xampp，发现默认root的密码竟然为空。进入PhpMyAdmin时也提示了尽快修改。

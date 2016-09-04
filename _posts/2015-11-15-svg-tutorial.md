@@ -1,7 +1,8 @@
 ---
 layout: post
 title: svg入门
-category: front-end
+category: tech
+tags: front-end svg html
 ---
 
 连续整理几篇入门，再来一篇svg的。基本上转载自[《HTML5实战——svg学习》](http://www.cnblogs.com/duanhuajian/archive/2013/07/31/3227410.html)
