@@ -857,6 +857,10 @@ img.alignnone {
 	display: table-cell;
 	vertical-align: middle;
 }
+
+.incap_page-tooltip, .incap_from-right, .incap_bottom {
+    display: none;
+}
 /* Always remember to compress your live stylesheet and keep an uncompressed backup */
 
 /* 768 ~ 1200
