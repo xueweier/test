@@ -1,6 +1,6 @@
             <div class="grid grid_square green_light">
                 <div class="sidebar_logo">
-                    <a href="/blogs.html" >
+                    <a href="/category/2010/2016.html" >
                         <img alt="archive" src="/assets/resource/sidebar/archive.png">
                     </a>
                 </div>
@@ -56,30 +56,57 @@
               </div>
             </div>
             <ul id="playlist"></ul>
-            <script src="/js/jquery-ui.min.js"></script>
-            <script src="/js/music.js"></script>
+            <script src="/assets/js/jquery-ui.min.js"></script>
+            <script src="/assets/js/music.js"></script>
 
             <!-- categories -->
-            <div id="sidebar_categories">
-              <h3 class="title">目录</h3>
+            <div class="sidebar_categories">
               <ul>
                 {% for category in site.categories %}
-                <li> <a href="/category/{{ category | first | slugize }}.html"> {{ category | first }}</a></li>
+
+                {% assign str = category | first | slugize | remove: '' %}
+                <li> <a href="/category/{{ category | first | slugize }}.html">
+                        {% case str %}
+{% when 'life' %}
+<i class="icon-coffee"></i> 
+{% when 'tech' %}
+<i class="icon-cogs"></i> 
+{% when 'software' %}
+<i class="icon-desktop"></i> 
+{% when 'literature' %}
+<i class="icon-book"></i> 
+{% when 'anime' %}
+<i class="icon-group"></i> 
+{% else %}
+<i class="icon-circle-blank"></i> 
+{% endcase %}
+                        
+
+                        {{ str }}
+                        <span>{{ site.categories[str] | size }}</span>
+                    </a>
+                </li>
                 {% endfor %}
               </ul>
             </div>
             <!-- categories -->
-            <div id="sidebar_categories">
-              <h3 class="title">标签</h3>
-              <ul>
-                {% for tag in site.tags %}
-                <li> <a href="/tags/{{ tag | first | slugize }}.html"> {{ tag | first }}</a></li>
+            <div id="myCanvasContainer" class="sidebar_categories">
+      <canvas id="myCanvas"  width="330" height="400" >
+        <p>Anything in here will be replaced on browsers that support the canvas element</p>
+      </canvas>
+    </div>
+    <div id="tags" style='display:none'>
+      <ul>
+        {% for tag in site.tags %}
+                {% assign str = tag | first | slugize | remove: '' %}
+                {% assign font_size = site.tags[str] | size | times:0.8 |plus:12 %}
+                <li> <a href="/tags/{{ tag | first | slugize }}.html" style="font-size:{{ font_size }}px"> {{ str }}</a></li>
                 {% endfor %}
-              </ul>
-            </div>
+      </ul>
+    </div>
 
             <!-- friend links -->
-            <div id="sidebar_categories">
+            <div class="sidebar_categories">
               <h3 class="title">友情链接</h3>
               <ul>
                 <li> <a href="http://blog.madcat.me/">幻想物语</a></li>

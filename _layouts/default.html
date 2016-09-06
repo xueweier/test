@@ -13,18 +13,34 @@
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="8; url=/">
     {% endif %}
-    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="血衫非弧の一存 - Feed" href="/atom.xml">
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="alternate" href="{{ page.top-url }}" hreflang="zh-Hans" />
     
-    <link rel="stylesheet" type="text/css" media="all" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/assets/css/font-awesome.min.css" />
     <!--[if IE 7]>
     <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
     <![endif]-->
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/assets/js/jquery.tagcanvas.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        if(!$('#myCanvas').tagcanvas({
+          weight: true,
+          textColour: '#071a1a',
+          outlineColour: '#11a6a6',
+          reverse: true,
+          depth: 1,
+          maxSpeed: 0.1
+        },'tags')) {
+          // something went wrong, hide the canvas container
+          $('#myCanvasContainer').hide();
+        }
+      });
+    </script>
 
   </head>
   <body>

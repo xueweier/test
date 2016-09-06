@@ -27,10 +27,10 @@ year: 2015
  <div class="post-nav">
   
       {% if page.year > 2015 %}
-        <a href="/archive/{{page.year | minus:1}}.html" title="{{ page.title }}年" class="post-nav-prev">{{ page.year | minus:1 }}年</a>
+        <a href="/category/2010/{{page.year | minus:1}}.html" title="{{ page.title }}年" class="post-nav-prev">{{ page.year | minus:1 }}年</a>
       {% endif %}
         {% if page.year < now_year %}
-        <a href="/archive/{{page.year | plus:1}}.html" title="{{ page.title }}年" class="post-nav-next">{{ page.year | plus:1 }}年</a>
+        <a href="/category/2010/{{page.year | plus:1}}.html" title="{{ page.title }}年" class="post-nav-next">{{ page.year | plus:1 }}年</a>
         {% endif %}
         <div class="clear"></div>
     </div>
