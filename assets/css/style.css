@@ -33,10 +33,6 @@ pre > code {
 
 }
 
-ul,ol {
-  display: block;
-  list-style:none;margin:0px;
-}
 
 a {
     color: rgba(255, 255, 255, 0.85);
@@ -948,6 +944,12 @@ img.alignnone {
     width: 64px;
     vertical-align: top;
 }
+
+.link-item ul, .link-item ol {
+  display: block;
+  list-style:none;margin:0px;
+}
+
 .link-item img{
     border-radius: 10px;
     width: 64px;
@@ -962,6 +964,7 @@ img.alignnone {
 .link-item p{
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 /* Always remember to compress your live stylesheet and keep an uncompressed backup */
 
