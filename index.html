@@ -7,11 +7,11 @@ layout: default
         <div class="article_header">
             <h1 class="article_title"><a target="_blank" href="{{post.url}}">{{ post.title }}</a></h1>
             <h5 class="article_meta">{{ post.date | date: "%F" }}&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a target="_blank" href="/category/{{ post.category }}.html" class="article-fa"><i class="icon-folder-close-alt"></i>{{ post.category }}</a>
+                 <a target="_blank" href="/category/{{ post.category }}.html" class="article-fa"><i class="fa fa-folder-close-alt"></i>{{ post.category }}</a>
 
 
                 {% for tag in post.tags %}
-                    <a target="_blank" href="/tags/{{tag}}.html"><i class="icon-tag"></i> {{tag}}</a>
+                    <a target="_blank" href="/tags/{{tag}}.html"><i class="fa fa-tag"></i> {{tag}}</a>
                 {% endfor %}
 
             </h5>

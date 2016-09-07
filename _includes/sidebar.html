@@ -1,25 +1,25 @@
             <div class="grid grid_square green_light">
-                <div class="sidebar_logo">
-                    <a href="/category/2010/2016.html" >
-                        <img alt="archive" src="/assets/resource/sidebar/archive.png">
+  
+                    <a href="/category/2010/2016.html"  class="sidebar_logo">
+                        <i class="fa fa-keyboard-o sidebar-fa-logo" aria-hidden="true"></i>
+                        <p>文章列表</p>
                     </a>
-                </div>
-                <div class="sidebar_content sidebar_calendar">
-                    <span>文章列表</span>
-                </div>
+            </div>
+
+
+            <div class="grid grid_square green_dark">
+                    <a href="/about.html"  class="sidebar_logo">
+                        <i class="fa fa-user sidebar-fa-logo" aria-hidden="true"></i>
+                    <p>关于</p>
+                    </a>
             </div>
 
             <div class="grid grid_square green_dark">
-                <div class="sidebar_logo">
-                    <a href="/about.html" >
-                        <img alt="about" src="/assets/resource/sidebar/about.png">
+                    <a href="/friends.html" class="sidebar_logo">
+                        <i class="fa fa-share-alt sidebar-fa-logo" aria-hidden="true"></i>
+                        <p>友情链接</p>
                     </a>
-                </div>
-                <div class="sidebar_content sidebar_calendar">
-                    <span>关于</span>
-                </div>
             </div>
-
             <!-- Music Player -->
             <div id="player" class="grid">
               <div class="cover"></div>
@@ -68,17 +68,17 @@
                 <li> <a href="/category/{{ category | first | slugize }}.html">
                         {% case str %}
 {% when 'life' %}
-<i class="icon-coffee"></i> 
+<i class="fa fa-coffee"></i> 
 {% when 'tech' %}
-<i class="icon-cogs"></i> 
+<i class="fa fa-cogs"></i> 
 {% when 'software' %}
-<i class="icon-desktop"></i> 
+<i class="fa fa-desktop"></i> 
 {% when 'literature' %}
-<i class="icon-book"></i> 
+<i class="fa fa-book"></i> 
 {% when 'anime' %}
-<i class="icon-group"></i> 
+<i class="fa fa-group"></i> 
 {% else %}
-<i class="icon-circle-blank"></i> 
+<i class="fa fa-circle-blank"></i> 
 {% endcase %}
                         
 
@@ -105,14 +105,14 @@
       </ul>
     </div>
 
-            <!-- friend links -->
-            <div class="sidebar_categories">
+
+            <!-- <div class="sidebar_categories">
               <h3 class="title">友情链接</h3>
               <ul>
                 <li> <a href="http://blog.madcat.me/">幻想物语</a></li>
                 <li style="font-size:12px;"> <a href="http://moe.akibarika.org/">Orclandでの思い出の欠片</a></li>
               </ul>
-            </div>
+            </div> -->
 
             <!-- google adsense -->
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
