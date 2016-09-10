@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 孤独とか痛みとか，どんな君も感じたい
-category: anime
+category: japanese
 tags: japanese anime
 ---
 

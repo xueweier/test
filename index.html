@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: two-column-sidebar
 ---
-<div id="content">
     {% for post in paginator.posts %}
     <article>
         <div class="article_header">
@@ -67,9 +66,3 @@ layout: default
         {% endif %}
     </div>
     {% endif %}
-
-</div>
-
-<aside id="sidebar">
-    {% include sidebar.html %}
-</aside>

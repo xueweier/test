@@ -6,4 +6,19 @@ layout: default
 </div>
 <aside id="sidebar" class="single-column-sidebar" style="width:186px;" >
 {% include sidebar.html %}
+            <!-- categories -->
+            <div id="myCanvasContainer" class="sidebar_categories" style="padding-left:0">
+      <canvas id="myCanvas"  width="180" height="200" >
+        <p>Anything in here will be replaced on browsers that support the canvas element</p>
+      </canvas>
+    </div>
+    <div id="tags" style='display:none'>
+      <ul>
+        {% for tag in site.tags %}
+                {% assign str = tag | first | slugize | remove: '' %}
+                {% assign font_size = site.tags[str] | size | times:0.8 |plus:12 %}
+                <li> <a href="/category/tags/{{ tag | first | slugize }}.html" style="font-size:{{ font_size }}px"> {{ str }}</a></li>
+                {% endfor %}
+      </ul>
+    </div>
 </aside>
