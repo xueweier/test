@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 《部落冲突》历代更新日志
-category: production
-tags: production clashofclans game
+category: product
+tags: product clashofclans game
 ---
 
 下午刚好玩了一下部落冲突，惊讶地发现他们的视频回放竟然有了暂停功能，要知道我在两年前玩的时候，特别希望能够暂停或者倒退（虽然这个功能至今他们也没有）。接着又想到了以前在部落战中的布局，一开始是和普通布局并存的，而后应该是过了半年时间，才把布局分开，而后又过了几个月，把布局分成了三个可选的。 
