@@ -69,22 +69,28 @@
                         {% case str %}
 {% when 'life' %}
 <i class="fa fa-coffee"></i> 
+日常
 {% when 'tech' %}
 <i class="fa fa-cogs"></i> 
+技术
 {% when 'software' %}
 <i class="fa fa-desktop"></i> 
+软件
 {% when 'literature' %}
 <i class="fa fa-book"></i> 
+文学
 {% when 'japanese' %}
 <i class="fa fa-sun-o"></i> 
-{% when 'production' %}
+日本
+{% when 'product' %}
 <i class="fa fa-product-hunt"></i>
+产品
+{% when 'design' %}
+<i class="fa fa-paint-brush"></i>
+设计
 {% else %}
 <i class="fa fa-circle-blank"></i> 
 {% endcase %}
-                        
-
-                        {{ str }}
                         <span>{{ site.categories[str] | size }}</span>
                     </a>
                 </li>

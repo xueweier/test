@@ -947,4 +947,5 @@ New Help Center is now available! The first version is in English and you can fi
 
 * [allclash](http://www.allclash.com/clash-of-clans-update-history/)
 * [部落战争吧](http://tieba.baidu.com/p/3773091440)
+* [clashofclans.wikia](http://clashofclans.wikia.com/wiki/Version_History)
 

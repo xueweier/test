@@ -358,7 +358,27 @@ header {
     margin-top: 10px;
     padding: 1px 0 1px 14px;
     position: relative;
+    overflow: hidden;
 }
+
+.blog-list-ul ul li a.list-title{
+  display: inline-block;
+  min-width: 220px;
+  margin-right: 20px;
+}
+
+.blog-list-ul ul li .list-tag{
+  display: inline-block;
+  overflow: hidden;
+  float: right;
+  font-size: 12px;
+}
+.blog-list-ul ul li .list-tag a{
+  color: rgba(255, 255, 255, 0.55);
+}
+
+
+
 /*
 	.ds-service-link {
 		color: rgba(255, 255, 255, 0.85);
