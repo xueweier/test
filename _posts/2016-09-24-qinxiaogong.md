@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于Vue.js的一点东西
+title: 秦孝公到嬴政
 category: life
 tags: front-end js vuejs
 ---
@@ -16,7 +16,4 @@ tags: front-end js vuejs
 
 参考资料：
 
-* [Element UI——一套基于 Vue 2.0 的桌面端组件库](https://www.v2ex.com/t/308080)
-* [通过一张图走进 Vue 2.0 - 囧克斯](http://jiongks.name/blog/a-big-map-to-intro-vue-next/?utm_source=tuicool&utm_medium=referral)
-* [国内有哪些公司在用Vue.js，有什么心得? - 知乎](https://www.zhihu.com/question/38213423)
-* [element.eleme.io](http://element.eleme.io/)
+* [秦孝公到嬴政](http://zhidao.baidu.com/link?url=pb0qiZhYb8FpIhDLPAUjzBxbbhOGXO5-ejK3Rllvqdf0e4cUWxVKeTG8wouy-Jx2GBBrXy9WWAUDBdAkAGiKi_)
