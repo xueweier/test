@@ -10,15 +10,11 @@ tags: product clashofclans game
 我很好奇这些更新的产品功能，有哪些是他们一开始没有想好，后来才遇到问题的，哪些又是他们在一开始就想好了，因为各种制约因素，之后慢慢实现的？于是收集了一些他们的更新日志（虽然并没有看出什么东西Orz。
 
 ### Version 2.?- 08/02/2012 Worldwide release
-
 ![2.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.jpg "版本2.?")
-
-
 ```
 August 02, 2012: Worldwide release
 ancient_village_Clashofclans ancient village ClashofclansThis is what a almost fully upgraded village looked like – pretty funny is that there was a waterfall (right hand side) and it looks like you had less space to build on – mostly because there were less buildings available. The max Town Hall level was TH 8.
 ```
-
 ### Version 2.21 - 08/30/2012 特斯拉电塔
 
 ![2.21.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.21.jpg "版本2.21")
