@@ -52,8 +52,8 @@ Mac 下配置 Jekyll 相对简单得多，按照官网的方式即可[jekyllcn.c
 
 
     Q：It looks like you don't have jekyll-paginate or one of its dependencies installed
-A：
-    在 Gemfile 文件中添加如下内容：
+    
+    A：在 Gemfile 文件中添加如下内容：
     
     gem 'jekyll-paginate', group: :jekyll_plugins
 
