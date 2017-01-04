@@ -9,8 +9,6 @@ tags: mac ide dev
 
 因为是重装的系统，环境是要从零开始配置了。趁着这次机会，再熟悉一下^_^
 
-
-
 # 系统篇
 
 1. 屏幕四角快捷键。偏好设置 》屏幕保护程序 》触发角。
@@ -32,6 +30,8 @@ tags: mac ide dev
 1. filezilla。FTP 工具。
 1. iStat Menus 5。系统监控工具。
 1. Bartender 2。系统顶部栏图标收纳工具。
+
+
 
 # 开发篇
 1. [homebrew][homebrew]。包管理器。没的说，程序员血统离不开 brew。`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`

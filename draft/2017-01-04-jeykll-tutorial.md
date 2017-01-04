@@ -2,8 +2,12 @@
 layout: post
 title: jeykll备忘
 category: tech
-tags: jekyll tech github
+tags: jekyll tech github mac
 ---
+
+刚配好了开发环境。记一下 jekyll 的一些问题。
+
+Windows 下配置
 
 
 参考资料：
