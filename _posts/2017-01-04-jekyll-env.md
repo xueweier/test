@@ -1,8 +1,8 @@
 ---
 layout: post
-title: jekyll环境配置
+title: Jekyll环境配置
 category: tech
-tags: jekyll tech github mac windows
+tags: jekyll dev github mac windows
 ---
 
 昨天配好了Mac下的开发环境。记录下一些问题。
