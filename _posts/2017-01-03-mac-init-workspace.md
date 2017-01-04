@@ -27,7 +27,7 @@ tags: mac ide dev
 1. 百度网盘/Dropbox。也算是必备软件吧。
 1. xxx输入法。各有所爱吧。我用的百度输入法。因为手机上用了他们的 miku 皮肤，就一直用到了现在233333
 1. [MPV][MPV]。一个视频播放器。本来以前用的movist，也不错。然后被[知乎][mpv_zhihu]安利了这个 MPV，可用于看bilibili，并且有弹幕。
-1. Minimalist Markdown Editor。Chrome 的插件，markdown 编辑器。小巧够用。
+1. [Minimalist Markdown Editor][mini]。Chrome 的插件，markdown 编辑器。小巧够用。
 1. Aria2。下载神器（据说）。
 1. filezilla。FTP 工具。
 1. iStat Menus 5。系统监控工具。
@@ -60,3 +60,4 @@ tags: mac ide dev
 [homebrew]: http://brew.sh
 [idea]: http://www.jetbrains.com/idea
 [jekyll]: http://jekyllcn.com
+[mini]: {{site.url}}/software/2016/02/14/markdown-editor-on-Windows.html
