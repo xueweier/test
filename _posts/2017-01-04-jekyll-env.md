@@ -8,6 +8,7 @@ tags: jekyll dev github mac windows
 昨天配好了Mac下的开发环境。记录下一些问题。
 
 # Windows 下配置Jekyll
+
 ### 安装 Ruby 和 Ruby DevKit
 
 <http://rubyinstaller.org/downloads/>
@@ -46,17 +47,28 @@ Mac 下配置 Jekyll 相对简单得多，按照官网的方式即可[jekyllcn.c
     bundle exec jekyll serve
     #打开浏览器 http://localhost:4000
 
-### 问题定位
+# 问题定位
 
-1. jekyll-paginate
+### jekyll-paginate
 
-
-    Q：It looks like you don't have jekyll-paginate or one of its dependencies installed
+Q：It looks like you don't have jekyll-paginate or one of its dependencies installed
     
-    A：在 Gemfile 文件中添加如下内容：
+A：在 Gemfile 文件中添加如下内容：
     
     gem 'jekyll-paginate', group: :jekyll_plugins
 
+### Gemfile
+
+Q：在 Mac 下运行得好好的，Windows 下不能运行，报错。
+
+    C:/Ruby23-x64/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- bundler (LoadError)
+        from C:/my_pp/Ruby23-x64/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+        from C:/my_pp/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jekyll-3.2.1/lib/jekyll/plugin_manager.rb:34:in `require_from_bundler'
+        from C:/my_pp/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jekyll-3.2.1/exe/jekyll:9:in `<top (required)>'
+        from C:/my_pp/Ruby23-x64/bin/jekyll:23:in `load'
+        from C:/my_pp/Ruby23-x64/bin/jekyll:23:in `<main>'
+
+A：Windows 下删除 Gemfile 文件即可。
     
 
 参考资料：
