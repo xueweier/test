@@ -44,7 +44,10 @@ tags: mac ide dev
 1. postman。开发API 用的工具，Chrome 扩展。
 1. Sublime。拿来代替记事本用的 Orz。
 1. [Jekyll][jekyll]。一个开发环境。比如我的 Blog 就是用这环境部署在 Github 上的。
+1. [KeluMacKit][KeluMacKit]。 安利我的开发环境一键安装系统。使用之后就是这样。
 
+
+![workspace](http://ww4.sinaimg.cn/large/7b736eb7jw1fbgax1jmtbj21400p07l9.jpg)
 
 参考资料：
 
@@ -61,3 +64,4 @@ tags: mac ide dev
 [idea]: http://www.jetbrains.com/idea
 [jekyll]: http://jekyllcn.com
 [mini]: {{site.url}}/software/2016/02/14/markdown-editor-on-Windows.html
+[KeluMacKit]: https://github.com/kelvinblood/KeluMacKit
