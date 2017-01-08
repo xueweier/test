@@ -20,6 +20,7 @@ tags: mac ide dev
 1. QQ/Wechat。在中国离不开这两吧。
 1. Spark。 这个不是大数据的那个 Spark 噢。一个邮件客户端。用了这么多就喜欢这家的。
 1. 网易云音乐。 早期用户一用就用到了现在。
+1. Photoshop。简单修图到专业编辑，都能胜任^_^。
 1. Evernote/Pocket。两家都不错，各种收集资料用。
 1. MindNode。思维导图软件。其他的也没怎么用过，蛮好用的一直用到了现在。
 1. 百度网盘/Dropbox。也算是必备软件吧。
@@ -30,17 +31,20 @@ tags: mac ide dev
 1. filezilla。FTP 工具。
 1. iStat Menus 5。系统监控工具。
 1. Bartender 2。系统顶部栏图标收纳工具。
+1. [CheatSheet][CheatSheet]。简单快捷地查找、使用各种程序环境下的快捷键。
+1. [Keka][Keka]解压工具。
 
 
 
 # 开发篇
 1. [homebrew][homebrew]。包管理器。没的说，程序员血统离不开 brew。`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. [iTerm2][iTerm2]
-  作为程序员，终端肯定是必不可少的。以前的文章也有提到过——[《Mac软件之iTerm2》][iterm2_self]
+  作为程序员，终端肯定是必不可少的。以前的文章也有提到过——[《Mac软件之iTerm2》][iterm2_self] , [《Mac 软件之 iTerm2 再配置》][iterm2_self_2]
 1. [Slack][slack]。一个团队协作工具，也是运维神器。
 1. [Shadowsocks][Shadowsocks]。科学上网的姿势。安利一下自己 O(∩_∩)O~
 1. [smartgit][smartgit]。 Git客户端。
 1. [intelliJ idea][idea]。 开发用 IDE。
+1. [Dash][Dash]。开发API 用的工具，Chrome 扩展。
 1. postman。开发API 用的工具，Chrome 扩展。
 1. Sublime。拿来代替记事本用的 Orz。
 1. [Jekyll][jekyll]。一个开发环境。比如我的 Blog 就是用这环境部署在 Github 上的。
@@ -55,6 +59,7 @@ tags: mac ide dev
 
 [iTerm2]: https://www.iterm2.com/
 [iterm2_self]: {{site.url}}/software/2015/01/18/iterm2.html
+[iterm2_self_2]: {{site.url}}/software/2015/01/25/iterm2-2.html
 [MPV]: https://mpv.io/installation/
 [mpv_zhihu]: https://www.zhihu.com/question/19552878
 [smartgit]: http://www.syntevo.com/smartgit/
@@ -65,3 +70,6 @@ tags: mac ide dev
 [jekyll]: http://jekyllcn.com
 [mini]: {{site.url}}/software/2016/02/14/markdown-editor-on-Windows.html
 [KeluMacKit]: https://github.com/kelvinblood/KeluMacKit
+[Dash]: https://kapeli.com/dash 
+[CheatSheet]: https://www.mediaatelier.com/CheatSheet/
+[Keka]: http://www.kekaosx.com/zh-cn/

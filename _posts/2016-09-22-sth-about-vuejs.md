@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于Vue.js的一点东西
+title: 关于 Vue.js 的一点东西
 category: life
 tags: front-end js vuejs
 ---

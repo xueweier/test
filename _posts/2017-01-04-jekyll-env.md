@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll环境配置
+title: Jekyll 环境配置
 category: tech
 tags: jekyll dev github mac windows
 ---
@@ -70,6 +70,14 @@ Q：在 Mac 下运行得好好的，Windows 下不能运行，报错。
 
 A：Windows 下删除 Gemfile 文件即可。
     
+    
+# 常用命令
+
+安装完成后，使用
+
+    jekyll serve --incremental
+    
+运行项目，只改变修改的文章内容，加快运行速度。毕竟平时也就修改文章内容，不会改变系统配置。
 
 参考资料：
 

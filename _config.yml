@@ -5,6 +5,7 @@ plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 data_dir: ./_data
 collections: null
+regenerate: false
 
 # 阅读处理
 safe:         false
