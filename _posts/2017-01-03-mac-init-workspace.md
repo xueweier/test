@@ -44,6 +44,7 @@ tags: mac ide dev
 1. [Shadowsocks][Shadowsocks]。科学上网的姿势。安利一下自己 O(∩_∩)O~
 1. [smartgit][smartgit]。 Git客户端。
 1. [intelliJ idea][idea]。 开发用 IDE。
+1. [PostgreSQL][PostgreSQL]。  数据库 PostgreSQL。
 1. [Dash][Dash]。开发API 用的工具，Chrome 扩展。
 1. postman。开发API 用的工具，Chrome 扩展。
 1. Sublime。拿来代替记事本用的 Orz。
@@ -73,3 +74,4 @@ tags: mac ide dev
 [Dash]: https://kapeli.com/dash 
 [CheatSheet]: https://www.mediaatelier.com/CheatSheet/
 [Keka]: http://www.kekaosx.com/zh-cn/
+[PostgreSQL]: http://www.postgres.cn/download

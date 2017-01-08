@@ -11,6 +11,7 @@ Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文�
 * 在[Mac](#mac)下的设置
 
 <span id="windows"></span>
+
 # Windows 基本使用
 
 * 下载程序： [下载链接][ss_w]。 解压到你希望运行程序的路径，例如：`C:\Program Files (x86)\ss`
@@ -32,6 +33,7 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 
 <span id="mac"></span>
+
 # Mac 基本使用
 
 * 下载程序： [下载链接][ss_x]。双击 dmg 文件安装。
