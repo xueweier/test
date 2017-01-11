@@ -9,9 +9,7 @@ Laravel 是 Taylor Otwell 开发的一款基于 PHP 语言的 Web 开源框架�
 
 通过 [Google Trends][google_trends] 提供的趋势图可以看出，Laravel 框架在过去十年，其增长速度在各类 PHP 框架中都是有史以来最快的，这也从正面直接反映出了 Laravel 的强大，以及其未来非常可观的发展前景。
 
-
 ![图1](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E5%9B%BE%E7%89%8720170111175437.png)
-
 
 使用Laravel也有1年多的时间了。偶尔会出现点小问题，也总算是解决了。今后会慢慢总结一些。现在先说说昨天晚上遇到的坑。
 
