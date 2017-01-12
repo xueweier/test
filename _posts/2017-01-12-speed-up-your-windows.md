@@ -62,3 +62,6 @@ tags: windows
 当你认为监控已经足够了，同时按下ctrl+c，就会给出这一段时间内的网络汇总。如下图。
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112220538.jpg)
+
+
+终于把一些最基本的电脑使用总结出来了。以后还会继续完善本文的。
