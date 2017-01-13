@@ -66,6 +66,7 @@ tags: slack hubot github maintenance node npm
 * [How 7 news organizations are using Slack to work better and differently - niemanlab](http://www.niemanlab.org/2015/07/how-7-news-organizations-are-using-slack-to-work-better-and-differently/)
 * [The Most Important Startup’s Hardest Worker Isn’t a Person - wired.com](https://www.wired.com/2015/10/the-most-important-startups-hardest-worker-isnt-a-person/)
 * [Slack Is Overrun With Bots. Friendly, Wonderful Bots - wired.com](https://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
+* [zhihubot 搭建 - Hello, SA](http://blog.hellosa.org/2012/02/22/zhihubot.html)
 
 
 [Yeoman]: http://yeoman.io/
