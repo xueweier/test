@@ -33,7 +33,9 @@ Dropbox 守护程序可在所有 32 位与 64 位 Linux 服务器上正常运行
 	https://www.dropbox.com/cli_link?host_id=XXXXXXXXXXXXXXXXXXX
 
 
-操作完成后，系统会在您的主目录中创建 Dropbox 文件夹。下载这个 [Python](http://d.pr/1fPnG) 脚本，通过命令行控制 Dropbox。为了方便访问，我把这个脚本放入Dropbox目录下，使用下面的命令将快捷方式添加到系统中：
+操作完成后，系统会在您的主目录中创建 Dropbox 文件夹。下载这个 [dropbox.py](https://gist.github.com/kelvinblood/febea84bc8a504926aba92d823a67807) 脚本，通过命令行控制 Dropbox。
+
+为了方便访问，我把这个脚本放入Dropbox目录下，使用下面的命令将快捷方式添加到系统中：
 
 	echo "alias dr='python ~/Dropbox/dropbox.py'" >> ~/.bashrc
 
