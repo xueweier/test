@@ -5,13 +5,25 @@ category: tech
 tags: slack hubot github maintenance node npm
 ---
 
-
-
-
-
 想拥有一个自己的hubot也有一段时间了。
 
-虽然很早就开始用slack，都是用来配合ifttt耍的，还不知道这么一个大杀器。后来订阅了湾区日报。看了一些文章后才发现的，确实是个好东西。工作忙里偷闲，按照slack API里 [Slack Developer Kit for Hubot][slack-hubot-api] 的内容一步一步走来。目前对里面的一些产品插件都还不了解，先记录下来，以后再慢慢补充了。
+虽然很早就开始用slack，都是用来配合ifttt耍的，还不知道这么一个大杀器。Slack 是聊天群组 + 大规模工具集成 + 文件整合 + 统一搜索。截至2014年底，Slack 已经整合了电子邮件、短信、Google Drives、Twitter、Trello、Asana、GitHub 等 65 种工具和服务，把可以把各种碎片化的企业沟通和协作集中到一起。
+
+后来订阅了湾区日报。看了一些文章后才发现的，确实是个好东西。工作忙里偷闲，按照slack API里 [Slack Developer Kit for Hubot][slack-hubot-api] 的内容一步一步走来。目前对里面的一些产品插件都还不了解，先记录下来，以后再慢慢补充了。
+
+Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScript编写。 
+
+* Hubot <https://hubot.github.com/>
+* Hubot Scripts <https://github.com/hubot-scripts>
+* Hubot Control <https://github.com/spajus/hubot-control> 
+
+可以借助Hubot开发Chatbot来自动化的完成想要一切自动化任务，比如： 
+
+* 运维自动化（编译部署代码、重启机器，监控服务器运行情况，自动修复Bug等） 
+* 外部服务交互（管理Redmine、集成Jenkins、监视Zabbix等） 
+* 定时获取天气预报 
+* 随机订餐 
+* 聊天机器人等等。 
 
 # 1.安装node和npm环境
 
@@ -67,6 +79,7 @@ tags: slack hubot github maintenance node npm
 * [The Most Important Startup’s Hardest Worker Isn’t a Person - wired.com](https://www.wired.com/2015/10/the-most-important-startups-hardest-worker-isnt-a-person/)
 * [Slack Is Overrun With Bots. Friendly, Wonderful Bots - wired.com](https://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
 * [zhihubot 搭建 - Hello, SA](http://blog.hellosa.org/2012/02/22/zhihubot.html)
+* [开发Hubot聊天机器人](http://rensanning.iteye.com/blog/2329278)
 
 
 [Yeoman]: http://yeoman.io/
