@@ -28,7 +28,6 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 # 1.安装node和npm环境
 
 可以访问我的[gist](https://gist.github.com/kelvinblood/fef5a31e69b099c3a0225a12481923d7)下载。
-<script src="https://gist.github.com/kelvinblood/fef5a31e69b099c3a0225a12481923d7.js"></script>
 
 	chmod a+x NodejsInstall.sh
 
@@ -42,7 +41,7 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 
 	npm install npm@latest -g
 
-# 1.安装slack/Hubot kit
+# 2.安装slack/Hubot kit
 
 使用下面的命令快速安装[Yeoman][Yeoman] 和 [hubot][hubot] 。Yeoman可以辅助我们快速安装hubot。
 
@@ -61,8 +60,91 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
     
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/filehelper_1484244539165_20.png)
     
-待续。。
+    
+# 3. 让 hubot 执行 shell 脚本    
 
+    npm install hubot-script-shellcmd
+    cp -R node_modules/hubot-script-shellcmd/bash ./
+
+修改一下external-scripts.json，添加上以下模块：hubot-script-shellcmd。如果到此为止，你操作的步骤和我基本一样的话，你的external-scripts.json应该长的像这个样子：
+
+    [
+      "hubot-diagnostics",
+      "hubot-help",
+      "hubot-google-images",
+      "hubot-google-translate",
+      "hubot-pugme",
+      "hubot-maps",
+      "hubot-rules",
+      "hubot-shipit",
+      "hubot-script-shellcmd"
+    ]
+
+接下来：
+
+    cd bash/handlers
+    
+这里面的 helloworld 就是个例子，可以改成自己的脚本。运行的话，如果在群组内，需要@xxx（xxx为机器人的名字，例如hubot）
+
+    hubot shellcmd helloworld
+    
+如果是私人会话，可以直接回复
+
+   shellcmd helloworld
+
+我们可以完成任意想要的脚本，例如下面的脚本将计算CPU的使用率。
+
+    #!/bin/bash
+    top -b -n2 -p 1 | fgrep "Cpu(s)" | tail -1 | awk -F'id,' -v prefix="$prefix" '{ split($1, vs, ","); v=vs[length(vs)]; sub("%", "", v); printf "%s%.1f%%\n", prefix, 100 - v }'
+
+    exit 0
+
+将文件命名成cpu，只要运行`shellcmd cpu`,就可以了。
+
+# 4. 高级配置   
+
+在bash/handlers文件夹下新建一个文件，名字就叫比如说cpu，内容如下：
+
+由于每次启动hubot时，都需要执行以下一串长长的命令：
+
+    HUBOT_SLACK_TOKEN=xoxb-token ./bin/hubot --adapter slack
+
+可以把这个环境变量放在fish的config里，路径是：~/.config/fish/config.fish .添加以下一行命令：
+
+    set -x HUBOT_SLACK_TOKEN xoxb-token  #不写token
+    set -x HUBOT_SHELLCMD_KEYWORD run    #代替 shellcmd
+    
+这样你每次启动hubot时，就只需要执行以下这句就行了：
+
+    ./bin/hubot --adapter slack
+    hubot run update
+    
+# 5. 其他开发
+
+参考 [hubot][hubot_doc] 的两个文档 scripting 和 patterns，写的非常详细。下面是个简单的例子，将收到的信息转发到网站。
+    
+    module.exports = (robot) ->
+        robot.listen(
+            (message) ->
+                message.user.name is "你的Slack用户名" #这里限制只对我的回复做响应
+                robot.brain.set 'message', message.rawText
+            (response) ->
+                req = "data=" + JSON.stringify({
+                    message: robot.brain.get('message'),
+                })  
+                robot.http("http://test.com/api") # 改为你自己的接口地址
+                    .header('Content-Type: application/x-www-form-urlencoded;charset=utf-8')
+                    .post(req) (err, res, body) ->
+                        if err 
+                            response.reply "请求接口失败" 
+                            robot.emit 'error', err, res 
+                            return
+                        if res.statusCode isnt 200 
+                            response.reply "接口返回非200"
+                            return
+                        response.send body
+        )    
+    
 
 参考资料：
 
@@ -80,9 +162,15 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 * [Slack Is Overrun With Bots. Friendly, Wonderful Bots - wired.com](https://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
 * [zhihubot 搭建 - Hello, SA](http://blog.hellosa.org/2012/02/22/zhihubot.html)
 * [开发Hubot聊天机器人](http://rensanning.iteye.com/blog/2329278)
+* [用slack和hubot搭建你自己的运维机器人 - segmentfault](https://segmentfault.com/a/1190000006681056)
+* [使用Slack和Hubot搭建自己的机器人](https://www.liudon.org/1329.html)
+
+    
+看看效果吧！
 
 
 [Yeoman]: http://yeoman.io/
 [hubot]: https://hubot.github.com/
+[hubot_doc]: https://hubot.github.com/docs/patterns/
 [Integration_setting]: https://my.slack.com/apps/A0F7YS25R-bots
 [slack-hubot-api]: https://slackapi.github.io/hubot-slack/
