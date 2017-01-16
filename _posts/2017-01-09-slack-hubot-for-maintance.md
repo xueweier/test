@@ -56,8 +56,10 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 同时你还需要去hubot页面生成你的机器人[API Token][Integration_setting]。在获得api token之后，你可以运行以下命令跑起来了。
 
     HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
-    
-    
+
+
+
+
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/filehelper_1484244539165_20.png)
     
     
