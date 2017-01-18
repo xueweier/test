@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker 新手上路
+title: Docker 新手上路(一)
 category: tech
 tags: docker maintenance
 ---
@@ -76,6 +76,8 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
 这篇就到这里。下一篇再写其他方面的。
 
 参考资料：
+
+* [docker_gitbook][docker_gitbook]
 
 [docker_gitbook]: https://www.gitbook.com/book/yeasy/docker_practice
 [select_a_docker_storage_driver]: https://www.centos.bz/2016/12/select-a-docker-storage-driver
