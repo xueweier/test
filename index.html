@@ -43,11 +43,11 @@ layout: two-column-sidebar
         {% assign flag = 0 %}
 
 
-        {% if paginator.page < 3 %}
+        {% if paginator.page < 5 %}
         {% assign flag = 1 %}
         {% endif %}
 
-        {% assign tmp_page = paginator.total_pages | minus: 2 %}
+        {% assign tmp_page = paginator.total_pages | minus: 4 %}
         {% if paginator.page > tmp_page %}
         {% assign flag = 1 %}
         {% endif %}
