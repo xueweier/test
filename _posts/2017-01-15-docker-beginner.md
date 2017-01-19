@@ -45,10 +45,11 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
     $ sudo systemctl enable docker
     $ sudo systemctl start docker
 
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2017/QQ%E6%88%AA%E5%9B%BE20170119014613.jpg)
 
 
 
-# 获取/定制镜像
+# 获取镜像
 
 [Docker Hub][docker_hub]，[Docker Store][docker_store] 上有大量的高质量的镜像可以用。有可以直接拿来使用的服务类的镜像，如 nginx、redis、mongo、mysql、httpd、php、tomcat 等； 也有一些方便开发、构建、运行各种语言应用的镜像，如 node、openjdk、python、ruby、golang 等。 可以在其中寻找一个最符合我们最终目标的镜像为基础镜像进行定制。 如果没有找到对应服务的镜像，官方镜像中还提供了一些更为基础的操作系统镜像，如 ubuntu、debian、centos、fedora、alpine 等，这些操作系统的软件库为我们提供了更广阔的扩展空间。
 
@@ -61,9 +62,12 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
     REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
     debian              latest              19134a8202e7        4 weeks ago         123 MB
 
-有了镜像后，我们就可以以这个镜像为基础启动一个容器来运行。以上面的 debian 为例，启动里面的 bash 并且进行交互式操作的话，可以执行下面的命令。
+# 运行镜像
+
+有了镜像后，我们就可以以这个镜像为基础启动一个容器来运行。
 
     $ docker run -it --rm debian bash
+    $ docker run --name webserver -d -p 1644:80 nginx
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170117000548.jpg)
 
@@ -72,7 +76,31 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
     debian：这是指用 debian 镜像为基础来启动容器。
     bash：放在镜像名后的是命令，这里我们希望有个交互式 Shell，因此用的是 bash。 
     最后 exit 退出容器。
+    
+    
+# 新建/启动/唤醒/进入/终止/删除
 
+    docker run ubuntu:14.04 /bin/echo 'Hello world' -d # 后台运行
+    docker run -t -i ubuntu:14.04 /bin/bash  # -t分配一个伪终端， -i 标准输入保持打开。
+    docker start ubuntu:14.04
+    docker stop pid
+    docker restart pid
+    docker ps         # 命令来查看运行中的容器信息
+    docker ps -a      # 包括终止的容器
+    docker attach pid    # 交互命令下 exit 命令退出 或 Ctrl+d进入后台运行
+    docker rm xxx
+    docker rm $(docker ps -a -q) 清除所有终止状态的容器
+   
+也可以使用 nsenter 命令更方便地 attach docker 的界面。命令在debian 8中自带。下载 [.bashrc_docker][.bashrc_docker]，并放到 .bashrc 或者 .zshrc 中。
+
+    wget -P ~ https://github.com/yeasy/docker_practice/raw/master/_local/.bashrc_docker;
+    cd ~
+    cat .bashrc_docker >> .bashrc
+    source .bashrc
+    
+    docker ps
+    docker-enter pid
+    
 这篇就到这里。下一篇再写其他方面的。
 
 参考资料：
@@ -83,3 +111,4 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
 [select_a_docker_storage_driver]: https://www.centos.bz/2016/12/select-a-docker-storage-driver
 [docker_hub]: https://hub.docker.com
 [docker_store]: https://store.docker.com
+[.bashrc_docker]: https://github.com/yeasy/docker_practice/raw/master/_local/.bashrc_docker

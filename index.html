@@ -37,27 +37,72 @@ layout: two-column-sidebar
         {% endif %}
 
         {% assign skip_status = 0 %}
-        {% for page in (1..paginator.total_pages) %}
 
-        {% assign last_pages = paginator.total_pages | minus: 6 %}
         {% assign current_page_min = paginator.page | minus: 3 %}
         {% assign current_page_max = paginator.page | plus: 3 %}
-        
-        {% if page == paginator.page %}
-        <span class="current">{{ page }}</span>
-        {% elsif page == 1 %}
-        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-        {% elsif page < 6 or page > last_pages %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% assign skip_status = 0 %}
-        {% elsif page > current_page_min and page < current_page_max %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% assign skip_status = 0 %}
-        {% elsif skip_status == 0 %}
-        <a class="nextpostslink">...</a>
-        {% assign skip_status = 1 %}
-        {% else %}
+        {% assign flag = 0 %}
+
+
+        {% if paginator.page < 3 %}
+        {% assign flag = 1 %}
         {% endif %}
+
+        {% assign tmp_page = paginator.total_pages | minus: 2 %}
+        {% if paginator.page > tmp_page %}
+        {% assign flag = 1 %}
+        {% endif %}
+
+
+        {% if flag == 1 %}
+            {% assign left_page = 6 %}
+            {% assign right_page = paginator.total_pages | minus: 5 %}
+
+            {% assign middle_page_1 = left_page | plus: right_page | divided_by: 2 %}
+            {% assign middle_page_1_str = 'page' | append: middle_page_1 %}
+        {% else %}
+            {% assign left_page = 3 %}
+            {% assign right_page = paginator.total_pages | minus: 2 %}
+
+            {% assign middle_page_1 = left_page | plus: current_page_min | divided_by: 2 %}
+            {% assign middle_page_1_str = 'page' | append: middle_page_1 %}
+        {% assign middle_page_2 = right_page | plus: current_page_max | divided_by: 2 %}
+            {% assign middle_page_2_str = 'page' | append: middle_page_2 %}
+        {% endif %}
+
+
+        {% if paginator.page == 1 %}
+        {% assign left_page = 7 %}
+        {% endif %}
+        {% if paginator.page ==  paginator.total_pages%}
+        {% assign right_page = paginator.total_pages | minus: 6 %}
+        {% endif %}
+
+
+        {% for page in (1..paginator.total_pages) %}
+
+            {% if page == paginator.page %}
+                <span class="current">{{ page }}</span>
+            {% elsif page == 1 %}
+                <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+                <!-- 处在两头-->
+            {% elsif page < left_page or page > right_page %}
+                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                {% assign skip_status = 0 %}
+                <!-- 处在中间-->
+            {% elsif page > current_page_min and page < current_page_max %}
+                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                {% assign skip_status = 0 %}
+            {% elsif skip_status == 0 %}
+                {% if flag == 1 %}
+                    <a class="nextpostslink" href="{{ middle_page_1_str | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">...</a>
+                {% elsif page < paginator.page %}
+                    <a class="nextpostslink" href="{{ middle_page_1_str | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">...</a>
+                {% else %}
+                    <a class="nextpostslink" href="{{ middle_page_2_str | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">...</a>
+                {% endif %}
+                {% assign skip_status = 1 %}
+            {% else %}
+            {% endif %}
         {% endfor %}
 
         {% if paginator.next_page %}
