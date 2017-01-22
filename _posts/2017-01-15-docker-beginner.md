@@ -148,41 +148,41 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
 
 
 
-| 功能划分  |  命令  |
-|---|---|
-| 环境信息相关  | |
-|   | info|
-|   | version|
-| 系统运维相关  | |
-| |attach|
-| |build|
-| |commit|
-| |cp|
-| |diff|
-| |export|
-| |images|
-| |import / save / load|
-| |inspect|
-| |kill|
-| |port|
-| |pause / unpause|
-| |ps|
-| |rm|
-| |rmi|
-| |run|
-| |start / stop / restart|
-| |tag|
-| |top|
-| |wait|
-| 日志信息相关  | |
-| |events|
-| |history|
-| |logs|
-| Docker Hub服务相关  | |
-| |login|
-| |pull / push|
-| |search|
-
+| 功能划分  |  命令  | 用法 |
+|---|---|---|
+| 环境信息相关  | | |
+|   | info| 本地的配置信息|
+|   | version| 显示Docker，API，Git commit，Docker,Go的版本号。|
+| 系统运维相关  | | |
+| |attach| 挂载正在后台运行的容器|
+| |build| 从源码构建新Image的命令|
+| |commit| 把有修改的container提交成新的Image，官方不建议使用|
+| |cp| 把容器內的文件复制到Host主机上|
+| |diff| 列出3种容器内文件状态变化（A - Add, D - Delete, C - Change ）的列表清单。|
+| |export| 把容器系统文件打包并导出来，方便分发给其他场景使用|
+| |images| |
+| |import / save / load| |
+| |inspect| |
+| |kill| |
+| |port| |
+| |pause / unpause| |
+| |ps| |
+| |rm| |
+| |rmi| |
+| |run| |
+| |start / stop / restart| |
+| |tag| |
+| |top| |
+| |wait| |
+| 日志信息相关  | | |
+| |events| |
+| |history| |
+| |logs| |
+| Docker Hub服务相关  | | |
+| |login| |
+| |pull / push| |
+| |search| |
+ |
 
 
 

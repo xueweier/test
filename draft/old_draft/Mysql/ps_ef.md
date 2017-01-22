@@ -1,0 +1,3 @@
+root      3177     1  0 23:19 ?        00:00:00 /bin/sh /usr/local/[01;31m[Kmysql[m[K/bin/[01;31m[Kmysql[m[Kd_safe --datadir=/usr/local/[01;31m[Kmysql[m[K/var --pid-file=/usr/local/[01;31m[Kmysql[m[K/var/YUKI.pid
+[01;31m[Kmysql[m[K     3329  3177  0 23:19 ?        00:00:00 /usr/local/[01;31m[Kmysql[m[K/libexec/[01;31m[Kmysql[m[Kd --basedir=/usr/local/[01;31m[Kmysql[m[K --datadir=/usr/local/[01;31m[Kmysql[m[K/var --user=[01;31m[Kmysql[m[K --log-error=/usr/local/[01;31m[Kmysql[m[K/var/YUKI.err --pid-file=/usr/local/[01;31m[Kmysql[m[K/var/YUKI.pid --socket=/tmp/[01;31m[Kmysql[m[K.sock --port=3306
+root      7128  3957  0 23:47 pts/0    00:00:00 grep --color=always [01;31m[Kmysql[m[K

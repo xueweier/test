@@ -62,7 +62,6 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/filehelper_1484244539165_20.png)
     
-    
 # 3. 让 hubot 执行 shell 脚本    
 
     npm install hubot-script-shellcmd
