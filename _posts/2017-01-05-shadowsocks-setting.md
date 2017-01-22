@@ -7,6 +7,8 @@ tags: proxy shadowsocks
 
 Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文和开发程序必不可少。学会正确的上网姿势，是成为现代人的很重要的一步哦。
 
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170121015337.jpg)
+
 * 在[Windows](#windows)下的设置
 * 在[Mac](#mac)下的设置
 

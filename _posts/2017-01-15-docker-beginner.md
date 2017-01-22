@@ -48,14 +48,35 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2017/QQ%E6%88%AA%E5%9B%BE20170119014613.jpg)
 
 
+# 查看 docker 信息
+
+    # 查看docker版本
+    $docker version
+
+    # 显示docker系统的信息
+    $docker info
 
 # 获取镜像
 
-[Docker Hub][docker_hub]，[Docker Store][docker_store] 上有大量的高质量的镜像可以用。有可以直接拿来使用的服务类的镜像，如 nginx、redis、mongo、mysql、httpd、php、tomcat 等； 也有一些方便开发、构建、运行各种语言应用的镜像，如 node、openjdk、python、ruby、golang 等。 可以在其中寻找一个最符合我们最终目标的镜像为基础镜像进行定制。 如果没有找到对应服务的镜像，官方镜像中还提供了一些更为基础的操作系统镜像，如 ubuntu、debian、centos、fedora、alpine 等，这些操作系统的软件库为我们提供了更广阔的扩展空间。
+[Docker Hub][docker_hub] 上有大量的高质量的镜像可以用。有可以直接拿来使用的服务类的镜像，如 nginx、redis、mongo、mysql、httpd、php、tomcat 等； 也有一些方便开发、构建、运行各种语言应用的镜像，如 node、openjdk、python、ruby、golang 等。 可以在其中寻找一个最符合我们最终目标的镜像为基础镜像进行定制。 如果没有找到对应服务的镜像，官方镜像中还提供了一些更为基础的操作系统镜像，如 ubuntu、debian、centos、fedora、alpine 等，这些操作系统的软件库为我们提供了更广阔的扩展空间。
+
+>> Docker Hub提供API和云服务来发布基于Docker的应用程序。
 
 获取镜像命令：
 
     docker pull [选项] [Docker Registry地址]<仓库名>:<标签>
+    
+    # 检索image
+    $docker search image_name
+    
+    # 下载image
+    $docker pull image_name
+    
+    # 列出镜像列表; -a, --all=false Show all images; --no-trunc=false Don't truncate output; -q, --quiet=false Only show numeric IDs
+    $docker images
+    
+    # 显示一个镜像的历史; --no-trunc=false Don't truncate output; -q, --quiet=false Only show numeric IDs
+    $docker history image_name
 
 例如`docker pull debian`,安装完成后显示镜像列表`docker images`，如下
 
@@ -87,8 +108,9 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
     docker restart pid
     docker ps         # 命令来查看运行中的容器信息
     docker ps -a      # 包括终止的容器
+    docker ps -l       # 最近一次启动的container
     docker attach pid    # 交互命令下 exit 命令退出 或 Ctrl+d进入后台运行
-    docker rm xxx
+    docker rm xxx/pid
     docker rm $(docker ps -a -q) 清除所有终止状态的容器
    
 也可以使用 nsenter 命令更方便地 attach docker 的界面。命令在debian 8中自带。下载 [.bashrc_docker][.bashrc_docker]，并放到 .bashrc 或者 .zshrc 中。
@@ -101,11 +123,84 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
     docker ps
     docker-enter pid
     
+# 保存和加载
+    
+    当需要把一台机器上的镜像迁移到另一台机器的时候，需要保存镜像与加载镜像。
+    
+    docker save image_name -o file_path # 保存镜像到一个tar包; -o, --output="" Write to an file
+    docker load -i file_path # 加载一个tar包格式的镜像; -i, --input="" Read from a tar archive file
+    
+    $docker save image_name > /home/save.tar # 机器a
+    
+    # 使用scp将save.tar拷到机器b上，然后：
+    $docker load < /home/save.tar
+    
+    
+    docker login # 登陆registry server; -e, --email="" Email; -p, --password="" Password; -u, --username="" Username
+    
+    docker push new_image_name # 发布docker镜像
+    
+    
+    
+# Docker 命令行
+
+
+
+
+
+| 功能划分  |  命令  |
+|---|---|
+| 环境信息相关  | |
+|   | info|
+|   | version|
+| 系统运维相关  | |
+| |attach|
+| |build|
+| |commit|
+| |cp|
+| |diff|
+| |export|
+| |images|
+| |import / save / load|
+| |inspect|
+| |kill|
+| |port|
+| |pause / unpause|
+| |ps|
+| |rm|
+| |rmi|
+| |run|
+| |start / stop / restart|
+| |tag|
+| |top|
+| |wait|
+| 日志信息相关  | |
+| |events|
+| |history|
+| |logs|
+| Docker Hub服务相关  | |
+| |login|
+| |pull / push|
+| |search|
+
+
+
+
+
+
 这篇就到这里。下一篇再写其他方面的。
+
 
 参考资料：
 
 * [docker_gitbook][docker_gitbook]
+* [Docker教程中文版本](https://code.csdn.net/u010702509/docker)
+* [PaaS时代幸福的程序员，利用Docker构建开发环境 - CSDN](http://www.csdn.net/article/2014-08-08/2820312-Docker-lxc-paas-virtualization)
+* [Docker：分布式系统的软件工程革命（上）](http://cxwangyi.github.io/story/docker_revolution_1.md.html)
+* [Docker学习笔记(2)--Docker常用命令](http://www.tuicool.com/articles/7V7vYn)
+* [深入浅出Docker（二）：Docker命令行探秘](http://www.infoq.com/cn/articles/docker-command-line-quest)
+* [10个日常Docker使用技巧](http://www.wanwuyun.com/pages/news/409.html)
+* [Docker入门实战](http://blog.csdn.net/opensure/article/details/46490749)
 
 [docker_gitbook]: https://www.gitbook.com/book/yeasy/docker_practice
 [select_a_docker_storage_driver]: https://www.centos.bz/2016/12/select-a-docker-storage-driver

@@ -148,7 +148,7 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
         )    
     
 
-参考资料：
+# 参考资料
 
 * [node.js](https://nodejs.org/en/download/)
 * [Slack/Hubot - 简书](http://www.jianshu.com/p/e5015327f900)
@@ -168,9 +168,6 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 * [使用Slack和Hubot搭建自己的机器人](https://www.liudon.org/1329.html)
 
     
-看看效果吧！
-
-
 [Yeoman]: http://yeoman.io/
 [hubot]: https://hubot.github.com/
 [hubot_doc]: https://hubot.github.com/docs/patterns/
