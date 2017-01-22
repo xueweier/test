@@ -2,7 +2,7 @@
 layout: post
 title: Docker 新手上路(一)
 category: tech
-tags: docker maintenance
+tags: docker maintenance tutorial
 ---
 
 新学习了 [docker][docker_gitbook]。记录一下。

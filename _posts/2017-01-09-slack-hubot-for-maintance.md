@@ -2,7 +2,7 @@
 layout: post
 title: Slack/Hubot
 category: tech
-tags: slack hubot github maintenance node npm
+tags: slack hubot github maintenance node npm tutorial
 ---
 
 想拥有一个自己的hubot也有一段时间了。

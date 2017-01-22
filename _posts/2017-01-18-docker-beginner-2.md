@@ -2,7 +2,7 @@
 layout: post
 title: Docker 新手上路（二）——Dockerfile
 category: tech
-tags: docker maintenance
+tags: docker maintenance tutorial
 ---
 
 今天的好玩新闻有这几件事：

@@ -2,7 +2,7 @@
 layout: post
 title: Docker 新手上路（前传）
 category: tech
-tags: docker maintenance
+tags: docker maintenance tutorial
 ---
 
 今晚将 [CSDN][docker_csdn] 上所有的 Docker 的文章浏览了一遍(53页,将近523篇文章)。

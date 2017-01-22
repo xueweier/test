@@ -2,7 +2,7 @@
 layout: post
 title: shell入门
 category: tech
-tags: linux shell
+tags: linux shell tutorial
 ---
 
 这篇文章主要是网上搜集整理的资料，在shell的在平时使用中需要的最基本的入门知识，没有涉及grep、sed、awk以及各种正则表达式。

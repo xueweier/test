@@ -79,8 +79,6 @@ A：Windows 下删除 Gemfile 文件即可。
     
 运行项目，只改变修改的文章内容，加快运行速度。毕竟平时也就修改文章内容，不会改变系统配置。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/filehelper_1484842466183_40.png)
-
 参考资料：
 
 * [Running Jekyll on Windows](http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html)
