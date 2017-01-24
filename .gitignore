@@ -6,3 +6,7 @@ _sass/
 .idea/
 .jekyll-metadata
 /Gemfile
+/.TeamViewer.lock
+/.keystone_install_lock
+/.s.PGSQL.5432
+/.s.PGSQL.5432.lock
