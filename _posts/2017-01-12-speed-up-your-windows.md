@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 加快你的 Windows 运行速度
+title: 日常 | 加快你的 Windows 运行速度
 category: software
 tags: windows
 ---
