@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP 的字符串和数组的转换函数 —— explode() 和 implode()
+title: PHP 的字符串和数组的转换函数 explode() 和 implode()
 category: dev
 tags: php string function wechat
 ---
