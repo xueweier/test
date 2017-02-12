@@ -5,6 +5,8 @@ category: tech
 tags: laravel php composer qiniu
 ---
 
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/laravel.jpg)
+
 我们经常要往现有的项目中添加扩展包，有时候因为编码人员还不了解 Laravel，在一些不良开发文档的引导下，如下图来自 [七牛云][qiniu] ，
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170118235957.jpg)

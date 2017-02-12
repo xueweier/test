@@ -38,17 +38,6 @@ tags: php string function wechat
     $str = "Hello world. I love Shanghai!";
     var_dump(explode(" ",$str));
     
-# implode() 
-
-把数组元素组合为字符串。
-
-语法
-
-    implode(separator,array)
-    
-    * separator	可选。规定数组元素之间放置的内容。默认是 ""（空字符串）。
-    * array	必需。要组合为字符串的数组。
-
 真实例子:
 
     public function setExpectedIndustryTagAttribute($value)
@@ -63,3 +52,23 @@ tags: php string function wechat
             $this->attributes['tag'] = $value;
         }
     }
+    
+    
+# implode() 
+
+把数组元素组合为字符串。
+
+语法
+
+    implode(separator,array)
+    
+    * separator	可选。规定数组元素之间放置的内容。默认是 ""（空字符串）。
+    * array	必需。要组合为字符串的数组。
+
+例子：
+
+    $arr = array('Hello','World!','I','love','Shanghai!');
+    echo implode(" ",$arr)."<br>";
+    echo implode("+",$arr)."<br>";
+    echo implode("-",$arr)."<br>";
+    echo implode("X",$arr);
