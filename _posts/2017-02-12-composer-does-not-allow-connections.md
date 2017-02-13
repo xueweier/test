@@ -5,9 +5,12 @@ category: tech
 tags: php composer
 ---
 
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/logo-composer-transparent2.png)
+
+如下图。
+
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2011702/20170212211058.png)
     
-如图。
 
     your configuration does not allow to connection to `http://xxxxxxx`,see the https://getcomposer.org/doc/06-config.md#secure-http for details.
     

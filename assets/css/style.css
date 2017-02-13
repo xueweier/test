@@ -24,7 +24,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
     word-wrap: break-word;
 }filter:Grayfilter:Grayfilter:Gpla
 
-p > code{
+code{
 	 padding: 2px 4px;
 	 color: #FFF;
 	 white-space: nowrap;
