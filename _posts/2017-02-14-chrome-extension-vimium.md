@@ -2,7 +2,7 @@
 layout: post
 title: Chrome 插件vimium —— vim党的福音
 category: software
-tags: chrome vimium
+tags: chrome vimium vim
 ---
 
 使用vimium已经很长时间了，然而每次应用仅限于hjkl几个上下左右键和KJ标签页操作这种最低级的操作。实际上vimium有很多实用的快捷键。 这几天换了新的办公地点，除了熟悉vimium这个插件外，索性给自己再来点新的感觉——使用左手鼠标。三天过去了，慢慢习惯了，确实不错。倒不是因为效率上带来的提高，而是由此带来的新鲜感，将平日的疲惫和懈怠感一扫而空。
