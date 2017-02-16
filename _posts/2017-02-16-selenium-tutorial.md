@@ -7,7 +7,7 @@ tags: selenium spider php composer
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/selenium1.jpg)
 
-Selenium是用于自动化测试工具，它是在Apache许可证2.0许可的开放源代码工具。Selenium是一套工具，它有助于自动化Web应用程序测试。本文简单介绍一些基本配置与应用。
+Selenium是用于自动化测试工具，它是在Apache许可证2.0许可的开放源代码工具。Selenium是一套工具，它有助于自动化Web应用程序测试。本文介绍它的快速入门配置与一个很简单的爬虫应用。
 
 # Composer 安装 Selenium：
 
