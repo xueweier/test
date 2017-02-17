@@ -7,7 +7,7 @@ tags: selenium spider php composer
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/selenium1.jpg)
 
-Selenium是用于自动化测试工具，它是在Apache许可证2.0许可的开放源代码工具。Selenium是一套工具，它有助于自动化Web应用程序测试。本文介绍它的快速入门配置与一个很简单的爬虫应用。
+Selenium是用于自动化测试工具，它是在Apache许可证2.0许可的开放源代码工具。Selenium是一套工具，它有助于自动化Web应用程序测试。本文介绍它的快速入门配置(php版本)与一个很简单的php爬虫应用。
 
 # Composer 安装 Selenium：
 
@@ -29,7 +29,7 @@ selenium 支持多种浏览器，我目前使用的是chrome。<http://chromedri
     
 # 运行测试代码
 
-另启命令提示符，运行后文的php bilibili.php 命令，最后打印了哔哩哔哩顶部的8个视频。
+打开命令提示符，运行后边的文件 `php bilibili.php` 命令，最后打印了哔哩哔哩顶部的8个视频。
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/QQ%E6%88%AA%E5%9B%BE20170216221036.jpg)
 
@@ -38,6 +38,7 @@ selenium 支持多种浏览器，我目前使用的是chrome。<http://chromedri
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/QQ%E6%88%AA%E5%9B%BE20170216221048.jpg)
 
+    // bilibili.php
     <?php
     namespace Facebook\WebDriver;
 
@@ -109,7 +110,6 @@ selenium 支持多种浏览器，我目前使用的是chrome。<http://chromedri
 
 # 参考资料
 
-参考文档：
 * [PHP Selenium使用教程](http://www.kancloud.cn/wangking/selenium/234575)
 * <https://github.com/facebook/php-webdriver>
 * <http://facebook.github.io/php-webdriver/namespaces/default.html>
