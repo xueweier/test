@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 新闻|工信部：未经批准不得自建或租用VPN
+title: 新闻 | 工信部：未经批准不得自建或租用VPN
 category: software
 tags: MIIT VPN
 ---

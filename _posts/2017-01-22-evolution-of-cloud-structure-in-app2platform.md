@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 转载|从应用到平台 - 云服务架构的演进过程
+title: 转载 | 从应用到平台 - 云服务架构的演进过程
 category: tech
 tags: docker baas
 ---
