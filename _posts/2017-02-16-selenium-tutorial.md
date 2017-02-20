@@ -111,9 +111,12 @@ selenium 支持多种浏览器，我目前使用的是chrome。<http://chromedri
 # 参考资料
 
 * [PHP Selenium使用教程](http://www.kancloud.cn/wangking/selenium/234575)
+* [最好的语言PHP + 最好的前端测试框架Selenium = 最好的爬虫](https://my.oschina.net/ppmeng/blog/800806)
+* [关于反爬虫，看这一篇就够了](http://wetest.qq.com/lab/view/111.html)
 * <https://github.com/facebook/php-webdriver>
 * <http://facebook.github.io/php-webdriver/namespaces/default.html>
 * <https://github.com/chibimagic/WebDriver-PHP/>
 * <https://code.google.com/archive/p/php-webdriver-bindings/>
 * <https://github.com/Element-34/php-webdriver>
 * <https://github.com/Nearsoft/php-selenium-client>
+* <https://github.com/SeleniumHQ/selenium/>
