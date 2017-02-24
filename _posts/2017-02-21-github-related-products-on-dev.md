@@ -73,8 +73,9 @@ tags: github git opensource
 
 # 参考资料
 
-* [shields.io][shields.io]
 * [kcptun][kcptun]
+* [thefuck][thefuck]
+* [shields.io][shields.io]
 * [gitter.im][gitter.im]
 * [Go_Report_Card][Go_Report_Card]
 * [microbadger][microbadger]
@@ -82,6 +83,7 @@ tags: github git opensource
 
 [shields.io]: http://shields.io
 [kcptun]: https://github.com/xtaci/kcptun/blob/master/README-CN.md
+[thefuck]: https://github.com/nvbn/thefuck
 [gitter.im]: https://gitter.im
 [Go_Report_Card]: https://goreportcard.com
 [microbadger]: https://microbadger.com
