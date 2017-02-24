@@ -22,7 +22,7 @@ layout: two-column-sidebar
             <a href="{{post.url}}" class="list-title">{{post.title}}</a>
                 <div class="list-tag">
                 {% for tag in post.tags %}
-                <a target="_blank" href="/category/tags/{{tag}}.html"><i class="fa fa-tag"></i> {{tag}}</a>
+                <a href="/category/tags/{{tag}}.html"><i class="fa fa-tag"></i> {{tag}}</a>
                 {% endfor %}
                 </div>
             {% assign has_post = 1 %}

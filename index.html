@@ -4,14 +4,14 @@ layout: two-column-sidebar
     {% for post in paginator.posts %}
     <article>
         <div class="article_header">
-            <h1 class="article_title"><a target="_blank" href="{{post.url}}">{{ post.title }}</a></h1>
+            <h1 class="article_title"><a href="{{post.url}}">{{ post.title }}</a></h1>
             <h5 class="article_meta">{{ post.date | date: "%F" }}&nbsp;&nbsp;&nbsp;&nbsp;
-                <a target="_blank" href="/category/{{ post.category }}.html" class="article-fa"><i
+                <a href="/category/{{ post.category }}.html" class="article-fa"><i
                         class="fa fa-folder-o"></i> {{ post.category }}</a>
 
 
                 {% for tag in post.tags %}
-                <a target="_blank" href="/category/tags/{{tag}}.html"><i class="fa fa-tag"></i> {{tag}}</a>
+                <a href="/category/tags/{{tag}}.html"><i class="fa fa-tag"></i> {{tag}}</a>
                 {% endfor %}
 
             </h5>
@@ -21,8 +21,8 @@ layout: two-column-sidebar
         </div>
         <hr class="article_horizontal_rule green"/>
         <div class="article_more">
-            <a target="_blank" href="{{post.url}}#disqus_thread" class="article_link"></a>
-            <a target="_blank" href="{{post.url}}#disqus_thread" class="article_link"></a>
+            <a href="{{post.url}}#disqus_thread" class="article_link"></a>
+            <a href="{{post.url}}#disqus_thread" class="article_link"></a>
         </div>
     </article>
     {% endfor %}

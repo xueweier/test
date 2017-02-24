@@ -2,12 +2,12 @@
         <div class="article_header">
             <h1 class="article_title">{{ page.title }}</h1>
           <h5 class="article_meta">{{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;
-          <a target="_blank" href="/category/{{ page.category }}.html" class="article-fa"><i
+          <a href="/category/{{ page.category }}.html" class="article-fa"><i
                         class="fa fa-folder-o"></i> {{ page.category }}</a>
 
 
                 {% for tag in page.tags %}
-                <a target="_blank" href="/category/tags/{{tag}}.html"><i class="fa fa-tag"></i> {{tag}}</a>
+                <a href="/category/tags/{{tag}}.html"><i class="fa fa-tag"></i> {{tag}}</a>
                 {% endfor %}
                 </h5>
 

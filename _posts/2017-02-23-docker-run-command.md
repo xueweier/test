@@ -5,13 +5,11 @@ category: tech
 tags: docker
 ---
 
-![](/assets/img/linux.jpg)
+![](/assets/img/docker.jpg)
 
 Docker会在隔离的容器中运行进程。当运行 docker run 命令时，Docker会启动一个进程，并为这个进程分配其独占的文件系统、网络资源和以此进程为根进程的进程组。
 
 docker run可以控制一个容器运行时的行为，它可以覆盖docker build在构建镜像时的一些默认配置，这也是为什么run命令相比于其它命令有如此多的参数的原因。
-
-本文大部分转载自[dockone.io][dockone]。
 
 命令格式
 
@@ -78,6 +76,8 @@ OPTIONS总起来说可以分为两类：
 
     如果在使用Docker时有自动化的需求，你可以将containerID输出到指定的文件中（PIDfile），类似于某些应用程序将自身ID输出到文件中，方便后续脚本操作。
     --cidfile="": Write the container ID to the file
+
+
 
 # Image[:tag]
 
