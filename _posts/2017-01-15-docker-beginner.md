@@ -41,7 +41,7 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
 在一切准备就绪后，就可以安装最新版本的 Docker 了，软件包名称为 docker-engine。将当前用户加入 docker 组，然后启动引擎。
 
     $ sudo apt-get install docker-engine
-    // 如果没有这个包的话，运行命令行 systemctl start docker
+    // 如果没有这个包的话，源码安装 $ curl -sSL https://get.docker.com/ | sh
     $ sudo usermod -aG docker $USER
     $ sudo systemctl enable docker
     $ sudo systemctl start docker
