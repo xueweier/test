@@ -15,20 +15,6 @@ tags: docker maintenance tutorial
 
 前几天新学习了 [docker][docker_gitbook] 的基本知识，包括安装、环境配置、获取和运行镜像等最基础的东西。今天学习一些 docker 的启动查看定制等操作。
 
-# 列出镜像
-
-    $ docker images
-    $ docker images -a // 中间层镜像
-    $ docker images xxx // 特定镜像
-
-# 运行镜像
-
-    $ docker run -it --rm debian bash
-    $ docker run --name webserver -d -p 1644:80 nginx
-    $ docker run --name web2 -d -p 81:80 nginx:v2
-    
-# 定制镜像
-
 镜像的定制实际上就是定制每一层所添加的配置、文件。如果我们可以把每一层修改、安装、构建、操作的命令都写入一个脚本，用这个脚本来构建、定制镜像，那么之前提及的无法重复的问题、镜像构建透明性的问题、体积的问题就都会解决。这个脚本就是 Dockerfile。
 用过 PHP Laravel 框架的应该马上就理解了（其他例如java kotlin等也是类似），这个就和 composer.json 脚本一样，用来保证环境一致性的配置文件。
 
@@ -54,8 +40,6 @@ Dockerfile 正确的写法应该是这样：
         && rm redis.tar.gz \
         && rm -r /usr/src/redis \
         && apt-get purge -y --auto-remove $buildDeps
-
-
 
 然后在该目录执行
 
