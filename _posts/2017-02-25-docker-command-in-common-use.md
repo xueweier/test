@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 转载(有改动) | Docker常用命令
+title: 转载 | Docker常用命令
 category: tech
 tags: docker
 ---
