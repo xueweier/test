@@ -129,9 +129,12 @@ tags: docker
           -t, --tag="" Repository name (and optionally a tag) to be applied to the resulting image in case of success
         $docker build -t image_name Dockerfile_path
 
-# 参考资料
-
-
 转载自 [tuicool][tuicool]
 
 [tuicool]: http://www.tuicool.com/articles/7V7vYn
+
+
+# 其他资料
+
+* [一些零散的Docker基础整理](https://blog.yasking.org/tag/docker.html)
+

@@ -62,14 +62,23 @@ tags: github git opensource
 
 [microbadger][microbadger]是一个管理你的Docker镜像的工具。
 
-# microbadger
+# Coveralls
 
-[microbadger][microbadger]是一个管理你的Docker镜像的工具。
+使用[coveralls][coveralls]在代码自动化测试时统计测试覆盖率
 
-# travis-ci.org
+# CI持续集成平台
+
+## appveyor
+
+随着SaaS的兴起，[appveyor][appveyor]把持续集成搬到了云端，我们无需架设自己的CI服务器，只需注册一个账号，然后把GitHub, BitBucket或者TFS 连上AppVeyor就可以了
+
+## travis-ci.org
 
 [Travis CI][travis-ci] 是目前新兴的开源持续集成构建项目，它与jenkins，GO的很明显的特别在于采用yaml格式，简洁清新独树一帜。目前大多数的github项目都已经移入到Travis CI的构建队列中。Travis-CI 使用 PostgreSQL 数据库。
 
+## circleci
+
+[CircleCI][circleci] 是又一个持续集成平台。
 
 # 参考资料
 
@@ -80,6 +89,15 @@ tags: github git opensource
 * [Go_Report_Card][Go_Report_Card]
 * [microbadger][microbadger]
 * [travis-ci][travis-ci]
+* [circleci][circleci]
+* [appveyor][appveyor]
+* [coveralls][coveralls]
+* [利用 AppVeyor 实现 GitHub 托管项目的自动化集成](http://www.gulu-dev.com/post/2015-05-01-appveyor-ci)
+* [云端持续集成——AppVeyor拥抱GitHub](http://www.cnblogs.com/henryzhu/p/contentious-integration-with-appveyor.html)
+* [使用AppVeyor CI 和PowerShell部署应用](http://www.infoq.com/cn/articles/AppVeyor-CI?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
+* [使用Travis-CI+Coveralls让你的Github开源项目持续集成](http://www.tuicool.com/articles/VR3a2ar)
+* [从自动化测试到持续部署，你需要了解这些](https://www.diycode.cc/topics/128)
+* [使用Travis-CI+Coveralls让你的Github开源项目持续集成](http://div.io/topic/1674)
 
 [shields.io]: http://shields.io
 [kcptun]: https://github.com/xtaci/kcptun/blob/master/README-CN.md
@@ -88,3 +106,6 @@ tags: github git opensource
 [Go_Report_Card]: https://goreportcard.com
 [microbadger]: https://microbadger.com
 [travis-ci]: https://travis-ci.org/getting_started
+[appveyor]: https://www.appveyor.com
+[circleci]: https://circleci.com
+[coveralls]: https://coveralls.io
