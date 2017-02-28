@@ -85,3 +85,4 @@ Identity Map保证每个对象只会从数据库中加载一次，一旦加载�
 * [wildurand-edu - github](https://github.com/willdurand-edu/php-slides/blob/master/src/common/09_databases.md)
 * [orm 系列 之 常用设计模式 - 简书](http://www.jianshu.com/p/b0a3ab7f8d47)
 * [架构模式中的Active Record和Data Mapper - 简书](http://www.jianshu.com/p/4a3432b514b1)
+* [Active Record 基础 - RailGuides](http://guides.ruby-china.org/active_record_basics.html)
