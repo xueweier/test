@@ -2,9 +2,10 @@
 layout: post
 title: Docker 新手上路（前传）
 category: tech
-tags: docker maintenance tutorial
+tags: docker devops tutorial
 ---
 
+![](/assets/img/docker.jpg)
 今晚将 [CSDN][docker_csdn] 上所有的 Docker 的文章浏览了一遍(53页,将近523篇文章)。
 
 在学习了基本的 Docker 部署的知识和简单应用后，回过头来从源头开始，再来看看 Docker 这项技术，大有收获。

@@ -2,9 +2,10 @@
 layout: post
 title: Docker 新手上路（二）——Dockerfile
 category: tech
-tags: docker maintenance tutorial
+tags: docker devops tutorial
 ---
 
+![](/assets/img/docker.jpg)
 今天的好玩新闻有这几件事：
 
 * 英国梅姨一声硬脱欧，英镑兑美元涨了将近2.6%

@@ -2,9 +2,10 @@
 layout: post
 title: Docker 新手上路（三）
 category: tech
-tags: docker maintenance tutorial
+tags: docker devops tutorial
 ---
 
+![](/assets/img/docker.jpg)
 今天的好玩新闻有这几件事：
 
 * [炉石传说罕见数据库事故！丢失30%数据](http://mp.weixin.qq.com/s/Vr36GpzR-UxcNLtiBLldEA)
