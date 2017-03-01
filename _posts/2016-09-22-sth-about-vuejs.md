@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于 Vue.js 的一点东西
-category: life
+category: tech
 tags: front-end js vuejs
 ---
 

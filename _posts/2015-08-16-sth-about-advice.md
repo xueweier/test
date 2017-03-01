@@ -2,7 +2,6 @@
 layout: post
 title: 关于给朋友技术指导这事
 category: life
-tags: life
 ---
 
 最近也遇到了和v2ex这个帖子里描述的类似的事情。感触颇深，于是写写。《[又一个私活因为给了建议，飞单了](http://www.v2ex.com/t/214713)》

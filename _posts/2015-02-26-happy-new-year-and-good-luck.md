@@ -2,7 +2,6 @@
 layout: post
 title: 新年快乐～
 category: life
-tags: life
 ---
 
 新年一下就跑过去了～嗯嗯。今天的新年过得轻松＋愉快，happy。和老同学见面聊天，在家里悠闲地起床不用担心早上迟到。幸福感满满。
