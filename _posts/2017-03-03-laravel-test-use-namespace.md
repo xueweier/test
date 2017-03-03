@@ -18,10 +18,7 @@ tags: test laravel phpunit
     "autoload-dev": {
        "psr-4": {
            "Tests\\": "tests"
-       },
-       "classmap": [
-           "tests/TestCase.php"
-       ]
+       }
 
 修改完成后 composer install 重新加载项目即可。
 
