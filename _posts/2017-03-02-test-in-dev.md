@@ -54,7 +54,6 @@ tags: test
         * selenium
         * watir
         * sikuli
-        
       
     * 性能测试：
       
@@ -82,9 +81,7 @@ tags: test
         * webscarab     代理劫持分析
         * fortify       白盒测试工具，源代码静态分析
         * w3af          Web应用程序攻击和检查框架
-      
         
-      
     * 兼容测试： 
       
       　　兼容性测试主要是测试系统在不同的软硬件环境下是否能够正常的运行。
