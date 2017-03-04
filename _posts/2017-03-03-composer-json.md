@@ -53,8 +53,9 @@ Java有Maven, Node.js有npm, ROR有gem,PHP有composer. 他们都是各个语言�
     // === 修改后，运行命令： composer dump-autoload, 让composer重建自动加载的信息
     // === composer 提供了4种自动加载类型 classmap psr-0 psr-4 files 
     // === files,对应的值是一个数组，数组元素是文件的路径，路径是相对于应用的根目录。
-    // === classmap，会在背后就会读取这个文件夹中所有的文件 然后再 vendor/composer/autoload_classmap.php 中怒将所有的 class 的 namespace + classname 生成成一个 key => value 的 php 数组
+    // === classmap，会在背后就会读取这个文件夹中所有的文件 然后再 vendor/composer/autoload_classmap.php 中怒将所有的 class 的 namespace + classname 生成成一个 key => value 的 php 数组.缺点是一旦增加了新文件，需要执行dump-autoload命令重新生成映射文件。
     // === psr-0 现在这个标准已经过时
+    // === psr-4 支持将命名空间映射到路径。命名空间结尾的\\不可省略。当执行install或update时，加载信息会写入vendor/composer/autoload_psr4.php文件。如果希望解析指定路径下的所有命名空间，则将命名空间置为空串即可。
         "autoload": {
          "files":["lib/OrderManager.php"],
             "classmap": [
@@ -106,3 +107,4 @@ Java有Maven, Node.js有npm, ROR有gem,PHP有composer. 他们都是各个语言�
 
 * [深入 Composer autoload](http://blog.hans-lizihan.com/php/2015/06/25/php-composer-autoload.html)
 * [composer.json 架构](http://docs.phpcomposer.com/04-schema.html)
+* [PHP的包依赖管理工具Composer简介](http://www.shipingzhong.cn/node/6403)
