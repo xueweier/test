@@ -34,7 +34,7 @@ JetBrains 公司下的其他产品包括：
 | Ctrl+Q | 显示注释文档 | 
 | Ctrl+/	 | 注释光标所在行代码 | 
 | Ctrl+Alt+L | 格式化代码 | 
-| Ctrl+Alt+O | 优化导入的类 | 
+| Ctrl+Alt+O | 格式化import列表 | 
 | Ctrl+Alt+V | [快速定义变量][1] | 
 | `/**+Enter` | 快速添加annotations | 
 | `Ctrl+[` | 移动光标到当前所在代码的花括号开始位置 | 
@@ -68,6 +68,12 @@ JetBrains 公司下的其他产品包括：
 IntelliJ 能帮助你快速优化语句。虽然感觉这个功能不太稳定，也蛮好的。
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/1421151682_6823.png)
+
+### 自定义注释信息
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170305210510.jpg)
+
+更详细设定查看官网[File Template Variables](https://www.jetbrains.com/help/idea/2016.3/file-template-variables.html)
 
 # 参考资料
 
