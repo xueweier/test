@@ -2,7 +2,7 @@
 layout: post
 title: PHPDocumentor 入门
 category: tech
-tags: php
+tags: php intellij
 ---
 
 ![](/assets/img/php.jpg)
@@ -65,7 +65,7 @@ DocBlock使用范围包括
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/bog/pic/201703/responsive.jpg)
     
-# 与IntelliJ IDEA结合
+# [与IntelliJ IDEA结合][idea]
 
 大部分人写代码还是需要IDE的。可以帮忙做诸如自动补全、预编译报警等等很多事情，减少问题，加快开发进度。我常用的是 JetBrains 厂的 IntelliJ Idea。 PHPDoc 和 IDEA 的结合还是蛮可以的。从 PHPDoc 的官网上就可以看出来, JeyBrains 还是他们的赞助商。
     
@@ -238,6 +238,7 @@ Docblocks 使用 Tag 的形式来标记。
 
 
 * [PHPDocumentor 官网](https://phpdoc.org)
+* [PHP的Annotations](https://xuwenzhi.com/2016/07/23/php的annotations)
 
 [first]: https://phpdoc.org/docs/latest/getting-started/your-first-set-of-documentation.html
 [run]: https://phpdoc.org/docs/latest/guides/running-phpdocumentor.html
