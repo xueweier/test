@@ -73,10 +73,25 @@ composer方式尝试之后发现与其它插件依赖冲突，[Can't install wit
 例如：
 
     phpdoc -f baseTags.php -t docs
+    
+搭起服务器就可以访问了。或者直接本地打开index.html文件也可以查看。
+    
+* 小问题    
+    
+    你可能会遇到如下问题(略过不解决也没问题的样子)：
+        
+        Unable to find the `dot` command of the GraphViz package. Is GraphViz correctly installed and present in your path?
+            
+    在官网上下载GraphViz：<http://www.graphviz.org/Download_windows.php>
+    然后增加环境变量，例如我的是 `C:\my_pp\Graphviz2.38\bin`
+
 
 要想获得更多参数说明， `phpdoc -h`即可。因为phpdoc可以使用模板，可以在官网上选择你中意的模板再导出。默认的样式如下图：
 
 ![](https://phpdoc.org/bundles/phpdocumentorwebsite/images/templates/clean.png)
+
+
+tips：phpdoc的中文文档真的很少，要深入使用还是尽量在官网上看。
 
 # 参考资料
 
