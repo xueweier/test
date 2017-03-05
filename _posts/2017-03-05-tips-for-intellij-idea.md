@@ -11,7 +11,7 @@ Idea 可谓我的主力IDE，吃饭的家伙。感觉 Idea 太大了没办法面
 
 # 关于 IDEA
 
-IDEA 全称 IntelliJ IDEA，JetBrains 公司旗下产品。IntelliJ在业界被公认为最好的java开发工具之一，尤其在智能代码助手、代码自动提示、重构、J2EE支持、Ant、JUnit、CVS整合、代码审查、 创新的GUI设计等方面的功能可以说是超常的。另外通过插件，Idea 对 PHP 和前端开发也有强力的支持。IntelliJ IDEA 是目前所有 IDE 中最具备沉浸式的 IDE，没有之一。
+IDEA 全称 IntelliJ IDEA，JetBrains 公司旗下产品。IntelliJ在业界被公认为最好的java开发工具之一，尤其在智能代码助手、代码自动提示、重构、J2EE支持、Ant、JUnit、CVS整合、代码审查、 创新的GUI设计等方面的功能可以说是超常的。另外通过插件，Idea 对 PHP 和前端开发也有强力的支持。个人感觉 IntelliJ IDEA 是目前所有 IDE 中最具备沉浸式的 IDE。
   
 JetBrains 公司下的其他产品包括：
   
@@ -24,9 +24,10 @@ JetBrains 公司下的其他产品包括：
 * 0xDBE 主要用于开发 SQL
 * Android Studio 主要用于开发 Android（Google 基本 IntelliJ IDEA 社区版进行迭代所以也姑且算上）
 
-这些产品的功能一般都可以通过 Idea + 插件的方式达到。
-  
 # 常用快捷键
+
+还有不少是与 Vim 重合的快捷键，就不列出来了。作为开发者，Vim 和 Emacs  少是会一个吧。    
+
 
 | 快捷键  | 说明  |
 |---|---|
@@ -47,9 +48,6 @@ JetBrains 公司下的其他产品包括：
 | Shift+F6 | 快速重命名变量 | 
 | Alt+Insert | 自动生成代码 | 
 | 连按两次Shift | 弹出SearchEverywhere | 
-
-  
-还有不少是与 Vim 重合的快捷键，就不列出来了。作为开发者，Vim 和 Emacs  少是会一个吧。    
 
 # 其他技巧
   
