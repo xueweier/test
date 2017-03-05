@@ -31,9 +31,9 @@ JetBrains 公司下的其他产品包括：
 | 快捷键  | 说明  |
 |---|---|
 | Ctrl+Q | 显示注释文档 | 
-| Ctrl+/	 | 注释光标所在行代码，会根据当前不同文件类型使用不同的注释符号 | 
+| Ctrl+/	 | 注释光标所在行代码 | 
 | Ctrl+Alt+L | 格式化代码 | 
-| Ctrl+Alt+O | 优化导入的类，可以对当前文件和整个包目录使用 | 
+| Ctrl+Alt+O | 优化导入的类 | 
 | Ctrl+Alt+V | [快速定义变量][1] | 
 | `/**+Enter` | 快速添加annotations | 
 | `Ctrl+[` | 移动光标到当前所在代码的花括号开始位置 | 
@@ -42,11 +42,12 @@ JetBrains 公司下的其他产品包括：
 | Ctrl+Alt+右 | 下一个操作的地方 | 
 | Ctrl+Alt+F12 | 快速在资源管理器中打开当前文件 | 
 | Ctrl+Shift+U | 大小写转换 | 
-| Ctrl+Shift+T | 对当前类生成单元测试类，如果已经存在的单元测试类则可以进行选择 | 
+| Ctrl+Shift+T | 对当前类生成单元测试类 | 
 | F2 | 跳转到下一个高亮错误或警告位置 | 
 | Shift+F6 | 快速重命名变量 | 
 | Alt+Insert | 自动生成代码 | 
 | 连按两次Shift | 弹出SearchEverywhere | 
+
   
 还有不少是与 Vim 重合的快捷键，就不列出来了。作为开发者，Vim 和 Emacs  少是会一个吧。    
 
@@ -55,6 +56,7 @@ JetBrains 公司下的其他产品包括：
 ### 查看效率指南
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170305183744.jpg)
+
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170305183724.jpg)
 
 ### <span id='extract'>快速定义变量</span>
