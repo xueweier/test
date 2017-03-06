@@ -75,23 +75,42 @@ composer方式尝试之后发现与其它插件依赖冲突，[Can't install wit
     phpdoc -f baseTags.php -t docs
     
 搭起服务器就可以访问了。或者直接本地打开index.html文件也可以查看。
-    
-* 小问题    
-    
-    你可能会遇到如下问题(略过不解决也没问题的样子)：
-        
-        Unable to find the `dot` command of the GraphViz package. Is GraphViz correctly installed and present in your path?
-            
-    在官网上下载GraphViz：<http://www.graphviz.org/Download_windows.php>
-    然后增加环境变量，例如我的是 `C:\my_pp\Graphviz2.38\bin`
-
 
 要想获得更多参数说明， `phpdoc -h`即可。因为phpdoc可以使用模板，可以在官网上选择你中意的模板再导出。默认的样式如下图：
 
 ![](https://phpdoc.org/bundles/phpdocumentorwebsite/images/templates/clean.png)
 
-
 tips：phpdoc的中文文档真的很少，要深入使用还是尽量在官网上看。
+    
+# 小问题    
+    
+* GraphViz not installed
+
+    在终端运行phpdoc时你可能会遇到如下问题(略过不解决也没问题的样子)：
+        
+        Unable to find the `dot` command of the GraphViz package. Is GraphViz correctly installed and present in your path?
+            
+    这是由于系统没有安装 GraphViz 的原因。官网上下载GraphViz：<http://www.graphviz.org/Download_windows.php>
+    然后增加环境变量，例如我的是 `C:\my_pp\Graphviz2.38\bin`
+
+* Phpdoc No Summary found for this file
+  
+    在生成的文档页面中会有错误提示。其中有一个诡异的错误
+  
+        Type        Line    Description
+        error       0       No summary was found for this file  
+    
+    具体的原因这个 Stackoverflow 回答的很好 —— [《Phpdoc No Summary found for this file》][stack]。以下是我的解决办法:
+
+        /**
+         * Class Category | Notification/NtCenter.php
+         *
+         * @package App\Notification\Models
+         * @author kelvinblood <admin@kelu.org>
+         * @version     v0.0.1 (2017-3-6)
+         * @copyright   Copyright (c) 2017, kelu.org
+         */
+   
 
 # 参考资料
 
@@ -99,6 +118,8 @@ tips：phpdoc的中文文档真的很少，要深入使用还是尽量在官网�
 * [pear：使用phpdoc轻松建立你的pear文档 - ibm](https://www.ibm.com/developerworks/cn/linux/sdk/php/pear3/)
 * [windows下安装PhpDocumentor(phpdoc)笔记](http://www.cnblogs.com/52fhy/p/3979894.html)
 * [Creating PHP Documentation Comments - intellij idea](https://www.jetbrains.com/help/idea/2016.3/creating-php-documentation-comments.html)
+* [Phpdoc No Summary found for this file][stack]
 
 [phpdoc_install]: https://www.phpdoc.org/docs/latest/getting-started/installing.html
 [composer_conflict]: https://github.com/phpDocumentor/phpDocumentor2/issues/1738
+[stack]: http://stackoverflow.com/questions/21312643/phpdoc-no-summary-found-for-this-file
