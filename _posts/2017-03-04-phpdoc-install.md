@@ -1,13 +1,13 @@
 ---
 layout: post
-title: PHPDocumentor 介绍与安装
+title: PHPDoc 介绍与安装
 category: tech
 tags: php
 ---
 
 ![](/assets/img/php.jpg)
 
-PHPDocumentor是一个用PHP写的强大的文档自动生成工具，对于有规范注释的php程序，能够快速生成具有结构清晰、相互参照、索引等功能的API文档。
+PHPDoc是一个用PHP写的强大的文档自动生成工具，对于有规范注释的php程序，能够快速生成具有结构清晰、相互参照、索引等功能的API文档。
 
 PHPDoc的原理是: 扫描指定目录下面的php源代码，扫描其中的关键字，截取需要分析的注释，然后分析注释中的专用的tag，生成xml文件，接着根据已经分析完的类和模块的信息，建立相应的索引，生成xml文件对于生成的xml文件，使用定制的模板输出为html文件。 
 
@@ -17,7 +17,7 @@ PHPDoc的原理是: 扫描指定目录下面的php源代码，扫描其中的关
 
 # 增加php环境依赖
 
-PHPDocumentor 依赖于 xsl 和 intl 插件，如果 php.ini 没有打开这两个插件的话要预先打开。当然也可以直接跳过，后边安装不了会弹出错误的，例如：
+PHPDoc 依赖于 xsl 和 intl 插件，如果 php.ini 没有打开这两个插件的话要预先打开。当然也可以直接跳过，后边安装不了会弹出错误的，例如：
 
     phpdocumentor/template-zend 1.3.2 requires ext-xsl * -> the requested PHP extension xsl is missing from your system.
     zendframework/zend-i18n 2.1.6 requires ext-intl * -> the requested PHP extension intl is missing from your system.
@@ -27,7 +27,7 @@ PHPDocumentor 依赖于 xsl 和 intl 插件，如果 php.ini 没有打开这两�
     extension=php_xsl.dll
     extension=php_intl.dll
 
-PHPDocumentor安装方式有三种
+PHPDoc安装方式有三种
 
 1. PEAR
 1. PHAR
@@ -55,13 +55,13 @@ composer方式尝试之后发现与其它插件依赖冲突，[Can't install wit
     
     pear channel-discover pear.phpdoc.org
     
-# 安装 PHPDocumentor
+# 安装 PHPDoc
 
     pear install phpdoc/phpdocumentor
 
 于是就安装完成了。
 
-# PHPDocumentor的简单使用
+# PHPDoc的简单使用
 
 最简单的命令是：
 
@@ -114,9 +114,9 @@ tips：phpdoc的中文文档真的很少，要深入使用还是尽量在官网�
 
 # 参考资料
 
-* [PHPDocumentor 官网](https://phpdoc.org)
+* [PHPDoc 官网](https://phpdoc.org)
 * [pear：使用phpdoc轻松建立你的pear文档 - ibm](https://www.ibm.com/developerworks/cn/linux/sdk/php/pear3/)
-* [windows下安装PhpDocumentor(phpdoc)笔记](http://www.cnblogs.com/52fhy/p/3979894.html)
+* [windows下安装PHPDoc(phpdoc)笔记](http://www.cnblogs.com/52fhy/p/3979894.html)
 * [Creating PHP Documentation Comments - intellij idea](https://www.jetbrains.com/help/idea/2016.3/creating-php-documentation-comments.html)
 * [Phpdoc No Summary found for this file][stack]
 

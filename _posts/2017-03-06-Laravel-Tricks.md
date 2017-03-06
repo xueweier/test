@@ -518,11 +518,11 @@ tags: php laravel
 * [理解Laravel中的pipeline](http://www.jianshu.com/p/3c2791a525d0)
 
 [original]: http://www.mamicode.com/info-detail-1617045.html
-[1] : #1
-[2] : #2
-[3] : #3
-[4] : #4
-[5] : #5
-[6] : #6
-[7] : #7
-[8] : #8
+[1]: #1
+[2]: #2
+[3]: #3
+[4]: #4
+[5]: #5
+[6]: #6
+[7]: #7
+[8]: #8

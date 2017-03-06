@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHPDocumentor 入门
+title: PHPDoc 入门
 category: tech
 tags: php intellij
 ---
@@ -237,7 +237,7 @@ Docblocks 使用 Tag 的形式来标记。
 # 参考资料
 
 
-* [PHPDocumentor 官网](https://phpdoc.org)
+* [PHPDoc 官网](https://phpdoc.org)
 * [PHP的Annotations](https://xuwenzhi.com/2016/07/23/php的annotations)
 
 [first]: https://phpdoc.org/docs/latest/getting-started/your-first-set-of-documentation.html
