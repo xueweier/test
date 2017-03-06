@@ -100,7 +100,7 @@ tips：phpdoc的中文文档真的很少，要深入使用还是尽量在官网�
         Type        Line    Description
         error       0       No summary was found for this file  
     
-    具体的原因这个 Stackoverflow 回答的很好 —— [《Phpdoc No Summary found for this file》][stack]。以下是我的解决办法:
+    具体的原因这个 Stackoverflow 回答的很好 —— [《Phpdoc No Summary found for this file》][stack]。以下是我的解决办法，在文件头部加上如下信息:
 
         /**
          * Class Category | Notification/NtCenter.php
