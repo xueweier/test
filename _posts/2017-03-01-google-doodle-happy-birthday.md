@@ -2,6 +2,7 @@
 layout: post
 title: google doodle 显示生日快乐
 category: life
+tags: google
 ---
 
 今天按照惯例喵了一眼google doodle，惊讶地发现是这样的。
