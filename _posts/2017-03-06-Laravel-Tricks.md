@@ -138,7 +138,10 @@ tags: php laravel
 1. 同时新建model和migration.         
          
          php artisan make:model Books -m
-        
+
+
+
+
 # <span id='2'>Eloquent ORM 篇</span>        
         
 1. 有条件的关联关系
