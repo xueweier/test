@@ -2,7 +2,7 @@
 layout: post
 title: selenium 入门
 category: tech
-tags: selenium spider php composer
+tags: selenium spider test
 ---
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/selenium1.jpg)
