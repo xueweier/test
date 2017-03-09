@@ -75,8 +75,6 @@ tags: php laravel
 
 1. uuid作为主键
 
-    终于可以自豪一下，这个高级用法一开始就在用了。
-
          use Ramsey\Uuid\Uuid;
          
          trait UUIDModel
@@ -98,6 +96,9 @@ tags: php laravel
                  return Uuid::uuid4();
              }
          }
+        
+        
+        
         
 1. 简单的加减数字
         
