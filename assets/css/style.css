@@ -1014,6 +1014,7 @@ img.alignnone {
     width: 100%;
     text-align: center;
     overflow: hidden;
+	font-size: smaller;
 }
 /* Always remember to compress your live stylesheet and keep an uncompressed backup */
 
