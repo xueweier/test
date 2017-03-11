@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在ncpssd.org下载论文不要钱啊！
-category: nichijou
+category: life
 ---
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/filehelper_1489153809879_43.png)
