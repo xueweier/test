@@ -973,6 +973,11 @@ img.alignnone {
     width: 64px;
     vertical-align: top;
 }
+.link-item-2 {
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+}
 .link-item .link-item-inner{
   display: block;
     overflow: hidden;
