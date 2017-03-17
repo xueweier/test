@@ -7,6 +7,17 @@ tags: linux
 
 ![](/assets/img/linux.jpg)
 
+# 临时修改
+
+    ifconfig eth0 10.192.147.241 netmask 255.255.255.0
+    route add default gw 10.192.147.245
+
+vi /etc/resolv.conf
+
+    nameserver 192.168.0.1
+
+# 永久修改
+
 vi /etc/network/interfaces
 
     auto lo
@@ -18,10 +29,10 @@ vi /etc/network/interfaces
     netmask 255.255.255.0 # 子网掩码
     gateway 192.168.0.1
 
-vi /etc/resolv.conf
-
-    nameserver 192.168.0.1
-
+vi /etc/resolvconf/resolv.conf.d/base
+    
+    nameserver 8.8.8.8
+    nameserver 8.8.4.4
 
 # 常见问题
 
