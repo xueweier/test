@@ -2,7 +2,7 @@
 layout: post
 title: Chrome 的内存优化插件 Great Suspender
 category: software
-tags: chrome
+tags: chrome google
 ---
 
 ![](/assets/img/chrome2.jpg)

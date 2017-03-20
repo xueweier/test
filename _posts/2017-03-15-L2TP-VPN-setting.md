@@ -17,6 +17,7 @@ p img {width: 480px}
 * 在[Android](#android)下的设置
 * 在[iPhone](#iphone)下的设置
 
+<span id="android"></span>
 ## 在Android下的设置
 
 ![L2TP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-01.png)
