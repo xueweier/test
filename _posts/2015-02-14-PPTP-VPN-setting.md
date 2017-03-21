@@ -5,6 +5,8 @@ category: tech
 tags: proxy pptp
 ---
 
+  >>>[购买链接](http://wechat.kelu.org/charge)<<<
+  
 <style type="text/css">
 p img {width: 480px}
 </style>
@@ -13,6 +15,7 @@ p img {width: 480px}
 血衫的服务器在大部分网络下是可以使用的——直连到网络运营商的网络，例如中国电信/联通，或者手机的3G4G网路。不少的第三方网络运营商无法使用，以及在某些无线路由器下无法使用。
 
 本文是PPTP的设置方法，L2TP请戳这里  >>>[L2TP](http://blog.kelu.org/tech/2017/03/15/L2TP-VPN-setting.html)<<<
+
 
 
 * 在[Windows](#windows)下的设置

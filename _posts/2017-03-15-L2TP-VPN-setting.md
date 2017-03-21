@@ -5,6 +5,8 @@ category: tech
 tags: proxy l2tp
 ---
 
+  >>>[购买链接](http://wechat.kelu.org/charge)<<<
+  
 <style type="text/css">
 p img {width: 480px}
 </style>
