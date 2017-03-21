@@ -1,11 +1,13 @@
 ---
 layout: post
-title: zsh 显示hostname - zsh的进阶配置
+title: zsh进阶配置 - 显示 hostname
 category: tech
 tags: linux
 ---
 
 ![](/assets/img/linux.jpg)
+
+你可以查看我在github上的开源项目 [KeluLinuxKit][KeluLinuxKit] 获得完整源码。
 
 手上有好几台服务器，配置都是相似的，也使用zsh。每次窗口稍微一多，就不知道是在哪个服务器上了，每次`hostname`也是麻烦。寻思着还是想办法在zsh上显示`hostname`吧。然后找到了一个超强的 .zshrc 配置。原文在这：[My Extravagant Zsh Prompt][Zsh-Prompt]
 
@@ -60,3 +62,4 @@ tags: linux
 * [My Extravagant Zsh Prompt][Zsh-Prompt]
 
 [Zsh-Prompt]: http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/
+[KeluLinuxKit]: https://github.com/kelvinblood/KeluLinuxKit
