@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 《离骚》 - 屈原
+title: 离骚 - 屈原
 category:  literature
-tags: quyuan the-warring-states-period
 ---
 
 ![](/assets/img/literature.jpg)

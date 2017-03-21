@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chrome 插件vimium —— vim党的福音
-category: software
+category: tech
 tags: chrome vimium vim
 ---
 

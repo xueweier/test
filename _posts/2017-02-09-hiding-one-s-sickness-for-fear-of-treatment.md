@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 扁鹊见蔡桓公 —— 《韩非子·喻老》
+title: 扁鹊见蔡桓公 - 韩非子
 category: literature
 ---
 

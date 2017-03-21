@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 谏逐客书 —— 李斯
+title: 谏逐客书 - 李斯
 category: literature
 ---
 

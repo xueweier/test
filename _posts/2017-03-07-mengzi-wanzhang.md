@@ -2,7 +2,6 @@
 layout: post
 title: 普天之下，莫非王土；率土之滨，莫非王臣。 - 孟子
 category: literature
-tags: mengzi
 ---
 
 ![](/assets/img/literature.jpg)
