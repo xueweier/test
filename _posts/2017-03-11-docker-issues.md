@@ -29,7 +29,6 @@ tags: docker
     * [docker issues - github](https://github.com/docker/docker/issues/16816)
     * [docker run実行時のiptablesエラー](http://qiita.com/miwato/items/9770a2a757d3f5e369a4)
     
-    
 * iptable filter
 
     使用 Docker PPTP 的 iptable 例子
