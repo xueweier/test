@@ -5,18 +5,19 @@ category: tech
 tags: proxy pptp
 ---
 
-  >>>[购买链接](http://wechat.kelu.org/charge)<<<
+* 购买请戳这里 >>>[购买链接](http://wechat.kelu.org/charge)<<<
+  
+* L2TP协议请戳这里  >>>[L2TP](/tech/2017/03/15/L2TP-VPN-setting.html)<<<
+
+* Shadowsocks协议请戳这里  >>>[Shadowsocks](/tech/2017/01/05/shadowsocks-setting.html)<<<
   
 <style type="text/css">
 p img {width: 480px}
 </style>
-<p style="font-size: 1.3em; text-align:center">建议测试时首先使用3G4G网络测试，测试可用后再换成平时常用的网络。</p>
 
-血衫的服务器在大部分网络下是可以使用的——直连到网络运营商的网络，例如中国电信/联通，或者手机的3G4G网路。不少的第三方网络运营商无法使用，以及在某些无线路由器下无法使用。
+手机平板设备建议使用L2TP，电脑Mac使用Shadowsocks。
 
-本文是PPTP的设置方法，L2TP请戳这里  >>>[L2TP](http://blog.kelu.org/tech/2017/03/15/L2TP-VPN-setting.html)<<<
-
-
+血衫的服务器在大部分网络下是可以使用的——直连到网络运营商的网络，例如中国电信/联通，或者手机的3G4G网路。不少的第三方网络运营商无法使用，以及在某些无线路由器下无法使用。建议测试时首先使用3G4G网络测试，测试可用后再换成平时常用的网络。
 
 * 在[Windows](#windows)下的设置
 * 在[Mac](#mac)下的设置

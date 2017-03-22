@@ -5,8 +5,14 @@ category: tech
 tags: proxy shadowsocks
 ---
 
-  >>>[购买链接](http://wechat.kelu.org/charge)<<<
+* 购买请戳这里 >>>[购买链接](http://wechat.kelu.org/charge)<<<
   
+* L2TP协议请戳这里  >>>[L2TP](/tech/2017/03/15/L2TP-VPN-setting.html)<<<
+
+* PPTP协议请戳这里  >>>[PPTP](/tech/2015/02/14/PPTP-VPN-setting.html)<<<
+
+手机平板设备建议使用L2TP，电脑Mac使用Shadowsocks。
+
 Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文和开发程序必不可少。学会正确的上网姿势，是成为现代人的很重要的一步哦。
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170121015337.jpg)
