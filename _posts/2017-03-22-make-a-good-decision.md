@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 转载 | 做出好决定 - 理性掌控工作与生活
-category: tech
-tags: literature
+category: literature
 ---
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/1729380-e48f514dd09b5a24.jpg)

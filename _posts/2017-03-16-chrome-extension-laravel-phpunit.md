@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chrome extension - Laravel TestTools
+title: Chrome 插件 - Laravel TestTools
 category: tech
 tags: chrome google laravel
 ---

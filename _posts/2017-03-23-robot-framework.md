@@ -2,7 +2,7 @@
 layout: post
 title: robot framework 简介与相关应用
 category: tech
-tags: robot_framework test
+tags: test
 ---
 
 ![](/assets/img/test.jpg)
