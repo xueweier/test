@@ -32,7 +32,14 @@ code{
     margin: 0 0.2em;
     font-weight: bold;
 }
-
+blockquote {  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    padding-left: 25px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }   
+  
 
 a {
     color: rgba(255, 255, 255, 0.85);
@@ -158,10 +165,7 @@ header {
           margin-bottom: 1em;
         }
         .article_content > blockquote > p {
-          font-size: 16px;
-          line-height:25px;
-          margin-left: 15%;
-          margin-bottom: 1em;
+          color: #aaa;
         }
 		.article_header {
 		}

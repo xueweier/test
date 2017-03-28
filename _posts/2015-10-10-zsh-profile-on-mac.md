@@ -26,7 +26,7 @@ zsh 启动过程中会依次读取以下文件：
 
 * /etc/zshenv
 * $ZDOTDIR/.zshenv（$ZDOTDIR 未设置时默认为 $HOME）
-* 如果是 login shell，读取 /etc/zprofile, $ZDOTDIR/.zprofile
+* 如果是 non-login shell，读取 /etc/zprofile, $ZDOTDIR/.zprofile
 * 如果是 interactive shell，读取 /etc/zshrc, $ZDOTDIR/.zshrc
 * 如果是 login shell，读取 /etc/zlogin, $ZDOTDIR/.zlogin
 
@@ -38,7 +38,9 @@ non-interactive shell 以 shell script（非交互）方式执行。
 
 
 ## Mac下zsh问题探讨
-『纯转载』
+
+>
+纯转载
 
 那么问题来了，在 Mac OS X 中打开 iTerm.app 或者 Terminal.app 启动的 shell 是什么类型呢？通常来说，应该是 interactive, non-login shell，但实际上却是 interactive, login shell，至于为什么这样就不深究了。下面的测试代码可以证明：
 

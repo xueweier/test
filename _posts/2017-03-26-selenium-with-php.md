@@ -426,5 +426,6 @@ until方法
 
 * [seleniumHQ document](http://www.seleniumhq.org/docs)
 * [facebook/php-webdriver/wiki](https://github.com/facebook/php-webdriver/wiki)
+* [Selenium 中文文档](https://wizardforcel.gitbooks.io/selenium-doc/content/official-site/selenium-web-driver.html)
 
 [facebook]: https://github.com/facebook/php-webdriver
