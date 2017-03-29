@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selenium 相关
+title: Selenium 介绍
 category: tech
 tags: selenium test webdriver
 ---

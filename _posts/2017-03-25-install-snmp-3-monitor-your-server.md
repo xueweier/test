@@ -54,15 +54,15 @@ SNMP支持不同的验证机制，这取决于不同的SNMP协议版本
 
 然后添加一个只读帐号（确保 SNMP 不运行):
     
-    rouser xxx auth
+    rouser kelu auth
 
 >
-“rouser”用于表示只读帐号类型，随后的“jiankongbao”是指定的用户名，后边的“auth”指明需要验证。
+“rouser”用于表示只读帐号类型，随后的“kelu”是指定的用户名，后边的“auth”指明需要验证。
 
 添加创建用户的指令
 
     vi /var/net-snmp/snmpd.conf
-    createUser jiankongbao MD5 mypassword
+    createUser kelu MD5 mypassword
 
 >
 创建一个名为“kelu”的用户，密码为“mypassword”，并且用MD5进行加密传输。
