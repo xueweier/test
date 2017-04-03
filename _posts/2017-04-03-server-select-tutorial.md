@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 云服务器选购指南
+title: 一些云服务器推荐
 category: tech
 ---
 
@@ -10,7 +10,7 @@ category: tech
 
 另外关于云服务器和虚拟主机、vps的区别，这里我不做过多区分。想进一步了解的可以百度一下。
 
-推荐： [linode](https://www.linode.com/?r=aa8f5ea473a428437f11ee091d9eae6231752707) 
+强烈推荐： [linode](https://www.linode.com/?r=aa8f5ea473a428437f11ee091d9eae6231752707) 
 
 vps中的高富帅，在美国、德英国、新加坡、日本共有9处机房位置，非常稳定。换过下文好多家，最终还是用了 linode。 使用上面的链接注册，你可以获得20刀的优惠券。
 
