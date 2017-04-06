@@ -227,8 +227,15 @@ tags: google
     牙买加 google.com.jm 英语
     海地 google.ht
 
+### Safari
+
+特别的，针对于 Mac 用户以及 Safari 蛋疼的尿性——没办法自定义搜索引擎，可以通过插件[『Clean Links for Google』][2]达到不再重定向、直达.com的作用。
+
+当然，要使得这个插件生效，你同样需要先访问 <google.com/ncr> 。再接下来地址栏搜索，就会直达 .com 网站啦。
+
 # 参考资料
 
 * [谷歌（google)世界各国网址大全](https://www.douban.com/note/202069625/)
 
 [1]: http://www.leiphone.com/news/201412/Hnux7n19OcNWwUFt.html
+[2]: https://safari-extensions.apple.com/details/?id=com.umetzu.disablegoogleredirect-NP536EQGR6
