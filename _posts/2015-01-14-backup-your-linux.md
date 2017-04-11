@@ -2,7 +2,7 @@
 layout: post
 title: 备份你的Linux
 category: tech
-tags: linux
+tags: linux rsync
 ---
 
 

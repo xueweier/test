@@ -5,7 +5,7 @@ category: tech
 tags: postgresql database
 ---
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/postgresql-up-and-running.png)
+![](/assets/img/postgresql.jpg)
 
 最近换了办公环境，发现内部测试时使用 postgres 无法正常连接数据库。 使用工具连接时报错 
 
