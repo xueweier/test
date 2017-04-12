@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《和血衫学日语》 第一天
+title: 《和血衫考二级》 第一天
 category: japanese
 tags: japanese
 ---
