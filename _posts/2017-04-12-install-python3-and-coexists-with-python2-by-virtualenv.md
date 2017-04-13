@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python3 安装与使用virtualenv建立虚拟环境
+title: python3 的安装与 virtualenv 建立虚拟环境
 category: tech
 tags: python
 ---
