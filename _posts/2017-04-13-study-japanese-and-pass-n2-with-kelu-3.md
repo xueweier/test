@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《和血衫一起考二级》 第三天
+title: 【和血衫一起考二级】 第三天
 category: japanese
 tags: japanese
 ---
