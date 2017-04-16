@@ -121,6 +121,10 @@ ss命令可以用来获取socket统计信息，它可以显示和netstat类似�
 
 tcpdump可以将网络中传送的数据包的“头”完全截获下来提供分析。它支持针对网络层、协议、主机、网络或端口的过滤。
 
+基本上tcpdump总的的输出格式为：系统时间 来源主机.端口 > 目标主机.端口 数据包参数
+
+    -i eth0  # 监视指定网络接口的数据包 
+
 # 例子
 
 
@@ -374,6 +378,13 @@ tcpdump可以将网络中传送的数据包的“头”完全截获下来提供�
      
     main
 
+## 获得本机 ip
+
+    ifconfig | grep -A 1 $eth | awk -F'[: ]+' '$0~/inet addr:/{printf $4"|"}' | sed -e 's/|$//' -e 's/^/(/' -e 's/$/)\\\\\.[0-9]+:/'
+    
+结果：
+    
+    (103.29.71.237)\\.[0-9]+:#
 
 ## 接口流量/proc/net/dev
 
@@ -401,3 +412,4 @@ tcpdump可以将网络中传送的数据包的“头”完全截获下来提供�
 * [How To Find BASH Shell Array Length ( number of elements ))](https://www.cyberciti.biz/faq/finding-bash-shell-array-length-elements)    
 * [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)    
 * [网络分析shell脚本(实时流量+连接统计)](https://www.centos.bz/2014/06/shell-script-for-network-analysis/)    
+* [Linux tcpdump命令详解](http://www.cnblogs.com/ggjucheng/archive/2012/01/14/2322659.html)
