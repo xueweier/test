@@ -5,6 +5,8 @@ category: tech
 tags: wechat
 ---
 
+![](/assets/img/wechat.jpg)
+
 开发公众号也有好一段时间了，说起来开发是蛮简单的。很久没看了，最近遇到了一些问题，小小总结一下。
 
 ### 客服接口65400错误

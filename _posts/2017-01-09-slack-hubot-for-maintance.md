@@ -49,15 +49,24 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 
 安装好环境后，在我们感兴趣的目录下，可以开始新建我们的hubot项目了。
 
-	mkdir my-awesome-hubot && cd my-awesome-hubot
+如果你是以root用户安装的话，记得要给相关的文件夹赋权限。 要不然就会像下面这样。
+
+    EACCES: permission denied, open '/root/.config/configstore/insight-yo.json'
+    You don't have access to this file.
+
+赋予配置文件权限，新建项目:
+
+    chmod g+rwx /root /root/.config /root/.config/configstore /root/.npm
+
+	mkdir my-awesome-hubot
+	chmod 777 my-awesome-hubot 
+	cd my-awesome-hubot
 	yo hubot --adapter=slack
 
-如果你是以root用户安装的话，记得要给相关的文件夹赋权限。
+
 同时你还需要去hubot页面生成你的机器人[API Token][Integration_setting]。在获得api token之后，你可以运行以下命令跑起来了。
 
     HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
-
-
 
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/filehelper_1484244539165_20.png)
@@ -104,22 +113,6 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 
 # 4. 高级配置   
 
-在bash/handlers文件夹下新建一个文件，名字就叫比如说cpu，内容如下：
-
-由于每次启动hubot时，都需要执行以下一串长长的命令：
-
-    HUBOT_SLACK_TOKEN=xoxb-token ./bin/hubot --adapter slack
-
-可以把这个环境变量放在fish的config里，路径是：~/.config/fish/config.fish .添加以下一行命令：
-
-    set -x HUBOT_SLACK_TOKEN xoxb-token  #不写token
-    set -x HUBOT_SHELLCMD_KEYWORD run    #代替 shellcmd
-    
-这样你每次启动hubot时，就只需要执行以下这句就行了：
-
-    ./bin/hubot --adapter slack
-    hubot run update
-    
 # 5. 其他开发
 
 参考 [hubot][hubot_doc] 的两个文档 scripting 和 patterns，写的非常详细。下面是个简单的例子，将收到的信息转发到网站。
@@ -165,6 +158,7 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 * [开发Hubot聊天机器人](http://rensanning.iteye.com/blog/2329278)
 * [用slack和hubot搭建你自己的运维机器人 - segmentfault](https://segmentfault.com/a/1190000006681056)
 * [使用Slack和Hubot搭建自己的机器人](https://www.liudon.org/1329.html)
+* [eaccess permission denied when trying to use yo - github issue](https://github.com/yeoman/yeoman.github.io/issues/282)
 
     
 [Yeoman]: http://yeoman.io/
