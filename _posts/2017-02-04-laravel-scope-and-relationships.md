@@ -85,7 +85,6 @@ scope 的便利之处在于在繁杂的数据中确定出数据间的逻辑关�
        // return $this->account()->yesterday();
     }
     
-    
 # 参考资料
 
 * [Laravel. Use scope() in models with relation](http://stackoverflow.com/questions/26178315/laravel-use-scope-in-models-with-relation)

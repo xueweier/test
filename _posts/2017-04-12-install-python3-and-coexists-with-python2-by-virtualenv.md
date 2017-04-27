@@ -28,10 +28,14 @@ tags: python
 
 # 安装 Python2 的 pip
 
+两种方式，一种是源码安装：
+
     cd /tmp
     wget https://bootstrap.pypa.io/get-pip.py
     python get-pip.py
  
+另一种是 apt 安装(Debian系)。
+
 # 安装virtualenv
 
     pip install virtualenv
@@ -58,3 +62,4 @@ tags: python
 # 参考资料
     
 * [在Debian上编译安装Python3.4及使用virtualenv建立虚拟环境](https://xiaoguo.net/post/Install-Python3-and-virtualenv-in-debian.html)    
+* [Upgrade to Python 2.7.11 on Ubuntu 14.04 LTS](http://mbless.de/blog/2016/01/09/upgrade-to-python-2711-on-ubuntu-1404-lts.html)    

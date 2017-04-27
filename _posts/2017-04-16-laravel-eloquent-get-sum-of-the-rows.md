@@ -7,7 +7,14 @@ tags: php laravel
 
 ![](/assets/img/laravel.jpg)
 
-最近写到相关的代码，做个记录。
+最近写到相关的代码，直接上代码做个记录。
+
+    public function scopeUserSum($query)
+    {
+        return $query->groupBy('username')->selectRaw('sum(data) as sum, username')->orderBy('sum', 'desc');
+    }
+
+如果只是纯粹求一列的和，在builder上直接用sum即可。
     
 # 参考资料
     
