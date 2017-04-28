@@ -11,12 +11,12 @@ tags: proxy shadowsocks
 
 * PPTP协议请戳这里  >>>[PPTP](/tech/2015/02/14/PPTP-VPN-setting.html)<<<
 
-手机平板设备建议使用L2TP，电脑Mac使用Shadowsocks。
-
 Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文和开发程序必不可少。学会正确的上网姿势，是成为现代人的很重要的一步哦。
 
 * 在[Windows](#windows)下的设置
 * 在[Mac](#mac)下的设置
+* 在[Android](#android)下的设置
+* 在[iOS](#iOS)下的设置
 
 <span id="windows"></span>
 
@@ -59,6 +59,15 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
     全局模式就是所有请求都通过 Shadowsocks 设置的服务器进行访问.
 PAC 模式是智能判断该网站是否需要通过设置的服务器进行访问。
 
+<span id="android"></span>
+
+# android 基本使用
+
+* 下载安装程序： [下载链接][ss_a]。
+
+
+
+<span id="iOS"></span>
 
 
 # 高级使用
@@ -76,3 +85,4 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 [ss_w]: http://wechat.kelu.org/download/kelussW.zip
 [ss_x]: http://wechat.kelu.org/download/kelussX.zip
+[ss_a]: http://wechat.kelu.org/download/shadowsocks.apk
