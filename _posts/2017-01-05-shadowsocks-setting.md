@@ -18,13 +18,17 @@ Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文�
 * 在[Android](#android)下的设置
 * 在[iOS](#iOS)下的设置
 
+
 <span id="windows"></span>
 
 # Windows 基本使用
 
-* 下载程序： [下载链接][ss_w]。 解压到你希望运行程序的路径，例如：`C:\Program Files (x86)\ss`
+新手在使用前请关闭本机/浏览器的本地代理插件，例如,Chrome插件Proxy SwitchySharp。
+
+* 下载程序： [链接一][ss_w]，[链接二][ss_w_baidu] 密码 f53i。 解压到你希望运行程序的路径，例如：`C:\Program Files (x86)\ss`
 
 * 在任务栏找到 Shadowsocks 图标，在 服务器 菜单添加服务器(首次双击运行程序自动打开)
+
 ![1](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223605.png)
 
 * 选择 启用系统代理 来启用系统代理。
@@ -32,19 +36,18 @@ Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文�
 ![2](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223622.png)
 ![3](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223615.png)
 
-
 * PAC 模式和全局模式的区别：
 
     全局模式就是所有请求都通过 Shadowsocks 设置的服务器进行访问.
 PAC 模式是智能判断该网站是否需要通过设置的服务器进行访问。
 
-
-
 <span id="mac"></span>
 
 # Mac 基本使用
 
-* 下载程序： [下载链接][ss_x]。双击 dmg 文件安装。
+新手在使用前请关闭本机/浏览器的本地代理插件，例如,Chrome插件Proxy SwitchySharp。
+
+* 下载程序： [链接一][ss_x]，[链接二][ss_x_baidu] 密码 26p4。双击 dmg 文件安装。
 
 * 在任务栏找到 Shadowsocks 图标，在 服务器 菜单添加服务器
 
@@ -63,12 +66,31 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 # android 基本使用
 
-* 下载安装程序： [下载链接][ss_a]。
+* 下载安装程序： [链接一][ss_a]，[链接二][ss_a_baidu] 密码 rm30。
 
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195710.jpg)
 
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195748.jpg)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195832.jpg)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502200022.jpg)
 
 <span id="iOS"></span>
 
+# iOS 基本使用
+
+* 前往 App Store 中国区，花费6元钱下载：[Shadowsocks Wingy][ss_i]
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502173508.jpg)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194435.jpg)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194509.jpg)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194723.jpg)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194757.jpg)
 
 # 高级使用
 
@@ -86,3 +108,7 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 [ss_w]: http://wechat.kelu.org/download/kelussW.zip
 [ss_x]: http://wechat.kelu.org/download/kelussX.zip
 [ss_a]: http://wechat.kelu.org/download/shadowsocks.apk
+[ss_i]: https://appsto.re/cn/19xBeb.i
+[ss_w_baidu]: http://pan.baidu.com/s/1bFnQWm 
+[ss_x_baidu]: http://pan.baidu.com/s/1dENVlAT
+[ss_a_baidu]: http://pan.baidu.com/s/1eSN3zaE

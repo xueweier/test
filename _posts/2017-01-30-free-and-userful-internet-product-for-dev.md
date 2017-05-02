@@ -49,6 +49,10 @@ tags: internet
     
 1. [pixiv][17]    面向插画师的网站
 
+1. [站长工具chinaz](http://ping.chinaz.com/)    面向站长的工具包
+
+1. [PxCook 像素大厨](http://www.fancynode.com.cn/pxcook)   标注切图，一起搞定！专注设计本质。 
+
 1. [ncpssd.org][19] 国家哲学社会科学文献中心。下载论文不要钱。
     
 # 其它常见产品
