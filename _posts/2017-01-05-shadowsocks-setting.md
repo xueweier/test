@@ -70,6 +70,10 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195710.jpg)
 
+* 手动输入配置，或选择二维码扫描。
+
+[![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
+
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195748.jpg)
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195832.jpg)
@@ -85,6 +89,10 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502173508.jpg)
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194435.jpg)
+
+* 手动输入配置，或选择二维码扫描。
+
+[![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194509.jpg)
 

@@ -5,7 +5,7 @@ category: tech
 tags: php laravel composer
 ---
 
-![](/assets/img/composer.jpg)
+![](/assets/img/laravel.jpg)
 
 
 

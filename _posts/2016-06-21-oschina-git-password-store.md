@@ -5,7 +5,9 @@ category: tech
 tags: git oschina
 ---
 
-最近使用了oschina的git服务，虽然不那么稳定（一星期抽风一到两次），应该已经是国内最好的git服务了吧。小团队不需要部署自己的git服务器，减少了不少维护成本。然而有点不足，在服务器上每一次都要输入密码，很是恼人。。。当然做验证这个是非常应该的！（笑(●'◡'●) 
+最近使用了oschina的git服务，虽然不那么稳定（一星期抽风一到两次），应该已经是国内最好的git服务了吧。小团队不需要部署自己的git服务器，减少了不少维护成本。
+
+然而，在服务器上每一次拉取代码都要输入密码，比较烦人。
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160621231034.png)
 
@@ -13,17 +15,15 @@ tags: git oschina
 
 * 设置基本的git信息：
 
-
-	$ git config --global user.name "John Doe"
-	$ git config --global user.email johndoe@example.com
+        $ git config --global user.name "John Doe"
+        $ git config --global user.email johndoe@example.com
 
 * 进行一次git操作，pull或者fetch都ok
 * 储存密码
 
-
-	git config --global credential.helper store # 长期存储密码
-	git config --global credential.helper cache # 设置记住密码（默认15分钟）
-	git config credential.helper 'cache --timeout=3600' # 自己设置时间
+        git config --global credential.helper store # 长期存储密码
+        git config --global credential.helper cache # 设置记住密码（默认15分钟）
+        git config credential.helper 'cache --timeout=3600' # 自己设置时间
 
 
 
