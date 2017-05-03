@@ -34,7 +34,11 @@ tags: internet
 
 1. [七牛云][8] 搞(图片)云存储起家的。免费用户有 10 GB 免费空间，每月 10 GB 下载流量。
 
+1. [PxCook 像素大厨](http://www.fancynode.com.cn/pxcook)   标注切图，一起搞定！专注设计本质。 
+
 1. [谷歌Analysis][13] 谷歌站长工具
+
+1. [10 Minute Mail](http://10minutemail.com) 临时邮箱
     
 # 开发类
     
@@ -50,8 +54,6 @@ tags: internet
 1. [pixiv][17]    面向插画师的网站
 
 1. [站长工具chinaz](http://ping.chinaz.com/)    面向站长的工具包
-
-1. [PxCook 像素大厨](http://www.fancynode.com.cn/pxcook)   标注切图，一起搞定！专注设计本质。 
 
 1. [ncpssd.org][19] 国家哲学社会科学文献中心。下载论文不要钱。
     
