@@ -1,13 +1,13 @@
 ---
 layout: post
-title: mews/captcha 实现图片验证码
+title: Laravel 插件 mews/captcha 实现图片验证码
 category: tech
 tags: php laravel composer
 ---
 
 ![](/assets/img/laravel.jpg)
 
-这是一个用于生成图片二维码的 Laravel 插件。Github 地址: <https://github.com/mewebstudio/captcha>
+这是一个用于生成图片验证码的 Laravel 插件。Github 地址: <https://github.com/mewebstudio/captcha>
 这个项目基于 [Intervention Image](https://github.com/Intervention/image)
 
 ## 预览
