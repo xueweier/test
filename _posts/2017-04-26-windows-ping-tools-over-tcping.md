@@ -23,3 +23,6 @@ tcping 是类似ping的工具，通过TCP协议工作（ping是通过icmp协议�
 效果如下图：
     
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170503205740.jpg)    
+
+
+下载链接：http://pan.baidu.com/s/1nvodysD 密码：u2c4
