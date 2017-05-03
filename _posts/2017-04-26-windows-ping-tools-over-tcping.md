@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 禁ping也能ping的工具:tcping
-category: tech
+category: software
 tags: windows
 ---
 

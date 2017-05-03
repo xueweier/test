@@ -1,7 +1,7 @@
 ---
 layout: post
 title: disk savvy，Windows 硬盘空间分析工具
-category: tech
+category: software
 tags: windows
 ---
 
