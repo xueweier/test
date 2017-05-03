@@ -7,24 +7,16 @@ tags: php laravel composer
 
 ![](/assets/img/laravel.jpg)
 
+这是一个用于生成图片二维码的 Laravel 插件。Github 地址: <https://github.com/mewebstudio/captcha>
+这个项目基于 [Intervention Image](https://github.com/Intervention/image)
 
+## 预览
 
-# Captcha for Laravel 5
-
-[![Build Status](https://travis-ci.org/mewebstudio/captcha.svg?branch=master)](https://travis-ci.org/mewebstudio/captcha) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mewebstudio/captcha/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mewebstudio/captcha/?branch=master)
-
-A simple [Laravel 5](http://www.laravel.com/) service provider for including the [Captcha for Laravel 5](https://github.com/mewebstudio/captcha).
-
-for Laravel 4 [Captcha for Laravel Laravel 4](https://github.com/mewebstudio/captcha/tree/master-l4)
-
-## Preview
 ![Preview](http://i.imgur.com/HYtr744.png)
 
-## Installation
+## 安装
 
-The Captcha Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the
-`mews/captcha` package and setting the `minimum-stability` to `dev` (required for Laravel 5) in your
-project's `composer.json`.
+使用 [Composer](http://getcomposer.org) 安装,修改文件 `composer.json` 如下，然后 ```composer update mews/captcha``` 
 
 ```json
 {
@@ -36,75 +28,90 @@ project's `composer.json`.
 }
 ```
 
-or
+或者直接
 
-Require this package with composer:
 ```
 composer require mews/captcha
 ```
 
-Update your packages with ```composer update``` or install with ```composer install```.
+Windows 需要在 php.ini 中打开 `php_gd2.dll` 扩展。
 
-In Windows, you'll need to include the GD2 DLL `php_gd2.dll` as an extension in php.ini.
+## 注册
 
-## Usage
+在 provider 中注册插件：
 
-To use the Captcha Service Provider, you must register the provider when bootstrapping your Laravel application. There are
-essentially two ways to do this.
+`config/app.php`
 
-Find the `providers` key in `config/app.php` and register the Captcha Service Provider.
-
-```php
-    'providers' => [
-        // ...
-        'Mews\Captcha\CaptchaServiceProvider',
-    ]
-```
-for Laravel 5.1+
 ```php
     'providers' => [
         // ...
         Mews\Captcha\CaptchaServiceProvider::class,
     ]
-```
-
-Find the `aliases` key in `config/app.php`.
-
-```php
-    'aliases' => [
-        // ...
-        'Captcha' => 'Mews\Captcha\Facades\Captcha',
-    ]
-```
-for Laravel 5.1+
-```php
+    
     'aliases' => [
         // ...
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
     ]
 ```
 
-## Configuration
-
-To use your own settings, publish config.
+生成配置文件：
 
 ```$ php artisan vendor:publish```
 
-`config/captcha.php`
+然后会在config目录下生成配置文件 `captcha.php`
+
+
 
 ```php
 return [
+
+    'characters' => '2346789abcdefghjmnpqrtuxyzABCDEFGHJMNPQRTUXYZ',
+
     'default'   => [
         'length'    => 5,
         'width'     => 120,
         'height'    => 36,
         'quality'   => 90,
     ],
-    // ...
+
+    'flat'   => [
+        'length'    => 6,
+        'width'     => 160,
+        'height'    => 46,
+        'quality'   => 90,
+        'lines'     => 6,
+        'bgImage'   => false,
+        'bgColor'   => '#ecf2f4',
+        'fontColors'=> ['#2c3e50', '#c0392b', '#16a085', '#c0392b', '#8e44ad', '#303f9f', '#f57c00', '#795548'],
+        'contrast'  => -5,
+    ],
+
+    'mini'   => [
+        'length'    => 3,
+        'width'     => 60,
+        'height'    => 32,
+    ],
+
+    'inverse'   => [
+        'length'    => 5,
+        'width'     => 120,
+        'height'    => 36,
+        'quality'   => 90,
+        'sensitive' => true,
+        'angle'     => 12,
+        'sharpen'   => 10,
+        'blur'      => 2,
+        'invert'    => true,
+        'contrast'  => -5,
+    ]
+
 ];
 ```
 
-## Example Usage
+安装完成！
+
+## 用法示例
+
 ```php
 
     // [your site path]/Http/routes.php
@@ -135,47 +142,45 @@ return [
     });
 ```
 
-# Return Image
+### 返回图片
+
 ```php
 captcha();
-```
-or
-```php
 Captcha::create();
 ```
 
+### 返回图片URL
 
-# Return URL
 ```php
 captcha_src();
-```
-or
-```
 Captcha::src();
 ```
 
-# Return HTML
+### 返回图片HTML
+
 ```php
 captcha_img();
-```
-or
-```php
 Captcha::img();
 ```
 
-# To use different configurations
+### 切换配置
+
 ```php
 captcha_img('flat');
-
 Captcha::img('inverse');
 ```
-etc.
 
-Based on [Intervention Image](https://github.com/Intervention/image)
+### 判断用户输入的验证码是否正确
 
-^_^
+扩展包使用了自定义验证规则方式扩展了验证规则，我们只要在对应的 Controller 添加以下的规则即可：
 
-## Links
+    $this->validate($request, [
+        'captcha' => 'required|captcha'
+    ]);
+    
+## 参考资料
+
+* [mews/captcha 图片验证码解决方案](https://laravel-china.org/topics/2895/extension-recommended-mewscaptcha-image-authentication-code-solution)
 * [Intervention Image](https://github.com/Intervention/image)
 * [L5 Captcha on Github](https://github.com/mewebstudio/captcha)
 * [L5 Captcha on Packagist](https://packagist.org/packages/mews/captcha)
