@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 女装战争打响！
+title: 女装战争打响，PHP是世界上最好的腿！
 category: life
 tags: dev
 ---
@@ -42,8 +42,8 @@ PHP 跟上：
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/IMG_3098.JPG)
 
-甚至连公司也已经鼓励女装上班  (我很好奇这家公司是不是米哈游Orz
+甚至连公司也已经鼓励女装上班  (好奇这家公司是不是米哈游
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/2017-05-04%2011.14.57.png)
 
- 总之，只要有爱
+我在认真地考虑，是不是要转型女装直播写代码，月入两万八什么的Orz
