@@ -172,7 +172,6 @@ header {
 }
 
 article {
-    margin-bottom: 25px;
     background: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 0 40px;
     border-radius: 2px;
@@ -203,6 +202,20 @@ article {
     position: absolute;
     margin-left: -70px;
     width: 40px;
+}
+
+article.support-author > p {
+line-height: 2;
+font-size: 20px;
+    text-align: center;
+}
+article.support-author .support-qr{
+    text-align: center;
+    padding-bottom: 20px;
+}
+article.support-author .support-qr img{
+    margin: 30px;
+    width: 300px;
 }
 
 .day {
@@ -446,6 +459,7 @@ article {
 	}
 */
 .post-nav {
+    margin-top: 25px;
 }
 
 .post-nav .post-nav-prev {
