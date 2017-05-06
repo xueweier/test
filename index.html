@@ -4,7 +4,7 @@ layout: two-column-sidebar
 {% for post in paginator.posts %}
 
 {% if post.category != "japanese" %}
-<article>
+<article style="margin-bottom: 25px">
     <div class="article_header">
         <h1 class="article_title"><a href="{{post.url}}">{{ post.title }}</a></h1>
         <h5 class="article_meta">{{ post.date | date: "%F" }}&nbsp;&nbsp;&nbsp;&nbsp;
