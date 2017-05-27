@@ -1,0 +1,27 @@
+---
+layout: post
+title:  一个简单的监控 CPU 的脚本
+category: tech
+tags: linux shell
+---
+
+![](/assets/img/linux.jpg)
+
+最近服务器经常出现 CPU 100%，然后超负荷运行的情况。按照朋友的经验，可能是数据库的问题。查了一下，果然是
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170527200218.jpg)
+
+    #!/bin/bash
+
+    cpu=`vmstat| sed -n '3p' | awk '{print $13}'`;
+
+    if [ $cpu -gt 95 ]; then
+        if [ ! -e /tmp/restart_postgres.tmp ]; then
+          touch /tmp/restart_postgres.tmp
+
+          service postgresql restart;
+          echo "cpu: $cpu . service postgresql restart";
+        fi
+    fi
+    
+    
