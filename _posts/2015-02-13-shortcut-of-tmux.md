@@ -5,7 +5,7 @@ category: tech
 tags: linux tmux
 ---
 
-这份常用快捷键是基于[Maximum-Awesome](http://)的，不全面但足够日常使用。如果你还没有安装，参考我的上一篇文章[使用Maximum Awesome](http://)。
+这份常用快捷键是基于[Maximum-Awesome](https://github.com/square/maximum-awesome)的，不全面但足够日常使用。如果你还没有安装，参考我的上一篇文章[使用Maximum Awesome](/tech/2015/02/12/Maximum-Awesome-configuration-for-vim-and-tmux.html)。
 
 ## 窗口
 	C-a c		新建窗口

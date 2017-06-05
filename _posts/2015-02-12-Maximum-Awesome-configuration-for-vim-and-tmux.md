@@ -98,4 +98,4 @@ Maximum Awesome 是专为Mac使用的vim和tmux的配置。下文几乎翻译自
 
 * [vim中的杀手级插件：CtrlP](http://zuyunfei.com/2013/08/26/vim-plugin-ctrlp/)
 * RubyChina - [比 ack 更快更好用的东东：the silver searcher](https://ruby-china.org/topics/8728)
-* [vim中的杀手级插件: surround](http://zuyunfei.com/2013/04/17/killer-plugin-of-vim-surround/)/)
+* [vim中的杀手级插件: surround](http://zuyunfei.com/2013/04/17/killer-plugin-of-vim-surround/)
