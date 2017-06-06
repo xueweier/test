@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  PE、VC和投行的区别
-category: tech
-tags: php
+category: finance
+tags: finance
 ---
 
 ![](/assets/img/investing.jpg)

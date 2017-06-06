@@ -72,12 +72,12 @@ title: 友情链接
 
 ### VC/PE 
 
-*[价值中国网](http://www.chinavalue.net/)<span>新媒体，涵盖经济、投资、金融、管理等大财经商业领域</span>
+* [价值中国网](http://www.chinavalue.net/)<span>新媒体</span>
 
 
 ### 关注的产品
 
-*[烽火星空](http://www.fhss.com.cn)<span>国资委直属央企全资子公司,大数据平台</span>
+* [烽火星空](http://www.fhss.com.cn)<span>国资委直属央企全资子公司,大数据平台</span>
 
 ### ACG
 
