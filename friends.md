@@ -48,8 +48,6 @@ title: 友情链接
 </ul>
 
 
-以下内容常有删减，只做记录用。
-
 ### 关注的blog
 
 * [TLightSky](http://tlightsky.github.io)<span>前小米工程师。 技术栈： cocoa docker 前端 lnmp</span>
