@@ -28,4 +28,4 @@ tags: ops linux
 
 更复杂的功能就没有用了。进入控制台，发现这个团队还有其他的产品，看来野心蛮大的，^_^希望能做好：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2017-06-24-11.32.17.png)
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/2017-06-24-11.32.17.png)

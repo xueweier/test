@@ -81,7 +81,8 @@ tags: linux linux-command
 		
 <span id="_iostat"></span>
 	语　　法: iostat [-c|-d][-k|-m][-t][-V][-x][device[...]|ALL][-p[device|ALL]][interval[count]]
-	参　　数：
+	
+    参　　数：
 		-c 仅显示CPU统计信息.与-d选项互斥.
 		-d 仅显示磁盘统计信息.与-c选项互斥.
 		-k 以K为单位显示每秒的磁盘请求数,默认单位块.
