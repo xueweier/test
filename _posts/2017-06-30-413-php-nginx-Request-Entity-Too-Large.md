@@ -19,7 +19,6 @@ tags: nginx
 
 顺便贴一下我的 nginx.conf 配置文件的 http 设置。
 
-
     http {
         access_log off;
         log_format default_format '$time_iso8601|$remote_addr|$request_method|$status|$request_length|$request_time|$http_referer|$http_user_agent|$request_uri';
