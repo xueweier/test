@@ -84,7 +84,9 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 # iOS 基本使用
 
-* 前往 App Store 中国区，花费6元钱下载：[Shadowsocks Wingy][ss_i]
+* 前往 App Store 中国区搜索、下载：[Wingy][ss_i]
+
+    有一个是免费的一个是收费的，没什么区别，下免费的吧233333
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502173508.jpg)
 
