@@ -73,3 +73,4 @@ tags: linux php mysql
 ### 参考资料
 
 * [onlyfu/Blog - github](https://github.com/onlyfu/Blog/blob/master/Php/CentOS下PHP7的编译安装，MySQL的支持和一些问题的解决.md)
+* [Remove `--with-mysql` from default_configure_options - github](https://github.com/php-build/php-build/issues/348)
