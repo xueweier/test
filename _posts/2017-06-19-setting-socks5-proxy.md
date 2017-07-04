@@ -80,6 +80,8 @@ Mac 如下:
 
 重启 terminal 生效。可以通过curl -i http://ip.cn查看IP改变来测试是否生效
 
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-07-04%20%E4%B8%8B%E5%8D%888.01.53.png)
+
 # 参考资料
 
 * [设置 Git 代理](https://imciel.com/2016/06/28/git-proxy/)
