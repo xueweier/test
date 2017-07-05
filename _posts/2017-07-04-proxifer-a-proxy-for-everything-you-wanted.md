@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用 Proxifier 解决系统级的代理问题。
+title: 使用 Proxifier 解决系统级的代理问题
 category: tech
 tags: proxy linux mac windows
 ---
@@ -17,8 +17,8 @@ tags: proxy linux mac windows
 Proxifier allows network applications that do not support working through proxy servers to operate through a SOCKS or HTTPS proxy and chains.
 The most advanced proxy client 。https://www.proxifier.com/index.htm
 
-
-『Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。支持 64位系统，支持Xp，Vista，Win7，MAC OS ,支持socks4，socks5，http代理协议，支持TCP，UDP协议，可以指定端口，指定IP，指定域名,指定程序等运行模式，兼容性非常好，和SOCKSCAP属于同类软件，不过SOCKSCAP已经很久没更新了，不支持64位系统。 有许多网络应用程序不支持通过代理服务器工作，Proxifier 解决了这些问题和所有限制，让您有机会不受任何限制使用你喜爱的软件。此外，它让你获得了额外的网络安全控制，创建代理隧道，并添加使用更多网络功能的权力。 』
+>
+Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。支持 64位系统，支持Xp，Vista，Win7，MAC OS ,支持socks4，socks5，http代理协议，支持TCP，UDP协议，可以指定端口，指定IP，指定域名,指定程序等运行模式，兼容性非常好，和SOCKSCAP属于同类软件，不过SOCKSCAP已经很久没更新了，不支持64位系统。 有许多网络应用程序不支持通过代理服务器工作，Proxifier 解决了这些问题和所有限制，让您有机会不受任何限制使用你喜爱的软件。此外，它让你获得了额外的网络安全控制，创建代理隧道，并添加使用更多网络功能的权力。 
 
 特性如下:
 
@@ -34,8 +34,8 @@ The most advanced proxy client 。https://www.proxifier.com/index.htm
 * 维护日志文件和流量转储。
 * 获得详细的网络错误报告。
 
-官网地址：http://www.proxifier.com/
-下载地址：http://www.proxifier.com/download.htm        
+官网地址：<http://www.proxifier.com/>
+下载地址：<http://www.proxifier.com/download.htm>     
 
 然而，价格也是非常昂贵的。在这里我就不给出注册码了，需要的朋友请私下联系我。
         
