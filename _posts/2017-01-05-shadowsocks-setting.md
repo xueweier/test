@@ -47,7 +47,11 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 新手在使用前请关闭本机/浏览器的本地代理插件，例如,Chrome插件Proxy SwitchySharp。
 
-* 下载程序： [链接一][ss_x]，[链接二][ss_x_baidu] 密码 26p4。双击 dmg 文件安装。
+*  高于 10.10 的系统，请使用这个： [链接一][ss_x]，[链接二][ss_x_baidu] 密码 26p4。
+
+    低于 10.10 的系统，请使用这个： [链接一][ss_x2]，[链接二][ss_x2_baidu] 密码 yvcr。
+    
+    双击 dmg 文件安装。
 
 * 在任务栏找到 Shadowsocks 图标，在 服务器 菜单添加服务器
 
@@ -117,8 +121,10 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 [ss_w]: http://wechat.kelu.org/download/kelussW.zip
 [ss_x]: http://wechat.kelu.org/download/kelussX.zip
+[ss_x2]: http://wechat.kelu.org/download/kelussX2.zip
 [ss_a]: http://wechat.kelu.org/download/shadowsocks.apk
 [ss_i]: https://appsto.re/cn/19xBeb.i
 [ss_w_baidu]: http://pan.baidu.com/s/1bFnQWm 
 [ss_x_baidu]: http://pan.baidu.com/s/1dENVlAT
+[ss_x2_baidu]: http://pan.baidu.com/s/1geFMUpP
 [ss_a_baidu]: http://pan.baidu.com/s/1eSN3zaE
