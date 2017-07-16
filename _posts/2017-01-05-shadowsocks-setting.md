@@ -36,6 +36,10 @@ Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文�
 ![2](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223622.png)
 ![3](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223615.png)
 
+* 完成。
+
+	海外党的代理模式要设置成全局模式噢。
+
 * PAC 模式和全局模式的区别：
 
     全局模式就是所有请求都通过 Shadowsocks 设置的服务器进行访问.
@@ -61,6 +65,10 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 ![4](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/4BFA4DCB-563A-453B-A4C7-942B25E85858.png)
 
+* 完成。
+
+	海外党的代理模式要设置成全局模式噢。
+
 * PAC 模式和全局模式的区别：
 
     全局模式就是所有请求都通过 Shadowsocks 设置的服务器进行访问.
@@ -84,6 +92,10 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502200022.jpg)
 
+* 完成。
+
+	海外党的代理模式要设置成全局模式噢。
+
 <span id="iOS"></span>
 
 # iOS 基本使用
@@ -105,6 +117,10 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194723.jpg)
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194757.jpg)
+
+* 完成。
+
+	海外党的代理模式要设置成全局模式噢。
 
 # 高级使用
 
