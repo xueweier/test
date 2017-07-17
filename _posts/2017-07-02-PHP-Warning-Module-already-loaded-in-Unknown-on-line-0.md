@@ -23,8 +23,8 @@ PHP有两种方式添加扩展模块， 一种是直接编译进了PHP，另外�
 
     ./configure --prefix /usr/share/php7  \
         --enable-mbstring \
-        --with-bz2=share \
-        --with-curl=share \
+        --with-bz2 \
+        --with-curl \
         --with-xsl
         
 以下是共享模式添加的示例：
