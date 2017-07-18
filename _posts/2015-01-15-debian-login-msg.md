@@ -4,6 +4,7 @@ title: debian登陆信息修改
 category: tech
 tags: linux
 ---
+![](/assets/img/linux.jpg)
 
 一般我们ssh登陆debian会出现以下的信息。
 
