@@ -4,6 +4,7 @@ title:  PHP模块加载失败
 category: tech
 tags: php
 ---
+![](/assets/img/php.jpg)
 
 当我们编译好 php 后，启动 php-fpm 时会出现这样一系列的模块加载失败的错误：
 

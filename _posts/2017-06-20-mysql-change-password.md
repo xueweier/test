@@ -4,7 +4,7 @@ title:  MySQL 修改用户密码
 category: tech
 tags: mysql
 ---
-
+![](/assets/img/mysql.jpg)
 有两种方法可以修改密码：
 
 # mysqladmin 命令

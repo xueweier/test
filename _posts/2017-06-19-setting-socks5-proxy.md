@@ -4,7 +4,7 @@ title:  设置 socks5/http 代理，可用于git和shell终端
 category: tech
 tags: proxy
 ---
-
+![](/assets/img/proxy.jpg)
 # 普通系统代理
 
 普通的系统代理，一般代理软件都会设置好了。如果设置不成功，可以按照如下方式手动设置。

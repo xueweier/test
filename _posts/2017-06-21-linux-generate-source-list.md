@@ -4,6 +4,7 @@ title:  Linux 生成 source-list 源的快速方式
 category: tech
 tags: vps linux
 ---
+![](/assets/img/linux.jpg)
 
 今天在用阿里云的 Debian 8.6 的系统，一开始 apt-get 就提示源不存在，404了。 （摊手
  

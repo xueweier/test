@@ -4,6 +4,7 @@ title: vim的简略配置
 category: tech
 tags: linux vim
 ---
+![](/assets/img/vim.jpg)
 
 曾经用过比较长一段时间的vim，因为后来一直在windows下开发，也就没怎么用过了。现在平台移到了Linux和Mac，Mac还好各种工具，前段时间试用了Coda，觉得真的挺好用的。虽然如此，在Linux下开发就显得很捉急了，因为都是终端进去敲的。虽然也可以在本地写好了再上传，终究麻烦。而且更重要的一点是——Coda太贵，用不起Orz。
 
