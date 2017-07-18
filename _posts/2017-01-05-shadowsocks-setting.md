@@ -78,7 +78,7 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 # android 基本使用
 
-* 下载安装程序： [链接一][ss_a]，[链接二][ss_a_baidu] 密码 rm30。
+* 下载安装程序： [链接一][ss_a]，[链接二][ss_a_baidu] 密码 imsn。
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195710.jpg)
 
@@ -138,9 +138,9 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 [ss_w]: http://wechat.kelu.org/download/kelussW.zip
 [ss_x]: http://wechat.kelu.org/download/kelussX.zip
 [ss_x2]: http://wechat.kelu.org/download/kelussX2.zip
-[ss_a]: http://wechat.kelu.org/download/shadowsocks.apk
+[ss_a]: http://wechat.kelu.org/download/kelussA.zip
 [ss_i]: https://appsto.re/cn/19xBeb.i
 [ss_w_baidu]: http://pan.baidu.com/s/1bFnQWm 
 [ss_x_baidu]: http://pan.baidu.com/s/1dENVlAT
 [ss_x2_baidu]: http://pan.baidu.com/s/1geFMUpP
-[ss_a_baidu]: http://pan.baidu.com/s/1eSN3zaE
+[ss_a_baidu]: https://pan.baidu.com/s/1i5qXrc5
