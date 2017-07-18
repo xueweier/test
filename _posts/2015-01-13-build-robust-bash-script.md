@@ -4,6 +4,7 @@ title: 写出健壮的 Bash 脚本
 category: tech
 tags: bash linux
 ---
+![](/assets/img/linux.jpg)
 
 原文来自 [开源中国社区](http://www.oschina.net/news/26744/build-robust-bash-script)。
 

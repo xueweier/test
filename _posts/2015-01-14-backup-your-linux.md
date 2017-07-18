@@ -4,7 +4,7 @@ title: 备份你的Linux
 category: tech
 tags: linux rsync
 ---
-
+![](/assets/img/linux.jpg)
 
 做好系统备份对系统管理员来说是件很重要的事情。可使用两种方法进行备份系统。一种是直接打tar包备份，另一种是使用增量备份工具，下面我来记录一下。
 
