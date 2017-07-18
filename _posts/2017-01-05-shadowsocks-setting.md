@@ -4,6 +4,7 @@ title: shadowsocks的设置
 category: tech
 tags: proxy shadowsocks
 ---
+![](/assets/img/proxy.jpg)
 
 * 购买请戳这里 >>>[购买链接](http://wechat.kelu.org/charge)<<<
   

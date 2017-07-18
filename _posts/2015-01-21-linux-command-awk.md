@@ -4,6 +4,7 @@ title: Linux命令之awk
 category: tech
 tags: linux linux-command awk
 ---
+![](/assets/img/linux.jpg)
 
 本文大部分引用自[《GAWK 入门：AWK 语言基础》- IBM developerWorks](http://www.ibm.com/developerworks/cn/education/aix/au-gawk/)
 

@@ -4,7 +4,7 @@ title:  onethink 的数据库依赖 Mysql 在 PHP7 上的小坑
 category: tech
 tags: php thinkphp mysql
 ---
-
+![](/assets/img/php.jpg)
 
 Onethink是基于Thinkphp 3.2开发的一款内容管理框架。 今天在安装过程中出现mysql_connect检测失败，无法安装的问题。
 

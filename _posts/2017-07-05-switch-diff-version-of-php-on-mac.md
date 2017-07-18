@@ -4,6 +4,7 @@ title: Mac 下使用 homebrew 切换不同版本 php
 category: tech
 tags: mac php
 ---
+![](/assets/img/php.jpg)
 
 最近刚切换回 Mac 下进行开发，所以写了比较多的 Mac 环境部署之类的文章。今天需要重新切换一下本地的开发环境。原本想直接在当前环境下开发，
 毕竟 Mac 自带了 PHP 环境，今天需要新添一个扩展 freetype ，需要重新编译一遍 PHP。

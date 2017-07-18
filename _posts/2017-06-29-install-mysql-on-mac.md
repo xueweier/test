@@ -4,6 +4,7 @@ title:  Mac 下 MySQL 安装以及 phpmyadmin 配置
 category: tech
 tags: mysql mac homebrew
 ---
+![](/assets/img/php.jpg)
 
 # MySQL 安装
 

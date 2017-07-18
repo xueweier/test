@@ -4,7 +4,7 @@ title: Linux root不能 ssh 登陆的问题
 category: tech
 tags: linux 
 ---
-
+![](/assets/img/linux.jpg)
 
 有的发行版的 ssh 配置限制了，需要修改以下几个地方。
 
