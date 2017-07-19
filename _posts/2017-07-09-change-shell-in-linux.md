@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Linux 下 chsh: PAM authentication failed 问题
+title:  Linux 下 PAM authentication failed 问题
 category: tech
 tags:  linux
 ---
