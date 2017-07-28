@@ -2,7 +2,7 @@
 layout: post
 title: Mac 下停止 PostgreSQL 服务
 category: tech
-tags: mac  postgres
+tags: mac postgres
 ---
 
 ![](/assets/img/postgresql.jpg)
