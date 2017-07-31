@@ -6,12 +6,11 @@ tags:  python
 ---
 ![](/assets/img/python.jpg)
 
-一些笔记而已。大学时候就写了不少 Python 代码。最近又用到了，复习一下。 参考资料[Python 之旅 - 极客学院](http://wiki.jikexueyuan.com/project/explore-python/)
+大学时候就写了不少 Python 代码。最近又用到了，复习一下。 参考资料[Python 之旅 - 极客学院](http://wiki.jikexueyuan.com/project/explore-python/)
 
 # 背景知识
 
 Python2 的默认编码是 ascii，Python3 的默认编码是 utf-8
-
 
 # 输入输出
 

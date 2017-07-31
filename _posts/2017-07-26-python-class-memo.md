@@ -29,7 +29,6 @@ tags:  python
 
 # Python类简介
 
-
 类的私有属性：
 
 	__private_attrs  两个下划线开头，声明该属性为私有，使用时 self.__private_attrs
