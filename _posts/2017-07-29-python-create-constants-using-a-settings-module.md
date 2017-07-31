@@ -8,38 +8,43 @@ tags:  python
 
 最简单的方式是定义一个 setting 的 module：
 
-(settings.py)
+{%raw%}
 
-```
-CONSTANT1 = "value1"
-CONSTANT2 = "value2"
-```
+	(settings.py)
+	
+	CONSTANT1 = "value1"
+	CONSTANT2 = "value2"
+	
+	(consumer.py)
+	
+	import settings
+	
+	print settings.CONSTANT1
+	print settings.CONSTANT2
 
-(consumer.py)
-
-```
-import settings
-
-print settings.CONSTANT1
-print settings.CONSTANT2
-```
+{%endraw%}
 
 当我们引用 settings 模块里的变量时需要在前面添加模块的名称。如果我们真的不想添加模块的名称，并且我需要担心变量可能会改变，那么我们可以使用按照下面的方式引入：
 
-```
-from settings import CONSTANT1, CONSTANT2
+{%raw%}
 
-print CONSTANT1
-print CONSTANT2
-```
+	from settings import CONSTANT1, CONSTANT2
+	
+	print CONSTANT1
+	print CONSTANT2
+
+{%endraw%}
 
 然而这样子其实会导致其他人阅读这个代码的时候不知道这变量从哪来的。所以最简单的方式应该是这样：
-```
-import settings as s
+	
+{%raw%}
 
-print s.CONSTANT1
-print s.CONSTANT2
-```
+	import settings as s
+	
+	print s.CONSTANT1
+	print s.CONSTANT2
+
+{%endraw%}
 
 方便了输入，又使得代码易懂。
 
