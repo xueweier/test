@@ -1,6 +1,6 @@
 ---
 layout: post
-title:   python 自定义一个 setting 模块并使用其变量
+title: python 自定义一个 setting 模块并使用其变量
 category: tech
 tags:  python
 ---
