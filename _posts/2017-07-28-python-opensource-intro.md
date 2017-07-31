@@ -13,8 +13,7 @@ tags:  python
 * [谁说程序员不是潜力股？让这位世界前五名的天才程序员来颠覆你三观！](https://zhuanlan.zhihu.com/p/22332669)
 * [网易云音乐 Python 组件库，用 Python 玩转网易云音乐](http://xiyoumc.0x2048.com/ncmbot/)
 
-以下都是转载
-
+(未完待续)以下都是转载
 
 <hr>
 
