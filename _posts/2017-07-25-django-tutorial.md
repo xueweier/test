@@ -42,13 +42,17 @@ pip install virtualenv
 	        urls.py
 	        wsgi.py
 
+`blogproject/blogproject/settings.py` 把 `LANGUAGE_CODE` 的值改为 `zh-hans`，`TIME_ZONE` 的值改为 `Asia/Shanghai`：
+
+	LANGUAGE_CODE = 'zh-hans'
+	TIME_ZONE = 'Asia/Shanghai'
+
 ### 测试运行
 
 	python manage.py runserver
 
 	# 自定义端口和监听地址
 	python manage.py runserver 0.0.0.0:12345
-
 
 Django 的规范希望我们把自己编写的代码组织到应用（Application）里，一个应用只提供一种功能。所以在 blogproject 项目中我先生成一个 blog 的应用。
 
