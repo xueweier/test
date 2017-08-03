@@ -167,6 +167,23 @@ for num in range(2,100):  # 迭代 2 到 100 之间的数字
 print prime
 ```
 
+## try...catch...
+
+```python
+try:
+     Normal execution block
+except A:
+     Exception A handle
+except B:
+     Exception B handle
+except:
+     Other exception handle
+else:
+     if no exception,get here
+finally:
+     print("finally")
+```
+
 # 参考资料
 
 * [Python 之旅 - 极客学院](http://wiki.jikexueyuan.com/project/explore-python/)

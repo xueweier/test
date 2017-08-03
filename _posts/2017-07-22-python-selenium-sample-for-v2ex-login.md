@@ -101,3 +101,4 @@ tags: python selenium
 * [Get HTML Source of WebElement in Selenium WebDriver using Python](https://stackoverflow.com/questions/7263824/get-html-source-of-webelement-in-selenium-webdriver-using-python)
 * [Python selenium —— 父子、兄弟、相邻节点定位方式详解](https://huilansame.github.io/huilansame.github.io/archivers/father-brother-locate)
 * [webdriver实用指南python版本](https://www.gitbook.com/book/wangxiwei/webdriver-python/details)
+* [灰蓝](https://huilansame.github.io/huilansame.github.io/)
