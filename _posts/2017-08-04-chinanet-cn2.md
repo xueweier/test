@@ -39,7 +39,8 @@ CN2在香港、东京、新加坡、伦敦、法兰克福、纽约、华盛顿�
 就我个人理解，总的来说，cn2指的是中国的新一代互联网承载的网络，优质快速，在出海线路上更是完爆其他网络线路。
 
 > 插入一个BGP小知识
-> BGP是自治系统间的路由协议，它的主要功能是和其他BGP说话者之间交换网络可达性信息。一个BGP说话者是任何为BGP配置的设备。BGP使用TCP作为它的传输协议(端口179)，这提供了可靠的数据传输。BGP 是解决国内不同运营商互联互通问题的产物。
+
+> BGP是自治系统间的路由协议，它的主要功能是和其他BGP说话者之间交换网络可达性信息。一个BGP说话者是任何为BGP配置的设备。BGP使用TCP作为它的传输协议(端口179)，这提供了可靠的数据传输。BGP线路 解决了国内不同运营商互联互通问题。
 
 # CN2线路判断
 
@@ -53,14 +54,31 @@ CN2在香港、东京、新加坡、伦敦、法兰克福、纽约、华盛顿�
 
 	注意起始节点不要选 BGP 的节点。要不然可能会跑其他运营商那而不是电信的节点，测不出来就没意义了。
 
-1. 也可以使用 mtr 命令进行查询，从本地测试服务器ip是去程，在服务器上测试本地 ip是回程，可以都测一下。
+1. 也可以使用 mtr 命令进行查询，从本地测试服务器ip是去程，在服务器上测试本地 ip是回程，可以都测一下。不知道为什么我的本地测试显示的不对，可能是本地用的代理的原因？（摊手
 
 	![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201708/2017-08-05-3.02.33.png)
 
 结论：
 
 59.43.xxx.xxx ：这样以59.42开头（C段不详）一般为中国电信CN2骨干网IP地址，具体的可以到[ipip.net](https://www.ipip.net/)查验。
-	
+
+# 出口节点
+
+CN2北京出口到伦敦，上海出口到圣何塞、洛杉矶、法兰克福、东京、香港，广州出口到圣何塞、洛杉矶、新加坡、香港，国内具体走哪个出口到海外估计要看城域网。
+
+# 理论知识
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201708/1.png)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201708/2.jpg)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201708/3.png)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201708/4.png)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201708/5.png)
+
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201708/6.png)
 
 # 参考资料
 
@@ -68,3 +86,4 @@ CN2在香港、东京、新加坡、伦敦、法兰克福、纽约、华盛顿�
 * [核心网和骨干网的区别和联系](http://www.txrjy.com/asktech/question.php?qid=15819)
 * [电信骨干路由器有多强？](https://www.zhihu.com/question/48105938/answer/142393813)
 * [CN2 线路介绍及 CN2 VPS服务商](https://www.gubo.org/instroduction-to-cn2-and-cn2-vps-providers/)
+* [CN2网络概况及MPLS VPN简介_图文_百度文库](https://wenku.baidu.com/view/f5cab81a3968011ca2009121.html)
