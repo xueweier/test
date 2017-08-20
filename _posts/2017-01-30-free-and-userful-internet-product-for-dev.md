@@ -54,6 +54,8 @@ tags: internet
 
 1. [站长工具chinaz](http://ping.chinaz.com/)    面向站长的工具包
 
+1. [IPIP.net](http://www.ipip.net/traceroute.php)    专注于与地理位置定位相关的数据的整理与发行
+
 1. [ncpssd.org][19] 国家哲学社会科学文献中心。下载论文不要钱。
     
 # 其它常见产品
@@ -69,6 +71,15 @@ tags: internet
 1. [神策数据][14]用户行为分析。
     
 未完待续，持续更新。    
+
+
+# 细节小知识
+
+
+1.  查询线路是否是 cn2 线路
+
+IPIP.net 查询路由节点，如果经过59.43.x.x 的ip,那么该线路就是CN2 。
+
 
 [1]: http://www.jiankongbao.com/
 [2]: https://www.dnspod.cn

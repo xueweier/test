@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux命令输入技巧
+title: Linux 输入历史命令的小技巧
 category: tech
 tags: linux linux-command
 ---
@@ -17,21 +17,8 @@ tags: linux linux-command
 	!string			以 string 开头的最近一次命令
 	!?string?		包含 string 的最近一次命令
 
-
-
-
-可以使用冒号 (:) 后跟某些值来访问或修改历史中的命令。例如：
-
-	$ !ec
-		echo $$
-		2852
-	$ !en:s/$$/$PPID/
-		env -i bash -c 'echo $PPID'
-		2852
-		
-		
 同时，还可以在`~/.bashrc`中添加下面一些命令来对命令历史做一些修改
 
-HISTFILESIZE=200000 #最大命令历史记录数
-HISTCONTROL=erasedups #去掉重复条目，默认为ignoreboth（没想通为什么不是erased ups）
-HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S " # 为history添加输入的时间
+    HISTFILESIZE=200000 #最大命令历史记录数
+    HISTCONTROL=erasedups #去掉重复条目，默认为ignoreboth（没想通为什么不是erased ups）
+    HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S " # 为history添加输入的时间

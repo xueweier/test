@@ -21,7 +21,7 @@ BBR 已经出来将近半年了。 它解决问题的出发点在于：
 在 [Kernel.Ubuntu.com](http://kernel.ubuntu.com/~kernel-ppa/mainline/)找到版本号文件夹,amd64 的 linux-image 中含有 generic 这个 deb 包的。以我Debian 64位的系统，于是安装过程如下：
 
     wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10/linux-image-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
-    dpkg -i linux-image-4.9.6-040906-generic_4.9.6-040906.201701260330_amd64.deb
+    dpkg -i     dpkg -i linux-image-4.10.0-041000-generic_4.10.0-041000.201702191831_amd64.deb
 
 安装完成后重启。
 
