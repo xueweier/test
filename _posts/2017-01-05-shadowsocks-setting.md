@@ -26,6 +26,10 @@ Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文�
 
 新手在使用前请关闭本机/浏览器的本地代理插件，例如,Chrome插件Proxy SwitchySharp。
 
+* 你要跟管理员获取四个信息，一个是服务器，一个是端口，一个是加密格式，一个是密码。一般来说网站后台上都会给你写好的。
+
+[![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
+
 * 下载程序： [链接一][ss_w]，[链接二][ss_w_baidu] 密码 f53i。 解压到你希望运行程序的路径，例如：`C:\Program Files (x86)\ss`
 
 * 在任务栏找到 Shadowsocks 图标，在 服务器 菜单添加服务器(首次双击运行程序自动打开)
@@ -36,10 +40,6 @@ Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文�
 
 ![2](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223622.png)
 ![3](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223615.png)
-
-* 完成。
-
-	海外党的代理模式要设置成全局模式噢。
 
 * PAC 模式和全局模式的区别：
 
@@ -65,10 +65,6 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 * 选择 启用系统代理 来启用系统代理。
 
 ![4](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/4BFA4DCB-563A-453B-A4C7-942B25E85858.png)
-
-* 完成。
-
-	海外党的代理模式要设置成全局模式噢。
 
 * PAC 模式和全局模式的区别：
 
@@ -97,10 +93,6 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502200022.jpg)
 
-* 完成。
-
-	海外党的代理模式要设置成全局模式噢。
-
 <span id="iOS"></span>
 
 # iOS 基本使用
@@ -122,10 +114,6 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194723.jpg)
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194757.jpg)
-
-* 完成。
-
-	海外党的代理模式要设置成全局模式噢。
 
 # 高级使用
 
@@ -149,3 +137,4 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 [ss_x_baidu]: http://pan.baidu.com/s/1dENVlAT
 [ss_x2_baidu]: http://pan.baidu.com/s/1geFMUpP
 [ss_a_baidu]: https://pan.baidu.com/s/1i5qXrc5
+
