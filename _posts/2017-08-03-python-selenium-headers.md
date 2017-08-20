@@ -61,11 +61,6 @@ driver.get("https://httpbin.org/get?show_env=1")
 driver.get_screenshot_as_file('01.png')
 driver.quit()
 
-作者：JIM LIU
-链接：https://www.zhihu.com/question/35547395/answer/106652782
-来源：知乎
-著作权归作者所有，转载请联系作者获得授权。
-
 ```
 
 ### 二：selenium设置chrome请求头：

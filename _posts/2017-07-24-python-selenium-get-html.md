@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Selenium 获取 html 与模糊匹配属性的方法
+title: Python Selenium 节点的相关操作
 category: tech
 tags:  python selenium
 ---
@@ -8,10 +8,34 @@ tags:  python selenium
 
 # 获取 html
 
-
 	element.get_attribute('innerHTML')
 	element.get_attribute('outerHTML')
 
+# 获取内容
+
+	element.text
+
+# 获取属性
+
+	element.get_attribute('data-original-title') 
+
+
+# 是否存在
+
+```python
+def isElementExist(self, element, node=''):
+    flag = True
+	if node == '':
+		node = self.driver
+
+    try:
+        node.find_element_by_xpath(element)
+        return flag
+    except:
+        flag = False
+	
+	return flag
+```
 
 # 模糊匹配属性
 
