@@ -105,7 +105,7 @@ driver. findElement(By.xpath ("//input[@*='username']"))
 
 ### XPath 轴匹配
 
-以下节选自 [Python selenium —— 父子、兄弟、相邻节点定位方式详解](https://huilansame.github.io/huilansame.github.io/archivers/father-brother-locate)
+选自 [Python selenium —— 父子、兄弟、相邻节点定位方式详解](https://huilansame.github.io/huilansame.github.io/archivers/father-brother-locate)
 
  <style type="text/css">
         table {
@@ -155,7 +155,21 @@ print driver.find_element_by_xpath("//div[@id='D']/following-sibling::div[1]").t
 print driver.find_element_by_xpath("//div[@id='D']/following::*").text
 ```
 
-# XPath 官方资料
+# xpath常用函数
+
+1.  child 选取当前节点的所有子节点
+2.  parent 选取当前节点的父节点
+3.  descendant 选取当前节点的所有后代节点
+4.  ancestor 选取当前节点的所有先辈节点
+5.  descendant-or-self 选取当前节点的所有后代节点及当前节点本身
+6.  ancestor-or-self 选取当前节点所有先辈节点及当前节点本身
+7.  preceding-sibling 选取当前节点之前的所有同级节点
+8.  following-sibling 选取当前节点之后的所有同级节点
+9.  preceding 选取当前节点的开始标签之前的所有节点
+10.  following 选去当前节点的开始标签之后的所有节点
+11.  self 选取当前节点
+12.  attribute 选取当前节点的所有属性
+13.  namespace 选取当前节点的所有命名空间节点
 
 # 路径表达式
 
@@ -201,7 +215,7 @@ XPath 通配符可用来选取未知的 XML 元素。
 | //* | 选取文档中的所有元素。 |
 | //title[@*] | 选取所有带有属性的 title 元素。 |
 
-## 多个表达式
+# 多个表达式
 
 通过在路径表达式中使用“|”运算符，您可以选取若干个路径
 例子：
@@ -219,7 +233,7 @@ XPath 通配符可用来选取未知的 XML 元素。
 |starts-with | 顾名思义，匹配一个属性开始位置的关键字|
 |contains |匹配一个属性值中包含的字符串|
 |text()| 匹配的是显示文本信息，此处也可以用来做定位用|
-
+|Sibling| 提取指定元素的所有同级元素，即获取目标元素的所有兄弟节点。 |
 
 例子：
 
@@ -228,10 +242,17 @@ XPath 通配符可用来选取未知的 XML 元素。
 |//input[starts-with(@name,'name1')] |    查找name属性中开始位置包含'name1'关键字的页面元素|
 |//input[contains(@name,'na')]     |    查找name属性中包含na关键字的页面元素|
 |//a[text()='百度搜索'] ||
-| //a[contains(text(),"百度搜索")]||
+| //a[contains(text(),"百度搜索")] ||
+| //a[not(contains(@id, 'xx'))] ||
+|//div[(contains(@class,'typeA') or contains(@class,'typeB')) and not(contains(@class,'ng-hide'))]||
+
 
 # 参考资料
 
 * [Python selenium —— 父子、兄弟、相邻节点定位方式详解](https://huilansame.github.io/huilansame.github.io/archivers/father-brother-locate)
 * [xpath选择当前结点的子节点](http://blog.csdn.net/destinyuan/article/details/51297611)
 * [Xpath定位方法深入探讨及元素定位失败常见情况](http://www.jianshu.com/p/89c10770d72c)
+* [Python selenium —— 模拟鼠标键盘操作(ActionChains)](https://huilansame.github.io/huilansame.github.io/archivers/mouse-and-keyboard-actionchains)
+* [Python selenium —— 一定要会用selenium的等待，三种等待方式解读](https://huilansame.github.io/huilansame.github.io/archivers/sleep-implicitlywait-wait)
+* [在Selenium Webdriver中使用XPath Contains、Sibling函数定位](http://www.jianshu.com/p/16e96ce58f32)
+* [Xpath syntax for “and not contains”](https://stackoverflow.com/questions/26640746/xpath-syntax-for-and-not-contains)
