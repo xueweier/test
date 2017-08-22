@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 连接PostgreSQL时忘记密码，提示 FATAL: password authentication failed for user
+title: 连接PostgreSQL 显示 password authentication failed for user
 category: tech
 tags:  postgresql
 ---
