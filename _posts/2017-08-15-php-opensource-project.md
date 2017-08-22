@@ -95,6 +95,8 @@ tags:  php
     - [PHP杂志 PHP Magazines](#php杂志-php-magazines)
 - [贡献](#贡献)
 
+
+
 ## Composer源 Composer Repositories
 *Composer源*
 
@@ -222,7 +224,7 @@ tags:  php
 ## 爬虫 Scraping
 *用于网站爬取的库*
 
-* [Embed](https://github.com/oscarotero/Embed) -  一个从web服务或网页中提取的信息的工具
+* [Embed](https://github.com/oscarotero/Embed) -  一个从web服务或网页中提取的信息的工具
 * [Goutte](https://github.com/FriendsOfPHP/Goutte) - 一个简单的web爬取器
 * [PHP Spider](https://github.com/mvdbos/php-spider) - 一个可配置和可扩展的PHP web爬虫
 
@@ -709,7 +711,7 @@ tags:  php
 *缓存数据的库*
 
 * [Alternative PHP Cache (APC)](http://php.net/manual/en/book.apc.php) - 打开PHP操作码缓存
-* [APIx Cache](https://github.com/apix/cache) -  一个轻量级的PSR-6缓存
+* [APIx Cache](https://github.com/apix/cache) -  一个轻量级的PSR-6缓存
 * [CacheTool](https://github.com/gordalina/cachetool) - 一个使用命令行清除apc/opcode缓存的工具
 * [Cake Cache](https://github.com/cakephp/cache) - 一个缓存库 (CP)
 * [Doctrine Cache](https://github.com/doctrine/cache) - 一个缓存库
