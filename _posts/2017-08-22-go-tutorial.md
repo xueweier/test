@@ -62,4 +62,8 @@ Go 语言支持以下系统：
 * [Kubernetes Client-Go包使用示例](http://jimmysong.io/blogs/kubernetes-client-go-sample/)
 * [199GO语言零基础入门资料整理](http://www.jianshu.com/p/a70098a94d18)
 * [Go 语言教程](http://www.runoob.com/go/go-tutorial.html)
+* [使用intelliJ做为Golang的IDE](https://segmentfault.com/a/1190000003933657)
+* [Go 入门指南 - 极客学院](http://wiki.jikexueyuan.com/project/the-way-to-go/)
+* [怎么学习golang？](https://www.zhihu.com/question/23486344)
+* [Unknwon](https://github.com/Unknwon)/[the-way-to-go_ZH_CN](https://github.com/Unknwon/the-way-to-go_ZH_CN)
 
