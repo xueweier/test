@@ -38,7 +38,7 @@ kubernetes 的总体概览如下图：
 
 总视角二：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201709/1026002.png)
+![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201709/1026004.png)
 
 Master 视角：
 
