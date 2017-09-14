@@ -10,4 +10,4 @@ tags: mac xiaomi
 
 不清楚是 Mac 的问题还是小米电视的问题，感觉不太稳定，有的时候搜不到，有的时候又没问题。姑且把软件放上来了。
 
-SMBup下载链接: https://pan.baidu.com/s/1skAgCwd 密码: jr4w
+SMBup下载链接: <https://pan.baidu.com/s/1skAgCwd> 密码: jr4w

@@ -21,13 +21,13 @@ tags:  python
 
 首先我们要明确，类创造了实例,而不是继承关系。那么问题来了,是什么创造了类呢? Python 引进了`metaclasses`,`<type 'type'>`就是元类,它可以创建类.
 
-# 使用
+# 使用
 
 可以参考一下这些链接：
 
 * [Python 为什么要继承 object 类？](https://www.zhihu.com/question/19754936)
 
-由于历史原因，2.x 里 object 是新基类，需要显示定义。在3.x里，object已经默认做为所有东西的基类了。
+由于历史原因，2.x 里 object 是新基类，需要显示定义。在3.x里，object已经默认做为所有东西的基类了。
 
 ```python
 class A:  # 旧式类
