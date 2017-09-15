@@ -76,7 +76,7 @@ JavaScript 中的所有事物都是对象(拥有属性和方法)。
 
 	对象的显示是{}包裹。(使用console.log查看)
 
-	// 这个people将会以全局方式村子啊。如果加一个var，那就是局部的。
+	// 这个people将会以全局方式村子啊。如果加一个var，那就是局部的。
 	people = new Object();
 	people.name = 'bill';
 	people.age = 13;

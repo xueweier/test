@@ -167,7 +167,7 @@ blogproject/urls.py
 
 ## 控制器
 
-我感觉 Django 的 views.py 虽然明明是 view，但我更倾向于他是控制器，也就是 controller。
+我感觉 Django 的 views.py 虽然明明是 view，但我更倾向于他是控制器，也就是 controller。
 
 blog/views.py
 

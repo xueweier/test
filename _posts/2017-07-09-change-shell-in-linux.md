@@ -8,7 +8,7 @@ tags:  linux
 
 出现这个问题时，基本上所有敏感操作都会请求输入密码，而且密码都是不对的。
 
-很有可能是  Shell 的设置有问题。打开文件`/etc/passwd`查看 root 用户的 Shell 是不是正确的：
+很有可能是  Shell 的设置有问题。打开文件`/etc/passwd`查看 root 用户的 Shell 是不是正确的：
 
 	root:x:0:0:root:/root:/bin/bash
 	daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
