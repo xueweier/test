@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  是故言悖而出者，亦悖而入；货悖而入者，亦悖而出。
+title:  是故言悖而出者，亦悖而入；货悖而入者，亦悖而出 - 大学章句集注
 category: literature
+tags: zhuxi literature confucianism
 ---
-
-![](/assets/img/literature.jpg)
+![](/assets/img/confucianism.jpg)
 
 # 原文
 
@@ -67,4 +67,4 @@ category: literature
 
 ## 参考资料
 
-* [第十一章 - 大学](http://so.gushiwen.org/guwen/bookv_3047.aspx)
+* [第十一章 - 大学章句集注](http://so.gushiwen.org/guwen/bookv_3047.aspx)

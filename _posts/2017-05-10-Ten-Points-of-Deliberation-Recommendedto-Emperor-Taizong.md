@@ -2,6 +2,7 @@
 layout: post
 title:  谏太宗十思疏 - 魏徵
 category: literature
+tags: literature tang_dynasty
 ---
 
 ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/wang-zhuangwei.jpg)

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 普天之下，莫非王土；率土之滨，莫非王臣。 - 孟子
+title: 普天之下，莫非王土；率土之滨，莫非王臣。 - 孟子万章
 category: literature
+tags: literature  warring_state_period confucianism mengzi
 ---
 
 ![](/assets/img/literature.jpg)

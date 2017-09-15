@@ -2,6 +2,7 @@
 layout: post
 title: 过零丁洋 - 文天祥
 category: literature
+tags: literature song_dynasty
 ---
 
 ![](/assets/img/literature.jpg)

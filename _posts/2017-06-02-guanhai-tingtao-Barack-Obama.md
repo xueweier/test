@@ -2,6 +2,7 @@
 layout: post
 title:  观海同志 - 萌娘百科
 category: literature
+tags: literature prc
 ---
 
 ![](/assets/img/literature.jpg)

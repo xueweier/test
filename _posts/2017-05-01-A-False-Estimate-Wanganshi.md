@@ -2,6 +2,7 @@
 layout: post
 title: 读孟尝君传 - 王安石
 category: literature
+tags: literature song_dynasty
 ---
 
 ![](/assets/img/literature.jpg)

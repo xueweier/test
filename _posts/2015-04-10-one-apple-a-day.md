@@ -2,9 +2,7 @@
 layout: post
 title: 日拱一卒
 category: literature
+tags: literature modern_times
 ---
-
-这印象实在是太刻骨铭心了。前一段时间因为工作上的事，把把代码啊都放在了住处，基本没怎么动。过了半个月之后回来再看，自己搭的bbb的基本脚本都忘光光了，更何况代码这种事。
-
 > 宁可十年不将军，不可一日不拱卒。
 

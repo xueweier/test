@@ -2,6 +2,7 @@
 layout: post
 title: 谏逐客书 - 李斯
 category: literature
+tags: literature warring_state_period legalism
 ---
 
 ![](/assets/img/literature.jpg)

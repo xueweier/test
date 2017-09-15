@@ -1,6 +1,6 @@
 ---
 layout: post
-title: composer install update 报错需要vendor/autoload.php
+title: composer install update 报错需要 vendor autoload.php
 category: tech
 tag: composer
 ---

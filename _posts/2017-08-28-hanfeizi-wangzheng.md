@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  见大利而不趋，闻祸端而不备，浅薄於争守之势，而务以仁义自饰者，可亡也。
+title:  见大利而不趋，闻祸端而不备 - 韩非子亡征
 category: literature
-tags: hanfeizi literature warringstateperiod
+tags: hanfeizi literature warring_state_period
 ---
 ![](/assets/img/hanfeizi.jpg)
 

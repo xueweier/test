@@ -2,8 +2,8 @@
 layout: post
 title: 扁鹊见蔡桓公 - 韩非子
 category: literature
+tags: literature warring_state_period hanfeizi legalism
 ---
-
 ![](/assets/img/literature.jpg)
 
     扁鹊见蔡桓公，立有间，扁鹊曰：“君有疾在腠理，不治将恐深。”桓候曰：“寡人无疾。”扁鹊出。桓侯曰：“医之好治不病以为功。”

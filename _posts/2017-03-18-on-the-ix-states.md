@@ -2,6 +2,7 @@
 layout: post
 title: 六国论 - 苏洵
 category: literature
+tags: literature  song_dynasty
 ---
 
 ![](/assets/img/literature.jpg)

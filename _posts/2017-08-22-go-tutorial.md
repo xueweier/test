@@ -1,10 +1,16 @@
 ---
 layout: post
-title: Go 语言入门 - 前言、Mac环境配置
+title: Go 语言入门笔记 - 环境配置
 category: tech
 tags: go
 ---
 ![](/assets/img/go.jpg)
+
+这一系列的文章快速链接：
+
+1. [Go 语言入门 - 前言、Mac环境配置](/tech/2017/08/22/go-tutorial.html)
+1. [Go 语言入门 - 语法语句总结](/tech/2017/08/22/go-tutorial.html)
+
 
 嗯，最近一个项目需要用到 Go 语言开发。捡起来复习一下，于是出了这篇文章。最近几天还会继续总结，欢迎和我讨论。
 
