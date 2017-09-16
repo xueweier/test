@@ -132,7 +132,7 @@ iota，特殊常量，可以认为是一个可以被编译器修改的常量。�
 		default:  ...  
 	}
 
-  	var c1, c2, c3 chan int  
+	var c1, c2, c3 chan int  
 	var i1, i2 int  
 
 	select  {  

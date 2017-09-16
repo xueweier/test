@@ -58,6 +58,26 @@ tags: python
 
     deactivate      # 退出项目的 virtualenv 虚拟环境.
     
+# 问题定位
+
+* Certbot has problem setting up the virtual environment. 
+	HTTPConnectionPool(host='mirrors.aliyun.com', port=80): Read timed out
+
+	这其实是pip连接超时问题。可以改成阿里云或者豆瓣的镜像。
+
+	*   阿里云 [http://mirrors.aliyun.com/pypi/simple/](http://mirrors.aliyun.com/pypi/simple/)
+	*   中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple/](https://pypi.mirrors.ustc.edu.cn/simple/)
+	*   豆瓣 [http://pypi.douban.com/simple/](http://pypi.douban.com/simple/)
+	*   清华大学 [https://pypi.tuna.tsinghua.edu.cn/simple/](https://pypi.tuna.tsinghua.edu.cn/simple/)
+	*   中国科学技术大学 [http://pypi.mirrors.ustc.edu.cn/simple/](http://pypi.mirrors.ustc.edu.cn/simple/)
+
+
+	例如改成豆瓣的源
+
+		vi ~/.pip/pip.conf
+
+		[global]
+		index-url=https://pypi.douban.com/simple
     
 # 参考资料
     
