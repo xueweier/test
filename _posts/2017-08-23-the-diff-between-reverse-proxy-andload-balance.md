@@ -2,7 +2,7 @@
 layout: post
 title:  转 | 负载均衡、LVS概述
 category: tech
-tags: go
+tags: linux
 ---
 本文转自 [负载均衡、LVS概述](http://www.cnblogs.com/yuyue2014/p/3693924.html)
 
@@ -271,3 +271,4 @@ http://www.h3c.com.cn/Products___Technology/Technology/Dependability/Other_techn
 * [反向代理和负载均衡有何区别？](https://www.zhihu.com/question/20553431)
 * [负载均衡、LVS概述](http://www.cnblogs.com/yuyue2014/p/3693924.html)
 * [【大型网站技术实践】初级篇：借助Nginx搭建反向代理服务器](http://www.cnblogs.com/edisonchou/p/4126742.html)
+* [负载均衡：haproxy，slb以及node-slb](https://cnodejs.org/topic/55921e6950946a072452564d)
