@@ -6,6 +6,7 @@ tags: docker devops tutorial
 ---
 
 ![](/assets/img/docker.jpg)
+
 今晚将 [CSDN][docker_csdn] 上所有的 Docker 的文章浏览了一遍(53页,将近523篇文章)。
 
 在学习了基本的 Docker 部署的知识和简单应用后，回过头来从源头开始，再来看看 Docker 这项技术，大有收获。
@@ -21,7 +22,7 @@ Docker的常用案例包括：
 * 自动化测试和持续集成/部署
 * 部署并扩展Web应用、数据库和后端服务器
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/docker_vm.jpg)
+![](https://cdn.kelu.org/blog/2017/01/docker_vm.jpg)
 
 #  Docker 的组成
 
@@ -31,7 +32,7 @@ Docker的常用案例包括：
 * Docker Registry : 这个可认为是Docker Images的仓库，就像git的仓库一样，用来管理Docker镜像的，提供了Docker镜像的上传、下载和浏览等功能，并且提供安全的账号管理可以管理只有自己可见的私人image。就像git的仓库一样，docker也提供了官方的Registry，叫做[Dock Hub](http://hub.Docker.com)
 * Docker Container : 俗称Docker的容器，这个是最关键的东西了。Docker Container是真正跑项目程序、消耗机器资源、提供服务的地方，Docker Container通过Docker Images启动，在Docker Images的基础上运行你需要的代码。 
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/5d04473994d0b4730f9d03f63f617058.png)
+![](https://cdn.kelu.org/blog/2017/01/5d04473994d0b4730f9d03f63f617058.png)
 
 #  Docker 的技术
 
@@ -44,7 +45,7 @@ Docker的常用案例包括：
 
 简单说来，Docker = LXC + AUFS。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2011701/docker-filesystems-busyboxrw.png)
+![](https://cdn.kelu.org/blog/2017/01/docker-filesystems-busyboxrw.png)
 
 (AUFS)
 

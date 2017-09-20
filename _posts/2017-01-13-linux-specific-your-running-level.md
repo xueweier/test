@@ -21,4 +21,4 @@ Linux运行级别从0～6，共7个。
 
 　　先后显示系统上一次和当前运行级别。如果不存在上一次运行级别，则用N表示。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170113212734.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170113212734.jpg)

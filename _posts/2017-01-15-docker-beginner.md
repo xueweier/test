@@ -48,7 +48,7 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
     $ sudo systemctl enable docker
     $ sudo systemctl start docker
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2017/QQ%E6%88%AA%E5%9B%BE20170119014613.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170119014613.jpg)
 
 
 # 查看 docker 信息

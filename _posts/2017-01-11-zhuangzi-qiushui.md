@@ -11,7 +11,7 @@ tags: literature warring_state_period zhuangzi taoism
 
 《庄子》一书，包括内篇七，外篇十五，杂篇十一，共三十三篇。学界一向认为内篇大体是庄周自著，外篇、杂篇则是庄周后学所作。
 
-![庄子](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/wxid_5adrbrfncua321_1484223745349_65.png)
+![庄子](https://cdn.kelu.org/blog/2017/01//wxid_5adrbrfncua321_1484223745349_65.png)
 
 
 秋水全篇由两大部分组成。前一部分写北海海神跟河神的谈话，一问一答一气呵成，构成本篇的主体。这个长长的对话根据所问所答的内容，又可分成七个片断。

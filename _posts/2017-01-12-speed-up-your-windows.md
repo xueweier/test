@@ -20,20 +20,20 @@ tags: windows
 
 技术人员看到这一条大概会直接把我枪毙了Orz 不管怎么说，360对于小白来说非常合适，对付流氓软件确实很有一套。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112212701.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112212701.jpg)
 
 ## 卸载各种无用的软件
 
 包括不限于各种杀毒软件。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112212455.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112212455.jpg)
 
 ## 启动项加速
 将你不需要的启动项<font color=#FF4500>统！统！删！掉！</font>
 
 尤其要注意，把杀毒软件啊，包括现在的360啊，之类的，在启动阶段全部禁用掉。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112212304.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112212304.jpg)
 
 当做到上面这一步，电脑的运行基本上已经没问题了。接下来是日常使用的一些方法。
 
@@ -41,27 +41,27 @@ tags: windows
 
 在任务栏上右键，选择任务管理器，主要关注CPU占用率。对于占用率高的软件多给一些关注。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112214845.jpg)
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112215415.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112214845.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112215415.jpg)
 
 # 网络监控
 
 按住键盘上的 Win+R 键。
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/d058ccbf6c81800a80e1b36cb23533fa828b474f.jpg)
+![](https://cdn.kelu.org/blog/2017/01//d058ccbf6c81800a80e1b36cb23533fa828b474f.jpg)
 
 键入`cmd`，回车打开命令行编辑器。
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112220154.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112220154.jpg)
 
 在命令行中输入 `ping jp.kelu.org -t` 或 `ping qq.com -t`，如下图，查看你的网络情况。为了保证不是网站的原因，最好同时 ping 163，新浪等网站作为参照。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112220353.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112220353.jpg)
 
 接下来看到这些画面，网络断开或质量不好的时候，会出现请求超时等字样。请求超时意味着网络丢包。如果出现网络丢包的情况很严重，这时候最好断开网络进行重连。有可能是本机网卡、无线路由器或者外部网络的原因导致。
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112220433.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112220433.jpg)
 
 当你认为监控已经足够了，同时按下ctrl+c，就会给出这一段时间内的网络汇总。如下图。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170112220538.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170112220538.jpg)
 
 
 终于把一些最基本的电脑使用总结出来了。以后还会继续完善本文的。

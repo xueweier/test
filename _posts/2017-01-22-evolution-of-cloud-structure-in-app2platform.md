@@ -4,7 +4,6 @@ title: 转载 | 从应用到平台 - 云服务架构的演进过程
 category: tech
 tags: docker baas
 ---
-
 本文转载自[SegmentFault](https://segmentfault.com/a/1190000005942794)同名文章。作者系力谱宿云 LeapCloud 团队_云服务负责人：秦鹏。 首发地址：<https://blog.maxleap.cn/archives/940>
 
 # 介绍
@@ -29,7 +28,7 @@ tags: docker baas
 ##背景
        当时公司有几十款App需要研发和运营，每个应用功能各异，种类包括浏览器、音视频工具、社交工具、清理大师、图片存储类和手游等，门类很多、很杂。如何提高研发效率，实现一套统一的研发、管理和运营体系，是当时的主要诉求。对主要功能进行梳理之后发现，各类应用共同需要依赖的组件包括，用户体系、云参数体系、推送服务、数据存储和广告服务。
 
-![](https://segmentfault.com/img/remote/1460000006769721)
+![](https://cdn.kelu.org/blog/2017/01/1460000006769721)
 
 图1 1.0业务模型
 
@@ -38,7 +37,7 @@ tags: docker baas
 ## 设计
        当时4个后端研发人员，Java出身，人少但是技术精干。结合团队情况和产品需求，决定采用如下架构，简单但给力。
 
-![](https://segmentfault.com/img/remote/1460000005942853)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942853)
 
 
 
@@ -64,7 +63,7 @@ tags: docker baas
 提供基础数据分析功能，提供代码托管等更多云服务
 
 
-![](https://segmentfault.com/img/remote/1460000005942855)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942855)
 图3 2.0业务模型
 
 ## 设计
@@ -74,7 +73,7 @@ tags: docker baas
 
 云服务部分
 
-![](https://segmentfault.com/img/remote/1460000005942857)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942857)
 图4 2.0云服务架构
 
        网络，最外层增加了ELB，IP地址直接暴露在公网是非常危险的方式，通过DNS配置CNAME指向域名，降低了被DDOS的风险，提高了Nginx的可用性。ELB本身会在访问增加时，自动伸缩，配合IaaS厂商提供的AutoScalling服务，可以抵御多数DDOS攻击。通过Nginx作为反向代理和负载均衡，不同服务指向不同的upstram地址和端口。服务间禁止相互依赖。
@@ -86,7 +85,7 @@ tags: docker baas
        存储/缓存，块数据依赖AWS的S3，权限控制、分桶策略比较实用，可用性有保障；缓存依然使用Redis，为了解决单点问题，对原有版本进行了升级，采用官方的3.0集群方案，支持分片和高可用，当然也有其它方案可选，比如codis等代理的方案。
 
 云计算部分
-![](https://segmentfault.com/img/remote/1460000005942859)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942859)
 图5 2.0云分析架构
 
        数据收集部分采用REST + Kafka方式，其中很重要的一部分是DataTransform，用于数据标准化、过滤、流控等用途，基于vert.x实现。
@@ -103,7 +102,7 @@ tags: docker baas
 # 3.0 平台化
 ## 背景
 
-![](https://segmentfault.com/img/remote/1460000005942861)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942861)
 图6 3.0业务模型
 
        对于创业公司而言，业务随时会有调整，作为技术人员，需要能够应对这种变化，架构上为这些变化做准备。产品向3.0演进由新的业务需求和架构自身的调整需求共同推动。新的业务需要支撑一个全网营销的SaaS产品线，产品支持配置操作生成App + 微信商城 + 手机网站，以及营销，就是需要本来专注于移动端研发定位的BaaS，向PaaS化和SaaS前进。架构上是基础组件需要进行升级，数据访问层、RPC、日志、监控系统等。于是我们提出一个目标，就是平台化，数据访问的组件以PaaS形式提供给开发者和内部团队，标准化API网关、日志、监控系统。
@@ -120,7 +119,7 @@ tags: docker baas
        目前网关用在了大多数服务中，下步计划是所有服务统一由网关进行管理，下图是网关系统的最终形态。
 
 
-![](https://segmentfault.com/img/remote/1460000005942863)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942863)
 图7 3.0网关架构
 
 数据访问
@@ -130,7 +129,7 @@ tags: docker baas
        当然，如果是仅仅实现代理的功能，有很多开源项目可以使用比如MyCat、MySQL Proxy等，我们对代理有这些需求，数据访问路由和配置变更，数据访问鉴权和处理，日志采集发送，流控和服务拒绝。
 
 
-![](https://segmentfault.com/img/remote/1460000005942866)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942866)
 图8 3.0公共组件架构
 
 日志系统
@@ -140,7 +139,7 @@ tags: docker baas
        我们是这样做的，在每台主机上部署Logstash Angent采集格式化的日志数据，向Logstash Server发送日志。为了降低运维成本，我们把Logstash Forward做成Docker镜像，通过Salt来管理所有的Agent。Logstash Server在拿到日志信息后，不做任何规则上的处理，将数据保存在ES中。其实Logstash Server自身有日志解析和格式化的功能，但这样做会严重影响它的吞吐量，于是我们的方案是把日志标准的流程控制在源头。接下来，在Kibana中建立各种服务的面板和视图，便可以进行浏览和检索了，还可以周期对日志进行rotate、分析。
 
 
-![](https://segmentfault.com/img/remote/1460000005942868)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942868)
 图9 3.0日志系统
 
 监控系统
@@ -150,7 +149,7 @@ tags: docker baas
        有了Metrics数据和视图的展示，下一步是报警。利用Nagios的报警机制，基于JNRPE实现报警的逻辑。报警逻辑通过读取ES中.kibana某一个视图的定义，和对应的阈值设置，通过比较当前值和阈值，返回某一个服务对应特定指标的监控状态。Nagios拿到状态后，决定是否报警。
 
 
-![](https://segmentfault.com/img/remote/1460000005942870)
+![](https://cdn.kelu.org/blog/2017/01/1460000005942870)
 图10 3.0监控系统
 
 ## 小结

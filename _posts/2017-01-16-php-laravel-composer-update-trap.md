@@ -5,15 +5,15 @@ category: tech
 tags: laravel php composer qiniu
 ---
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/laravel.jpg)
+![](/assets/img/laravel.jpg)
 
 我们经常要往现有的项目中添加扩展包，有时候因为编码人员还不了解 Laravel，在一些不良开发文档的引导下，如下图来自 [七牛云][qiniu] ，
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/QQ%E6%88%AA%E5%9B%BE20170118235957.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170118235957.jpg)
 
 又或者像这样:
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701J6xjZS0kx4.png)
+![](https://cdn.kelu.org/blog/2017/01/201701J6xjZS0kx4.png)
 
 前者，不经由 Laravel，使用原生 Composer， 舍弃了包的管理，显然有问题。后者，在现在的逻辑中，可能会对项目造成巨大的伤害——这个是一次性把所有扩展包更新到最新版本（避免这个问题可以针对单独一个包进行 update，或者在 composer.json 中指定版本号）。
 
@@ -145,7 +145,7 @@ composer.lock 文件里保存着对每一个代码依赖的版本记录，配合
 
 但是事实上在项目的早期是没有这个问题的，于是慢慢回溯查看。终于找到了罪魁祸首！
  
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2017/QQ%E6%88%AA%E5%9B%BE20170119004132.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170119004132.jpg)
  
 现在已经不记得当时为什么要如此更改了。总之目前将划线的内容改为了
 

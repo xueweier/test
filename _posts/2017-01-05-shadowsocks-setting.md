@@ -28,18 +28,18 @@ Shadowsocks 是当下一个蛮重要的科学上网工具，查询科研论文�
 
 * 你要跟管理员获取四个信息，一个是服务器，一个是端口，一个是加密格式，一个是密码。一般来说网站后台上都会给你写好的。
 
-[![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
+[![](https://cdn.kelu.org/blog/2017/01/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
 
 * 下载程序： [链接一][ss_w]，[链接二][ss_w_baidu] 密码 f53i。 解压到你希望运行程序的路径，例如：`C:\Program Files (x86)\ss`
 
 * 在任务栏找到 Shadowsocks 图标，在 服务器 菜单添加服务器(首次双击运行程序自动打开)
 
-![1](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223605.png)
+![1](https://cdn.kelu.org/blog/2017/01/20170108223605.png)
 
 * 选择 启用系统代理 来启用系统代理。
 
-![2](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223622.png)
-![3](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/20170108223615.png)
+![2](https://cdn.kelu.org/blog/2017/01/20170108223622.png)
+![3](https://cdn.kelu.org/blog/2017/01/20170108223615.png)
 
 * PAC 模式和全局模式的区别：
 
@@ -60,11 +60,11 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 * 在任务栏找到 Shadowsocks 图标，在 服务器 菜单添加服务器
 
-![5](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/D28973C0-7E48-46BC-997F-6470261382C1.png)
+![5](https://cdn.kelu.org/blog/2017/01/D28973C0-7E48-46BC-997F-6470261382C1.png)
 
 * 选择 启用系统代理 来启用系统代理。
 
-![4](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/4BFA4DCB-563A-453B-A4C7-942B25E85858.png)
+![4](https://cdn.kelu.org/blog/2017/01/4BFA4DCB-563A-453B-A4C7-942B25E85858.png)
 
 * PAC 模式和全局模式的区别：
 
@@ -77,43 +77,43 @@ PAC 模式是智能判断该网站是否需要通过设置的服务器进行访�
 
 * 下载安装程序： [链接一][ss_a]，[链接二][ss_a_baidu] 密码 imsn。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195710.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502195710.jpg)
 
 * 手动输入配置。
 
 	你要记住的有四个，一个是服务器，一个是端口，一个是加密格式，一个是密码
 
-[![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
+[![](https://cdn.kelu.org/blog/2017/01/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195748.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502195748.jpg)
 
 	将刚才记住的几个内容填入下面的方框中
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502195832.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502195832.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502200022.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502200022.jpg)
 
 <span id="iOS"></span>
 
 # iOS 基本使用
 
-* 前往 App Store 中国区搜索、下载：[Wingy][ss_i]
+* 前往 App Store 香港区/日本区/美国区/澳洲区搜索、下载：[Wingy][ss_i]，中国区已下架。
 
     有一个是免费的一个是收费的，没什么区别，下免费的吧233333
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502173508.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502173508.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194435.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502194435.jpg)
 
 * 手动输入配置，或选择二维码扫描。
 
-[![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
+[![](https://cdn.kelu.org/blog/2017/01/QQ20170503001203.png)](http://wechat.kelu.org/dashboard)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194509.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502194509.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194723.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502194723.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170502194757.jpg)
+![](https://cdn.kelu.org/blog/2017/01/20170502194757.jpg)
 
 # 高级使用
 
