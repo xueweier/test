@@ -53,25 +53,25 @@ JetBrains 公司下的其他产品包括：
   
 ### 查看效率指南
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170305183744.jpg)
+![](https://cdn.kelu.org/blog/2017/03/20170305183744.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170305183724.jpg)
+![](https://cdn.kelu.org/blog/2017/03/20170305183724.jpg)
 
 ### <span id='extract'>快速定义变量</span>
 
 选中一个表达式，然后在菜单中选择 Refactor - Extract - Variable，即可将该表达式提取为一个变量。同理也可以提取为成员、参数、常量等。
   
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/1421151681_4076.png)
+![](https://cdn.kelu.org/blog/2017/03/1421151681_4076.png)
 
 ### 快速优化语句
 
 IntelliJ 能帮助你快速优化语句。虽然感觉这个功能不太稳定，也蛮好的。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/1421151682_6823.png)
+![](https://cdn.kelu.org/blog/2017/03/1421151682_6823.png)
 
 ### 自定义注释信息
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170305210510.jpg)
+![](https://cdn.kelu.org/blog/2017/03/20170305210510.jpg)
 
 更详细设定查看官网[File Template Variables](https://www.jetbrains.com/help/idea/2016.3/file-template-variables.html)
 

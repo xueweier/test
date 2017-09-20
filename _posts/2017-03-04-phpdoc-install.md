@@ -4,7 +4,6 @@ title: PHPDoc 介绍与安装
 category: tech
 tags: php
 ---
-
 ![](/assets/img/php.jpg)
 
 PHPDoc是一个用PHP写的强大的文档自动生成工具，对于有规范注释的php程序，能够快速生成具有结构清晰、相互参照、索引等功能的API文档。
@@ -78,7 +77,7 @@ composer方式尝试之后发现与其它插件依赖冲突，[Can't install wit
 
 要想获得更多参数说明， `phpdoc -h`即可。因为phpdoc可以使用模板，可以在官网上选择你中意的模板再导出。默认的样式如下图：
 
-![](https://phpdoc.org/bundles/phpdocumentorwebsite/images/templates/clean.png)
+![](https://cdn.kelu.org/blog/2017/03/clean.png)
 
 tips：phpdoc的中文文档真的很少，要深入使用还是尽量在官网上看。
     

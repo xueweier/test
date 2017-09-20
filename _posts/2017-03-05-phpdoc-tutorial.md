@@ -63,7 +63,7 @@ DocBlock使用范围包括
 
      phpdoc --template="responsive" -d ./app -t ./docs
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/bog/pic/201703/responsive.jpg)
+![](https://cdn.kelu.org/blog/2017/03/responsive.jpg)
     
 # [与IntelliJ IDEA结合][idea]
 
@@ -75,7 +75,7 @@ DocBlock使用范围包括
 
 菜单栏 Run -> Edit Configurations,增加php脚本配置。在 File 栏目填写 phpdoc 的路径，例如我的 `C:\my_pp\php\php-5.5.30-nts-Win32-VC11-x64\phpdoc`,在 Arguments 栏目填写运行变量，例如我的 `--template="responsive" -d "C:\Workspace\wechat.kelu.org\app" -t "C:\Workspace\wechat.kelu.org\docs"`
     
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/idea_run_config.jpg)
+![](https://cdn.kelu.org/blog/2017/03/idea_run_config.jpg)
     
 # Docblocks详解
 

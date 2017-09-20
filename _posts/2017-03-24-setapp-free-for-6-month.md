@@ -5,7 +5,7 @@ category: software
 tags: mac
 ---
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/setapp.png)
+![](https://cdn.kelu.org/blog/2017/03/setapp.png)
 
 今天看了 v2ex 上一帖子说 [setapp 推荐新用户免费用](https://www.v2ex.com/t/349875)，刚好也蛮认同他们的理念的，就来用一波。 
 

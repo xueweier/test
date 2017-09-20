@@ -4,8 +4,8 @@ title: php 报错 date default timezone get
 category: tech
 tags: php composer
 ---
+![](/assets/img/php.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/php.jpg)
 今天在使用satis生成网页
 
     php bin/satis build satis.json public/

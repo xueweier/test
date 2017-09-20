@@ -4,8 +4,7 @@ title: php 数组增加元素的方法 array_push 和 array_merge
 category: tech
 tags: php
 ---
-
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/php.jpg)
+![](/assets/img/php.jpg)
 
 本文的起因是今天需要给一个数组添加成员，一个是无序数组，直接往里扔就可以，另一个是key-value形式的数组。
 

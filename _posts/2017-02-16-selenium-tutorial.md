@@ -4,8 +4,7 @@ title: selenium2 入门 - 基于php
 category: tech
 tags: selenium spider test php
 ---
-
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/selenium1.jpg)
+![](/assets/img/selenium.jpg)
 
 Selenium 用于自动化测试，它有助于自动化Web应用程序测试。本文介绍它的快速入门配置(php版本)与一个很简单的php爬虫应用。
 
@@ -31,12 +30,10 @@ selenium 支持多种浏览器，我目前使用的是chrome。<http://chromedri
 
 打开命令提示符，运行后边的文件 `php bilibili.php` 命令，最后打印了哔哩哔哩顶部的8个视频。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/QQ%E6%88%AA%E5%9B%BE20170216221036.jpg)
+![](https://cdn.kelu.org/blog/2017/02/20170216221036.jpg)
 
 
-
-
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/QQ%E6%88%AA%E5%9B%BE20170216221048.jpg)
+![](https://cdn.kelu.org/blog/2017/02/20170216221048.jpg)
 
     // bilibili.php
     <?php

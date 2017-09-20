@@ -13,7 +13,7 @@ tags: devops linux
 
 时出现了错误：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170328202414.jpg)
+![](https://cdn.kelu.org/blog/2017/03/20170328202414.jpg)
 
 记录一下解决办法。
 

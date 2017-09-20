@@ -11,7 +11,7 @@ tags: devops
 
 计划任务不必要在直接写在底层的 crontab 中，可以在 crontab 中这么设置
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/crontab.jpg)
+![](https://cdn.kelu.org/blog/2017/02/crontab.jpg)
 
 将运行脚本文件保存到 /var/local/cron 目录中，区分好时间和用户进行管理。
 

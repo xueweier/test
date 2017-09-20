@@ -11,7 +11,7 @@ tags: php string function wechat
 
 另外今天发现了一个有趣的网站<http://hepwori.github.io/execorder/>，哈哈哈，反正效果是这样的：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/QQ截图20170203224858.jpg)
+![](https://cdn.kelu.org/blog/2017/02/20170203224858.jpg)
 
 好了，下面是正文。
 

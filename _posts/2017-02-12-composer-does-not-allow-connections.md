@@ -5,11 +5,11 @@ category: tech
 tags: php composer
 ---
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/logo-composer-transparent2.png)
+![](https://cdn.kelu.org/blog/2017/02/logo-composer-transparent2.png)
 
 如下图。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2011702/20170212211058.png)
+![](https://cdn.kelu.org/blog/2017/02/20170212211058.png)
     
 
     your configuration does not allow to connection to `http://xxxxxxx`,see the https://getcomposer.org/doc/06-config.md#secure-http for details.

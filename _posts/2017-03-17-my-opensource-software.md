@@ -33,6 +33,6 @@ pptp、l2tp和shadowsocks基于集群主从模式的。通过cron自动同步和
 
 服务器的终端界面如下：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170320215121.jpg)
+![](https://cdn.kelu.org/blog/2017/03/20170320215121.jpg)
 
 [kelulinuxkit]: https://github.com/kelvinblood/KeluLinuxKit

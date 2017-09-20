@@ -4,8 +4,7 @@ title: 使用 satis 搭建一个私有的 Composer 包仓库
 category: tech
 tags: php composer satis
 ---
-
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/logo-composer-transparent2.png)
+![](/assets/img/composer.jpg)
 
 在日常php开发中可能需要使用大量的composer包，大部份都可以直接使用，但公司内部有一些与业务相关的包，是不能公开的，这时候我们就需要搭建一个公司内部使用的composer仓库。
 

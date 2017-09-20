@@ -4,8 +4,7 @@ title: php include()和 require() 的区别说明
 category: tech
 tags: php laravel
 ---
-
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/php.jpg)
+![](/assets/img/php.jpg)
 
 这也是个老生常谈的东西了，今天在阅读laravel的源代码，顺手记一下。 
 

@@ -4,12 +4,11 @@ title: github的辅助项目们
 category: tech
 tags: github git opensource
 ---
-
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/github.jpg)
+![](/assets/img/github.jpg)
 
 时常在github项目上看到类似下面这样的小标签,用于展示项目的一些信息。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/20170221202753.jpg)
+![](https://cdn.kelu.org/blog/2017/02/20170221202753.jpg)
 
 今天稍微接触了一下这些(小)项目。目前还没有在blog上使用，过段时间会尝试一下。
 

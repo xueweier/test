@@ -5,7 +5,7 @@ category: literature
 tags: literature
 ---
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/1729380-e48f514dd09b5a24.jpg)
+![](https://cdn.kelu.org/blog/2017/03/1729380-e48f514dd09b5a24.jpg)
 
 在看 robot framework 相关资料时候进了这个作者的主页，发现文章讲的很好，于是转过来做个记录。点击查看 [原文链接][1]
 

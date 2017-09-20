@@ -13,49 +13,49 @@ tags: windows
 
 # 游戏截图
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/1.jpg)
+![](https://cdn.kelu.org/blog/2017/03/1.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/2.jpg)
+![](https://cdn.kelu.org/blog/2017/03/2.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/3.jpg)
+![](https://cdn.kelu.org/blog/2017/03/3.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/4.jpg)
+![](https://cdn.kelu.org/blog/2017/03/4.jpg)
 
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/5.jpg)
+![](https://cdn.kelu.org/blog/2017/03/5.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/6.jpg)
+![](https://cdn.kelu.org/blog/2017/03/6.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/7.jpg)
+![](https://cdn.kelu.org/blog/2017/03/7.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/8.jpg)
+![](https://cdn.kelu.org/blog/2017/03/8.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/9.jpg)
+![](https://cdn.kelu.org/blog/2017/03/9.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/10.jpg)
+![](https://cdn.kelu.org/blog/2017/03/10.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/11.jpg)
+![](https://cdn.kelu.org/blog/2017/03/11.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/12.jpg)
+![](https://cdn.kelu.org/blog/2017/03/12.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/13.jpg)
+![](https://cdn.kelu.org/blog/2017/03/13.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/14.jpg)
+![](https://cdn.kelu.org/blog/2017/03/14.jpg)
 
 
 # 人物截图
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/21.jpg)
+![](https://cdn.kelu.org/blog/2017/03/21.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/22.jpg)
+![](https://cdn.kelu.org/blog/2017/03/22.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/23.jpg)
+![](https://cdn.kelu.org/blog/2017/03/23.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/24.jpg)
+![](https://cdn.kelu.org/blog/2017/03/24.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/25.jpg)
+![](https://cdn.kelu.org/blog/2017/03/25.jpg)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/26.jpg)
+![](https://cdn.kelu.org/blog/2017/03/26.jpg)
 
 
 # 剧情全文
@@ -225,7 +225,7 @@ tags: windows
 
 ### 第三幕 雾之湖畔的女仆长
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/31.jpg)
+![](https://cdn.kelu.org/blog/2017/03/31.jpg)
 长雾之湖畔建立的洋馆。红色少窗，馆前的通道也是一片红色。有一座钟楼， 里面比外见为大，并设有地下室。
     
     场景一 妖精之湖

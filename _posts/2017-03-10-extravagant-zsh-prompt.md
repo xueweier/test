@@ -15,7 +15,7 @@ tags: linux
 
 效果图如下：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/filehelper_1489153072468_70.png)
+![](https://cdn.kelu.org/blog/2017/03/filehelper_1489153072468_70.png)
 
 源码如下：
 

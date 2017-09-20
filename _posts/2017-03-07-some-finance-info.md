@@ -5,7 +5,7 @@ category: finance
 tags: finance
 ---
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170307224506.jpg)
+![](https://cdn.kelu.org/blog/2017/03/20170307224506.jpg)
 
 上边是朋友推荐的书，对于理解金融很有帮助，也推荐给各位： 《货币金融学, The Economics of Money, Banking and Financial Market》。本文是随手搜到的一些只言片语，保留做个备忘。
 

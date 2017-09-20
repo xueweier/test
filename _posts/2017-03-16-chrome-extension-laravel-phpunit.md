@@ -12,8 +12,8 @@ tags: chrome google laravel
 
 下载地址：[webstore][webstore]
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/ddieaepnbjhgcbddafciempnibnfnakl_1.jpg)
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/ddieaepnbjhgcbddafciempnibnfnakl_2.jpg)
+![](https://cdn.kelu.org/blog/2017/03/ddieaepnbjhgcbddafciempnibnfnakl_1.jpg)
+![](https://cdn.kelu.org/blog/2017/03/ddieaepnbjhgcbddafciempnibnfnakl_2.jpg)
 
 
 [webstore]: https://chrome.google.com/webstore/detail/laravel-testtools/ddieaepnbjhgcbddafciempnibnfnakl

@@ -19,9 +19,9 @@ tags: postgresql database
 
     C:\my_pp\PostgreSQL\9.4\data\pg_hba.conf
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2017021.png)
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2017022.png)
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2017023.png)
+![](https://cdn.kelu.org/blog/2017/02/2017021.png)
+![](https://cdn.kelu.org/blog/2017/02/2017022.png)
+![](https://cdn.kelu.org/blog/2017/02/2017023.png)
 
 如果是 Linux 环境，使用 find 全局查找也能查出来。按照文件example修改即可。因为内网环境，也就没所谓了，让所有链接都能通过，即 0.0.0.0/0
 

@@ -4,8 +4,7 @@ title: 转载 | Composer 入门
 category: tech
 tags: php composer
 ---
-
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/db5b3341b0b013db10affad656fbf.jpg)
+![](/assets/img/composer.jpg)
 
 前言： 最近总结了好多和 composer 相关的文章。这一篇对 composer 做个简单介绍。文章大部分来源于[Composer 中文文档][composer-cn]
 
@@ -144,7 +143,6 @@ dist包也可以用于诸如dev-master之类的分支，Github允许你下载某
 安装包的时候可以同样使用--optimize-autoloader。不加这一选项，你可能会发现20%到25%的性能损失。
 
 如果你需要帮助，或者想要了解某个命令的细节，你可以阅读官方文档或者中文文档，也可以查看JoliCode做的这个[交互式备忘单](http://composer.json.jolicode.com/)。
-
 
 # 参考资料
 

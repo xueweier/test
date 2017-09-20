@@ -27,39 +27,39 @@ p img {width: 480px}
 <span id="android"></span>
 ## 在Android下的设置
 
-![L2TP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-01.png)
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-01.png)
 <br>
 
-![L2TP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-02.png)
-<br>
-
-
-![L2TP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-03.png)
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-02.png)
 <br>
 
 
-![L2TP-Android](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170320125301.jpg)
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-03.png)
 <br>
 
 
-![L2TP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-05.png)
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/20170320125301.jpg)
+<br>
+
+
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-05.png)
 <br>
 
 <span id="iphone"></span>
 
 ## 在iPhone/iPad下的设置
 
-![L2TP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-01.png)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-01.png)
 <br>
 
-![L2TP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-02.png)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-02.png)
 <br>
 
-![L2TP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-03.png)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-03.png)
 <br>
 
-![L2TP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-04.png)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-04.png)
 <br>
 
-![L2TP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201703/20170320130138.jpg)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/20170320130138.jpg)
 

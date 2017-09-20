@@ -11,7 +11,7 @@ tags: chrome google
 
 Great Suspender的目的是节省内存，效果很好。它会暂时关闭掉所有标签的网页响应，除了现在你正在阅读的这个，而当你切换到另一个标签时，它就会重载这个标签的网页。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/640.jpg)
+![](https://cdn.kelu.org/blog/2017/02/640.jpg)
 （内存优化插件Great Suspender）
 
 # 参考资料

@@ -23,7 +23,7 @@ tags: docker gfw
 
 做到这一步已经够用了。如果想使用daocloud的升级版，还可以安装[DaoCloud Toolbox][daocloud]，速度更是飞起来。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201702/demo-optimized.gif)
+![](https://cdn.kelu.org/blog/2017/02/demo-optimized.gif)
 
 # 参考资料
 
