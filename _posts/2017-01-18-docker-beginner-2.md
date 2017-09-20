@@ -84,7 +84,7 @@ Dockerfile是自动构建docker镜像的配置文件，Dockerfile中的命令非
 * 镜像操作命令
 * 容器启动命令
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/DockerFile简介与实例Docker-commoand.png)
+![](https://cdn.kelu.org/blog/2017/01/Docker-commoand.png)
 
 下面是一个CentOS7的Dockerfile实例
 
