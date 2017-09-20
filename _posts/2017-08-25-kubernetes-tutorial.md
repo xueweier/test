@@ -24,7 +24,7 @@ Kubernetes 是一套分布式系统，由多个节点组成，节点分为两类
 
 kubernetes 的总体概览如下图：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201709/1026003.png)
+![](https://cdn.kelu.org/blog/2017/08/1026003.png)
 
 下面介绍一些核心概念。
 
@@ -34,23 +34,23 @@ kubernetes 的总体概览如下图：
 
 总视角一：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201709/1026000.png)
+![](https://cdn.kelu.org/blog/2017/08/1026000.png)
 
 总视角二：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201709/1026004.png)
+![](https://cdn.kelu.org/blog/2017/08/1026004.png)
 
 Master 视角：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201709/1026001.png)
+![](https://cdn.kelu.org/blog/2017/08/1026001.png)
 
 Minion 视角一：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201709/1026002.png)
+![](https://cdn.kelu.org/blog/2017/08/1026002.png)
 
 Minion 视角二：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201709/k8s-1.png)
+![](https://cdn.kelu.org/blog/2017/08/k8s-1.png)
 
 
 
