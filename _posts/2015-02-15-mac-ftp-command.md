@@ -115,4 +115,4 @@ tags: mac ftp
 	
 最后有一个问题，为什么老是有不明的人/机器想登陆我的FTP？= =不过自己也是只有使用的时候才会开。
 
-![ftp-log](http://7vigrt.com1.z0.glb.clouddn.com/FTP-Log.png)
+![ftp-log](https://cdn.kelu.org/blog/2015/02/FTP-Log.png)

@@ -7,10 +7,6 @@ tags: rss linux BeagleBone-Black Raspberry-Pi
 
 本文转载自[极客范](http://www.geekfan.net)，由 [小道空空](http://www.geekfan.net/author/wangqing/) 翻译自 [Michael Leonard](http://makezine.com/magazine/how-to-choose-the-right-platform-raspberry-pi-or-beaglebone-black/)。因为最近刚入了bbb，这篇文章总结的也很好，还有就是极客范也停止更新两个月了，所以转载过来。以下是转载内容：
 
-![image](http://www.geekfan.net/wp-content/uploads/20231670456e1f27348d0037e2d21ce1.png)
-
-
-
 已经有很多文章比较过Arduino、树莓派和BeagleBone Black（BBB），但本文的侧重点不同。我相信大家都会认为Arduino和另外两者明显属于不同的阵营，因为Arduino的用途完全不一样。我曾试图去寻找这样一篇文章但最终没有找到：它全面的比较树莓派和BBB的优缺点并分析各自的最佳适用领域。因此，我决定自己写一篇。
 本文首先简要的介绍每个平台，然后从以下几方面深入的比较它们：
 
@@ -29,8 +25,6 @@ tags: rss linux BeagleBone-Black Raspberry-Pi
 
 ## 树莓派简介
 
-![bbb_vs_pi_topofrpi 树莓派的正面](http://www.geekfan.net/wp-content/uploads/2959e88886c154fcab417001c96d6538.jpg)
-
 Arduino是微控制器领域的开拓者，它开启了“制造者”革命；而了不起的树莓派则真正开始了微控制器革命。
 对于公众来说，树莓派是第一个便宜（35美金）、易用的单片计算机。树莓派的创造者发现年长一代的学生出于需要对计算机技术都比较精通。但年轻一代的学生在这方面则逊色很多，他们对计算机技术的了解离他们所需要掌握的差很远。于是树莓派这个既便宜但性能又比较强大的微型计算机诞生了。它使得年轻一代的学生可以很方便的接触和深入学习计算机技术。
 如果你想更多的了解树莓派，那么我推荐你去阅读官方的“关于”和“常见问题”网页。树莓派诞生的背后故事还是很鼓励人心和值得一读的。
@@ -39,7 +33,6 @@ Arduino是微控制器领域的开拓者，它开启了“制造者”革命；�
 
 BBB是易用微处理器领域的后来者。虽然它错过了推向市场的最佳时间，但它在产品的性能上得到了弥补。BBB继承了BeagleBoard产品家族的血统：体积小、性能强大、可扩展性强（便于工程师和艺术家等开发自己的创新项目）。
 BeagleBoard家族最初是为了给业余爱好者提供一个相对低价的开发平台而设计的。这个平台包含了一个强大的新的片上系统（System on Chip, SoC)设备。最初的BeagleBoard目前售价125美元；它的继任者BeagleBoard-xM售价145美元。虽然它们功能强大，但是其相对“昂贵”的价格却无法吸引人去大量的购买。BeagleBoard小组在BeagleBoard-xM之后开发了BeagleBone，后者本质上是前者的精简版。虽然BeagleBone起点不错，但是其89美金的售价还是无法吸引众多业余爱好者们。BeagleBoard小组最终在2012年下半年发布了BeagleBone的升级版——BeagleBone Black（BBB）。从下面这幅图中你会看出为什么BeagleBoard小组给它起了这个名字。
-![bbb_vs_pi_beaglebone-black-front](http://www.geekfan.net/wp-content/uploads/43d18bb69bca2393cc60948dc200d643.jpg)
 
 BBB的正面
 
@@ -52,13 +45,11 @@ BBB继承了BeagleBone的体积并增加了相当多的有用功能，因此它�
 
 ### 概况
 下面的表格总结了树莓派（Rev.B）和BBB（Rev.A5B）的各项规格参数。从这里我们可以快速了解各个平台的性能。这个表格只比较了两者发货时的版本。后续文章将深入比较其本身及支撑其发展的生态系统。
-![bbb_vs_pi_table](http://www.geekfan.net/wp-content/uploads/7973da9c09e69ca223006c75ec158fa4.png)
 
 ### 开箱
 我当时购买的树莓派被包装在一个普通的白色纸箱中，没有任何标记和配件。现在的树莓派则被包装在一个相对漂亮的盒子中。
 我的BBB则是2013年参加TI实习生设计大赛时免费拿到的。它也被包装在一个专业的盒子中，并包含了一个mini-USB线和一张小的介绍卡。
 获胜者：平手
-![bbb_vs_pi_unboxing](http://www.geekfan.net/wp-content/uploads/03004b33fdd8c960155d1078b9ca68be.jpg)
 
 ### 初次使用
 初次使用树莓派是比较费力的。它没有提供USB线，所以你必须自己买一个。此外，树莓派没有预装操作系统。你必须自己下载操作系统、烧录到SD卡中、然后用SD卡来启动它。

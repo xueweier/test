@@ -33,73 +33,73 @@ p img {width: 480px}
 <span id="windows"></span>
 ## 在Windows下的设置
 
-![PPTP-Windows](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Windows-01.png)
+![PPTP-Windows](https://cdn.kelu.org/blog/2015/02/PPTP-Windows-01.png)
 
-![PPTP-Windows](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Windows-02.png)
+![PPTP-Windows](https://cdn.kelu.org/blog/2015/02/PPTP-Windows-02.png)
 
-![PPTP-Windows](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Windows-03.png)
+![PPTP-Windows](https://cdn.kelu.org/blog/2015/02/PPTP-Windows-03.png)
 
-![PPTP-Windows](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Windows-04.png)
+![PPTP-Windows](https://cdn.kelu.org/blog/2015/02/PPTP-Windows-04.png)
 
-![PPTP-Windows](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Windows-05.png)
+![PPTP-Windows](https://cdn.kelu.org/blog/2015/02/PPTP-Windows-05.png)
 
-![PPTP-Windows](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Windows-06.png)
+![PPTP-Windows](https://cdn.kelu.org/blog/2015/02/PPTP-Windows-06.png)
 
-![PPTP-Windows](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Windows-07.png)
+![PPTP-Windows](https://cdn.kelu.org/blog/2015/02/PPTP-Windows-07.png)
 
 <span id="mac"></span>
 ## 在Mac下的设置
 
-![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-01.png)
+![PPTP-Mac](https://cdn.kelu.org/blog/2015/02/PPTP-Mac-01.png)
 
-![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-02.png)
+![PPTP-Mac](https://cdn.kelu.org/blog/2015/02/PPTP-Mac-02.png)
 
-![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-03.png)
+![PPTP-Mac](https://cdn.kelu.org/blog/2015/02/PPTP-Mac-03.png)
 
-![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-04.png)
+![PPTP-Mac](https://cdn.kelu.org/blog/2015/02/PPTP-Mac-04.png)
 
-![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-05.png)
+![PPTP-Mac](https://cdn.kelu.org/blog/2015/02/PPTP-Mac-05.png)
 
-![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-06.png)
+![PPTP-Mac](https://cdn.kelu.org/blog/2015/02/PPTP-Mac-06.png)
 
-![PPTP-Mac](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Mac-07.png)
+![PPTP-Mac](https://cdn.kelu.org/blog/2015/02/PPTP-Mac-07.png)
 
 <span id="android"></span>
 
 ## 在Android下的设置
 
-![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-01.png)
+![PPTP-Android](https://cdn.kelu.org/blog/2015/02/PPTP-Android-01.png)
 <br>
 
-![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-02.png)
-<br>
-
-
-![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-03.png)
+![PPTP-Android](https://cdn.kelu.org/blog/2015/02/PPTP-Android-02.png)
 <br>
 
 
-![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-04.png)
+![PPTP-Android](https://cdn.kelu.org/blog/2015/02/PPTP-Android-03.png)
 <br>
 
 
-![PPTP-Android](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-Android-05.png)
+![PPTP-Android](https://cdn.kelu.org/blog/2015/02/PPTP-Android-04.png)
+<br>
+
+
+![PPTP-Android](https://cdn.kelu.org/blog/2015/02/PPTP-Android-05.png)
 <br>
 
 <span id="iphone"></span>
 
 ## 在iPhone/iPad下的设置
 
-![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-01.png)
+![PPTP-iPhone](https://cdn.kelu.org/blog/2015/02/PPTP-iOS-01.png)
 <br>
 
-![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-02.png)
+![PPTP-iPhone](https://cdn.kelu.org/blog/2015/02/PPTP-iOS-02.png)
 <br>
 
-![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-03.png)
+![PPTP-iPhone](https://cdn.kelu.org/blog/2015/02/PPTP-iOS-03.png)
 <br>
 
-![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-04.png)
+![PPTP-iPhone](https://cdn.kelu.org/blog/2015/02/PPTP-iOS-04.png)
 <br>
 
-![PPTP-iPhone](http://7vigrt.com1.z0.glb.clouddn.com/PPTP-iOS-05.png)
+![PPTP-iPhone](https://cdn.kelu.org/blog/2015/02/PPTP-iOS-05.png)

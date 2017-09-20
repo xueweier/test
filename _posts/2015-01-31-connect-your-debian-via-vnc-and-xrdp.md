@@ -51,7 +51,7 @@ iceweasel，你可以当成firefox浏览器。
 
 ## 客户端连接
 
-![image](http://7vigrt.com1.z0.glb.clouddn.com/vnc-connect.png)
+![image](https://cdn.kelu.org/blog/2015/01/vnc-connect.png)
 
 ## 使用windows自带的远程连接
 
@@ -59,7 +59,7 @@ iceweasel，你可以当成firefox浏览器。
 
 在本地就使用Mircosoft Remote Desktop，windows自带，Mac在应用商店也可以免费下载。
 
-![xrdp.png](http://7vigrt.com1.z0.glb.clouddn.com/xrdp.png)
+![xrdp.png](https://cdn.kelu.org/blog/2015/01/xrdp.png)
 
 ## 安装firefox
 

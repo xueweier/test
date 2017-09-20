@@ -10,7 +10,6 @@ tags: rss linux openssl mysql eclipse apache hadoop webkit
 开源软件现在成为整个互联网时代的支撑技术，你可能已经无法离开由开源软件构建起来的网络世界了。下面我们就来看看一些最重要的开源技术。
 
 ## 为互联网而生的操作系统linux
-![linux](http://www.webhek.com/techug-res/uploads/2015/02/7.jpg)
 
 Linux是一款免费的操作系统，诞生于1991年，用户可以通过网络或其他途径免费获得，并可以任意修改其源代码。
 
@@ -21,7 +20,6 @@ Linux是一款免费的操作系统，诞生于1991年，用户可以通过网�
 Linux可以说是已经无处不在，像Android手机就是以Linux为基础开发的，世界上大多的超级计算机也都采用的Linux系统，大多数的数据中心使用Linux作为其支撑操作系统。谷歌、百度、淘宝等都通过Linuxt提供了我们每天用的互联网服务。Linux在航空控制系统中也扮演着重要角色。
 
 ## 加密互联网的安全协议OpenSSL
-![OpenSSL](http://www.webhek.com/techug-res/uploads/2015/02/6.jpg)
 
 OpenSSL是套开放源代码的软件库包，实现了SSL与TLS协议。OpenSSL可以说是一个基于密码学的安全开发包，囊括了主要的密码算法、常用的密钥和证书封装管理功能以及SSL协议，并提供了丰富的应用程序供测试或其它目的使用。
 
@@ -31,7 +29,6 @@ OpenSSL是套开放源代码的软件库包，实现了SSL与TLS协议。OpenSSL
  
 
 ## 互联网的记忆——MySQL
-![MySQL](http://www.webhek.com/techug-res/uploads/2015/02/5.jpg)
 
 MySQL是一个开源的小型的数据库管理系统，原开发者为瑞典的MySQL AB公司，该公司于2008年被Sun公司收购。2009年，甲骨文公司（Oracle）收购Sun公司，MySQL成为Oracle旗下产品。
 
@@ -40,7 +37,6 @@ MySQL是一个开源的小型的数据库管理系统，原开发者为瑞典的
 Mysql最初为小型应用而开发，但现在的Mysql已经不是一个小型数据库了。基本上所有的互联网公司都会使用这个数据库系统，一些金融交易也会采用Mysql作为数据库引擎。Mysql通过相应的调优既可以支撑大规模的访问，又可以保证数据安全性，已经成为威胁传统商业数据库系统的重要力量。
 
 ## 万能开发工具Eclipse
-![Eclipse ](http://www.webhek.com/techug-res/uploads/2015/02/4.jpg)
 
 是一个开放源代码的、基于Java的可扩展开发平台。Eclipse最初由OTI和IBM两家公司的IDE产品开发组创建，起始于1999年4月。目前由IBM牵头，围绕着Eclipse项目已经发展成为了一个庞大的Eclipse联盟，有150多家软件公司参与到Eclipse项目中，其中包括Borland、Rational Software、Red Hat及Sybase等。
 
@@ -49,21 +45,18 @@ Mysql最初为小型应用而开发，但现在的Mysql已经不是一个小型�
 Eclipse并不是一个直接服务于消费者的产品，它更像一个工匠手中万用工具，用Eclipse开发者可以打造出各种充满创造性的服务来满足最终用户的需求。
 
 ## 互联网的门卫Apache
-![Apache HTTP ](http://www.webhek.com/techug-res/uploads/2015/02/3.jpg)
 
 Server（简称Apache）是Apache软件基金会的一个开放源码的网页服务器，可以在大多数计算机操作系统中运行，由于其多平台和安全性被广泛使用，也是最流行的Web服务器端软件之一，市场占有率达60%左右。它快速、可靠并且可通过简单的API扩展，它可以和各种解释器配合使用，包括PHP/Perl/Python等。
 
 Apache就像一个负责的门卫，管理着服务器数据的进出。每当你在你的地址栏里输入http://XXX.com的时候，在遥远的远端，很有可能正是一台跑着Apache的服务器，将你需要的信息传输给浏览器。
 
 ## 大数据的心脏Hadoop
-![Hadoop](http://www.webhek.com/techug-res/uploads/2015/02/2.jpg)
 
 是一个能够对大量数据进行分布式处理的软件框架，由Apache基金会开发。用户可以在不了解分布式底层细节的情况下，开发分布式程序。Hadoop 一直帮助解决各种问题，包括超大型数据集的排序和大文件的搜索。它还是各种搜索引擎的核心，比如 Amazon 的 A9 和用于查找酒信息的 Able Grape 垂直搜索引擎。阿里巴巴集团在商品推荐、用户行为分析、信用计算领域也都有hadoop的应用。
 
 在“大数据”已经成为潮流的当下，Hadoop已经成为最主要的一项技术。可以毫不夸张的说，没有Hadoop，就没有大多数的大数据应用。可以说对一个不知道Hadoop的程序员而言，你已经out了。
 
 ## 互联网的“排版引擎”WebKit
-![WebKit](http://www.webhek.com/techug-res/uploads/2015/02/1.jpg)
 
 说是浏览器内核，其实“排版引擎”更容易理解一些。通过服务器传输给浏览器的信息只是一串乱糟糟的文本。要看到我们平时看到精美的网友，需要浏览器内核对这些文本进行解析，将枯燥的描述“画”成美丽的浏览界面。
  
