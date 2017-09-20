@@ -11,19 +11,19 @@ tags: proxy
 
 Windows 如下：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/QQ20170703-222642.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222642.png)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/QQ20170703-222614.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222614.png)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/QQ20170703-222749.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222749.png)
 
 Mac 如下:
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/屏幕截图 2017-07-03 22.28.09.png)
+![](https://cdn.kelu.org/blog/2017/06/22.28.09.png)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/QQ20170703-222859.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222859.png)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/QQ20170703-222930.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222930.png)
 
 
 # git
@@ -80,7 +80,7 @@ Mac 如下:
 
 重启 terminal 生效。可以通过curl -i http://ip.cn查看IP改变来测试是否生效
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-07-04%20%E4%B8%8B%E5%8D%888.01.53.png)
+![](https://cdn.kelu.org/blog/2017/06/8.01.53.png)
 
 # 参考资料
 

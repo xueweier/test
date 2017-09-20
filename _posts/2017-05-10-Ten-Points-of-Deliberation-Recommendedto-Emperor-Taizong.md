@@ -5,7 +5,7 @@ category: literature
 tags: literature tang_dynasty
 ---
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/wang-zhuangwei.jpg)
+![](https://cdn.kelu.org/blog/2017/05/wang-zhuangwei.jpg)
 
 # 文章背景
 

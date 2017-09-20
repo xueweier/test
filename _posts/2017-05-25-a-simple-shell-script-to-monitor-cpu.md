@@ -9,7 +9,7 @@ tags: linux shell
 
 最近服务器经常出现 CPU 100%，然后超负荷运行的情况。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201705/20170527200218.jpg)
+![](https://cdn.kelu.org/blog/2017/05/20170527200218.jpg)
 
 按照朋友的经验，可能是数据库的问题。查了一下，果然是，虽然目前还不知道是什么原因。
 
