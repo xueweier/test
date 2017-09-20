@@ -12,7 +12,7 @@ tags: php laravel composer
 
 ## 预览
 
-![Preview](http://i.imgur.com/HYtr744.png)
+![Preview](https://cdn.kelu.org/blog/2017/04/HYtr744.png)
 
 ## 安装
 

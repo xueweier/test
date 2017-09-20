@@ -24,7 +24,7 @@ tags: php laravel sql
 
 今天在实现这样一个需求，将两个类似的表打乱然后显示出来。参考了一份非常、非常、非常难看的原生 SQL 语句，唏嘘~~
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/20170609211431.jpg)
+![](https://cdn.kelu.org/blog/2017/06/20170609211431.jpg)
 
 原本呢，直接使用 Eloquent 进行 Union ，使用 Get 获取也是可以的，然而因为我需要进行 paginate 分页，直接使用 Eloquent 就报错了，所以还是需要使用原生 SQL 。
 
