@@ -4,14 +4,11 @@ title: uebersicht - 一款漂亮的桌面Widgets
 category: software
 tags: mac
 ---
-
 Übersicht 是Mac下一款可以用来自定义桌面插件的工具。我们可以根据自己的喜好定制不同的Widgets。和Windows下的Rainmeter类似。把玩了一下感觉棒棒的。
 
 效果还真挺炫的。目前在想着可以给自己的服务器加一些状态接口，通过uebesicht方便简单又干脆就可以拿到服务器的实时数据，实在是居家旅行必备。
 
-
-
-![uebersicht](http://7vigrt.com1.z0.glb.clouddn.com/desktopScreenShot.png)
+![uebersicht](https://cdn.kelu.org/blog/2015/01/desktopScreenShot.png)
 
 详细的介绍在[少数派](http://sspai.com/28020)上有介绍，下面是转载文。
 
