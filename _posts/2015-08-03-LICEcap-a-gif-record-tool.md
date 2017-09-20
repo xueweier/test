@@ -9,7 +9,7 @@ tags: mac
 
 名字叫 [LICEcap][LICEcap] 小巧实用，Windows和Mac都支持哦！来看看效果吧。也可以直接在在github上看代码：[https://github.com/lepht/licecap](https://github.com/lepht/licecap)
 
-![maximum awesome](http://7vigrt.com1.z0.glb.clouddn.com/2.gif)
+![maximum awesome](https://cdn.kelu.org/blog/2015/08/2.gif)
 
 
 [LICEcap]:http://www.cockos.com/licecap/

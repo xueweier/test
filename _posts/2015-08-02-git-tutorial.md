@@ -249,7 +249,7 @@ fast-forward方式就是当条件允许的时候，git直接把HEAD指针指向�
 --no-ff：不使用fast-forward方式合并，保留分支的commit历史
 --squash：使用squash方式合并，把多次分支commit历史压缩为一次
 
-![image](http://segmentfault.com/img/bVkJAj)
+![image](https://cdn.kelu.org/blog/2015/08/bVkJAj.jpg)
 
 ### 分支衍合cherry-pick
 
@@ -259,14 +259,14 @@ cherry-pick其实在工作中还挺常用的，一种常见的场景就是，比
 
 比如说，我们在master分支上继续做两次提交，第一次添加一行”test 10”，`git commit -am "commit 10"`，第二次添加“test 11”，到达如下图的状态：
 
-![图25](http://pinkyjie-blog.qiniudn.com/images/git-notes-25.png)
+![图25](https://cdn.kelu.org/blog/2015/08/git-notes-25.png)
 
 这个时候我们发现，哦NO，我们不应该直接更改master分支，我们应该在自己的分支上做提交。这个时候先新建一个分支`git checkout -b branch3 1a222c3`，注意这里的最后一个参数是新分支的起点，也就是说，新的分支branch3是从“commit 8,9”开始的，现在我们需要把刚才的两次提交移动到新的分支上。运行`git cherry-pick 0bda20e 1a04d5f`，命令行会给出提示两个commit被复制到了当前分支上，此时SourceTree的状态如下图：
 
-![图26](http://pinkyjie-blog.qiniudn.com/images/git-notes-26.png)
+![图26](https://cdn.kelu.org/blog/2015/08/git-notes-26.png)
 确定这两个commit被复制到指定分支以后，在master分支上将这两个commit删除。先切回master分支：`git checkout master`，运行`git reset --hard 1a222c3`，此时SourceTree的状态图为：
 
-![图27](http://pinkyjie-blog.qiniudn.com/images/git-notes-27.png)
+![图27](https://cdn.kelu.org/blog/2015/08/git-notes-27.png)
 两个commit被成功的从master分支移动到了branch3分支。
 
 ### 分支衍合rebase

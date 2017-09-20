@@ -44,9 +44,9 @@ tags: linux locale
 	
 输入`dpkg-reconfigure locales`按照提示选中一下内容
 
-![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-09-20%20下午5.29.45.png)
+![image](https://cdn.kelu.org/blog/2015/09/blog_屏幕快照%202015-09-20%20下午5.29.45.png)
 
-![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-09-20%20下午5.30.05.png)
+![image](https://cdn.kelu.org/blog/2015/09/blog_屏幕快照%202015-09-20%20下午5.30.05.png)
 
 完成以上步骤后重启系统即可。
 
