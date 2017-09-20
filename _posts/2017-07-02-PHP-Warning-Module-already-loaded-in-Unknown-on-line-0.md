@@ -14,7 +14,7 @@ tags: php
 
 如图：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202017-07-03%2020.24.20.png)
+![](https://cdn.kelu.org/blog/2017/07/20.24.20.png)
 
 或者是查看 php 版本时，`php -v` 也会出现这样的错误。
 

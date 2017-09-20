@@ -15,9 +15,9 @@ tags: mac shadowsocks proxy vm
 
 * 在宿主机的 shadowsocks 设置监听地址为 0.0.0.0 (默认是127.0.0.1)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/2017-07-07-12.29.23.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-07-12.29.23.png)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/2017-07-07-12.29.38.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-07-12.29.38.png)
 
 
 * 使用桥接方式运行虚拟机（使得虚拟机与宿主处于同一个局域网）

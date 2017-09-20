@@ -48,13 +48,13 @@ Proxifier是一款功能非常强大的socks5客户端，可以让不支持通�
 
     打开软件，点击图中按钮，添加代理信息
 
-    ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/2017-07-04-8.25.24.png)
+    ![](https://cdn.kelu.org/blog/2017/07/2017-07-04-8.25.24.png)
 
     还可以在代理添加界面点击”Proxy Chains”按钮添加多条代理线路，以实现均衡负载。
     
 * 添加代理规则
 
-    ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/2017-07-04-10.41.37.png)
+    ![](https://cdn.kelu.org/blog/2017/07/2017-07-04-10.41.37.png)
 
     这里可以设置某一款程序需要通过代理访问。
 
@@ -62,15 +62,15 @@ Proxifier是一款功能非常强大的socks5客户端，可以让不支持通�
 
     为了防止DNS污染，一般使用代理的时候都会使用远程服务器的DNS设置，在第一次启动软件时会有提示，我们也可以在这里设置。
 
-    ![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/2017-07-04-8-25-59.png)
+    ![](https://cdn.kelu.org/blog/2017/07/2017-07-04-8-25-59.png)
 
 做完了上面的步骤，就可以看主界面啦。 
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/2017-07-04-10.40.16.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-04-10.40.16.png)
 
 主界面还可以看实时流量图和统计信息。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/2017-07-04-10.40.37.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-04-10.40.37.png)
         
         
 # 开源软件参考

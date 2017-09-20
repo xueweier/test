@@ -16,13 +16,13 @@ tags: google
 
 以前进行谷歌搜索的时候，都是很正常的。最近服务器发生了一些变动，在地址栏直接输入关键字搜索，就跳出了人机验证的界面，如下图
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/547fbadc3fff5.gif)
+![](https://cdn.kelu.org/blog/2017/04//547fbadc3fff5.gif)
 
 第一次遇到只要点击窗口就没有问题了，心里还感叹了下谷歌能把人机验证这事做的这么好，不错。然而这个窗口还是会不断调出来扰人= =
 
 次数多了之后 Google 还会弹出一个窗口，要求输入传统的验证码或者跳出阿猫阿狗汽车的图片让你选择。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/547fc0c191bbd.jpg)
+![](https://cdn.kelu.org/blog/2017/04//547fc0c191bbd.jpg)
 
 关于谷歌人机验证的详细新闻，可以看雷锋网的这篇文章——[《与恼人的验证码说拜拜，Google用一次点击区分人与机器》][1]。我猜测这是多人公用同一个谷歌搜索的站点引起的问题。Google reCaptcha 功能会在收集大量信息，包括IP地址和cookies，然后通过收集这些数据对比用户是否和过去在互联网上的行为一致，来判定这个用户究竟是不是机器人。
 
@@ -33,15 +33,15 @@ tags: google
 
 打开设置
     
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/20170406192140.png)
+![](https://cdn.kelu.org/blog/2017/04//20170406192140.png)
 
 管理搜索引擎
     
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/20170406192152.png)
+![](https://cdn.kelu.org/blog/2017/04//20170406192152.png)
     
 自定义搜索引擎，并且设为默认搜索引擎
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/20170406192158.png)
+![](https://cdn.kelu.org/blog/2017/04//20170406192158.png)
 
 将自定义搜索的地址改成各种天花乱坠的谷歌 + /search?q=%s ，比如
 

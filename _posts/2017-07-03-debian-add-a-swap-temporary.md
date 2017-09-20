@@ -10,11 +10,11 @@ tags: linux
 
 <https://twitter.com/kelvinbloodzz/status/881719864989065217>
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202017-07-03%2020.49.33.png)
+![](https://cdn.kelu.org/blog/2017/07/20.49.33.png)
 
 嘛，事情是这样的。 我在阿里云的机器上编译 PHP，编译到中途就报了错误——内存不足。于是就纳闷了，这问题咋解决啊，难道要我换台机器？虚拟内存在哪呢？然后就是这样了：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202017-07-03%2011.42.08.png)
+![](https://cdn.kelu.org/blog/2017/07/11.42.08.png)
 
 才知道原来阿里云没有为我们默认创建交换分区。这个，算是个坑吧。
 

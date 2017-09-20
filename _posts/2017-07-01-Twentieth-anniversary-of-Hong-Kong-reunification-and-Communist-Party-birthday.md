@@ -5,7 +5,7 @@ category: life
 tags: politics zhihu
 ---
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/v2-ad26cd2a0accca35a643969a71f6dd21_r.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-ad26cd2a0accca35a643969a71f6dd21.jpg)
 
 普天同庆，香港回归20周年纪念日。
 
@@ -13,9 +13,9 @@ tags: politics zhihu
 
 今天微信朋友圈里看到了这样一张图片：
 
-<img src="http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/WechatIMG236.jpg" width="405">
+<img src="https://cdn.kelu.org/blog/2017/07/WechatIMG236.jpg" width="405">
 
-<img src="http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/WechatIMG237.jpg" width="405">
+<img src="https://cdn.kelu.org/blog/2017/07/WechatIMG237.jpg" width="405">
 
 然后就想感叹一下香港这个城市。 知乎上有一篇评价 Ghost In the Shell 的文章里提到了香港和『身份认同』，也算是做个对照了~~
 
@@ -41,38 +41,23 @@ tags: politics zhihu
 
 如果乌托邦（Utopia）存在，那么无论从哪个维度上讲，香港中环无疑都是这个世界上最接近这个概念的地方
 
-<noscript><img src="https://pic3.zhimg.com/v2-e0190c6e65d78d3c49de239dcf9d0a36_b.jpg" data-rawwidth="1801" data-rawheight="1000" class="origin_image zh-lightbox-thumb" width="1801" data-original="https://pic3.zhimg.com/v2-e0190c6e65d78d3c49de239dcf9d0a36_r.jpg"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-e0190c6e65d78d3c49de239dcf9d0a36.jpg)
 
-![](https://pic3.zhimg.com/v2-e0190c6e65d78d3c49de239dcf9d0a36_b.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-b6d75c9586d53dc5223ba9c7159a6ff6.jpg)
 
-<noscript><img src="https://pic3.zhimg.com/v2-b6d75c9586d53dc5223ba9c7159a6ff6_b.jpg" data-rawwidth="1920" data-rawheight="1099" class="origin_image zh-lightbox-thumb" width="1920" data-original="https://pic3.zhimg.com/v2-b6d75c9586d53dc5223ba9c7159a6ff6_r.jpg"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-e3e85828874ca80843e72e9d1db80393.jpg)  
 
-![](https://pic3.zhimg.com/v2-b6d75c9586d53dc5223ba9c7159a6ff6_b.jpg)
-
-<noscript><img src="https://pic4.zhimg.com/v2-e3e85828874ca80843e72e9d1db80393_b.jpg" data-rawwidth="1666" data-rawheight="2499" class="origin_image zh-lightbox-thumb" width="1666" data-original="https://pic4.zhimg.com/v2-e3e85828874ca80843e72e9d1db80393_r.jpg"></noscript>
-
-![](https://pic4.zhimg.com/v2-e3e85828874ca80843e72e9d1db80393_b.jpg)  
 如果敌托邦/逆托邦（Dystopia）存在，那么它看起来一定是九龙寨城的模样：
 
-<noscript><img src="https://pic4.zhimg.com/v2-200b1f55e969684f177999fbad791a13_b.jpg" data-rawwidth="1200" data-rawheight="800" class="origin_image zh-lightbox-thumb" width="1200" data-original="https://pic4.zhimg.com/v2-200b1f55e969684f177999fbad791a13_r.jpg"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-200b1f55e969684f177999fbad791a13.jpg)
 
-![](https://pic4.zhimg.com/v2-200b1f55e969684f177999fbad791a13_b.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-38c91a298da164c07e5b2e41a93c1412.png)
 
-<noscript><img src="https://pic3.zhimg.com/v2-38c91a298da164c07e5b2e41a93c1412_b.png" data-rawwidth="851" data-rawheight="623" class="origin_image zh-lightbox-thumb" width="851" data-original="https://pic3.zhimg.com/v2-38c91a298da164c07e5b2e41a93c1412_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-fcde9d61dbd3afed0d3b98b19d01999d.jpg)
 
-![](https://pic3.zhimg.com/v2-38c91a298da164c07e5b2e41a93c1412_b.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-2349d4a7900b47a38dfe5b3edf9973bd.png)
 
-<noscript><img src="https://pic2.zhimg.com/v2-fcde9d61dbd3afed0d3b98b19d01999d_b.jpg" data-rawwidth="1921" data-rawheight="3132" class="origin_image zh-lightbox-thumb" width="1921" data-original="https://pic2.zhimg.com/v2-fcde9d61dbd3afed0d3b98b19d01999d_r.jpg"></noscript>
-
-![](https://pic2.zhimg.com/v2-fcde9d61dbd3afed0d3b98b19d01999d_b.jpg)
-
-<noscript><img src="https://pic2.zhimg.com/v2-2349d4a7900b47a38dfe5b3edf9973bd_b.png" data-rawwidth="1915" data-rawheight="913" class="origin_image zh-lightbox-thumb" width="1915" data-original="https://pic2.zhimg.com/v2-2349d4a7900b47a38dfe5b3edf9973bd_r.png"></noscript>
-
-<span></span>
-
-<noscript><img src="https://pic1.zhimg.com/v2-4c13e7135b16c01098d42f55da6978dc_b.png" data-rawwidth="751" data-rawheight="928" class="origin_image zh-lightbox-thumb" width="751" data-original="https://pic1.zhimg.com/v2-4c13e7135b16c01098d42f55da6978dc_r.png"></noscript>
-
-![](https://pic1.zhimg.com/v2-4c13e7135b16c01098d42f55da6978dc_b.png)  
+![](https://cdn.kelu.org/blog/2017/07/v2-4c13e7135b16c01098d42f55da6978dc.png)  
 
 那么香港究竟是什么？
 
@@ -84,13 +69,9 @@ tags: politics zhihu
 
 香港是世界上人类发展指数最高的地区之一，却同时拥有发达国家与地区中最高的基尼系数；她有世界上最优质的高等教育资源，却只有不到20%的高等教育普及率；她是世界上人均预期寿命最高的地区，同时也是民众焦虑指数最强的地区之一。
 
-<noscript><img src="https://pic3.zhimg.com/v2-c87b21cca054a405e76074d203f16b7e_b.jpg" data-rawwidth="900" data-rawheight="598" class="origin_image zh-lightbox-thumb" width="900" data-original="https://pic3.zhimg.com/v2-c87b21cca054a405e76074d203f16b7e_r.jpg"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-c87b21cca054a405e76074d203f16b7e.jpg)
 
-![](https://pic3.zhimg.com/v2-c87b21cca054a405e76074d203f16b7e_b.jpg)
-
-<noscript><img src="https://pic2.zhimg.com/v2-f8d21bc7b84bb5ebfc0763ff9340b3a1_b.jpg" data-rawwidth="1200" data-rawheight="743" class="origin_image zh-lightbox-thumb" width="1200" data-original="https://pic2.zhimg.com/v2-f8d21bc7b84bb5ebfc0763ff9340b3a1_r.jpg"></noscript>
-
-![](https://pic2.zhimg.com/v2-f8d21bc7b84bb5ebfc0763ff9340b3a1_b.jpg)  
+![](https://cdn.kelu.org/blog/2017/07/v2-f8d21bc7b84bb5ebfc0763ff9340b3a1.jpg)  
 
 **香港**，是人类社会的预言么？当国家概念消失、东西方文化杂糅在一起不再有彼此、技术高度发展之后，整个地球会不会变成一个巨大的香港？
 
@@ -98,9 +79,9 @@ tags: politics zhihu
 
 “攻壳机动队”这个名字，可谓是我见过最毁作品的名字之一。英文名《Ghost in the shell》意为“壳中幽灵”，致敬哲学家 Arthur Koestler 1967年的作品《The Ghost in the machine》
 
-<noscript><img src="https://pic3.zhimg.com/v2-7f9dff8487d4986a379e8faa9dac019a_b.jpg" data-rawwidth="220" data-rawheight="334" class="content_image" width="220">Arthur 在这本书中详细的描述了经典的笛卡尔心物二元论。《Ghost in the Shell》中的比喻就很明显了：Shell 指个体的</noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-7f9dff8487d4986a379e8faa9dac019a.jpg)
 
-![](https://pic3.zhimg.com/v2-7f9dff8487d4986a379e8faa9dac019a_b.jpg)Arthur 在这本书中详细的描述了经典的笛卡尔心物二元论。《Ghost in the Shell》中的比喻就很明显了：Shell 指个体的**物理存在（Physical existence）**；Ghost（幽灵）指个体的**精神存在（Mental existence）**。在《The Ghost in the machine》中，Arthur 认为一个人的精神（或者灵魂）不是一种可以独立于物质存在的、暂时寄生在人类肉体上的实体；说白了，也就是Ghost（灵魂）其实是个伪概念，是一种幻觉（illusion），就像“颜色”一样----无论这个概念对你有多么真实，你仔细想就会发现，“颜色”这个概念不存在于物理世界，它只存在于人的脑海，是一种“幻觉”illusion而非真实的“存在”existence。
+Arthur 在这本书中详细的描述了经典的笛卡尔心物二元论。《Ghost in the Shell》中的比喻就很明显了：Shell 指个体的**物理存在（Physical existence）**；Ghost（幽灵）指个体的**精神存在（Mental existence）**。在《The Ghost in the machine》中，Arthur 认为一个人的精神（或者灵魂）不是一种可以独立于物质存在的、暂时寄生在人类肉体上的实体；说白了，也就是Ghost（灵魂）其实是个伪概念，是一种幻觉（illusion），就像“颜色”一样----无论这个概念对你有多么真实，你仔细想就会发现，“颜色”这个概念不存在于物理世界，它只存在于人的脑海，是一种“幻觉”illusion而非真实的“存在”existence。
 
 原作者士郎正宗非常希望自己的漫画作品就叫《壳中幽灵》，但是被发行商否决了，发行商坚持使用**_《攻殻機動隊》_**作为画作标题，估计是发行商更加注重小学生市场吧-----听《攻壳机动队》这个名字我就仿佛看到了两个小学生拿着学校小卖部对面的贩售的手办互相战斗的场景。1995年版电影的导演押井守和原作者士郎正宗站在同一战线，他坚持，即使在日本的发行，也使用英文标题**_Ghost in the shell_**
 
@@ -110,49 +91,19 @@ tags: politics zhihu
 
 然而电影的主角，草薙素子少校是一个几乎完完全全的生化人，对于ta（1995年的电影中草雉素子角色的设定是“女性化而非女性”，和漫画中不同）而言，这些问题就很现实了。请看下面一段发生在城市外围运河中的对话：
 
-> <noscript><img src="https://pic2.zhimg.com/v2-8ad8d5782a47bfb575557513dc15f4f5_b.png" data-rawwidth="1400" data-rawheight="786" class="origin_image zh-lightbox-thumb" width="1400" data-original="https://pic2.zhimg.com/v2-8ad8d5782a47bfb575557513dc15f4f5_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic1.zhimg.com/v2-7c86c3d05307672f8824e0cd5768d554_b.png" data-rawwidth="1405" data-rawheight="80" class="origin_image zh-lightbox-thumb" width="1405" data-original="https://pic1.zhimg.com/v2-7c86c3d05307672f8824e0cd5768d554_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic3.zhimg.com/v2-a5107095a38a0940b8dacab2ce65a292_b.png" data-rawwidth="1405" data-rawheight="112" class="origin_image zh-lightbox-thumb" width="1405" data-original="https://pic3.zhimg.com/v2-a5107095a38a0940b8dacab2ce65a292_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic2.zhimg.com/v2-1f1e53b1b2ca3ea23aed2877f8e42cad_b.png" data-rawwidth="1395" data-rawheight="747" class="origin_image zh-lightbox-thumb" width="1395" data-original="https://pic2.zhimg.com/v2-1f1e53b1b2ca3ea23aed2877f8e42cad_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic3.zhimg.com/v2-cc748944f10eb0ab5ac1d15786af344a_b.png" data-rawwidth="1357" data-rawheight="138" class="origin_image zh-lightbox-thumb" width="1357" data-original="https://pic3.zhimg.com/v2-cc748944f10eb0ab5ac1d15786af344a_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic4.zhimg.com/v2-710da1d93d0f1666b60a7c9c9986133b_b.png" data-rawwidth="1393" data-rawheight="123" class="origin_image zh-lightbox-thumb" width="1393" data-original="https://pic4.zhimg.com/v2-710da1d93d0f1666b60a7c9c9986133b_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic1.zhimg.com/v2-459354beafb7e1e5df8a9cb2b2a8b06c_b.png" data-rawwidth="1395" data-rawheight="127" class="origin_image zh-lightbox-thumb" width="1395" data-original="https://pic1.zhimg.com/v2-459354beafb7e1e5df8a9cb2b2a8b06c_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic1.zhimg.com/v2-929e0c9f0f538e36a745d4a5622051a4_b.png" data-rawwidth="1406" data-rawheight="107" class="origin_image zh-lightbox-thumb" width="1406" data-original="https://pic1.zhimg.com/v2-929e0c9f0f538e36a745d4a5622051a4_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic3.zhimg.com/v2-818dce2620f6db8b6bf9ecb9d5a1c6fa_b.png" data-rawwidth="1401" data-rawheight="128" class="origin_image zh-lightbox-thumb" width="1401" data-original="https://pic3.zhimg.com/v2-818dce2620f6db8b6bf9ecb9d5a1c6fa_r.png"></noscript>
-> 
-> <span></span>
-> 
-> <noscript><img src="https://pic4.zhimg.com/v2-b3d0850f74de3a99fe9ffc1e7e8bd14f_b.png" data-rawwidth="1396" data-rawheight="134" class="origin_image zh-lightbox-thumb" width="1396" data-original="https://pic4.zhimg.com/v2-b3d0850f74de3a99fe9ffc1e7e8bd14f_r.png"></noscript>
-> 
-> ![](https://pic4.zhimg.com/v2-b3d0850f74de3a99fe9ffc1e7e8bd14f_b.png)
-> 
-> <noscript><img src="https://pic3.zhimg.com/v2-358feb04679c27c1730199995ad2389a_b.png" data-rawwidth="1393" data-rawheight="140" class="origin_image zh-lightbox-thumb" width="1393" data-original="https://pic3.zhimg.com/v2-358feb04679c27c1730199995ad2389a_r.png"></noscript>
-> 
-> ![](https://pic3.zhimg.com/v2-358feb04679c27c1730199995ad2389a_b.png)**同事：我们又没有签卖身契！**
+![](https://cdn.kelu.org/blog/2017/07/v2-8ad8d5782a47bfb575557513dc15f4f5.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-7c86c3d05307672f8824e0cd5768d554.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-a5107095a38a0940b8dacab2ce65a292.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-1f1e53b1b2ca3ea23aed2877f8e42cad.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-cc748944f10eb0ab5ac1d15786af344a.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-710da1d93d0f1666b60a7c9c9986133b.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-459354beafb7e1e5df8a9cb2b2a8b06c.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-929e0c9f0f538e36a745d4a5622051a4.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-818dce2620f6db8b6bf9ecb9d5a1c6fa.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-b3d0850f74de3a99fe9ffc1e7e8bd14f.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-358feb04679c27c1730199995ad2389a.png)
+
+> **同事：我们又没有签卖身契！**
 > 
 > **素子：我们可以辞职，当然喽！但是我们要把我们的生化部件，强化的大脑还给政府，所有组成我作为一个个体的零件。一个人的身体和心灵，由数不清的成分组成：一个区别于别人的面孔和嗓音、你醒来看见的自己的肢体、你童年的回忆、你对未来的期待。。。**
 > 
@@ -162,74 +113,45 @@ tags: politics zhihu
 
 随后，突然出现了一个用着素子嗓音，但又完全不同的声音同时回响在素子和同事的脑海中：
 
-<noscript><img src="https://pic3.zhimg.com/v2-d81623643c57588600d4aa4b22dee0e2_b.png" data-rawwidth="1399" data-rawheight="754" class="origin_image zh-lightbox-thumb" width="1399" data-original="https://pic3.zhimg.com/v2-d81623643c57588600d4aa4b22dee0e2_r.png"></noscript>
-
-![](https://pic3.zhimg.com/v2-d81623643c57588600d4aa4b22dee0e2_b.png)
-
-<noscript><img src="https://pic4.zhimg.com/v2-c36eacf07d1d574f782236b02c03e55b_b.png" data-rawwidth="1376" data-rawheight="93" class="origin_image zh-lightbox-thumb" width="1376" data-original="https://pic4.zhimg.com/v2-c36eacf07d1d574f782236b02c03e55b_r.png"></noscript>
-
-![](https://pic4.zhimg.com/v2-c36eacf07d1d574f782236b02c03e55b_b.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-d81623643c57588600d4aa4b22dee0e2.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-c36eacf07d1d574f782236b02c03e55b.png)
 
 > **就像我们互相透过镜子对视，而我们看到的，只是一个模糊的影像。  
 > **
 
 素子很错愕，回头，将目光投向了城市
 
-<noscript><img src="https://pic3.zhimg.com/v2-adf8ad31e40d7762c688cadbc95d3d6e_b.png" data-rawwidth="1403" data-rawheight="762" class="origin_image zh-lightbox-thumb" width="1403" data-original="https://pic3.zhimg.com/v2-adf8ad31e40d7762c688cadbc95d3d6e_r.png">诡异空灵的音乐响起，随后，便是整个影片最为标志性的一个序列：城市序列。整个三分钟，没有任何对白，没有任何剧情，只是从不同的视角，以近乎疯狂的细节，给我们展现了这座未来城市----新港。</noscript>
-
-![](https://pic3.zhimg.com/v2-adf8ad31e40d7762c688cadbc95d3d6e_b.png)诡异空灵的音乐响起，随后，便是整个影片最为标志性的一个序列：城市序列。整个三分钟，没有任何对白，没有任何剧情，只是从不同的视角，以近乎疯狂的细节，给我们展现了这座未来城市----新港。
+![](https://cdn.kelu.org/blog/2017/07/v2-adf8ad31e40d7762c688cadbc95d3d6e.png)诡异空灵的音乐响起，随后，便是整个影片最为标志性的一个序列：城市序列。整个三分钟，没有任何对白，没有任何剧情，只是从不同的视角，以近乎疯狂的细节，给我们展现了这座未来城市----新港。
 
 说起伴随着序列的主旋律，你说它诡异也好、空灵也好，如果你像我一样，在香港生活过一段时间，你会产生巨大的共鸣：没错，这就是香港的气质---你不敢完全断定它的美，也不敢说它是丑陋的----一种难以名状的摄魂般的吸引力。
 
 另外，你知道么？这段音乐的旋律改编自保加利亚民谣，而歌词是古代大和民族的婚礼祈祷词。**婚礼-----**这很重要，剧情往后发展，你会明白它的寓意。
 
-<noscript><img src="https://pic2.zhimg.com/v2-98dabe51460c6096cce2dbf74a436dc1_b.png" data-rawwidth="1400" data-rawheight="756" class="origin_image zh-lightbox-thumb" width="1400" data-original="https://pic2.zhimg.com/v2-98dabe51460c6096cce2dbf74a436dc1_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-98dabe51460c6096cce2dbf74a436dc1.png)
 
-![](https://pic2.zhimg.com/v2-98dabe51460c6096cce2dbf74a436dc1_b.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-b584620c3417418261a3e568fb74e2cb.png)
 
-<noscript><img src="https://pic4.zhimg.com/v2-b584620c3417418261a3e568fb74e2cb_b.png" data-rawwidth="1400" data-rawheight="755" class="origin_image zh-lightbox-thumb" width="1400" data-original="https://pic4.zhimg.com/v2-b584620c3417418261a3e568fb74e2cb_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-2053e4f8e1f2afb92fcfde30fce7b98f.png)
 
-![](https://pic4.zhimg.com/v2-b584620c3417418261a3e568fb74e2cb_b.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-66ab86451197b1d009526c91e4647e11.png)
 
-<noscript><img src="https://pic4.zhimg.com/v2-2053e4f8e1f2afb92fcfde30fce7b98f_b.png" data-rawwidth="1402" data-rawheight="754" class="origin_image zh-lightbox-thumb" width="1402" data-original="https://pic4.zhimg.com/v2-2053e4f8e1f2afb92fcfde30fce7b98f_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-7e4098040654c3f71d449900df2f0b61.png)
 
-<span></span>
+![](https://cdn.kelu.org/blog/2017/07/v2-28514c100856947026af4ef7bc6152fe.png)
 
-<noscript><img src="https://pic2.zhimg.com/v2-66ab86451197b1d009526c91e4647e11_b.png" data-rawwidth="1402" data-rawheight="756" class="origin_image zh-lightbox-thumb" width="1402" data-original="https://pic2.zhimg.com/v2-66ab86451197b1d009526c91e4647e11_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-5d584fdedd76b21f3214f998c3fadfcc.png)
 
-<span></span>
+![](https://cdn.kelu.org/blog/2017/07/v2-92bca22ed863dc4cb5c1bb4079f1401d.png)
 
-<noscript><img src="https://pic2.zhimg.com/v2-7e4098040654c3f71d449900df2f0b61_b.png" data-rawwidth="1398" data-rawheight="764" class="origin_image zh-lightbox-thumb" width="1398" data-original="https://pic2.zhimg.com/v2-7e4098040654c3f71d449900df2f0b61_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-d60c54d798e5959709d705bc1d2f8e64.png)
 
-<span></span>
+![](https://cdn.kelu.org/blog/2017/07/v2-c7c743ea150ea6a50790a8478e536656.png)
 
-<noscript><img src="https://pic3.zhimg.com/v2-28514c100856947026af4ef7bc6152fe_b.png" data-rawwidth="1396" data-rawheight="753" class="origin_image zh-lightbox-thumb" width="1396" data-original="https://pic3.zhimg.com/v2-28514c100856947026af4ef7bc6152fe_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-6a76de5fcb603a87f7ed1aa95e3df3a1.png)
 
-![](https://pic3.zhimg.com/v2-28514c100856947026af4ef7bc6152fe_b.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-5325f782e6cf52b8a0191bad8f4cab95.png)
 
-<noscript><img src="https://pic1.zhimg.com/v2-5d584fdedd76b21f3214f998c3fadfcc_b.png" data-rawwidth="1405" data-rawheight="757" class="origin_image zh-lightbox-thumb" width="1405" data-original="https://pic1.zhimg.com/v2-5d584fdedd76b21f3214f998c3fadfcc_r.png"></noscript>
-
-![](https://pic1.zhimg.com/v2-5d584fdedd76b21f3214f998c3fadfcc_b.png)
-
-<noscript><img src="https://pic2.zhimg.com/v2-92bca22ed863dc4cb5c1bb4079f1401d_b.png" data-rawwidth="1398" data-rawheight="754" class="origin_image zh-lightbox-thumb" width="1398" data-original="https://pic2.zhimg.com/v2-92bca22ed863dc4cb5c1bb4079f1401d_r.png"></noscript>
-
-![](https://pic2.zhimg.com/v2-92bca22ed863dc4cb5c1bb4079f1401d_b.png)
-
-<noscript><img src="https://pic1.zhimg.com/v2-d60c54d798e5959709d705bc1d2f8e64_b.png" data-rawwidth="1399" data-rawheight="751" class="origin_image zh-lightbox-thumb" width="1399" data-original="https://pic1.zhimg.com/v2-d60c54d798e5959709d705bc1d2f8e64_r.png"></noscript>
-
-![](https://pic1.zhimg.com/v2-d60c54d798e5959709d705bc1d2f8e64_b.png)
-
-<noscript><img src="https://pic3.zhimg.com/v2-c7c743ea150ea6a50790a8478e536656_b.png" data-rawwidth="1398" data-rawheight="749" class="origin_image zh-lightbox-thumb" width="1398" data-original="https://pic3.zhimg.com/v2-c7c743ea150ea6a50790a8478e536656_r.png"></noscript>
-
-![](https://pic3.zhimg.com/v2-c7c743ea150ea6a50790a8478e536656_b.png)
-
-<noscript><img src="https://pic2.zhimg.com/v2-6a76de5fcb603a87f7ed1aa95e3df3a1_b.png" data-rawwidth="1401" data-rawheight="757" class="origin_image zh-lightbox-thumb" width="1401" data-original="https://pic2.zhimg.com/v2-6a76de5fcb603a87f7ed1aa95e3df3a1_r.png"></noscript>
-
-![](https://pic2.zhimg.com/v2-6a76de5fcb603a87f7ed1aa95e3df3a1_b.png)
-
-<noscript><img src="https://pic2.zhimg.com/v2-5325f782e6cf52b8a0191bad8f4cab95_b.png" data-rawwidth="1389" data-rawheight="748" class="origin_image zh-lightbox-thumb" width="1389" data-original="https://pic2.zhimg.com/v2-5325f782e6cf52b8a0191bad8f4cab95_r.png">初次看这部电影的观众，很容易被这段序列搞得摸不着脑袋：当然，这确实是视觉的享受；但是根本找不到这一段序列和剧情前后的任何联系啊！而且序列的基调和整部电影也显得格格不入。</noscript>
-
-![](https://pic2.zhimg.com/v2-5325f782e6cf52b8a0191bad8f4cab95_b.png)初次看这部电影的观众，很容易被这段序列搞得摸不着脑袋：当然，这确实是视觉的享受；但是根本找不到这一段序列和剧情前后的任何联系啊！而且序列的基调和整部电影也显得格格不入。
+初次看这部电影的观众，很容易被这段序列搞得摸不着脑袋：当然，这确实是视觉的享受；但是根本找不到这一段序列和剧情前后的任何联系啊！而且序列的基调和整部电影也显得格格不入。
 
 这里，我们就要去考察这座城市的原型，香港，和这部电影的主题：**“身份”identity**。当然，在如今的2016年，天涯人人知乎的半吊子键盘政论家都在讨论所谓**“香港人的身份认同危机”**问题，通常是以一种戏谑、不屑、非常粗浅的方式以及态度进行的。我们再来看看真正的大师，早在20多年前-----甚至是香港回归前的2年，是如何隐晦、深刻而简洁得说这个问题的：
 
@@ -237,37 +159,15 @@ tags: politics zhihu
 
 电影的发展中，我们发现傀儡大师其实是巨型网络中一段突然产生了自我意识的程序。而ta的目的，就是故意引诱素子追击ta，从而寻求机会和素子融合，而进化为一种更加高级的存在。看下面一段对话：(翻译有误，第四张图中的People change应为：All things change in a dynamic way)
 
-<noscript><img src="https://pic3.zhimg.com/v2-02a329175e5fe8f3a3a6aea734990d66_b.png" data-rawwidth="1405" data-rawheight="755" class="origin_image zh-lightbox-thumb" width="1405" data-original="https://pic3.zhimg.com/v2-02a329175e5fe8f3a3a6aea734990d66_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-02a329175e5fe8f3a3a6aea734990d66.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-47a391d28101ba72345970e7bef3fa33.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-1cdc1c787048c0c0f7743d0146b444aa.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-300773f85f37b0a0049747908faae618.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-8e7c136f5650f76cf2da8b3c5d8ac5b8.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-711cdc66ff6c884b221b31e5eaae07e0.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-c08f4f1fd24eba61da808f6597aa1d7e.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-35c5efef3268c5f37a1667a71c204044.png)
 
-![](https://pic3.zhimg.com/v2-02a329175e5fe8f3a3a6aea734990d66_b.png)
-
-<noscript><img src="https://pic4.zhimg.com/v2-47a391d28101ba72345970e7bef3fa33_b.png" data-rawwidth="1399" data-rawheight="125" class="origin_image zh-lightbox-thumb" width="1399" data-original="https://pic4.zhimg.com/v2-47a391d28101ba72345970e7bef3fa33_r.png"></noscript>
-
-![](https://pic4.zhimg.com/v2-47a391d28101ba72345970e7bef3fa33_b.png)
-
-<noscript><img src="https://pic3.zhimg.com/v2-1cdc1c787048c0c0f7743d0146b444aa_b.png" data-rawwidth="1391" data-rawheight="90" class="origin_image zh-lightbox-thumb" width="1391" data-original="https://pic3.zhimg.com/v2-1cdc1c787048c0c0f7743d0146b444aa_r.png"></noscript>
-
-![](https://pic3.zhimg.com/v2-1cdc1c787048c0c0f7743d0146b444aa_b.png)
-
-<noscript><img src="https://pic1.zhimg.com/v2-300773f85f37b0a0049747908faae618_b.png" data-rawwidth="1398" data-rawheight="97" class="origin_image zh-lightbox-thumb" width="1398" data-original="https://pic1.zhimg.com/v2-300773f85f37b0a0049747908faae618_r.png"></noscript>
-
-![](https://pic1.zhimg.com/v2-300773f85f37b0a0049747908faae618_b.png)
-
-<noscript><img src="https://pic1.zhimg.com/v2-8e7c136f5650f76cf2da8b3c5d8ac5b8_b.png" data-rawwidth="1405" data-rawheight="120" class="origin_image zh-lightbox-thumb" width="1405" data-original="https://pic1.zhimg.com/v2-8e7c136f5650f76cf2da8b3c5d8ac5b8_r.png"></noscript>
-
-![](https://pic1.zhimg.com/v2-8e7c136f5650f76cf2da8b3c5d8ac5b8_b.png)
-
-<noscript><img src="https://pic1.zhimg.com/v2-711cdc66ff6c884b221b31e5eaae07e0_b.png" data-rawwidth="1397" data-rawheight="755" class="origin_image zh-lightbox-thumb" width="1397" data-original="https://pic1.zhimg.com/v2-711cdc66ff6c884b221b31e5eaae07e0_r.png"></noscript>
-
-<span></span>
-
-<noscript><img src="https://pic3.zhimg.com/v2-c08f4f1fd24eba61da808f6597aa1d7e_b.png" data-rawwidth="1378" data-rawheight="110" class="origin_image zh-lightbox-thumb" width="1378" data-original="https://pic3.zhimg.com/v2-c08f4f1fd24eba61da808f6597aa1d7e_r.png"></noscript>
-
-<span></span>
-
-<noscript><img src="https://pic1.zhimg.com/v2-35c5efef3268c5f37a1667a71c204044_b.png" data-rawwidth="1398" data-rawheight="148" class="origin_image zh-lightbox-thumb" width="1398" data-original="https://pic1.zhimg.com/v2-35c5efef3268c5f37a1667a71c204044_r.png"></noscript>
-
-<span></span>
 
 > **素子：还有一件事，你能保证，我们融合之后，“我”还是“我”么？**
 > 
@@ -283,13 +183,9 @@ tags: politics zhihu
 
 对了，你们知道么？香港老机场----启德机场离九龙寨城非常近，寨城的居民每天都能看到巨大的飞机掠过天井
 
-<noscript><img src="https://pic1.zhimg.com/v2-87ede70db186754a023adab44e1b5618_b.png" data-rawwidth="815" data-rawheight="604" class="origin_image zh-lightbox-thumb" width="815" data-original="https://pic1.zhimg.com/v2-87ede70db186754a023adab44e1b5618_r.png"></noscript>
+![](https://cdn.kelu.org/blog/2017/07/v2-87ede70db186754a023adab44e1b5618.png)
 
-<span></span>
-
-<noscript><img src="https://pic2.zhimg.com/v2-a1f07b880a3427433fa39727d8f3ce69_b.png" data-rawwidth="698" data-rawheight="476" class="origin_image zh-lightbox-thumb" width="698" data-original="https://pic2.zhimg.com/v2-a1f07b880a3427433fa39727d8f3ce69_r.png"></noscript>
-
-![](https://pic2.zhimg.com/v2-a1f07b880a3427433fa39727d8f3ce69_b.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-a1f07b880a3427433fa39727d8f3ce69.png)
 
 没有什么比香港这座城市更加能反应这部电影的主旨：
 
