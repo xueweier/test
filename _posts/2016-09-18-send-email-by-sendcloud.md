@@ -13,8 +13,7 @@ Sendcloud价格也不贵（至少比起短信来说，便宜太多了）。很�
 
 同时他们也提供了WebHook功能和简单的邮件统计功能，省了很多事咧。另外一点，客服回复蛮快的，国内少有的能达到linode客服水准的商家。
 
-![sendcloud](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-18-send-email-by-sendcloud/sendcloud.jpg)
-
+![sendcloud](https://cdn.kelu.org/blog/2016/09/sendcloud.jpg)
 
 参考资料：
 

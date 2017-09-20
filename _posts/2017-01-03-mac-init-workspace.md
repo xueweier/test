@@ -52,7 +52,7 @@ tags: mac ide dev
 1. [KeluMacKit][KeluMacKit]。 安利我的开发环境一键安装系统。使用之后就是这样。
 
 
-![workspace](http://ww4.sinaimg.cn/large/7b736eb7jw1fbgax1jmtbj21400p07l9.jpg)
+![workspace](https://cdn.kelu.org/blog/2017/01/7b736eb7jw1fbgax1jmtbj21400p07l9.jpg)
 
 参考资料：
 

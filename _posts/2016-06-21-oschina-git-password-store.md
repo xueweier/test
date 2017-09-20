@@ -9,7 +9,7 @@ tags: git oschina
 
 然而，在服务器上每一次拉取代码都要输入密码，比较烦人。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160621231034.png)
+![](https://cdn.kelu.org/blog/2016/06/QQ截图20160621231034.png)
 
 不过为了方便部署，我还是把记住密码的功能打开了。下面是解决办法。
 

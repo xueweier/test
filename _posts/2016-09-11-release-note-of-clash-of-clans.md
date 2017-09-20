@@ -10,14 +10,14 @@ tags: product clashofclans game
 我很好奇这些更新的产品功能，有哪些是他们一开始没有想好，后来才遇到问题的，哪些又是他们在一开始就想好了，因为各种制约因素，之后慢慢实现的？于是收集了一些他们的更新日志（虽然并没有看出什么东西Orz。
 
 ### Version 2.?- 08/02/2012 Worldwide release
-![2.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.jpg "版本2.?")
+![2.jpg](https://cdn.kelu.org/blog/2016/09/2.jpg "版本2.?")
 ```
 August 02, 2012: Worldwide release
 ancient_village_Clashofclans ancient village ClashofclansThis is what a almost fully upgraded village looked like – pretty funny is that there was a waterfall (right hand side) and it looks like you had less space to build on – mostly because there were less buildings available. The max Town Hall level was TH 8.
 ```
 ### Version 2.21 - 08/30/2012 特斯拉电塔
 
-![2.21.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.21.jpg "版本2.21")
+![2.21.jpg](https://cdn.kelu.org/blog/2016/09/2.21.jpg "版本2.21")
 
 ```
 Introducing new shocking defense unit: Hidden Tesla (unlocks on Town Hall level 7).
@@ -48,7 +48,7 @@ Bug修复：获得的成就没有在gamecenter里更新。
 
 ### Version 2.44 - 09/18/2012  魔法药水
 
-![2.44.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.44.jpg "版本2.44")
+![2.44.jpg](https://cdn.kelu.org/blog/2016/09/2.44.jpg "版本2.44")
 
 ```
 Full support for iPhone 5 and 5th generation iPod Touch.
@@ -98,7 +98,7 @@ iphone和ipod的商店界面改进[以前和ipad一样么
 
 ### Version 2.73 - 10/15/2012
 
-![2.73.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.73.jpg "版本2.73")
+![2.73.jpg](https://cdn.kelu.org/blog/2016/09/2.73.jpg "版本2.73")
 
 ```
 Chat improvements
@@ -130,9 +130,9 @@ Added an extra confirmation step when loading village from Game Center to avoid 
 
 ### Version 2.86 - 10/27/2012 万圣节
 
-![2.86.1.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.86.1.jpg "版本2.86")
-![2.86.2.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.86.2.jpg "版本2.86")
-![2.86.3.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.86.3.jpg "版本2.86")
+![2.86.1.jpg](https://cdn.kelu.org/blog/2016/09/2.86.1.jpg "版本2.86")
+![2.86.2.jpg](https://cdn.kelu.org/blog/2016/09/2.86.2.jpg "版本2.86")
+![2.86.3.jpg](https://cdn.kelu.org/blog/2016/09/2.86.3.jpg "版本2.86")
 
 ```
 Halloween
@@ -172,7 +172,7 @@ bug修复和其他改动：
 
 ### Version 2.111 - 11/19/2012 圣诞
 
-![2.111.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/2.111.jpg "版本2.111")
+![2.111.jpg](https://cdn.kelu.org/blog/2016/09/2.111.jpg "版本2.111")
 
 
 ```
@@ -226,9 +226,9 @@ Clan Castle shows activation radius once again.
 
 ### Version 3.3 - 2013/1/10  英雄来了！
 
-![3.3.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/3.3.jpg "版本3.3")
-![3.3.2.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/3.3.2.jpg "版本3.3")
-![3.3.3.png](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/3.3.3.png "版本3.3")
+![3.3.jpg](https://cdn.kelu.org/blog/2016/09/3.3.jpg "版本3.3")
+![3.3.2.jpg](https://cdn.kelu.org/blog/2016/09/3.3.2.jpg "版本3.3")
+![3.3.3.png](https://cdn.kelu.org/blog/2016/09/3.3.3.png "版本3.3")
 
 ```
 Heroes!
@@ -286,7 +286,7 @@ x连弩子弹上限降低了25%
 
 ### Version 3.25 - 2013/2/5  新排行榜界面
 
-![3.25.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/3.25.jpg "版本3.25")
+![3.25.jpg](https://cdn.kelu.org/blog/2016/09/3.25.jpg "版本3.25")
 
 
 ```
@@ -353,8 +353,8 @@ Tapping a trap shows its trigger radius.
 ### Version 3.54 2013/3/12 “暗黑重油兵种”
 
 
-![3.54.1.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/3.54.1.jpg "版本3.54")
-![3.54.2.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/3.54.2.jpg "版本3.54")
+![3.54.1.jpg](https://cdn.kelu.org/blog/2016/09/3.54.1.jpg "版本3.54")
+![3.54.2.jpg](https://cdn.kelu.org/blog/2016/09/3.54.2.jpg "版本3.54")
 
 ```
 Get ready to unleash the true power of Dark Elixir...
@@ -424,8 +424,8 @@ Wizards now deal splash damage.
 ### Version 3.124- 2013/4/17 “暗黑重油兵种” 联赛
 
 
-![3.124.1.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/3.124.1.jpg "版本3.124")
-![3.124.2.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/3.124.2.jpg "版本3.124")
+![3.124.1.jpg](https://cdn.kelu.org/blog/2016/09/3.124.1.jpg "版本3.124")
+![3.124.2.jpg](https://cdn.kelu.org/blog/2016/09/3.124.2.jpg "版本3.124")
 
 ```
 Introducing Leagues: compete in your own division!
@@ -504,7 +504,7 @@ Also many small bug fixes and tweaks!
 ### Version 4.14- 2013/5/23 10本来了
 
 
-![4.14.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/4.14.jpg "版本4.14")
+![4.14.jpg](https://cdn.kelu.org/blog/2016/09/4.14.jpg "版本4.14")
 
 
 ```
@@ -597,7 +597,7 @@ Also many small bug fixes and tweaks!
 ### Version 4.53- 2013/6/17 冰冻法术
 
 
-![4.53.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/4.53.jpg "版本4.53")
+![4.53.jpg](https://cdn.kelu.org/blog/2016/09/4.53.jpg "版本4.53")
 
 
 ```
@@ -672,7 +672,7 @@ Also many small bug fixes and tweaks!
 ### Version 4.74- 2013/6/29 女巫
 
 
-![4.74.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/4.74.jpg "版本4.74")
+![4.74.jpg](https://cdn.kelu.org/blog/2016/09/4.74.jpg "版本4.74")
 
 ```
 "The Witch"
@@ -709,8 +709,8 @@ Hidden Changes:
 
 ### Version 4.120- 2013/8/27 玩家名片
 
-![4.120.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/4.120.jpg "版本4.120")
-![4.120.2.png](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/4.120.2.png "版本4.120")
+![4.120.jpg](https://cdn.kelu.org/blog/2016/09/4.120.jpg "版本4.120")
+![4.120.2.png](https://cdn.kelu.org/blog/2016/09/4.120.2.png "版本4.120")
 
 
 ```
@@ -781,8 +781,8 @@ Many smaller fixes and tweaks!
 
 ### Version 5.2 2013/9/30 “村庄编辑模式”
 
-![5.2.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/5.2.jpg "版本5.2")
-![5.2.2.png](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/5.2.2.png "版本5.2")
+![5.2.jpg](https://cdn.kelu.org/blog/2016/09/5.2.jpg "版本5.2")
+![5.2.2.png](https://cdn.kelu.org/blog/2016/09/5.2.2.png "版本5.2")
 
 
 ```
@@ -833,7 +833,7 @@ Many smaller fixes and tweaks!
 
 ### Version 5.64  2013/11/06 陷阱更新
 
-![5.6.png](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/5.6.png "版本5.6")
+![5.6.png](https://cdn.kelu.org/blog/2016/09/5.6.png "版本5.6")
 
 
 ```
@@ -851,7 +851,7 @@ Seeking Air Mines now cost Gold instead of Dark Elixir.
 ### Version ??  2013/12/05 Loot changes, Multi-Target Inferno tower
 
 
-![5.9.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/5.9.jpg "版本5.9")
+![5.9.jpg](https://cdn.kelu.org/blog/2016/09/5.9.jpg "版本5.9")
 
 
 ```
@@ -891,7 +891,7 @@ Slightly increased HP and damage of level 6 Giants.
 ### version 5.172  2014/01/29 Hero Abilities
 
 
-![5.172.jpg](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/2016-09-11-release-note-of-clash-of-clans/5.172.jpg "版本5.172")
+![5.172.jpg](https://cdn.kelu.org/blog/2016/09/5.172.jpg "版本5.172")
 
 
 ```
