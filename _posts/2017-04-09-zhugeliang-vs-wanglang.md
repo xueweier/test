@@ -2,7 +2,7 @@
 layout: post
 title: 诸葛亮怒骂王朗原文
 category: literature
-tags: literature  three_kingdoms_period
+tags: literature three_kingdoms_period
 ---
 ![](/assets/img/literature.jpg)
 

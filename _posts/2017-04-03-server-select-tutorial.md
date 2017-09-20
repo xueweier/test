@@ -2,6 +2,7 @@
 layout: post
 title: 一些云服务器推荐
 category: tech
+tags: vps
 ---
 
 ![](/assets/img/linux.jpg)

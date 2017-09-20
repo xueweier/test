@@ -79,7 +79,7 @@ Supervisor是一个进程控制系统，由python编写。可以很方便的用�
     
 启动后命令行界面输入 `supervisorctl` 进入控制界面，如下则说明 supervisor 启动成功、laravel 进程配置成功
      
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/2017-04-24-11.40.26.png)
+![](https://cdn.kelu.org/blog/2017/04/2017-04-24-11.40.26.png)
 
 # 启动 supervisord
 

@@ -2,6 +2,7 @@
 layout: post
 title: 令人厌烦的支付宝改版
 category: tech
+tags: alipay
 ---
 
 ![](/assets/img/alipay.jpg)
@@ -12,21 +13,21 @@ category: tech
 
 我原本是寻找签约“批量付款到账户”的入口。原本的界面应该是这样的：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/210945_BS65_163506.jpg)
+![](https://cdn.kelu.org/blog/2017/04/210945_BS65_163506.jpg)
 
 在产品商店里就可以找得到了。然而现在的界面是这样的：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/20170406153119.jpg)
+![](https://cdn.kelu.org/blog/2017/04/20170406153119.jpg)
 
 应该是图上的那个地方签约吧，满怀期待地进去之后，顿时傻了。。。。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/20170406155236.jpg)
+![](https://cdn.kelu.org/blog/2017/04/20170406155236.jpg)
 
 又各种乱找一番，还是找不到。。。。。
 
 最后还是放弃了，直接谷歌吧
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201704/20170406105843.png)
+![](https://cdn.kelu.org/blog/2017/04/20170406105843.png)
 
 总之签约完成就ok了。
 
