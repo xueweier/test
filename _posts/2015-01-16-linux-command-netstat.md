@@ -67,7 +67,7 @@ Netstat是是一个监控TCP/IP网络的非常有用的工具，它可以显示�
 	CLOSED：没有任何连接状态
 
 相对应的就是下图：
-![vim](http://7vigrt.com1.z0.glb.clouddn.com/three-way-shakehand.jpg)
+![vim](https://cdn.kelu.org/blog/2015/01/three-way-shakehand.jpg)
 		
 ### 连接状态
 
