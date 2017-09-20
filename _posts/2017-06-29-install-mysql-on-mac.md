@@ -14,11 +14,11 @@ tags: mysql mac homebrew
 
 一路无脑安装即可。在系统偏好里开启。 一般还是不要开机自启动，因为 mysql 比较耗内存，像我这的 air 就比较吃力了。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/QQ20170703-215209.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-215209.png)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/QQ20170703-215337.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-215337.png)
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/QQ20170703-215359.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-215359.png)
 
 # phpmyadmin 配置
 
@@ -36,4 +36,4 @@ phpMyAdmin. 由php开发的一个 MySQL 管理工具。在官网上下载源代�
     
 配置好 nginx/apache，就能够跑起来了。 我用的是 IDEA 自带的配置，就不那么费神了。下面是IDEA中的配置方法，可以做个参考。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201707/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202017-07-03%2022.04.28.png)
+![](https://cdn.kelu.org/blog/2017/06/22.04.28.png)

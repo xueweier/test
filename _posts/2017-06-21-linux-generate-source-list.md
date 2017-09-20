@@ -14,7 +14,7 @@ tags: vps linux
 
 甚至还可以选择第三方组件。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-06-25%20%E4%B8%8B%E5%8D%889.40.39.png)
+![](https://cdn.kelu.org/blog/2017/06/9.40.39.png)
 
  我选择了最原始的选项，最后得出的代码如下：
 
@@ -38,4 +38,4 @@ tags: vps linux
     
  ps：今天给博客侧边栏加了我的产品这个选项卡。原图在这里，^_^。   
     
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/b4f963380cd79123802d6e23ac345982b3b78015.jpg)
+![](https://cdn.kelu.org/blog/2017/06/b4f963380cd79123802d6e23ac345982b3b78015.jpg)

@@ -19,14 +19,14 @@ tags: devops linux
 
 接下来说说这个国产的监控产品 cloud insight。界面是这个样子：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/2017-06-24-11.18.01.png)
+![](https://cdn.kelu.org/blog/2017/06/2017-06-24-11.18.01.png)
 
 产品似乎只支持3台服务器。在我添加第四台之时就把第一台顶没了。然而报警还是继续会发过来。
 
 仪表盘应该算是他们的小优势。 简单易懂，可以选择单独的一台机器，也可以选择特定的端口监控，蛮方便的。
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/2017-06-24-11.28.26.png)
+![](https://cdn.kelu.org/blog/2017/06/2017-06-24-11.28.26.png)
 
 更复杂的功能就没有用了。进入控制台，发现这个团队还有其他的产品，看来野心蛮大的，^_^希望能做好：
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201706/2017-06-24-11.32.17.png)
+![](https://cdn.kelu.org/blog/2017/06/2017-06-24-11.32.17.png)
