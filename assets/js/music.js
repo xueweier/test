@@ -9,81 +9,81 @@
     title: 'キャンディパウダー',
     artist: 'SOUND HOLIC',
     album: '幻-MABORO-',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_kyande.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_kyande.mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_kyande.ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_kyande.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_kyande.mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_kyande.ogg'
   },
       {
     title: '永夜のパレード',
     artist: 'Arte Refact',
     album: '幻想游园郷 -Fantastic Park-',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_Eiyoruofparade.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_Eiyoruofparade.mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_Eiyoruofparade.ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_Eiyoruofparade.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_Eiyoruofparade.mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_Eiyoruofparade.ogg'
   },
       {
     title: '月に叢雲華に風',
     artist: 'senya',
     album: '月に叢雲華に風',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_tsuki.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_tsuki.mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_tsuki.ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_tsuki.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_tsuki.mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_tsuki.ogg'
   },
       {
     title: '廻り巡る',
     artist: '舞風',
     album: '廻り巡る',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_廻り巡る.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_廻り巡る.mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_廻り巡る.ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_廻り巡る.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_廻り巡る.mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_廻り巡る.ogg'
   },
       {
     title: '二刀閃',
     artist: 'ゆっきー',
     album: '東方幻想界 -緋想天の音-',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_二刀閃.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_二刀閃.mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_二刀閃.ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_二刀閃.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_二刀閃.mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_二刀閃.ogg'
   },
       {
     title: 'Io mi chiamo...',
     artist: '能登麻美子',
     album: 'poca felicità',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_pocafelicita.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_Iomichiamo....mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_Iomichiamo....ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_pocafelicita.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_Iomichiamo....mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_Iomichiamo....ogg'
   },
       {
     title: 'Claes tranquillo',
     artist: '小清水亜美',
     album: 'poca felicità',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_pocafelicita.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_Claestranquillo.mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_Claestranquillo.ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_pocafelicita.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_Claestranquillo.mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_Claestranquillo.ogg'
   },
       {
     title: '澪音の世界',
     artist: 'Sound Horizon',
     album: 'Pico Magic Reloaded',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_澪音の世界.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_澪音の世界.mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_澪音の世界.ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_澪音の世界.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_澪音の世界.mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_澪音の世界.ogg'
   },
       {
     title: 'エルの絵本(魔女とラフレンツェ)',
     artist: 'Sound Horizon',
     album: 'Elysion ～楽園幻想物語組曲～',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_エルの絵本(魔女とラフレンツェ).jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_エルの絵本(魔女とラフレンツェ).mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_エルの絵本(魔女とラフレンツェ).ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_エルの絵本(魔女とラフレンツェ).jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_エルの絵本(魔女とラフレンツェ).mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_エルの絵本(魔女とラフレンツェ).ogg'
   },
       {
     title: 'M16',
     artist: 'Wind Fantasy',
     album: 'Wind Fantasy',
-    cover: 'http://7vigrt.com1.z0.glb.clouddn.com/music_M16.jpg',
-    mp3: 'http://7vigrt.com1.z0.glb.clouddn.com/music_M16.mp3',
-    ogg: 'http://7vigrt.com1.z0.glb.clouddn.com/music_M16.ogg'
+    cover: 'https://cdn.kelu.org/blog/static/music_M16.jpg',
+    mp3: 'https://cdn.kelu.org/blog/static/music_M16.mp3',
+    ogg: 'https://cdn.kelu.org/blog/static/music_M16.ogg'
   }
     ];
 
