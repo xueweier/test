@@ -11,7 +11,7 @@ tags: linux dropbox
 
 安装的方法只看dropbox的官网上就有说明了。
 
-![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-10-11%20下午1.26.40.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-11%20下午1.26.40.png)
 
 你可以以命令行安装无外设模式的dropbox，对于服务器来说维护起来更加方便。也可以以桌面安装的方式安装，符合习惯，并且可以选择同步位置。当然两者混合着来也ok。下面把两种方式都写下来。
 
@@ -41,7 +41,7 @@ Dropbox 守护程序可在所有 32 位与 64 位 Linux 服务器上正常运行
 
 之后就可以很方便的使用`dr`这个命令对dropbox进行操作了，直接输入`dr`就可以看到相关的命令了。
 
-![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_WeChat_1444541977.jpeg)
+![image](https://cdn.kelu.org/blog/2015/10/blog_WeChat_1444541977.jpeg)
 
 ## 普通安装Dropbox
 使用上面的方法已经可以安装使用dropbox了。然而无界面的dropbox的不便就是，设置dropbox目录地址不方便。所以可以直接下载deb文件进行安装。当然，服务器上必须要有桌面环境才可。
@@ -69,11 +69,11 @@ Dropbox 守护程序可在所有 32 位与 64 位 Linux 服务器上正常运行
 
 于是使用`dropbox start -i`启动ui界面，点击下一步安装即可。安装过程中也会提醒你安装的位置。
 
-![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-10-13%20下午6.17.03.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-13%20下午6.17.03.png)
 
 启动完成之后，dropbox就会显示在桌面上啦。
 
-![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-10-13%20下午6.43.46.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-13%20下午6.43.46.png)
 
 - - - -
 参考链接

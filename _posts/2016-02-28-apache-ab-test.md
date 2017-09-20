@@ -7,13 +7,13 @@ tags: linux apache ab-test
 
 1、先查看一下版本信息 ab -V（注意是大写的V）
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog_2016-02-28-354734927.png)
+![](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-354734927.png)
 
 
  2、我们也可以使用小写的v查看下ab命令的一些属性 ab -v
 
 
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog_2016-02-28-232544892.png)
+![](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-232544892.png)
 
 
 3、现在我们就对51CTO的网站进行一次压力测试吧，使用命令ab -n1000 -c10 http://www.51cto.com/index.php，其中 -n1000 表示总请求数 -c10表示并发用户数为10 http://www.51cto.com/index.php 表示请求的URL，下面是测试的结果，其中我们最关心的三个指标，我已经注释出来了。

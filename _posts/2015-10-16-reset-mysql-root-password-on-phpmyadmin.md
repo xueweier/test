@@ -7,7 +7,7 @@ tags: linux mysql phpmyadmin database
 
 今天在本地装了xampp，发现默认root的密码竟然为空。进入PhpMyAdmin时也提示了尽快修改。
 
-![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-10-16%20下午5.34.31.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-16%20下午5.34.31.png)
 
 以前也遇到了好几次这样的问题，都是测试环境其实没什么要紧的。不过上了生产环境之后迟早要修改的，于是现在就来尝试一下了。
 
@@ -19,9 +19,7 @@ tags: linux mysql phpmyadmin database
 
 其中123456为你希望修改的密码，切记不要在数据库中直接手工修改密码。
 
-
-
-![image](http://7vigrt.com1.z0.glb.clouddn.com/blog_屏幕快照%202015-10-16%20下午5.43.13.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-16%20下午5.43.13.png)
 
 然后点击右下角的“执行”，看到“影响了x行”，就表示修改成功。
 
