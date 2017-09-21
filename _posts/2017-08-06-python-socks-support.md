@@ -4,7 +4,7 @@ title: python "Missing dependencies for SOCKS support”
 category: tech
 tags:  python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 目前来说，我的解决办法很简单就是 ，不用 socks 代理 2333333333
 

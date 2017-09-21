@@ -4,7 +4,7 @@ title:  见大利而不趋，闻祸端而不备 - 韩非子亡征
 category: literature
 tags: hanfeizi literature warring_state_period
 ---
-![](/assets/img/hanfeizi.jpg)
+![](https://cdn.kelu.org/blog/tags/hanfeizi.jpg)
 
 # 原文
 

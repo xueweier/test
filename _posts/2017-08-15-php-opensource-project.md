@@ -4,7 +4,7 @@ title: 转 | php 开源项目整理
 category: tech
 tags:  php
 ---
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 转载自：
 * [awesome-php-zh_CN](https://github.com/CraryPrimitiveMan/awesome-php-zh_CN)

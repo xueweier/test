@@ -4,7 +4,7 @@ title: python 字典的一些操作
 category: tech
 tags:  python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 字典是一个非常常用的数据类型，这一篇记录一些常用用法。
 

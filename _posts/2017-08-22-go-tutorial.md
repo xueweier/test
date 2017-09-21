@@ -4,7 +4,7 @@ title: Go 语言笔记 - 环境配置
 category: tech
 tags: go
 ---
-![](/assets/img/go.jpg)
+![](https://cdn.kelu.org/blog/tags/go.jpg)
 
 这一系列文章适用于已有经验的朋友当速查手册使用，这一系列的文章快速链接如下：
 

@@ -4,7 +4,7 @@ title: Linux命令之tcpdump
 category: tech
 tags: linux linux-command
 ---
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 # 简介
 

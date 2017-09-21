@@ -4,7 +4,7 @@ title: kubernetes 架构简介
 category: tech
 tags: virtualization kubernetes
 ---
-![](/assets/img/k8s.jpg)
+![](https://cdn.kelu.org/blog/tags/k8s.jpg)
 
 最近接触了一些 kubernetes 的知识，记录一下。
 

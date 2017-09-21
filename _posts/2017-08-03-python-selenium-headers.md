@@ -4,7 +4,7 @@ title: Python Selenium 中 Chrome 的一些设置参数
 category: tech
 tags:  python selenium
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 # cookie
 

@@ -4,7 +4,7 @@ title: 转载 | 王思聪的药渣之路 - 大头斯基
 category: finance
 tags: finance
 ---
-![](/assets/img/investing.jpg)
+![](https://cdn.kelu.org/blog/tags/investing.jpg)
 
 **牡丹花下死，做鬼也风流。药渣，既是男人的渴望，也是男人的梦魇。而药渣背后的故事，比春宫还要精彩......**
 

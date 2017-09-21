@@ -4,7 +4,7 @@ title: 连接PostgreSQL 显示 password authentication failed for user
 category: tech
 tags:  postgresql
 ---
-![](/assets/img/postgresql.jpg)
+![](https://cdn.kelu.org/blog/tags/postgresql.jpg)
 
 解决方法：重置密码
 

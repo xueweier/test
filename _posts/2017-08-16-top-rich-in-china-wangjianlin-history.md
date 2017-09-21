@@ -4,7 +4,7 @@ title: 转载 | 王健林是怎样成为首富的 万达将往何处去？
 category: finance
 tags: finance
 ---
-![](/assets/img/investing.jpg)
+![](https://cdn.kelu.org/blog/tags/investing.jpg)
 
 万达的商业地产是怎么发展起来的，万达的文化产业是怎么发展起来的，万达的融资和资本运作有何特点，王健林有哪些地方值得学习借鉴
 

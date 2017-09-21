@@ -4,7 +4,7 @@ title: Python Selenium 的 XPath 定位方式详解
 category: tech
 tags:  python selenium
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 先介绍一下 XPath。XPath 是一门在 XML 文档中查找信息的语言。可用来在 XML 文档中对元素和属性进行遍历。
 

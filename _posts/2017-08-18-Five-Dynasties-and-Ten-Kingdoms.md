@@ -4,7 +4,7 @@ title:  五代十国 - 维基百科
 category: literature
 tags: literature five_dynasties_and_ten_kingdoms_period
 ---
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 **五代十国**（907年－979年），是[中国历史](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2 "中国历史")上的一段时期，自[唐朝](https://zh.wikipedia.org/wiki/%E5%94%90%E6%9C%9D "唐朝")灭亡开始，至[宋朝](https://zh.wikipedia.org/wiki/%E5%AE%8B%E6%9C%9D "宋朝")统一[中国本土](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E6%9C%AC%E5%9C%9F "中国本土")为止。五代十国本质上是唐末[藩镇割据](https://zh.wikipedia.org/wiki/%E8%97%A9%E9%8E%AE%E5%89%B2%E6%93%9A "藩镇割据")和唐朝后期政治的延续。[唐朝](https://zh.wikipedia.org/wiki/%E5%94%90%E6%9C%9D "唐朝")灭亡后，各地[藩镇](https://zh.wikipedia.org/wiki/%E8%97%A9%E9%8E%AE "藩镇")纷纷自立为国，其中位在华北地区，军力强盛的藩镇国家即五代，有些还是[沙陀](https://zh.wikipedia.org/wiki/%E6%B2%99%E9%99%80 "沙陀")族所建立。五代虽然实力强大，但无力控制整个中国本土，只是藩镇型的朝廷。而其他割据一方的藩镇，有些自立为帝，有些奉中原王朝为正朔，其中十个国龄较长、国力较强的统称为十国。本时期时常发生地方实力派叛变夺位的情况，使得战乱不止，统治者多重武轻文。中国的内乱，也带给[契丹国](https://zh.wikipedia.org/wiki/%E5%A5%91%E4%B8%B9%E5%9B%BD "契丹国")南侵的机会，[辽朝](https://zh.wikipedia.org/wiki/%E9%81%BC%E6%9C%9D "辽朝")得以建立[[参 1]](https://zh.wikipedia.org/wiki/%E4%BA%94%E4%BB%A3%E5%8D%81%E5%9B%BD#cite_note-.E4.BA.94.E4.BB.A3.E5.8D.81.E5.9C.8B.E6.A6.82.E8.AB.96-1)。五代十国是中国历史的重要时期，其间[河西](https://zh.wikipedia.org/wiki/%E6%B2%B3%E8%A5%BF%E8%B5%B0%E5%BB%8A "河西走廊")和[交趾](https://zh.wikipedia.org/wiki/%E4%BA%A4%E8%B6%BE%E9%83%A1 "交趾郡")地区逐渐离心，交趾（[越南](https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97 "越南")）最终脱离中国独立。
 

@@ -4,7 +4,7 @@ title: 转 | php laravel 开源项目整理
 category: tech
 tags:  php laravel
 ---
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 转载自：
 

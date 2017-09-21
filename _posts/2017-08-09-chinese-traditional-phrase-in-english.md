@@ -4,7 +4,7 @@ title:  一些常见古文词汇的英文翻译
 category: literature
 tags: literature
 ---
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 一个简单的笔记，待更新
 

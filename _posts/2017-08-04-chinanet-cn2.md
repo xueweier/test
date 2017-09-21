@@ -4,7 +4,7 @@ title: 中国电信 cn2 是什么
 category: tech
 tags:  vps
 ---
-![](/assets/img/network.jpg)
+![](https://cdn.kelu.org/blog/tags/network.jpg)
 
 # 中国电信
 

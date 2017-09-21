@@ -4,7 +4,7 @@ title:  Mac 使用 smb 协议与小米电视共享硬盘
 category: software
 tags: mac xiaomi
 ---
-![](/assets/img/mac.jpg)
+![](https://cdn.kelu.org/blog/tags/mac.jpg)
 
 最近买了台32寸小米电视放卧室，还没有拿来当写代码的显示器，我估计可能颗粒感会比较重吧。
 
