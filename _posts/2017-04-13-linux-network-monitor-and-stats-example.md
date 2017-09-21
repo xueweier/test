@@ -5,7 +5,7 @@ category: tech
 tags: linux shell
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 最近写到相关的代码，做个记录。
 

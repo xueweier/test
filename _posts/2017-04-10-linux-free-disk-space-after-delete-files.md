@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 又遇到了系统磁盘满的问题了。记录一下事后解决的流程。
 

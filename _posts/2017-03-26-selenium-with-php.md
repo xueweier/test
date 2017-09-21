@@ -4,7 +4,7 @@ title: 使用 php 驱动 selenium
 category: tech
 tags: selenium php test spider
 ---
-![](/assets/img/selenium.jpg)
+![](https://cdn.kelu.org/blog/tags/selenium.jpg)
 
 网上看到 selenium 的教程，大多是 python 或者 java 驱动的，搞得我这种 php 出身的人好尴尬。 虽然 java 和 python 都会，既然是开发，那还是挑自己拿手的先解决任务吧。于是就有了这篇文章。本文只涉及 selenium webdriver，基于 chrome 浏览器，分布式的就先不看了。
 

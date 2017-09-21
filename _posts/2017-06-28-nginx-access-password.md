@@ -4,7 +4,7 @@ title:  nginx 设置目录访问权限
 category: tech
 tags: nginx
 ---
-![](/assets/img/nginx.jpg)
+![](https://cdn.kelu.org/blog/tags/nginx.jpg)
 
 ### 1.创建htpasswd文件：
 

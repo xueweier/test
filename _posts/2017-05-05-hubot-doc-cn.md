@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/hubot.jpg)
+![](https://cdn.kelu.org/blog/tags/hubot.jpg)
 
 每次看英文文档都有点头疼，做了一些简要的翻译给自己看。 
 原文请看<https://hubot.github.com/docs/scripting/>

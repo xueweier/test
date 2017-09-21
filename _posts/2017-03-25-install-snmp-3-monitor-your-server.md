@@ -5,7 +5,7 @@ category: tech
 tags: devops
 ---
 
-![](/assets/img/snmp.jpg)
+![](https://cdn.kelu.org/blog/tags/snmp.jpg)
 
 简单网络管理协议（SNMP）。该协议能够支持网络管理系统，用以监测连接到网络上的设备是否有任何引起管理上关注的情况。本文介绍 SNMP 代理程序 Net-SNMP 的安装过程。
 

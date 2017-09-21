@@ -4,7 +4,7 @@ title: Linux 以图形界面启动
 category: tech
 tags: linux
 ---
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 这一块在各个发行版之间、同一个发行版内部，都有不同的方式。这一篇以 Debian 8 作为例子，其它版本请谨慎阅读。
 

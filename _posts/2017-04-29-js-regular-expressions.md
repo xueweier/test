@@ -5,7 +5,7 @@ category: tech
 tags: javascript regex
 ---
 
-![](/assets/img/regex.jpg)
+![](https://cdn.kelu.org/blog/tags/regex.jpg)
 
 本文来自 [MDN(Mozilla Developer Network)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions)，做了一些整理和压缩。
 

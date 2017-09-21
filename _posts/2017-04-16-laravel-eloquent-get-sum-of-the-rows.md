@@ -5,7 +5,7 @@ category: tech
 tags: php laravel
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 最近写到相关的代码，直接上代码做个记录。
 

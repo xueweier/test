@@ -5,7 +5,7 @@ category: japanese
 tags: japanese
 ---
 
-![](/assets/img/japanese.jpg)
+![](https://cdn.kelu.org/blog/tags/japanese.jpg)
 
 这是我学日语系列的第二篇。 本来这一系列之前是《和血衫一起学日语》，发现其实我并不是一起学，而是一起复习考试。所以改名成《和血衫一起考二级》比较准确一些^_^。
     

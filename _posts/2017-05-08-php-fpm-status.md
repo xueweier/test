@@ -5,7 +5,7 @@ category: tech
 tags: php
 ---
 
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 上一篇写了 nginx 状态页，这一篇写一下 php-fpm 状态页。
 

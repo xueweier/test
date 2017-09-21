@@ -5,7 +5,7 @@ category: tech
 tags: linux python
 ---
 
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 Supervisor是一个进程控制系统，由python编写。可以很方便的用来启动、重启、关闭进程（不仅仅是 Python 进程）。 它有以下一些特点
 

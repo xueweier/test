@@ -5,7 +5,7 @@ category: tech
 tags: alipay
 ---
 
-![](/assets/img/alipay.jpg)
+![](https://cdn.kelu.org/blog/tags/alipay.jpg)
 
 在面向普通用户的app，阿里已经被吐槽和很多次，每次改版都把app界面改的面目全非。
 

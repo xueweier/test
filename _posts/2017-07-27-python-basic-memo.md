@@ -4,7 +4,7 @@ title:   Python 基础的笔记
 category: tech
 tags:  python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 大学时候就写了不少 Python 代码。最近又用到了，复习一下。 参考资料[Python 之旅 - 极客学院](http://wiki.jikexueyuan.com/project/explore-python/)
 

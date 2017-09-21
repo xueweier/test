@@ -4,7 +4,7 @@ title:  Debian 下 PHP7 编译安装和 MySQL支持
 category: tech
 tags: linux php mysql
 ---
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 在 php7 环境中，编译和支持MySQL这一块把我折腾的蛮辛苦的，相信不少人也同样遇到，记录一下这个坑。
 

@@ -4,7 +4,7 @@ title:  Linux 下 PAM authentication failed 问题
 category: tech
 tags:  linux
 ---
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 出现这个问题时，基本上所有敏感操作都会请求输入密码，而且密码都是不对的。
 

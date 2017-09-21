@@ -5,7 +5,7 @@ category: japanese
 tags: japanese
 ---
 
-![](/assets/img/japanese.jpg)
+![](https://cdn.kelu.org/blog/tags/japanese.jpg)
 
 这是我学日语系列的第四篇。
     

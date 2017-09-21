@@ -4,7 +4,7 @@ title:  php 数字位数不足前面加0补足
 category: tech
 tags:  php
 ---
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 php 这一块和 c 语言简直一模一样：
 

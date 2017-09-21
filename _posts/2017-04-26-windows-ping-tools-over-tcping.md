@@ -5,7 +5,7 @@ category: software
 tags: windows
 ---
 
-![](/assets/img/encoding.jpg)
+![](https://cdn.kelu.org/blog/tags/encoding.jpg)
 
 查看网络延迟标配工具：ping。但是机房服务器禁止ping的情况也很常见。这时候就用到tcping了。
 

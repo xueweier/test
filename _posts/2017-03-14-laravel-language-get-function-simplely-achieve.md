@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 Laravel 中获取语言的方法 Lang::get() 非常好用，我经常将一些错误提示放到这些文件里。比如：
 

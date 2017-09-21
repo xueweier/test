@@ -4,7 +4,7 @@ title:   jekyll引擎跳过一些代码的解析
 category: tech
 tags:  github markdown jekyll
 ---
-![](/assets/img/github.jpg)
+![](https://cdn.kelu.org/blog/tags/github.jpg)
 
 用下面的包裹不需要解释的代码即可。
 

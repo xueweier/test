@@ -4,7 +4,7 @@ title: 吾自今年来，苍苍者或化而为白矣，动摇者或脱而落矣-
 category: literature
 tags: literature tang_dynasty
 ---
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 《祭十二郎文》是唐代文学家韩愈的一篇对其侄十二郎的祭文。文章既没有铺排，也没有张扬，作者善于融抒情于叙事之中，在对身世、家常、生活遭际朴实的叙述中，表现出对兄嫂及侄儿深切的怀念和痛惜，一往情深，感人肺腑。
 

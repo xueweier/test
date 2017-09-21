@@ -5,7 +5,7 @@ category: tech
 tags: php
 ---
 
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 嗯，昨晚在浏览一个github项目：[微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp),不知道怎么抽筋了然后跑去升级php7了。(●ˇ∀ˇ●)。嘛，记录一下升级过程。
 

@@ -5,7 +5,7 @@ category: tech
 tags: linux google
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 BBR 已经出来将近半年了。 它解决问题的出发点在于：
 

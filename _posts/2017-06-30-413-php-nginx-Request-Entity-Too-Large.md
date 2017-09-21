@@ -4,7 +4,7 @@ title:  nginx 413 Request Entity Too Large 错误解决方法
 category: tech
 tags: nginx
 ---
-![](/assets/img/nginx.jpg)
+![](https://cdn.kelu.org/blog/tags/nginx.jpg)
 
 今天在网站上传文件时，出现这个错误
 

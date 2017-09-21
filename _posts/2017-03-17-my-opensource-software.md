@@ -5,7 +5,7 @@ category: tech
 tags: opensource shell
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 因为一个人管着好几台服务器，每一次部署相同的环境都很揪心。这个项目也断断续续搞了好久，终于在最近弄好了，可以算是我服务器管理的一些经验。以后部署新服务器再也不纠结了。
 

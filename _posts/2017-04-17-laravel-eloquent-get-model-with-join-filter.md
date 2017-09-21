@@ -5,7 +5,7 @@ category: tech
 tags: php laravel
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 在 laravel Eloquent ORM 中我们经常用到 with 这一方法来关联表。普通的使用场景也很简单，例如
 

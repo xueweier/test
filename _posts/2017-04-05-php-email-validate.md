@@ -5,7 +5,7 @@ category: tech
 tags: php
 ---
 
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 起因是昨天看到有人twitter上吐槽网站遇到注册机：
 

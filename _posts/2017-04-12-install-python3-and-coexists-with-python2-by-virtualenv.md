@@ -5,7 +5,7 @@ category: tech
 tags: python
 ---
 
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 就目前来说，所有 Linux 发行版自带的python都是python2，由于python3与2不兼容，所以python3的推进一直不顺利。然而我也不想直接踢掉系统的python2环境，哪天需要的时候不还得搞一遍回来么？好在python官方提供了virtualenv环境，可以无缝使用不同版本间的Python。
 

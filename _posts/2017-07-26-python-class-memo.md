@@ -4,7 +4,7 @@ title:   Python 类的笔记
 category: tech
 tags:  python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 一些笔记而已。
 

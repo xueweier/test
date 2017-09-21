@@ -5,7 +5,7 @@ category: tech
 tags: php
 ---
 
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 前几天用到这两个函数，随后记一下。
 

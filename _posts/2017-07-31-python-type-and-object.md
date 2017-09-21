@@ -4,7 +4,7 @@ title: Python 的 object 类
 category: tech
 tags:  python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 # 结论
 

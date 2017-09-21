@@ -5,7 +5,7 @@ category: japanese
 tags: japanese
 ---
 
-![](/assets/img/japanese.jpg)
+![](https://cdn.kelu.org/blog/tags/japanese.jpg)
 
 这是我学日语系列的第一篇。第一阶段以标准日本语初中级课本为主。初级因为比较简单，我将每个单元的一些语法和表达捡出来，加上自己的理解作为一篇文章，方便以后复习。中级将每两篇课文作为一篇。
 为方便我的记忆，这些文章我后续都可能会进行修补完善。

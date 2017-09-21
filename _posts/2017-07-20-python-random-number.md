@@ -4,7 +4,7 @@ title:  Python 生成随机数
 category: tech
 tags: python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 	# coding:utf-8
 	import time

@@ -5,7 +5,7 @@ category: finance
 tags: finance
 ---
 
-![](/assets/img/finance.jpg)
+![](https://cdn.kelu.org/blog/tags/finance.jpg)
 
 本文转载自 [央行在2017年5月12日放水4290亿意味着什么？实体经济有什么影响？ - 知乎](https://www.zhihu.com/question/59881187)。惊叹于作者的见识，留在小站时时瞻仰。
 

@@ -4,7 +4,7 @@ title: 使用 Proxifier 解决系统级的代理问题
 category: tech
 tags: proxy linux mac windows
 ---
-![](/assets/img/proxy.jpg)
+![](https://cdn.kelu.org/blog/tags/proxy.jpg)
 
 先前有写过这样一篇文章[《Fiddler 让 Win10 自带日历客户端连接谷歌账户》](/tech/2017/03/01/a-userful-tool-help-your-win10-calendar-connect-to-google-account.html)
 

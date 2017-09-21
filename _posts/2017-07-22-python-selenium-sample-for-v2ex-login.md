@@ -4,7 +4,7 @@ title:   简单的 v2ex 自动签到程序 —— 基于 Python Selenium
 category: tech
 tags: python selenium
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 最近看了点 Selenium 的东西，随手写的一个demo，使用 Chrome 内核，模拟用户每日签到的动作，比较简单的。
 

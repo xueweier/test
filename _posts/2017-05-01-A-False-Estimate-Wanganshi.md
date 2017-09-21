@@ -5,7 +5,7 @@ category: literature
 tags: literature song_dynasty
 ---
 
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 选自《临川先生文集》。
 

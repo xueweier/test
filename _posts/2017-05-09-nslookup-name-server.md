@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 域名是需要DNS才能正常解析的。最近我有个域名在 dnspod 上老是无法解析，提示 NS 地址还未修改，头疼。于是查看了域名 dns 解析地址，易名中国真是坑（应该就是他的锅吧。
 

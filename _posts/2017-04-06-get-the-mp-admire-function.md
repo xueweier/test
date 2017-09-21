@@ -5,7 +5,7 @@ category: life
 tags: tencent
 ---
 
-![](/assets/img/wechat.jpg)
+![](https://cdn.kelu.org/blog/tags/wechat.jpg)
 
 好激动！传说中的赞赏功能原来是这样的。欢迎围观: kelvin_blood
 

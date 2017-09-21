@@ -4,7 +4,7 @@ title:  木兰诗
 category: literature
 tags: literature five_dynasties_and_ten_kingdoms_period
 ---
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 # 背景
 

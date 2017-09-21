@@ -4,7 +4,7 @@ title:   Django 入门笔记
 category: tech
 tags:  python django
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 记录一下步骤。我是按照网上的这个教程——[Django 博客教程](http://zmrenwu.com/category/django-blog-tutorial/) 进行学习的。对应的 github 地址戳[这里](https://github.com/zmrenwu/django-blog-tutorial)。
 

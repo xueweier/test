@@ -5,7 +5,7 @@ category: literature
 tags: literature five_dynasties_and_ten_kingdoms_period
 ---
 
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 # 相见欢·无言独上西楼
 

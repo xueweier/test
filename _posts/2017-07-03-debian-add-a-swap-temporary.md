@@ -4,7 +4,7 @@ title: Debian 生成新的交换分区
 category: tech
 tags: linux
 ---
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 先看我在推特上的这条吐槽：
 

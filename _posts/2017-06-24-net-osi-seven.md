@@ -4,7 +4,7 @@ title: OSI七层模型与TCP/IP五层网络架构总结
 category: tech
 tags: devops linux
 ---
-![](/assets/img/network.jpg)
+![](https://cdn.kelu.org/blog/tags/network.jpg)
 
 OSI和TCP/IP 的理解对运维工程师来说非常有帮助。 这几天在 vps 平台上配置一些服务器端口的映射，惊然发现不知道 ssh 是基于什么的协议。于是拉出来复习了一遍。
  

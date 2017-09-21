@@ -5,7 +5,7 @@ category: finance
 tags: finance
 ---
 
-![](/assets/img/finance.jpg)
+![](https://cdn.kelu.org/blog/tags/finance.jpg)
 
 # [问题描述](https://www.zhihu.com/question/37265589)
 

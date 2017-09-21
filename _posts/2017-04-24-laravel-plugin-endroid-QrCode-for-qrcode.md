@@ -5,7 +5,7 @@ category: tech
 tags: php laravel composer
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 这是一个用于生成图片二维码的 Laravel 插件。Github 地址: <https://github.com/endroid/QrCode>
 

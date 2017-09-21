@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 # 临时修改
 

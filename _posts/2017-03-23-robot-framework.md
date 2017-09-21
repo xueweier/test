@@ -5,7 +5,7 @@ category: tech
 tags: test
 ---
 
-![](/assets/img/test.jpg)
+![](https://cdn.kelu.org/blog/tags/test.jpg)
 
 # 自动化测试
 

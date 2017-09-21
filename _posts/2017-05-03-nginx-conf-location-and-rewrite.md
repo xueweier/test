@@ -5,7 +5,7 @@ category: tech
 tags: nginx
 ---
 
-![](/assets/img/nginx.jpg)
+![](https://cdn.kelu.org/blog/tags/nginx.jpg)
 
 本文转自[《nginx配置location总结及rewrite规则写法》](http://seanlook.com/2015/05/17/nginx-location-rewrite/)与[《nginx服务器安装及配置文件详解》](http://seanlook.com/2015/05/17/nginx-install-and-config/)，有删减。
 

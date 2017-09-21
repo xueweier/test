@@ -4,7 +4,7 @@ title:  Linux 测试端口通不通
 category: tech
 tags:  linux windows
 ---
-![](/assets/img/network.jpg)
+![](https://cdn.kelu.org/blog/tags/network.jpg)
 
 说到端口通不通，大部分人第一反应都是 ping。可惜ping命令是不能够测试端口的，只是测试网络联接状况以及信息包发送和接收状况。
 

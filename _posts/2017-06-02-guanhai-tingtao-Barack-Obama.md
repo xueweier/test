@@ -5,7 +5,7 @@ category: literature
 tags: literature prc
 ---
 
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 来自[萌娘百科](https://zh.moegirl.org/zh-hans/观海同志)。
 

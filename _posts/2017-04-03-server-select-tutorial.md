@@ -5,7 +5,7 @@ category: tech
 tags: vps
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 作为软件工程师，尤其是后端开发工程师，多多少少都有接触过云服务器。也有很多刚入门的小鲜肉们好奇应该怎么入门选择云服务器。这一篇我推荐一些接触过的云服务器。
 

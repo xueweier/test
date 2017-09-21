@@ -4,7 +4,7 @@ title: Selenium 介绍
 category: tech
 tags: selenium test webdriver
 ---
-![](/assets/img/selenium.jpg)
+![](https://cdn.kelu.org/blog/tags/selenium.jpg)
 
 之前写了一篇很初级的[《selenium入门》](/tech/2017/02/16/selenium-tutorial.html)，仅仅算是 Selenium 2 的 hello world。现在的这篇，主要是记录我对 Selenium 2（又名 WebDriver） 的一些认识。
 

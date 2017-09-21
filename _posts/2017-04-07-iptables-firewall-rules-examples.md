@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 iptable是所有网站运维管理员都需要了解的一门技术。这一篇文章写得具体又简约，转载过来。
 

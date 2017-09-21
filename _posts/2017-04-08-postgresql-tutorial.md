@@ -5,7 +5,7 @@ category: tech
 tags: postgresql
 ---
 
-![](/assets/img/postgresql.jpg)
+![](https://cdn.kelu.org/blog/tags/postgresql.jpg)
 
 新建了一个节点服务器，打算将主业务迁移到这边。涉及到一些 Shell 命令行的数据库操作。在这里做一个简单的记录。
 

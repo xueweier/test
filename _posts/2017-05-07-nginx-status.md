@@ -5,7 +5,7 @@ category: tech
 tags: nginx
 ---
 
-![](/assets/img/nginx.jpg)
+![](https://cdn.kelu.org/blog/tags/nginx.jpg)
 
 nginx 内建了一个状态页，对于想了解nginx的状态以及监控nginx非常有帮助。
 

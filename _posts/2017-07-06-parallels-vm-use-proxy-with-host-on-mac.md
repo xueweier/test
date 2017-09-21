@@ -4,7 +4,7 @@ title: Mac 下 Parallels 虚拟机使用宿主机的 Shadowsocks 代理
 category: tech
 tags: mac shadowsocks proxy vm
 ---
-![](/assets/img/proxy.jpg)
+![](https://cdn.kelu.org/blog/tags/proxy.jpg)
 
 环境:
 

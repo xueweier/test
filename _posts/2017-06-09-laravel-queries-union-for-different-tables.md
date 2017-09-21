@@ -5,7 +5,7 @@ category: tech
 tags: php laravel sql
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 在[官方文档](http://d.laravel-china.org/docs/5.1/queries#unions)上可以看到这么描述 Unions 的：
 

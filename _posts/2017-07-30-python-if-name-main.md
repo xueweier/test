@@ -4,7 +4,7 @@ title: Python 中的 if __name__ == '__main__'
 category: tech
 tags:  python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
  if __name__ == '__main__' 是一个Python 初学者摸不着头脑的东西。例如下面一个简单的文件：
 

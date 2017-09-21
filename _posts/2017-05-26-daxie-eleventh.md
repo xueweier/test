@@ -4,7 +4,7 @@ title:  是故言悖而出者，亦悖而入；货悖而入者，亦悖而出 - 
 category: literature
 tags: zhuxi literature confucianism
 ---
-![](/assets/img/confucianism.jpg)
+![](https://cdn.kelu.org/blog/tags/confucianism.jpg)
 
 # 原文
 

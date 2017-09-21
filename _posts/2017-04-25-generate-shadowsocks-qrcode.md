@@ -5,7 +5,7 @@ category: tech
 tags: proxy
 ---
 
-![](/assets/img/encoding.jpg)
+![](https://cdn.kelu.org/blog/tags/encoding.jpg)
 
 假设我们的配置文件如下：
 

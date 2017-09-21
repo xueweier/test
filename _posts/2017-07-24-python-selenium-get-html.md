@@ -4,7 +4,7 @@ title: Python Selenium 节点的相关操作
 category: tech
 tags:  python selenium
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 # 获取 html
 

@@ -5,7 +5,7 @@ category: tech
 tags: linux linux-command
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 # 一. 启动,关机,登入,登出相关命令
 

@@ -5,7 +5,7 @@ category: literature
 tags: literature  song_dynasty
 ---
 
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 《六国论》是北宋苏洵的政论文代表作。该文先是提出精辟论点“六国破灭”“弊在赂秦”，之后一步一步加以论证，实属一篇非常严谨、具有很强说服力的论说文。
 

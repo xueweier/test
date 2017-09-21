@@ -5,7 +5,7 @@ category: finance
 tags: finance
 ---
 
-![](/assets/img/finance.jpg)
+![](https://cdn.kelu.org/blog/tags/finance.jpg)
 
 这篇文章整理一些资料，夹杂一些我个人的理解，以后也会继续补充完善的。因为不是专业人士，有理解错误或者缺失的地方，敬请不吝斧正。
 

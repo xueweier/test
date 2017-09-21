@@ -5,7 +5,7 @@ category: tech
 tags: chrome google laravel
 ---
 
-![](/assets/img/chrome2.jpg)
+![](https://cdn.kelu.org/blog/tags/chrome2.jpg)
 
 这个插件以可视化的方式辅助生成集成测试代码。
 如果需要"Import Factories"功能，需要手动修改配置，<chrome://extensions> , 搜索 "Laravel TestTools" 然后勾选 "Allow access to file URLs".

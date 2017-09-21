@@ -5,7 +5,7 @@ category: tech
 tags: php laravel composer
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 这是一个用于生成图片验证码的 Laravel 插件。Github 地址: <https://github.com/mewebstudio/captcha>
 这个项目基于 [Intervention Image](https://github.com/Intervention/image)

@@ -5,7 +5,7 @@ category: software
 tags: github
 ---
 
-![](/assets/img/github.jpg)
+![](https://cdn.kelu.org/blog/tags/github.jpg)
 
 <https://domchristie.github.io/to-markdown/>
 

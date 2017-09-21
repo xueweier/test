@@ -4,7 +4,7 @@ title:   python 代码阅读和有趣的项目推荐
 category: tech
 tags:  python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 做个记录看看。
 

@@ -5,7 +5,7 @@ category: tech
 tags: windows docker
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
 平时都是直接在 Linux 服务器上使用 Docker，原以为 Windows 下应该也差不多，没想到最终还是一波三折。还是得记录一下。
 

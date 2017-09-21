@@ -4,7 +4,7 @@ title: Shell 拉起进程后获得 pid，$0,$?,$!等用法
 category: tech
 tags: linux shell
 ---
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 起因是在前一篇《Linux 网络监控与统计实例》(/tech/2017/04/13/linux-network-monitor-and-stats-example.html)中杀死 tcpdump 的代码在流量监控项目中是有bug的，源码如下：
 

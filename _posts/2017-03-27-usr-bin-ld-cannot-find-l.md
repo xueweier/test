@@ -5,7 +5,7 @@ category: tech
 tags: devops linux
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 在源码安装 snmp 时，在安装的第一步
 

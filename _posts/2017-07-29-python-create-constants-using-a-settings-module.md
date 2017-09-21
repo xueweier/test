@@ -4,7 +4,7 @@ title: python 自定义一个 setting 模块并使用其变量
 category: tech
 tags:  python
 ---
-![](/assets/img/python.jpg)
+![](https://cdn.kelu.org/blog/tags/python.jpg)
 
 最简单的方式是定义一个 setting 的 module：
 

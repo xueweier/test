@@ -4,7 +4,7 @@ title: 一个服务器监控产品 - Cloud Insight
 category: tech
 tags: devops linux
 ---
-![](/assets/img/devops.jpg)
+![](https://cdn.kelu.org/blog/tags/devops.jpg)
 
 在知乎这个答案里看到一个宣传答案，答案蛮专业的，试用了下。感觉还可以，不过心里多少有点担心，毕竟不是开源的，东西都在别人手上。
 

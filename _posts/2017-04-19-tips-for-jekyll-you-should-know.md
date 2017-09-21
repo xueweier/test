@@ -5,7 +5,7 @@ category: tech
 tags: jekyll github
 ---
 
-![](/assets/img/github.jpg)
+![](https://cdn.kelu.org/blog/tags/github.jpg)
 
 这篇文章大部分转载自[《48 个你需要知道的 Jekyll 使用技巧 - crispgm.com》](https://crispgm.com/page/48-tips-for-jekyll-you-should-know.html)，有修改
 

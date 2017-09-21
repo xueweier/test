@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 毕竟不是什么光彩的事，赚了钱的同志们还是正版付费吧。这篇文章只贴配置，不解释。
  

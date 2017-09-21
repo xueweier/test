@@ -5,7 +5,7 @@ category: software
 tags: windows microsoft
 ---
 
-![](/assets/img/windows.jpg)
+![](https://cdn.kelu.org/blog/tags/windows.jpg)
 
 我的 surface pro 3 屏幕摔坏了。左下角直接破了。惨绝人寰：
 

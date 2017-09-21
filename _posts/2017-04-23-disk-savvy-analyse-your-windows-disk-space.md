@@ -5,7 +5,7 @@ category: software
 tags: windows
 ---
 
-![](/assets/img/windows.jpg)
+![](https://cdn.kelu.org/blog/tags/windows.jpg)
 
 Disk Savvy 是一个直接的硬盘空间分析工具，分析多个目录的磁盘，网络共享或NAS存储设备的使用情况。如图：
 

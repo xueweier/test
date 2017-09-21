@@ -5,7 +5,7 @@ category: tech
 tags: linux shell
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 最近服务器经常出现 CPU 100%，然后超负荷运行的情况。
 

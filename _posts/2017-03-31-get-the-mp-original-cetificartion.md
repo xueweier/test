@@ -5,7 +5,7 @@ category: life
 tags: tencent
 ---
 
-![](/assets/img/wechat.jpg)
+![](https://cdn.kelu.org/blog/tags/wechat.jpg)
 
 昨天得到了微信公众号发的推送，邀请开通原创保护功能，蛮开心的。
 

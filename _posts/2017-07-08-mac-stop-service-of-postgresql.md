@@ -5,7 +5,7 @@ category: tech
 tags: mac postgres
 ---
 
-![](/assets/img/postgresql.jpg)
+![](https://cdn.kelu.org/blog/tags/postgresql.jpg)
 
 在 Mac 下有很多种方式可以安装 PostgreSQL 。比如源码安装、homebrew 安装，dmg 包安装。 现在想起来，我应该用 homebrew 安装——还是命令行可控性强一些。当时觉得方便，使用官网提供的 dmg 包安装，然后问题就来了：无法停止 PostgreSQL。
 

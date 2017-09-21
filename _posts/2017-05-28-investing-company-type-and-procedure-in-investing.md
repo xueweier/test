@@ -5,7 +5,7 @@ category: finance
 tags: finance
 ---
 
-![](/assets/img/investing.jpg)
+![](https://cdn.kelu.org/blog/tags/investing.jpg)
 
 大部分转载自[什么是 GP、LP、PE、VC、FOF？ - 知乎](https://www.zhihu.com/question/20062244)，加上了一些个人注解，留做笔记用。
 

@@ -5,7 +5,7 @@ category: software
 tags: google
 ---
 
-![](/assets/img/google.jpg)
+![](https://cdn.kelu.org/blog/tags/google.jpg)
 
 首先声明这个不是破解谷歌 reCAPTCHA 的意思Orz
 
