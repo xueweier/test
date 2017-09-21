@@ -5,7 +5,7 @@ category: tech
 tags: postgresql database
 ---
 
-![](/assets/img/postgresql.jpg)
+![](https://cdn.kelu.org/blog/tags/postgresql.jpg)
 
 最近换了办公环境，发现内部测试时使用 postgres 无法正常连接数据库。 使用工具连接时报错 
 

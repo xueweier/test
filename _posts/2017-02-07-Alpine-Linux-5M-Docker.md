@@ -5,7 +5,7 @@ category: tech
 tags: docker linux
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
 Alpine Linux Docker镜像基于Alpine Linux操作系统，后者是一个面向安全的轻型Linux发行版。不同于通常Linux发行版，Alpine Linux采用了musl libc和busybox以减小系统的体积和运行时资源消耗。在保持瘦身的同时，Alpine Linux还提供了自己的包管理工具apk，可以在其网站上[查询][alpine-packages]，或者直接通过apk命令查询和安装。
 

@@ -5,7 +5,7 @@ category: tech
 tags: design_pattern
 ---
 
-![](/assets/img/design_patterns.jpg)
+![](https://cdn.kelu.org/blog/tags/design_patterns.jpg)
 
 # 什么是ORM？
 

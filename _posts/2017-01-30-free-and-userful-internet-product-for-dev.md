@@ -5,7 +5,7 @@ category: tech
 tags: internet
 ---
 
-![](/assets/img/internet.jpg)
+![](https://cdn.kelu.org/blog/tags/internet.jpg)
 
 给平时开发时常用的一些免费的互联网产品做个列表记一下。绝大多数是免费的。也有我认为非常好用的收费的产品。有些产品点击注册是有推广费的，如果大家需要的话欢迎使用点击链接使用我的推广码注册。
 

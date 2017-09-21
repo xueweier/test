@@ -5,7 +5,7 @@ category: tech
 tags: wechat
 ---
 
-![](/assets/img/wechat.jpg)
+![](https://cdn.kelu.org/blog/tags/wechat.jpg)
 
 开发公众号也有好一段时间了，说起来开发是蛮简单的。很久没看了，最近遇到了一些问题，小小总结一下。
 

@@ -4,7 +4,7 @@ title: PHPDoc 介绍与安装
 category: tech
 tags: php
 ---
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 PHPDoc是一个用PHP写的强大的文档自动生成工具，对于有规范注释的php程序，能够快速生成具有结构清晰、相互参照、索引等功能的API文档。
 

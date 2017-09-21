@@ -5,7 +5,7 @@ category:  literature
 tags: literature warring_state_period
 ---
 
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 偶然看了几句离骚的诗词，查找到原文后一不小心读完了全文。好似与人闲聊，生活并无交集却交谈甚欢。能与这样的才人菊苣成为朋友，大概要折寿好几年吧。
 

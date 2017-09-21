@@ -4,8 +4,6 @@ title: markdown入门
 category: tech
 tags: markdown tutorial
 ---
-
-
 Markdown 是一种轻量级的「标记语言」，学习成本低。很早前就在使用markdown，就连我的blog
 的编写，也都是使用markdown语言编写的。这篇文章里将记录一些常用的markdown语法、Mac下的
 工具，以及Mou的快捷键。

@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 更改主机名一般我们都使用 `hostname xxx`, 这样做是没问题，不过需要重启服务器才能生效。
 

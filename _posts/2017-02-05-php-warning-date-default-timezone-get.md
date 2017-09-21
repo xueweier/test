@@ -4,7 +4,7 @@ title: php 报错 date default timezone get
 category: tech
 tags: php composer
 ---
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 今天在使用satis生成网页
 

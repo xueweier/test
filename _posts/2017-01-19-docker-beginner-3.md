@@ -5,7 +5,7 @@ category: tech
 tags: docker devops tutorial
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 今天的好玩新闻有这几件事：
 
 * [炉石传说罕见数据库事故！丢失30%数据](http://mp.weixin.qq.com/s/Vr36GpzR-UxcNLtiBLldEA)

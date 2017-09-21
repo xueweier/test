@@ -5,7 +5,7 @@ category: finance
 tags: finance industry
 ---
 
-![](/assets/img/finance.jpg)
+![](https://cdn.kelu.org/blog/tags/finance.jpg)
 
 产融结合(combination between industry and finance)
 

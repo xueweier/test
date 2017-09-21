@@ -5,7 +5,7 @@ category: tech
 tags: docker devops tutorial
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
 新学习了 [docker][docker_gitbook]。记录一下。
 

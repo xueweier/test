@@ -5,7 +5,7 @@ category: tech
 tags: devops
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 # 计划任务cron
 

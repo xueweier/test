@@ -5,7 +5,7 @@ category: tech
 tags: test
 ---
 
-![](/assets/img/test.jpg)
+![](https://cdn.kelu.org/blog/tags/test.jpg)
 
 关于软件测试，最近也在持续地时间，对这篇[《单元测试不是持续集成的基础》][1]感同身受,作者李福,来自阿里技术质量部。
 

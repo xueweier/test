@@ -5,7 +5,7 @@ category: tech
 tags: laravel php
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 这几天写了个测试用例，发现一个点记录下。Eloquent 在取出一系列数据后是个集合collection。所以在判断的时候应该判断是否为collection，而不是数组。即：
 

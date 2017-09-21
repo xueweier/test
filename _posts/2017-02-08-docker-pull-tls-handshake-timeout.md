@@ -5,7 +5,7 @@ category: tech
 tags: docker gfw
 ---
 
-![](/assets/img/daocloud.jpg)
+![](https://cdn.kelu.org/blog/tags/daocloud.jpg)
 
 一直以来都是使用国外的服务器，因而对 docker 速度慢并没有特别的感觉。然而在本地做测试，还是需要docker，于是就出现了这个问题了。
 

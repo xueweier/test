@@ -4,7 +4,7 @@ title: github的辅助项目们
 category: tech
 tags: github git opensource
 ---
-![](/assets/img/github.jpg)
+![](https://cdn.kelu.org/blog/tags/github.jpg)
 
 时常在github项目上看到类似下面这样的小标签,用于展示项目的一些信息。
 

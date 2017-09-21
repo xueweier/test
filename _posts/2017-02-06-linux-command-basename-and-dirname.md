@@ -5,7 +5,7 @@ category: tech
 tags: linux linux-command
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 basename命令用于去掉文件名的目录和后缀，dirname命令用于截取目录
 

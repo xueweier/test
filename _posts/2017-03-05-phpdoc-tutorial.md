@@ -5,7 +5,7 @@ category: tech
 tags: php intellij
 ---
 
-![](/assets/img/php.jpg)
+![](https://cdn.kelu.org/blog/tags/php.jpg)
 
 # [概况][first]
 

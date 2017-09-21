@@ -4,7 +4,7 @@ title: php 获取编码和转换编码
 category: tech
 tags: php encoding
 ---
-![](/assets/img/encoding.jpg)
+![](https://cdn.kelu.org/blog/tags/encoding.jpg)
 
 做爬虫抓取页面的时候，常常有非utf-8的混入，包括gbk gb2312 甚至是 Big5，需要转换成我们期望的格式。
 同时，Windows与其他操作系统也不同。普通的Linux和Mac都是原生使用utf-8的编码格式，而中文的windows用的则是gbk格式。因此针对不同系统的终端输出(console,cmd)，我们也需要进行编码转换。

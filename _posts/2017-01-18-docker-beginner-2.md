@@ -5,7 +5,7 @@ category: tech
 tags: docker devops tutorial
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 今天的好玩新闻有这几件事：
 
 * 英国梅姨一声硬脱欧，英镑兑美元涨了将近2.6%

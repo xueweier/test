@@ -5,7 +5,7 @@ category: tech
 tags: php laravel
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 本文节选自[50分钟学会Laravel 50个小技巧][original],有修改。针对Laravel 5.1 版本。
 

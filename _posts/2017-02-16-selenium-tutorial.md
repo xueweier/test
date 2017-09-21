@@ -4,7 +4,7 @@ title: selenium2 入门 - 基于php
 category: tech
 tags: selenium spider test php
 ---
-![](/assets/img/selenium.jpg)
+![](https://cdn.kelu.org/blog/tags/selenium.jpg)
 
 Selenium 用于自动化测试，它有助于自动化Web应用程序测试。本文介绍它的快速入门配置(php版本)与一个很简单的php爬虫应用。
 

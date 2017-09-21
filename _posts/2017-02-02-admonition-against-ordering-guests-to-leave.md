@@ -5,7 +5,7 @@ category: literature
 tags: literature warring_state_period legalism
 ---
 
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 # 背景
 

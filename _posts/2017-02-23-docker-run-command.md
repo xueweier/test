@@ -5,7 +5,7 @@ category: tech
 tags: docker
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
 Docker会在隔离的容器中运行进程。当运行 docker run 命令时，Docker会启动一个进程，并为这个进程分配其独占的文件系统、网络资源和以此进程为根进程的进程组。
 

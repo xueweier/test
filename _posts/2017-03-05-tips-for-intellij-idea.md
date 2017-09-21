@@ -5,7 +5,7 @@ category: tech
 tags: intellij
 ---
 
-![](/assets/img/IntelliJ.png)
+![](https://cdn.kelu.org/blog/tags/IntelliJ.png)
 
 Idea 可谓我的主力IDE，吃饭的家伙。感觉 Idea 太大了没办法面面俱到，下面就列一些常用容易遗忘的技巧。
 

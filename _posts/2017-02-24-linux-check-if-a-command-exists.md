@@ -5,7 +5,7 @@ category: tech
 tags: linux linux-command
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 在命令行时，我们常使用 which xxx 或者 whereis xxx 来判断某个命令是否存在。然而在编写 bash 时，应该避免使用 which 命令。
 

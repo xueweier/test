@@ -5,7 +5,7 @@ category: tech
 tags: docker devops tutorial
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
 今晚将 [CSDN][docker_csdn] 上所有的 Docker 的文章浏览了一遍(53页,将近523篇文章)。
 

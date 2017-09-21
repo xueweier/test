@@ -4,7 +4,7 @@ title: 转载 | Composer 入门
 category: tech
 tags: php composer
 ---
-![](/assets/img/composer.jpg)
+![](https://cdn.kelu.org/blog/tags/composer.jpg)
 
 前言： 最近总结了好多和 composer 相关的文章。这一篇对 composer 做个简单介绍。文章大部分来源于[Composer 中文文档][composer-cn]
 

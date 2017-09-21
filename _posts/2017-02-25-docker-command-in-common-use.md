@@ -5,7 +5,7 @@ category: tech
 tags: docker
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
 1. 查看docker信息（version、info）
 

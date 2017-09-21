@@ -5,7 +5,7 @@ category: software
 tags: chrome google
 ---
 
-![](/assets/img/chrome2.jpg)
+![](https://cdn.kelu.org/blog/tags/chrome2.jpg)
 
 平时打开Chrome，常常打开十几个网页标签或者更多。内存消耗极快。尤其是在打开5、60个标签页的时候，电脑基本上就出现准备死机的征兆了。每当出现这种情况时，操作系统就开始把数据分载到硬盘的缓存中，此时机器的速度就严重下降。
 

@@ -4,7 +4,7 @@ title: 更新Linux内核至4.9
 category: tech
 tags: linux 
 ---
-![](/assets/img/github.jpg)
+![](https://cdn.kelu.org/blog/tags/github.jpg)
 
 	aptitude install initramfs-tools
 	apt-get install --reinstall grub

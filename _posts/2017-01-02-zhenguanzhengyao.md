@@ -5,7 +5,7 @@ category: literature
 tags: literature tang_dynasty
 ---
 
-![](/assets/img/literature.jpg)
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
 《贞观政要》是唐代史学家吴兢著的一部政论性史书。全书十卷四十篇，分类编辑了唐太宗在位的二十三年中，与[魏征](http://so.gushiwen.org/author_807.aspx)、[房玄龄](http://so.gushiwen.org/author_2134.aspx)、杜如晦等大臣在治政时的问题，大臣们的争议、劝谏、奏议等，以规范君臣思想道德和治同军政思想，此外也记载了一些政治、经济上的重大措施。它是中国开明封建统治的战略和策略、理论和实践的集大成。
 

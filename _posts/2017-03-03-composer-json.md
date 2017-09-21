@@ -5,7 +5,7 @@ category: tech
 tags: laravel composer
 ---
 
-![](/assets/img/composer.jpg)
+![](https://cdn.kelu.org/blog/tags/composer.jpg)
 
 Java有Maven, Node.js有npm, ROR有gem,PHP有composer. 他们都是各个语言的包管理器。
 

@@ -5,7 +5,7 @@ category: tech
 tags: linux
 ---
 
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 你可以查看我在github上的开源项目 [KeluLinuxKit][KeluLinuxKit] 获得完整源码。
 

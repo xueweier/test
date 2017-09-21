@@ -5,7 +5,7 @@ category: tech
 tags: laravel php
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 使用 Laravel 进行开发也有两年的时间了。整理了一下平时常用的资源。
 

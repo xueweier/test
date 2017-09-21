@@ -5,7 +5,7 @@ category: tech
 tags: test laravel phpunit
 ---
 
-![](/assets/img/phpunit.jpg)
+![](https://cdn.kelu.org/blog/tags/phpunit.jpg)
 
 原先项目并没有做单元测试。今天写了几个hello world，发现使用 namespace 时候报错
 

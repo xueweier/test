@@ -5,7 +5,7 @@ category: tech
 tags: laravel php composer qiniu
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 我们经常要往现有的项目中添加扩展包，有时候因为编码人员还不了解 Laravel，在一些不良开发文档的引导下，如下图来自 [七牛云][qiniu] ，
 

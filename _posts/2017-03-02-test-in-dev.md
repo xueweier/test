@@ -5,7 +5,7 @@ category: tech
 tags: test
 ---
 
-![](/assets/img/test.jpg)
+![](https://cdn.kelu.org/blog/tags/test.jpg)
 
 最近在看关于软件测试方面的资料，整理了一些资料。文末列出了一些关于软件测试的观点，顺便推荐两个测试做的比较好的php项目。
 

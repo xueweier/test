@@ -5,7 +5,7 @@ category: tech
 tags: php laravel
 ---
 
-![](/assets/img/laravel.jpg)
+![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
 先记一个案例。今天在写一个虚基类 AbstractUuidModel，因为要从 request 里批量将数据通过 Eloquent 保存至 model。而此时有很多 model 都需要这样一个操作，每个 model 都有20个以上的属性，一个一个赋值，真的是能把人写死。
 

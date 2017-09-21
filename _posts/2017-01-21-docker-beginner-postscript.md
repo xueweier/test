@@ -5,7 +5,7 @@ category: tech
 tags: docker devops tutorial
 ---
 
-![](/assets/img/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
 从 Docker 安装到使用，渊源等了解之后，对 Docker 有了比较全面的认识。在后记里着重于 Docker 生态圈的记录以及技术选型。
 
