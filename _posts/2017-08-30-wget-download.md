@@ -1,6 +1,6 @@
 ---
 layout: post
-title: wget 下载文件重进行命名
+title: wget 下载文件重命名
 category: tech
 tags: linux
 ---
