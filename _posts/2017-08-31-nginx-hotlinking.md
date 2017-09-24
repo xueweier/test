@@ -12,7 +12,7 @@ HTTP Referer是Header的一部分，当浏览器向Web服务器发送请求的�
 
 # 用法
 
-valid_referers [none|blocked|server_names] ...
+	valid_referers [none|blocked|server_names] ...
 
 	默认值：none
 	使用环境：server,location
@@ -27,7 +27,7 @@ valid_referers [none|blocked|server_names] ...
 
     location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
     {
-        valid_referers *.kelu.org *.qq.com *.google.com *.baidu.com *.sinaimg.cn localhost;
+        valid_referers none *.kelu.org *.qq.com *.google.com *.baidu.com *.sinaimg.cn localhost;
         if ($invalid_referer) {
             rewrite ^/ https://wx3.sinaimg.cn/mw690/7b736eb7ly1fjr44z6lesj21hc0rs77f.jpg;
             #return 404;

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: haproxy 简介
+title: HAProxy 简介
 category: tech
-tags: linux  haproxy
+tags: linux haproxy
 ---
 ![](https://cdn.kelu.org/blog/tags/haproxy.png)
 
 血衫平时会玩一些日服韩服游戏，有的游戏还会限定某个地区的IP才能够接入。对于一些对丢包率特别敏感的游戏（比如舰队Collection），在游戏时就必须搭建一个中继服务器，从本地直连到丢包率低的中继服务器，再连接到目标服务器，这样我们就能够形成一条丢包率较低的线路。
 
-`Haproxy`是一款HTTP/TCP负载均衡器，使用 Haproxy 可以达到中继服务器的效果(算是杀鸡用牛刀的一个案例Orz)。
+`HAProxy`是一款HTTP/TCP负载均衡器，使用 HAProxy 可以达到中继服务器的效果(算是杀鸡用牛刀的一个案例Orz)。
 
 这篇文章介绍 Haproxy 的基本功能特性和它的简单应用。
 
