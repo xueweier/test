@@ -78,9 +78,10 @@ backend ss-out
 * [HAProxy从零开始到掌握](http://www.jianshu.com/p/c9f6d55288c0)
 * [利用Haproxy进行SS代理中继](https://ayase.moe/2017/02/01/haproxy-in-proxy-relay/)
 * [负载均衡：haproxy，slb以及node-slb](https://cnodejs.org/topic/55921e6950946a072452564d)
+* [HAProxy用法详解 全网最详细中文文档](http://www.ttlsa.com/linux/haproxy-study-tutorial/)
+* [从无到有，境无止尽！](https://doub.io/ss-jc26/)
 
-
-以下内容是haproxy 更详细的描述，转载自 [keontang - notes](https://github.com/keontang/notes)
+以下内容是haproxy 更详细的描述，转载自 [keontang - notes](https://github.com/keontang/notes)
 
 
 

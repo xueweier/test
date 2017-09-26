@@ -73,4 +73,5 @@ Go 语言支持以下系统：
 * [Go 入门指南 - 极客学院](http://wiki.jikexueyuan.com/project/the-way-to-go/)
 * [怎么学习golang？](https://www.zhihu.com/question/23486344)
 * [Unknwon](https://github.com/Unknwon)/[the-way-to-go_ZH_CN](https://github.com/Unknwon/the-way-to-go_ZH_CN)
+* [Go语言圣经（中文版）](http://docs.ruanjiadeng.com/gopl-zh/ch0/ch0-01.html)
 
