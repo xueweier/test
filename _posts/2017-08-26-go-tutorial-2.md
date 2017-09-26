@@ -1,15 +1,10 @@
 ---
 layout: post
-title: Go 语言笔记 - 语法和语句
+title: Go 语言笔记 - 语法和数据类型
 category: tech
 tags: go
 ---
 ![](https://cdn.kelu.org/blog/tags/go.jpg)
-
-本文适用于想快速了解go与其他语言差异的童鞋，可当速查手册使用。这一系列的文章快速链接如下：
-
-1. [Go 语言笔记 - 环境配置](/tech/2017/08/22/go-tutorial.html)
-1. [Go 语言笔记 - 语法和语句](/tech/2017/08/26/go-tutorial-2.html)
 
 # 基础语法
 
