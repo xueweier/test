@@ -10,7 +10,7 @@ go 的复合类型包括：
 
 *   数组类型
 *   指针类型（Pointer）
-*   结构化类型(struct)
+*   结构体类型(struct)
 *   切片类型 (slice)
 *   Map 类型
 
