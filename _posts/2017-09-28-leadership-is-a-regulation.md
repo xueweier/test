@@ -4,10 +4,11 @@ title:  领导是一种制度 | 转自 FT 中文网
 category: literature
 tags: literature modern_times
 ---
-
 ![](https://cdn.kelu.org/blog/2017/09/leadership.jpg)
 
-本文转载自 [FT 中文网](http://www.ftchinese.com/story/001074456?full=y)。
+本文转载自 [FT 中文网](http://www.ftchinese.com/story/001074456?full=y)，并不代表我个人观点，只是其中的一些观点还是满值得探讨的。
+
+ps: 另外我专门去搜索了『天则经济研究所』，也发现了背后有趣的东西，难怪在阅读本文的时候隐约感受到其中的春秋笔法。
 
 盛洪：在现实中，正确的决策来源于一种制度。所谓制度，就是一种多人互动的结构，每个人都理性有限、能力有限。
 
