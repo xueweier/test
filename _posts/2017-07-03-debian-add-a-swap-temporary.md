@@ -34,26 +34,26 @@ tags: linux
 * 使用虚拟设备生成空文件
 
         dd  if=/dev/zero  of=目录/文件名  bs=容量  count=次数
-        dd  if=/dev/zero of=/tmp/swap1 bs=100M count=10  #表示增加1G虚拟内存
+        dd  if=/dev/zero of=/swapfile bs=100M count=10  #表示增加1G虚拟内存
 
 * 生成交换分区文件
 
-        mkswap  /tmp/swap1 
+        mkswap  /swapfile 
 
 * 激活交换分区
 
-        swapon /tmp/swap1
+        swapon /swapfile
         swapon -s //检查是否生效
    
 * 交换分区永久生效
 
     在文件/etc/rc.local中添加一行
 
-        swapon   /tmp/swap1    #重启系统生效
+        swapon   /swapfile    #重启系统生效
 
 如果要去掉这个新的交换分区，用如下命令：
 
-    /sbin/swapoff   swap1 
+    /sbin/swapoff   /swapfile 
 
 
 # 增加 swap 分区
