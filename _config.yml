@@ -1,11 +1,14 @@
 # 目录结构
 source:      .
 destination: ./_site
-plugins_dir:     ./_plugins
+# plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 data_dir: ./_data
 collections: null
 regenerate: false
+
+plugins:
+  - jekyll-feed
 
 # 阅读处理
 safe:         false
