@@ -1,6 +1,6 @@
 ---
 layout: post
-title: laravel 5.5 相对 5.1 中的变动  (1)
+title: 从 laravel 中文文档查看 5.5 相对 5.1 中的变动  (1)
 category: tech
 tags: php laravel
 ---
@@ -55,10 +55,6 @@ laravel 5.5也发布了一段时间了。 这是 laravel 第二个 LTS 版本，
 * Contracts
 
 # 基本功能
-
-基本逻辑不变，各个部分多了一些特性。
-
-(ps: 这是我从文档上得出来的结论，尚待实践验证
 
 	* 路由			
 	* 中间件		
