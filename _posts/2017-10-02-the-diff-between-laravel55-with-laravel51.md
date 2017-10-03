@@ -12,6 +12,10 @@ laravel 5.5也发布了一段时间了。 这是 laravel 第二个 LTS 版本，
 
 这篇主要对比一些基础性的不同，从 5.5 的目录来看是从`前言`到`前端开发`的内容。
 
+下一篇在这里[从 laravel 中文文档查看 5.5 相对 5.1 中的变动  (1)
+](/tech/2017/10/03/the-diff-between-laravel55-and-laravel51-2.html)
+
+
 当前本文的修改时间是2017-10-03 15:27:29
 
 ![](https://cdn.kelu.org/blog/2017/10/larvave_category.png)
