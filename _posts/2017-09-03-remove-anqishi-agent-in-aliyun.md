@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 卸载阿里云云盾(安骑士)
+title: 卸载阿里云盾(安骑士)
 category: tech
 tags: linux aliyun
 ---

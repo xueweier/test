@@ -42,6 +42,11 @@ Mac 下直接如下图在『编辑用户自定义规则』里进行修改，
 
 ![](https://cdn.kelu.org/blog/2017/09/proxy6.png)
 
+比如我想把 bt.byr.cn python.org 这两个网站收录进自定义规则里，那么我应该填入
+
+	||bt.bty.cn^
+	||python.org^
+
 注意末尾不要忘记 `^` 符号
 
 # 参考资料
