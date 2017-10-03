@@ -6,7 +6,7 @@ tags: php laravel
 ---
 ![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
-这篇主要对比 laravel 5.5相对5.1 的各模块功能的不同，从 5.5 的目录来看是从`安全相关`到`官方扩展包`的内容。写完这篇，对于 laravel5.5 我只有一个感觉——Amazing . 此时应该放一首 BGM —— [Battle Without Honor or Humanity](http://music.163.com/#/m/song?id=5051245)
+这篇主要对比 laravel 5.5相对5.1 的各模块功能的不同，从 5.5 的目录来看是从`安全相关`到`官方扩展包`的内容。
 
 上一篇在这里[从 laravel 中文文档查看 5.5 相对 5.1 中的变动  (1)
 ](/tech/2017/10/02/the-diff-between-laravel55-with-laravel51.html)
