@@ -10,7 +10,9 @@ laravel 5.5也发布了一段时间了。 这是 laravel 第二个 LTS 版本，
 
 趁着这个国庆把5.5的文档粗略看了一遍，以前对 laravel 多以应用为主，需要的时候才会去查，研究不算深，所以应该会有很多疏漏，或是错误，我也会不断修改过来，欢迎指正。
 
-这篇主要讲一些基础性的不同，从 5.5 的目录来看是从`前言`到`前端开发`的内容。当前本文的修改时间是 2017-10-02 22:23:44。
+这篇主要对比一些基础性的不同，从 5.5 的目录来看是从`前言`到`前端开发`的内容。
+
+当前本文的修改时间是2017-10-03 15:27:29
 
 ![](https://cdn.kelu.org/blog/2017/10/larvave_category.png)
 
@@ -41,6 +43,7 @@ laravel 5.5也发布了一段时间了。 这是 laravel 第二个 LTS 版本，
 * 邮件的逻辑，`app\Mail` 目录
 * 应用授权策略，`app\Policies` 目录
 * 自定义验证规则对象，`app\Rules` 目录
+* 「事务性」通知，`app\Notifications` 目录
 
 文档还给了一个更加详细的 Nginx 的配置案例，可以看一下。
 
@@ -48,11 +51,11 @@ laravel 5.5也发布了一段时间了。 这是 laravel 第二个 LTS 版本，
 
 了解5.1的基本不用看了。毕竟核心架构也不可能有多大变化。
 
-* 请求周期
-* Container
-* Provider
-* Facades
-* Contracts
+	* 请求周期
+	* Container
+	* Provider
+	* Facades
+	* Contracts
 
 # 基本功能
 
@@ -72,7 +75,7 @@ laravel 5.5也发布了一段时间了。 这是 laravel 第二个 LTS 版本，
 
 ### 路由方法
 
-路由参照 RESTful API，实现了里边常用的请求类型(除了 head，用的少就没所谓了)：
+路由参照 RESTful API，实现了里边常用的请求类型(除了 head，用的少就没所谓了),5.1只实现了 get 和 post：
 
 ```php
 Route::get($uri, $callback);
