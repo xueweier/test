@@ -1008,14 +1008,36 @@ article.support-author .support-qr img{
 
 .comment .vempty {
   color: rgba(255, 255, 255, 0.85);
-
 }
 .comment .info {
   display: none;
 }
+.comment .vlist {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.comment .vlist li {
+}
 
 .comment .vempty {
 }
+
+.comment .vwrap ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #aaa;
+}
+
+.comment .vwrap :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #aaa;
+}
+
+.comment .vwrap ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #aaa;
+}
+
+.comment .vwrap :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #aaa;
+}
+
 li.comment {
 
 }
