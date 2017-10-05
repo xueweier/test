@@ -90,6 +90,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.clear {
+    clear: both;
+}
+
 body {
     font: 14px/20px Arial, Helvetica, sans-serif;
     background-color: #227a7a;
@@ -999,10 +1003,19 @@ article.support-author .support-qr img{
     opacity: 1;
 }
 
-#comments {
-
+.comment {
 }
 
+.comment .vempty {
+  color: rgba(255, 255, 255, 0.85);
+
+}
+.comment .info {
+  display: none;
+}
+
+.comment .vempty {
+}
 li.comment {
 
 }
