@@ -39,7 +39,4 @@ tags: php laravel
 
 关于 iptable 的用法可以参考我这篇文章。
 
-[《# Linux管理员应该了解的20条IPTables防火墙规则用法》](https://blog.kelu.org/tech/2017/04/07/iptables-firewall-rules-examples.html)
-# 参考资料
-
-* [laravel 5.5](https://d.laravel-china.org/docs/5.5/) 
+[《Linux管理员应该了解的20条IPTables防火墙规则用法》](https://blog.kelu.org/tech/2017/04/07/iptables-firewall-rules-examples.html)
