@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 备份你的Linux
+title: 备份你的Linux ——tar 打包和 rsync 同步
 category: tech
 tags: linux rsync
 ---
@@ -12,8 +12,6 @@ tags: linux rsync
 
 tar打包备份很简单，就是一条tar命令。为了增强备份文件的可读性，我们将备份的时间设置为备份文件名。
 
-
-
 	#!/bin/bash
 	
 	function bksys() {
@@ -23,13 +21,10 @@ tar打包备份很简单，就是一条tar命令。为了增强备份文件的�
 	
 	bksys 2>&1 | tee -a /var/log/bksys.log
 	
-	
-	
 其中tar的-p的意思在man中的解释是：
 -p 恢复字段到它们的原始方式，忽略现有的用户权限屏蔽位（umask)。 setuid、setgid 和 tacky 位许可权也恢复给拥有 kelu 用户权限的用户。这个标志恢复文件到其原始方式，但不恢复目录到其原始方式。
 
 意思也就是说打包时保持该文件夹的相关属性，使解压的时候得以恢复。
-
 
 ## 2. rsync备份
 
