@@ -60,6 +60,7 @@ style: summer
 		yum-config-manager --enable docker-ce-test
 		yum install docker-ce
 
+
 2. 使用密钥登录服务器
 
 	* 生成密钥
@@ -217,6 +218,5 @@ putty具体的使用方法就不介绍了。使用刚才生成的密钥就可以
 都可以快速登录。
 
 # 小吐槽
-
 
 使用了这么久的linux，都是走debian系的，这是第一次接触centos系的，命令还是不太习惯。不过查一下也就懂了。
