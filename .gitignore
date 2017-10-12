@@ -10,3 +10,4 @@ _sass/
 /.keystone_install_lock
 /.s.PGSQL.5432
 /.s.PGSQL.5432.lock
+*.json
