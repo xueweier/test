@@ -29,9 +29,9 @@ style: summer
 
 如上图配好映射后，同网段内的电脑访问开发机的方式变为：
 
-ssh root@xx.xx.xx.39:10100
-ssh root@xx.xx.xx.39:10101
-ssh root@xx.xx.xx.39:10102
-ssh root@xx.xx.xx.39:10103
+	ssh root@xx.xx.xx.39:10100
+	ssh root@xx.xx.xx.39:10101
+	ssh root@xx.xx.xx.39:10102
+	ssh root@xx.xx.xx.39:10103
 
 今后每当服务器启动某些对外的服务时，通过路由器的这个设置，打开对应的端口映射即可。
