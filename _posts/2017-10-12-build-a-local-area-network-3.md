@@ -28,7 +28,7 @@ style: summer
 1. 在其它服务器上生成同名账号
 1. 将生成的密钥和配置文件同步到其他服务器上去
 1. 在其他机器上修改文件用户组
-1. 修改本机
+1. 修改本机文件用户组
 
 脚本已经放到github上了:<https://github.com/kelvinblood/gist/blob/master/addUser.sh>
 	
@@ -90,7 +90,7 @@ style: summer
 	touch authorized_keys
 	touch config
 	
-	cat $USERNAME >> authorized_keys
+	cat $USERNAME.pub >> authorized_keys
 	chmod 400 authorized_keys
 	
 	cat >> config << EOF
@@ -126,6 +126,7 @@ style: summer
 	
 	ssh 101 "mkdir /home/$USERNAME/.ssh"
 	scp config 101:"/home/$USERNAME/.ssh/config"
+	scp $USERNAME 101:"/home/$USERNAME/.ssh/$USERNAME"
 	scp authorized_keys 101:"/home/$USERNAME/.ssh/authorized_keys"
 	ssh 101 "chown -R $USERNAME:$USERNAME /home/$USERNAME/.ssh"
 	
@@ -138,6 +139,7 @@ style: summer
 	
 	ssh 102 "mkdir /home/$USERNAME/.ssh"
 	scp config 102:"/home/$USERNAME/.ssh/config"
+	scp $USERNAME 102:"/home/$USERNAME/.ssh/$USERNAME"
 	scp authorized_keys 102:"/home/$USERNAME/.ssh/authorized_keys"
 	ssh 102 "chown -R $USERNAME:$USERNAME /home/$USERNAME/.ssh"
 	
@@ -150,12 +152,14 @@ style: summer
 	
 	ssh 103 "mkdir /home/$USERNAME/.ssh"
 	scp config 103:"/home/$USERNAME/.ssh/config"
+	scp $USERNAME 103:"/home/$USERNAME/.ssh/$USERNAME"
 	scp authorized_keys 103:"/home/$USERNAME/.ssh/authorized_keys"
 	ssh 103 "chown -R $USERNAME:$USERNAME /home/$USERNAME/.ssh"
-	
+
 	###########################################################
-	
+
 	chown -R $USERNAME:$USERNAME /home/$USERNAME/.ssh
+
 
 
 测试过程中顺手写了一个删除用户的脚本，也一并放上来，[`delUser.sh`](https://github.com/kelvinblood/gist/blob/master/delUser.sh)
@@ -198,4 +202,14 @@ style: summer
 	
 	userdel $USERNAME
 	rm -rf /home/$USERNAME
+	
+	ssh 101 "userdel $USERNAME"
+	ssh 101 "rm -rf /home/$USERNAME"
+	
+	ssh 102 "userdel $USERNAME"
+	ssh 102 "rm -rf /home/$USERNAME"
+	
+	ssh 103 "userdel $USERNAME"
+	ssh 103 "rm -rf /home/$USERNAME"
+
 
