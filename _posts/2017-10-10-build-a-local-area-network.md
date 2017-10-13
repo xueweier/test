@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一个简单的局域网服务器互联案例 1
+title: 一个简单的局域网服务器互联案例(1)
 category: tech
 tags: linux
 style: summer
