@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 一个简单的局域网服务器互联案例
+title: 一个简单的局域网服务器互联案例 1
 category: tech
-tags:
-  - linux
+tags: linux
 style: summer
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
@@ -15,7 +14,7 @@ style: summer
 组建一个由4台服务器组成的局域网，提供给开发人员使用，要求安装CentOS 7系统，部署好docker环境。
 
 # 搭建
-
+	
 ![组网示意图](https://cdn.kelu.org/blog/2017/10/lan1.jpg)
 
 ## 安装CentOS
@@ -136,11 +135,12 @@ style: summer
 
 ## 部署剩下三台服务器
 
-因为都是重复性工作，写了一个安装脚本，批量在新机器上跑就可以了。
+因为都是重复性工作，写了一个安装脚本，批量在新机器上跑就可以了。以下两个脚本都放到github上了，项目地址是: 
+<https://github.com/kelvinblood/gist>
 
 主要思路是现在100机器上讲ssh的配置文件传到其他机器上去，其他机器再进行自动配置。
 
-1. 在100的机器上，运行以下脚本`ssh_old.sh`：
+1. 在100的机器上，运行以下脚本[`ssh_old.sh`](https://github.com/kelvinblood/gist/blob/master/ssh_old.sh)：
 
 		#!/bin/bash
 		
@@ -155,7 +155,7 @@ style: summer
 		scp ssh.tgz root@102:/tmp
 		scp ssh.tgz root@103:/tmp
 
-2. 在其他机器上运行以下脚本`ssh_new.sh`：
+2. 在其他机器上运行以下脚本[`ssh_new.sh`](https://github.com/kelvinblood/gist/blob/master/ssh_new.sh)：
 
 		#!/bin/bash
 		
@@ -204,7 +204,11 @@ putty 是 Windows 下一个 ssh 登录服务器的软件。下载地址：
 
 ![生成putty格式的密钥](https://cdn.kelu.org/blog/2017/10/lan5.jpg)
 
-putty具体的使用方法就不介绍了。使用刚才生成的密钥就可以快速登录服务器了。
+使用刚才生成的密钥就可以快速登录服务器。putty具体的使用方法就不介绍了。大概如下图配置即可：
+
+![](https://cdn.kelu.org/blog/2017/10/lan6.jpg)
+
+![](https://cdn.kelu.org/blog/2017/10/lan7.jpg)
 
 ## 服务器间相互登录
 
