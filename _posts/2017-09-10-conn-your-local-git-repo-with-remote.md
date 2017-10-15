@@ -31,3 +31,4 @@ style: summer
 git remote add origin git@github.com:kelvinblood/KeluLinuxKit.git
 ```
 至此，就将本地与远端的代码仓库关联了起来。
+
