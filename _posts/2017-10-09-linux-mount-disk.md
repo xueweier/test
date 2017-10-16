@@ -48,9 +48,21 @@ lsblk [-dfimpt] [device]
 
 msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser.com/questions/700770/mbr-equals-msdos-for-gparted)
 
-确定是mbr格式后就可以开始分区了。
+你也可能遇上这样的分区表类型：
 
-## 分区fdisk
+![parted](https://cdn.kelu.org/blog/2017/10/block13.jpg)
+
+关于loop类型在这里有一篇讨论，可以参考 [Is partition table type “loop” a good or bad idea on BTRFS?](https://unix.stackexchange.com/questions/166569/is-partition-table-type-loop-a-good-or-bad-idea-on-btrfs)
+
+总之不确定的话，你可以简单按照 gpt 进行操作。
+
+然后就可以开始分区了。
+
+## 分区fdisk gdisk
+
+参照 parted 的结果，如果是mbr格式则使用fdisk命令
+
+### fdisk
 
 ![fdisk](https://cdn.kelu.org/blog/2017/10/block3.jpg)
 
@@ -68,6 +80,14 @@ msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser
 
 ![fdisk](https://cdn.kelu.org/blog/2017/10/block6.jpg)
 
+### gdisk
+
+和fdisk操作基本相同：
+
+![gdisk](https://cdn.kelu.org/blog/2017/10/block6.jpg)
+
+	gdisk /dev/sdb
+
 # 格式化mkfs
 
 分区之后就是格式化。这里磁盘格式化为Linux默认格式xfs。
@@ -75,6 +95,10 @@ msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser
 ![fdisk](https://cdn.kelu.org/blog/2017/10/block7.jpg)
 
 	mkfs.xfs -f /dev/sdb
+
+> 注意：
+> 你的系统可能没有mkfs.xfs的命令，我的Ubuntu通过安装xfsprogs即可使用
+> 	apt-get install xfsprogs 	
 
 # 挂载
 
@@ -107,7 +131,7 @@ msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser
 
 # 结束
 
-最后用命令总结一下刚才的步骤
+最后以 MBR 分区表为例，用命令总结一下刚才的步骤
 
 * lsblk
 * parted /dev/sdb print
@@ -118,3 +142,7 @@ msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser
 * vi /etc/fstab
 
 经过上面的步骤，便可以正常使用这一块硬盘了。
+
+# 参考资料
+
+* [磁盘的分区、格式化、检验与挂载](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/61.html)
