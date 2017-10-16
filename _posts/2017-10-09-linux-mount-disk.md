@@ -40,9 +40,11 @@ lsblk [-dfimpt] [device]
 
 磁盘分区时要注意的是：“MBR 分区表需要使用 fdisk 分区， GPT 分区表需要使用 gdisk 分区”。搞错的话会分区失败的。
 
-我们可以使用 parted 查看分区表类型。
+我们可以使用 parted 查看分区表类型。可以看到这块硬盘的格式是NTFS，windows默认的硬盘格式，分区表是MBR。
 
 ![parted](https://cdn.kelu.org/blog/2017/10/block2.jpg)
+
+	parted /dev/sdb print
 
 msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser.com/questions/700770/mbr-equals-msdos-for-gparted)
 
@@ -72,11 +74,15 @@ msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser
 
 ![fdisk](https://cdn.kelu.org/blog/2017/10/block7.jpg)
 
+	mkfs.xfs -f /dev/sdb
+
 # 挂载
 
 这里我将硬盘挂载到/mnt/sdb文件夹上去。
 
 	mkdir -p /mnt/sdb
+
+-p, --parents  此时若路径中的某些目录尚不存在,加上此选项后,系统将自动建立好那些尚不存在的目录,即一次可以建立多个目录;
 
 查看sdb的uuid：
 
@@ -88,6 +94,9 @@ msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser
 
 ![blkid](https://cdn.kelu.org/blog/2017/10/block9.jpg)
 
+	mount UUID="fd4b9aaa-3faf-487f-8ffc-c25534c9c569" /mnt/sdb
+	df -h
+
 此时使用`df -h`，可以看到硬盘已经正确挂载了。
 
 ![df -h](https://cdn.kelu.org/blog/2017/10/block10.jpg)
@@ -97,5 +106,15 @@ msdos 可以把它当成 MBR。[MBR equals msdos for gparted?](https://superuser
 ![/etc/fstab](https://cdn.kelu.org/blog/2017/10/block11.jpg)
 
 # 结束
+
+最后用命令总结一下刚才的步骤
+
+* lsblk
+* parted /dev/sdb print
+* fdisk /dev/sdb
+* mkfs.xfs -f /dev/sdb
+* blkid /dev/sdb
+* mount UUID="fd4b9aaa-3faf-487f-8ffc-c25534c9c569" /mnt/sdb
+* vi /etc/fstab
 
 经过上面的步骤，便可以正常使用这一块硬盘了。
