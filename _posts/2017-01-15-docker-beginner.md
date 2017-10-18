@@ -55,9 +55,68 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
 
     # 查看docker版本
     $docker version
+		Client:
+		 Version:      17.10.0-ce-rc2
+		 API version:  1.33
+		 Go version:   go1.8.3
+		 Git commit:   af94197
+		 Built:        Thu Oct 12 00:47:13 2017
+		 OS/Arch:      linux/amd64
+		
+		Server:
+		 Version:      17.10.0-ce-rc2
+		 API version:  1.33 (minimum version 1.12)
+		 Go version:   go1.8.3
+		 Git commit:   af94197
+		 Built:        Thu Oct 12 00:48:46 2017
+		 OS/Arch:      linux/amd64
+		 Experimental: false
 
     # 显示docker系统的信息
     $docker info
+		Containers: 20
+		 Running: 0
+		 Paused: 0
+		 Stopped: 20
+		Images: 18
+		Server Version: 17.10.0-ce-rc2
+		Storage Driver: overlay
+		 Backing Filesystem: xfs
+		 Supports d_type: true
+		Logging Driver: json-file
+		Cgroup Driver: cgroupfs
+		Plugins:
+		 Volume: local
+		 Network: bridge host macvlan null overlay
+		 Log: awslogs fluentd gcplogs gelf journald json-file logentries splunk syslog
+		Swarm: inactive
+		Runtimes: runc
+		Default Runtime: runc
+		Init Binary: docker-init
+		containerd version: 06b9cb35161009dcb7123345749fef02f7cea8e0
+		runc version: 0351df1c5a66838d0c392b4ac4cf9450de844e2d
+		init version: 949e6fa
+		Security Options:
+		 seccomp
+		  Profile: default
+		Kernel Version: 3.10.0-693.2.2.el7.x86_64
+		Operating System: CentOS Linux 7 (Core)
+		OSType: linux
+		Architecture: x86_64
+		CPUs: 8
+		Total Memory: 15.54GiB
+		Name: adsl-172-10-1-100.dsl.sndg02.sbcglobal.net
+		ID: L4KV:FTZP:42FI:DVUS:3RJD:4ATZ:UMJ7:6UHH:I5ZW:3WYV:6OMI:XNZ3
+		Docker Root Dir: /var/lib/docker
+		Debug Mode (client): false
+		Debug Mode (server): false
+		Registry: https://index.docker.io/v1/
+		Experimental: false
+		Insecure Registries:
+		 127.0.0.0/8
+		Live Restore Enabled: false
+
+
 
 # 获取镜像
 
