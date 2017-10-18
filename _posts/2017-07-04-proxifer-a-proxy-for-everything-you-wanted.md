@@ -39,7 +39,13 @@ Proxifier是一款功能非常强大的socks5客户端，可以让不支持通�
 下载地址：<http://www.proxifier.com/download.htm>     
 
 然而，价格也是非常昂贵的。在这里我就不给出注册码了，需要的朋友请私下联系我。
-        
+
+<span style="display:none">
+L6Z8A-XY2J4-BTZ3P-ZZ7DF-A2Q9C（Portable Edition）
+5EZ8G-C3WL5-B56YG-SCXM9-6QZAP（Standard Edition）
+P427L-9Y552-5433E-8DSR3-58Z68（MAC）
+</span>
+
 # 使用
 
 我是 Mac 下的环境。Windows 下界面大同小异。
