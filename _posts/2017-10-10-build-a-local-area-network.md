@@ -224,3 +224,7 @@ putty 是 Windows 下一个 ssh 登录服务器的软件。下载地址：
 # 小吐槽
 
 使用了这么久的linux，都是走debian系的，这是第一次接触centos系的，命令还是不太习惯。不过查一下也就懂了。
+
+# 参考资料
+
+* [Get Docker CE for CentOS](https://docs.docker.com/engine/installation/linux/docker-ce/centos/#install-using-the-repository)
