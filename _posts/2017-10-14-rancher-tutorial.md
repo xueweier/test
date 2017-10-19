@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rancher安装手册（中文） |  转自dockerinfo
+title: Rancher安装手册 |  转自dockerinfo
 category: tech
 tags: docker rancher
 ---
@@ -11,7 +11,9 @@ tags: docker rancher
 Rancher 是以在生产环境中运行容器为目标而构建的开源软件平台。随着 [**Docker**](http://www.dockerinfo.net/) 容器这种类型的应用工作负载的逐渐流行，它催生了很多与之相应的基础架构服务，如网络服务、存储服务、负载均衡，安全，服务发现和资源管理。
 
 官方网站: <https://rancher.com/>
+
 官方文档在此： <http://rancher.com/docs/rancher/latest/en/>
+
 dockerinfo对其中的部分章节做了翻译<http://www.dockerinfo.net/rancher/page/5>
 
 今天这篇就是dockerinfo其中的一篇翻译。需要学习的朋友可以两边都对照着看，又达到比较快的速度，也可以达到深入理解的层次。
