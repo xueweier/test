@@ -39,3 +39,4 @@ style: summer
 * [teddysun](https://github.com/teddysun)/**[across](https://github.com/teddysun/across)**
 * [Linux性能测试UnixBench一键脚本](https://teddysun.com/245.html)
 * [一键测试脚本bench.sh](https://teddysun.com/444.html)
+* [如何安装和配置simple-obfs服务端](https://teddysun.com/511.html)
