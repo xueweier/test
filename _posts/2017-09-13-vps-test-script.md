@@ -13,19 +13,27 @@ style: summer
 
 # 硬盘IO及全球下载速度测试
 
-[脚本](https://www.zhujiboke.com/tag/%e8%84%9a%e6%9c%ac)使用秋水逸冰的一键Bench[脚本](https://www.zhujiboke.com/tag/%e8%84%9a%e6%9c%ac)
+使用秋水逸冰的一键Bench脚本
 
 	wget -qO- bench.sh | bash
 
+或者下载到本地运行:
+
+	wget https://cdn.kelu.org/blog/2017/09/bench.sh
+	chmod +x bench.sh
+	./bench.sh
+
+我经常运行到一半就卡了，不知道为什么，一般就看个I/O速度。
+
 # 全国网络测试
 
-这个[脚本](https://www.zhujiboke.com/tag/%e8%84%9a%e6%9c%ac)来自于91yun，包括了全国PING值的测试和各地路由的走法，偏向于网络测试。
+来自于91yun，包括了全国PING值的测试和各地路由的走法，偏向于网络测试。
 
 	wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest/master/test_91yun.sh && bash test_91yun.sh s
 
 # 服务器性能测试
 
-简单的对CPU进行运算测试，需要跑的时间很长，请耐心等好最后测试出来的跑分。[脚本](https://www.zhujiboke.com/tag/%e8%84%9a%e6%9c%ac)如下：
+简单的对CPU进行运算测试，需要跑的时间很长，请耐心等好最后测试出来的跑分。如下：
 
 	wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh
 	chmod +x unixbench.sh
