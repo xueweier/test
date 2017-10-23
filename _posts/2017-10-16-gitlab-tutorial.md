@@ -22,6 +22,8 @@ tags: git gitlab docker
 
 开源中国代码托管平台`git.oschina.net`就是基于GitLab项目搭建。
 
+# 入门
+
 * [安装](/tech/2017/10/17/gitlab-tutorial-1.html)
 * [使用](/tech/2017/10/17/gitlab-tutorial-2.html)
 

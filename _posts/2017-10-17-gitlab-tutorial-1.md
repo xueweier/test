@@ -6,61 +6,9 @@ tags: git gitlab docker
 ---
 ![](https://cdn.kelu.org/blog/tags/gitlab.jpg)
 
-这是我在查看 Gitlab 文档时做备注的一系列文章 —— [《gitlab 入门》](/tech/2017/10/16/gitlab-tutorial-1.html)。
+这一篇讲 GitLab 的安装，可以参照官方文档查看，可能要注意一下时效性。<https://docs.gitlab.com/ee/install/README.html>
 
-这一篇讲系统要求，可以参照官方文档做一个参考，注意一下时效性。<https://docs.gitlab.com/ee/install/README.html>
-
-# 安装
-
-安装前请看后文的安装要求
-
-*   [Omnibus packages安装](https://about.gitlab.com/downloads/) （推荐）
-*   [源码安装](https://docs.gitlab.com/ee/install/installation.html)，适用于在 BSD 等不支持的系统来安装。
-*   [Docker 安装](https://docs.gitlab.com/ee/install/docker.html)
-*   [在 Kubernetes 上安装](https://docs.gitlab.com/ee/install/kubernetes/index.html) 
-*   [在 OpenShift 上安装](https://docs.gitlab.com/ee/articles/openshift_and_gitlab/index.html)
-*   通过 [GitLab-Mesosphere integration](https://about.gitlab.com/2016/09/16/announcing-gitlab-and-mesosphere/) [在 DC/OS 上安装](https://mesosphere.com/blog/gitlab-dcos/) 
-*   [在 Azure 上安装](https://docs.gitlab.com/ee/install/azure/index.html)
-*   [在 Google Cloud Platform 上安装](https://docs.gitlab.com/ee/install/google_cloud_platform/index.html)
-*   [在 AWS 上安装](https://about.gitlab.com/aws/)
-*   _测试用!_ [DigitalOcean and Docker Machine](https://docs.gitlab.com/ee/install/digitaloceandocker.html) 
-*   [GitLab Pivotal Tile](https://docs.gitlab.com/ee/install/pivotal/index.html)
-
-鉴于目前容器化是一个越来越快的趋势，我就直接从容器化 docker 开始安装使用。其他安装方式我就不看了。
-
-# 使用 Docker 安装
-
-<https://docs.gitlab.com/omnibus/docker/README.html>
-
-如何使用 Docker 不在本篇的介绍范围，下面直接说过程：
-
-	docker pull gitlab/gitlab-ce:latest
-	
-	sudo docker run --detach \
-	    --hostname gitlab.example.com \
-	    --publish 443:443 --publish 80:80 --publish 22:22 \
-	    --name gitlab \
-	    --restart always \
-	    --volume /srv/gitlab/config:/etc/gitlab \
-	    --volume /srv/gitlab/logs:/var/log/gitlab \
-	    --volume /srv/gitlab/data:/var/opt/gitlab \
-	    gitlab/gitlab-ce:latest
-
-我预计大概率会报冲突：
-
-	docker: Error response from daemon: driver failed programming external connectivity on endpoint gitlab (4a9645ff2d304610abefa6c4d7138c8f0b228122157b9e318648e2f585ccdc41): Error starting userland proxy: listen tcp 0.0.0.0:22: bind: address already in use.
-
-这是ssh默认端口冲突了。练手阶段可以把 22:22 去掉。副作用就是不能用git的方式clone项目了，只能走 http 协议。
-
-![](https://cdn.kelu.org/blog/2017/10/gitlab1.jpg)
-
-以上步骤后，gitlab就完整跑起来了。
-
-![](https://cdn.kelu.org/blog/2017/10/gitlab3.jpg)
-
-默认用户名是root，密码会在登陆这个界面的时候自动输入。另外我还在用本地host 做了一个映射，所以你能看到我访问的网址是 http://gitlab.example.com/
-
-附：
+其他 Gitlab 文档的相关文章可以看这里  ——  [《gitlab 入门》](/tech/2017/10/16/gitlab-tutorial.html)。
 
 # 安装要求
 
@@ -174,6 +122,56 @@ tags: git gitlab docker
 	*  Safari 
 	*  Microsoft Edge
 	*  Internet Explorer 11
+
+# 安装
+
+安装前请看后文的安装要求
+
+*   [Omnibus packages安装](https://about.gitlab.com/downloads/) （推荐）
+*   [源码安装](https://docs.gitlab.com/ee/install/installation.html)，适用于在 BSD 等不支持的系统来安装。
+*   [Docker 安装](https://docs.gitlab.com/ee/install/docker.html)
+*   [在 Kubernetes 上安装](https://docs.gitlab.com/ee/install/kubernetes/index.html) 
+*   [在 OpenShift 上安装](https://docs.gitlab.com/ee/articles/openshift_and_gitlab/index.html)
+*   通过 [GitLab-Mesosphere integration](https://about.gitlab.com/2016/09/16/announcing-gitlab-and-mesosphere/) [在 DC/OS 上安装](https://mesosphere.com/blog/gitlab-dcos/) 
+*   [在 Azure 上安装](https://docs.gitlab.com/ee/install/azure/index.html)
+*   [在 Google Cloud Platform 上安装](https://docs.gitlab.com/ee/install/google_cloud_platform/index.html)
+*   [在 AWS 上安装](https://about.gitlab.com/aws/)
+*   _测试用!_ [DigitalOcean and Docker Machine](https://docs.gitlab.com/ee/install/digitaloceandocker.html) 
+*   [GitLab Pivotal Tile](https://docs.gitlab.com/ee/install/pivotal/index.html)
+
+鉴于目前容器化是一个越来越快的趋势，我就直接从容器化 docker 开始安装使用。其他安装方式我就不看了。
+
+# 使用 Docker 安装
+
+<https://docs.gitlab.com/omnibus/docker/README.html>
+
+如何使用 Docker 不在本篇的介绍范围，下面直接说过程：
+
+	docker pull gitlab/gitlab-ce:latest
+	
+	sudo docker run --detach \
+	    --hostname gitlab.example.com \
+	    --publish 443:443 --publish 80:80 --publish 22:22 \
+	    --name gitlab \
+	    --restart always \
+	    --volume /srv/gitlab/config:/etc/gitlab \
+	    --volume /srv/gitlab/logs:/var/log/gitlab \
+	    --volume /srv/gitlab/data:/var/opt/gitlab \
+	    gitlab/gitlab-ce:latest
+
+我预计大概率会报冲突：
+
+	docker: Error response from daemon: driver failed programming external connectivity on endpoint gitlab (4a9645ff2d304610abefa6c4d7138c8f0b228122157b9e318648e2f585ccdc41): Error starting userland proxy: listen tcp 0.0.0.0:22: bind: address already in use.
+
+这是ssh默认端口冲突了。练手阶段可以把 22:22 去掉。副作用就是不能用git的方式clone项目了，只能走 http 协议。
+
+![](https://cdn.kelu.org/blog/2017/10/gitlab1.jpg)
+
+以上步骤后，gitlab就完整跑起来了。
+
+![](https://cdn.kelu.org/blog/2017/10/gitlab3.jpg)
+
+默认用户名是root，密码会在登陆这个界面的时候自动输入。另外我还在用本地host 做了一个映射，所以你能看到我访问的网址是 http://gitlab.example.com/
 
 # 参考资料
 
