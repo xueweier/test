@@ -12,7 +12,7 @@ tags: git gitlab docker
 
 # 安装要求
 
-1. 系统要求
+### 1. 系统要求
 
 	* 仅支持以下系统：
 	
@@ -32,17 +32,17 @@ tags: git gitlab docker
 		*   macOS
 		*   Windows
 
-1. ruby版本
+### 2. ruby版本
 
 	* Ruby (MRI) 2.3
 
-1. 存储
+### 3. 存储
 
 	* 越大越好
  	* 支持NFS
 	* 7200 RPM 以上的机械硬盘或固态硬盘，可以明显提升性能。
 
-1. CPU
+### 4. CPU
 
 	*   1 core supports up to 100 users。但是会明显变慢。
 	*   **2 cores** is the **recommended** number of cores and supports up to 500 users
@@ -52,7 +52,7 @@ tags: git gitlab docker
 	*   32 cores supports up to 20,000 users
 	*   64 cores supports up to 40,000 user
 
-1. 内存
+### 5. 内存
 
 	*   **4GB RAM** is the **recommended** memory size for all installations and supports up to 100 users
 	*   8GB RAM supports up to 1,000 users
@@ -64,7 +64,7 @@ tags: git gitlab docker
 
 	即使服务器的内存已经够大，也推荐至少要包含2G的交换空间。这样可以有效降低进行内存进行更改时发生错误的概率。
 
-1. 数据库
+### 6. 数据库
 
 	*  至少要包含5-10G的数据库空间。
 	*  PostgreSQL (强烈建议)
@@ -77,7 +77,7 @@ tags: git gitlab docker
 		*  不支持 SQL 的某些优化
 		*  期待还有更多信息添加进来（ps: 总之我们就是不喜欢Oracle统治下的MySQL，Oracle 去shi）
 
-1. PostgreSQL
+### 7. PostgreSQL
 	
 	* GitLab 10.0 后只支持 PostgreSQL 9.6，所以更低版本就不要用了。
 	* `pg_trgm`插件一定要在每一个GitLab数据库中开启。
@@ -88,14 +88,14 @@ tags: git gitlab docker
 
 		某些系统里你可能还要安装一些额外包 (e.g. `postgresql-contrib`) 才能使`pg_trgm`插件生效。
 
-1.  Unicorn Workers
+### 8.  Unicorn Workers
 
 	背景: Unicorn 用来实现并发的一个东西。
 
 	* 推荐使用内核个数+1个unicorn workers.
 	* 推荐 2GB或更高的内存下最少也使用3个 unicorn workers
 
-1. Redis 和 Sidekiq
+### 9. Redis 和 Sidekiq
 
 	背景: _Sidekiq _是一个多线程的后台任务处理系统。
 
@@ -103,17 +103,17 @@ tags: git gitlab docker
 	*  每个用户大约占用 25kB redis存储。
 	*  Sidekiq 进程初始占用 200M+的内存，动态增加，在非常活跃的机器(10,000活跃用户)上占用大概1G内存。
 
-1. Prometheus
+### 10. Prometheus
 
 	在 Omnibus GitLab 9.0 后默认开启了 Prometheus。默认配置大概消耗200M内存。
 
-1. GitLab Runner 
+### 11. GitLab Runner 
 
 	*  强烈建议不要在 GitLab 机器上部署GitLab Runner。因为我们要实现 CI 的一些机制原因，Gitlab Runner会很吃内存，所以不要在同一台机器上部署两个应用。
 	*  也建议不要在同一台机器上部署几个GitLab Runner应用。同样是因为内存的原因。另外这个也不符合系统避免单点故障的安全要求。
 	*  所以，如果你需要使用 GitLab Runner 的 CI 功能，请把他们独立部署在单独的机器上。
 	
-1. 浏览器支持
+### 12. 浏览器支持
 
 	支持下列浏览器的最新和主流版本：
 	
