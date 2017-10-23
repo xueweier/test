@@ -54,13 +54,13 @@ tags: git gitlab docker
 
 ![](https://cdn.kelu.org/blog/2017/10/gitlab1.jpg)
 
-以上步骤后，gitlab就完整跑起来了~
+以上步骤后，gitlab就完整跑起来了。
 
 ![](https://cdn.kelu.org/blog/2017/10/gitlab3.jpg)
 
-本文结束。
+默认用户名是root，密码会在登陆这个界面的时候自动输入。另外我还在用本地host 做了一个映射，所以你能看到我访问的网址是 http://gitlab.example.com/
 
-附录：
+附：
 
 # 安装要求
 
