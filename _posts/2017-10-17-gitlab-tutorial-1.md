@@ -39,7 +39,7 @@ tags: git gitlab docker
 ### 3. 存储
 
 	* 越大越好
- 	* 支持NFS
+	* 支持NFS
 	* 7200 RPM 以上的机械硬盘或固态硬盘，可以明显提升性能。
 
 ### 4. CPU
@@ -178,5 +178,4 @@ tags: git gitlab docker
 * [Bind address already in use (introduced in 1.3) ](https://github.com/moby/moby/issues/8714)
 * <https://docs.gitlab.com/ce/install/docker.html>
 * <https://docs.gitlab.com/omnibus/docker/README.html>
-* <>
 * [用Docker安装Gitlab](http://www.jianshu.com/p/24959481340e)
