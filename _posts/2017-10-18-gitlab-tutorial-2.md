@@ -6,18 +6,18 @@ tags: git gitlab docker
 ---
 ![](https://cdn.kelu.org/blog/tags/gitlab.jpg)
 
-参照第一篇文章，安装好 gitlab 之后，接下来应该做点什么呢？感觉还是从看文档开始。
+参照第一篇文章，安装好 gitlab 之后，接下来应该做点什么呢？感觉还是从看文档开始，更全面地了解gitlab。
 
 所以这一篇看看官方文档<https://docs.gitlab.com/ce/README.html>里面都有些什么内容。
 
 # 最受欢迎的文章
 
 * [GitLab CI/CD](https://docs.gitlab.com/ce/ci/README.html) 
-* [Quick start guide](https://docs.gitlab.com/ce/ci/quick_start/README.html) 
+* [入门指南](https://docs.gitlab.com/ce/ci/quick_start/README.html) 
 * [API](https://docs.gitlab.com/ce/api/README.html) 
 * [Configuring `.gitlab-ci.yml`](https://docs.gitlab.com/ce/ci/yaml/README.html)
-* [SSH authentication](https://docs.gitlab.com/ce/ssh/README.html)
-* [Using Docker images](https://docs.gitlab.com/ce/ci/docker/using_docker_images.html) 
+* [SSH 认证](https://docs.gitlab.com/ce/ssh/README.html)
+* [Docker 镜像](https://docs.gitlab.com/ce/ci/docker/using_docker_images.html) 
 * [GitLab Pages](https://docs.gitlab.com/ce/user/project/pages/index.html)
 
 *   [用户文档](https://docs.gitlab.com/ce/user/index.html)
