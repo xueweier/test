@@ -103,3 +103,4 @@ tags: git gitlab docker
 
 * [GitLab 安装配置心得记录](http://feg.netease.com/archives/gitlab-summary.html)
 * <https://docs.gitlab.com/ce/README.html>
+* [利用docker搭建gitlab及持续集成模块](http://blog.fatedier.com/2016/04/05/install-gitlab-supporting-ci-with-docker/)
