@@ -8,21 +8,21 @@ tags: linux linux-command
 
 顶部的内存信息可以在top运行时按E切换，每次切换转换率为1000，只是没有单位，切换的单位为 k,m,g,t,p：
 
-![](https://cdn.kelu.org/blog/2017/10/top1.jpg)
+* ![](https://cdn.kelu.org/blog/2017/10/top1.jpg)
 
-![](https://cdn.kelu.org/blog/2017/10/top2.jpg)
+* ![](https://cdn.kelu.org/blog/2017/10/top2.jpg)
 
-![](https://cdn.kelu.org/blog/2017/10/top3.jpg)
+* ![](https://cdn.kelu.org/blog/2017/10/top3.jpg)
 
-![](https://cdn.kelu.org/blog/2017/10/top4.jpg)
+* ![](https://cdn.kelu.org/blog/2017/10/top4.jpg)
 
 底下的进程信息按e切换，每次切换转换率为1000，切换的单位也是 k,m,g,t,p：
 
-![](https://cdn.kelu.org/blog/2017/10/top5.jpg)
+* ![](https://cdn.kelu.org/blog/2017/10/top5.jpg)
 
-![](https://cdn.kelu.org/blog/2017/10/top6.jpg)
+* ![](https://cdn.kelu.org/blog/2017/10/top6.jpg)
 
-![](https://cdn.kelu.org/blog/2017/10/top7.jpg)
+* ![](https://cdn.kelu.org/blog/2017/10/top7.jpg)
 
 
 # 参考资料
