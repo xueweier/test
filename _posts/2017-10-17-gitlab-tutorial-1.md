@@ -86,7 +86,7 @@ tags: git gitlab docker
 		CREATE EXTENSION pg_trgm;
 		```
 
-		某些系统里你可能还要安装一些额外包 (e.g. `postgresql-contrib`) 才能使`pg_trgm`插件生效。
+	某些系统里你可能还要安装一些额外包 (e.g. `postgresql-contrib`) 才能使`pg_trgm`插件生效。
 
 ### 8.  Unicorn Workers
 
@@ -163,7 +163,7 @@ tags: git gitlab docker
 
 	docker: Error response from daemon: driver failed programming external connectivity on endpoint gitlab (4a9645ff2d304610abefa6c4d7138c8f0b228122157b9e318648e2f585ccdc41): Error starting userland proxy: listen tcp 0.0.0.0:22: bind: address already in use.
 
-这是ssh默认端口冲突了。练手阶段可以把 22:22 去掉。副作用就是不能用git的方式clone项目了，只能走 http 协议。
+这是ssh默认端口冲突了。练手阶段可以把 22:22 去掉。副作用就是不能用 ssh 的方式clone项目了，只能走 https 协议。
 
 ![](https://cdn.kelu.org/blog/2017/10/gitlab1.jpg)
 
