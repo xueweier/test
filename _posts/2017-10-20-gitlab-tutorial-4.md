@@ -6,8 +6,7 @@ tags: git gitlab docker
 ---
 ![](https://cdn.kelu.org/blog/tags/gitlab.jpg)
 
-这一篇主要来看如何使用 docker build 创建自己的镜像
-
+这一篇主要来看如何使用 docker build 创建自己的镜像.
 
 # 安装Go
 
