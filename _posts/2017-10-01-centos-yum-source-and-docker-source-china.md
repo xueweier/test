@@ -17,7 +17,7 @@ yum 的配置文件分为两部分: main 和repository
 
 yum.conf 文件一般位于/etc目录下，一般其中只包含main部分的配置选项。
 
-`/etc/yum.repos.d/`下有四个文件：
+`/etc/yum.repos.d/`下有若干个文件，也可以新建文件添加自定义的源。
 
 * CentOS-Base.repo 是yum 网络源的配置文件
 * CentOS-Media.repo 是yum 本地源的配置文件
