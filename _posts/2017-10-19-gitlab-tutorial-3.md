@@ -98,10 +98,11 @@ tags: git gitlab docker
 # 参考资料
 
 * [理解LINUX的MEMORY OVERCOMMIT](http://linuxperf.com/?p=102)
-* [Configuring gitlab : database .......................................... | github ](https://github.com/sameersbn/docker-gitlab/issues/999)
+* [Configuring gitlab : database ...... ](https://github.com/sameersbn/docker-gitlab/issues/999)
 * [使用Docker Compose管理多个容器](http://dockone.io/article/834)
 * [使用docker-compose实现容器编排](https://www.centos.bz/2017/08/docker-compose-container-choreography/)
 * [Docker Compose 项目](http://www.dockerinfo.net/docker-compose-%e9%a1%b9%e7%9b%ae)
 * [使用Docker-Compose编排容器](https://www.hi-linux.com/posts/12554.html)
 * [docker-compose up](https://docs.docker.com/compose/reference/up/)
 * [Feature request: add scale parameter in yml](https://github.com/docker/compose/issues/1661)
+* [Use Compose in production](https://docs.docker.com/compose/production/)
