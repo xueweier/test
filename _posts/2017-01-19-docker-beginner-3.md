@@ -4,12 +4,17 @@ title: Docker 新手上路（三）
 category: tech
 tags: docker devops tutorial
 ---
-
 ![](https://cdn.kelu.org/blog/tags/docker.jpg)
-今天的好玩新闻有这几件事：
 
-* [炉石传说罕见数据库事故！丢失30%数据](http://mp.weixin.qq.com/s/Vr36GpzR-UxcNLtiBLldEA)
+这个系列一共分为5篇，是我初次接触 Docker 的总结。
 
+* [Docker 新手上路(一)](/tech/2017/01/15/docker-beginner.html)
+* [Docker 新手上路（二）——Dockerfile](/tech/2017/01/18/docker-beginner-2.html)
+* [Docker 新手上路（三）](/tech/2017/01/19/docker-beginner-3.html)
+* [Docker 新手上路（前传）](/tech/2017/01/20/docker-beginner-prescript.html)
+* [Docker 新手上路（后记）](/tech/2017/01/21/docker-beginner-postscript.html)
+
+这几篇是一个很粗略的新手入门。并不足以了解全貌，不过可以让你短时间内了解 Docker 为何物以及一些简单的操作，可以一看。
 前几天新学习了 [docker][docker_gitbook] 的基本知识，包括安装、环境配置、获取和运行镜像等最基础的东西。今天看看一些简单的网络配置和相关的开源软件。更加深入的内容暂时就不研究了。毕竟作为新手上路已经足够了。
 
 # 外部访问容器

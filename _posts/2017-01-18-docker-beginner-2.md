@@ -4,15 +4,17 @@ title: Docker 新手上路（二）——Dockerfile
 category: tech
 tags: docker devops tutorial
 ---
-
 ![](https://cdn.kelu.org/blog/tags/docker.jpg)
-今天的好玩新闻有这几件事：
 
-* 英国梅姨一声硬脱欧，英镑兑美元涨了将近2.6%
-* 支付宝又搞起了敬业福，冠华是五福红包的产品经理。
-* 甲骨文北京裁员2000人。
-* 最近火起来一句话，“我可能是x假的x”。
-* 一位微信陌生好友给我推荐了一个专门收集互联网大会的[网站][huodongjia]
+这个系列一共分为5篇，是我初次接触 Docker 的总结。
+
+* [Docker 新手上路(一)](/tech/2017/01/15/docker-beginner.html)
+* [Docker 新手上路（二）——Dockerfile](/tech/2017/01/18/docker-beginner-2.html)
+* [Docker 新手上路（三）](/tech/2017/01/19/docker-beginner-3.html)
+* [Docker 新手上路（前传）](/tech/2017/01/20/docker-beginner-prescript.html)
+* [Docker 新手上路（后记）](/tech/2017/01/21/docker-beginner-postscript.html)
+
+这几篇是一个很粗略的新手入门。并不足以了解全貌，不过可以让你短时间内了解 Docker 为何物以及一些简单的操作，可以一看。
 
 前几天新学习了 [docker][docker_gitbook] 的基本知识，包括安装、环境配置、获取和运行镜像等最基础的东西。今天学习一些 docker 的启动查看定制等操作。
 
