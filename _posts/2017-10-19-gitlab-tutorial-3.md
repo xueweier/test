@@ -6,7 +6,11 @@ tags: git gitlab docker
 ---
 ![](https://cdn.kelu.org/blog/tags/gitlab.jpg)
 
-参照前几篇文章，对gitlab也有了个大致的了解。这一篇将 gitlab 相关的服务全部 docker 化——gitlab postgresql 和 redis 。具体过程可以参考 [sameersbn](https://github.com/sameersbn)/**[docker-gitlab](https://github.com/sameersbn/docker-gitlab)**
+参照前几篇文章，对gitlab也有了个大致的了解。这一篇将 gitlab 相关的服务全部 docker 化——gitlab postgresql 和 redis 。具体过程可以参考 [sameersbn](https://github.com/sameersbn)/**[docker-gitlab](https://github.com/sameersbn/docker-gitlab)**， 涉及到的容器有：
+
+* **[docker-gitlab](https://github.com/sameersbn/docker-gitlab)**
+* **[docker-postgresql](https://github.com/sameersbn/docker-postgresql)**
+* **[docker-redis](https://github.com/sameersbn/docker-redis)**
 
 # docker-compose
 
@@ -77,7 +81,9 @@ tags: git gitlab docker
 
 	docker-compose up
 
-就可以看到系统启动起来啦。
+就可以看到系统启动起来啦。此时访问服务器上地10080端口，即可看到 gitlab 的页面了。
+
+![](https://cdn.kelu.org/blog/2017/10/docker-compose.jpg)
 
 # 问题定位
 
@@ -89,7 +95,7 @@ tags: git gitlab docker
 
 # 后续学习
 
-目前已经可以将所有应用容器化了。接下来我会往这两个方向深入：
+目前已经可以将所有应用容器化了。接下来我会往这几个方向深入：
 
 * docker build创建自己的镜像
 * 容器的高可用策略
