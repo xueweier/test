@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rancher安装手册 |  转自dockerinfo
+title: Rancher安装手册
 category: tech
 tags: docker rancher
 ---
@@ -16,9 +16,8 @@ Rancher 是以在生产环境中运行容器为目标而构建的开源软件平
 
 dockerinfo对其中的部分章节做了翻译<http://www.dockerinfo.net/rancher/page/5>
 
-今天这篇就是dockerinfo其中的一篇翻译。需要学习的朋友可以两边都对照着看，又达到比较快的速度，也可以达到深入理解的层次。
+今天这篇就是dockerinfo其中的一篇翻译，我做了点无关痛痒的增删。需要学习的朋友可以两边都对照着看，又达到比较快的速度，也可以达到深入理解的层次。
 
-以下是转载：
 
 ### 准备 Linux 主机
 
@@ -37,22 +36,29 @@ $ sudo docker ps
 # 显示并查看 Rancher 服务器的日志
 $ sudo docker logs -f containerid
 ```
+![修改语言](https://cdn.kelu.org/blog/2017/10/rancher1.jpg)
 
 启动 Rancher 服务器可能需要花几分钟时间。这取决于您下载 Rancher Server镜像的速度。当日志中显示 “…. Startup Succeeded, Listening on port…” 以后，Rancher UI 图形界面现在就能正常访问了。
 
-Rancher 服务器的图形界面访问端口是 8080 ，通过在浏览器中访问这个网址 http://linux_host_ip:8080 , 您就可以打开 Rancher 服务器的图形界面。如果您的浏览器和 Rancher 服务器都运行在同一台服务器上，你需要使用主机的真实 Ip 地址，如： http://192.168.1.100:8080 ， 而不是 http://localhost:8080 或者http://127.0.0.1:8080
+Rancher 服务器的图形界面访问端口是 8080 ，通过在浏览器中访问这个网址 http://linux_host_ip:8080 , 您就可以打开 Rancher 服务器的图形界面。如果您的浏览器和 Rancher 服务器都运行在同一台服务器上，你需要使用主机的真实 Ip 地址，如： http://192.168.1.100:8080 ， 而不是 http://localhost:8080
 
 > **注意:** Rancher 的访问控制在初始安装时并没有配置，你的 Rancher 服务器图形界面和 API 能在任何能访问到您的 IP 地址的地方被访问到。我们建议配置访问控制参考 访问控制.
 
 ### 添加主机
 
+![添加主机](https://cdn.kelu.org/blog/2017/10/rancher2.jpg)
+
 为简化操作，我们将添加运行 Rancher 服务器容器的主机。而在实际的生产环境中，我们建议使用专用的主机来运行 Rancher 服务器。
 
 通过点击图形界面的 **Infrastructure** 标签来添加主机，然后您将会看到 **Hosts** 页面。Rancher 会提示您选择一个 IP 地址。这个 IP 地址必须可以被所有即将添加的主机访问到。把 Rancher 服务器的端口通过防火墙的 NAT 或者负载均衡器暴露出来，或者暴露到 Internet上在有些情况下是很有用的。如果你的主机有一个私有或者本地 IP 地址，例如： `192.168.*.*`；Rancher 将打印一个提示信息，告诉您是否确认这个 IP 地址可以被正常访问到。
 
+![添加主机](https://cdn.kelu.org/blog/2017/10/rancher3.jpg)
+
 现在我们添加 Rancher 服务器主机自身，因此我们可以忽略这个提示信息。点击 **Save** ；您将进入默认的**Custom** 选项页面，您在这可以得到运行 rancher/agent 容器的命令。这里还有其它的公有云的选项，使用这个选项可以实现通过 `docker-machine` 去启动主机节点。在 Web 界面上，Rancher 提供的用于添加主机的命令如下：
 
 > $ sudo docker run -d –privileged -v /var/run/docker.sock:/var/run/docker.sock rancher/agent:v0.7.9 http://172.17.0.3:8080/v1/scripts/DB121CFBA836F9493653:1434085200000:2ZOwUMd6fIzz44efikGhBP1veo
+
+![添加主机](https://cdn.kelu.org/blog/2017/10/rancher4.jpg)
 
 由于我们正在添加 Rancher 服务器的主机，我们需要添加这个主机所使用的共有 IP。Rancher agent 命令中如果没有这个参数，这个主机的 IP 很可能会是个错误的配置。您可以添加这个 IP 地址在**Step 4**，这将会修改命令，并加入一个环境变量。
 
@@ -61,6 +67,11 @@ Rancher 服务器的图形界面访问端口是 8080 ，通过在浏览器中访
 在运行 Rancher 服务器的主机上运行这个命令。
 
 当您在 Rancher 的页面中点击 **Close** 按钮后，您会被返回到 **Infrastructure** -> **Hosts** 页面。在一两分钟后，这个主机将自动出现在这里。
+
+![添加主机](https://cdn.kelu.org/blog/2017/10/rancher5.jpg)
+
+![添加主机](https://cdn.kelu.org/blog/2017/10/rancher6.jpg)
+
 
 ### 使用图形界面创建一个容器
 
