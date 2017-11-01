@@ -163,3 +163,7 @@ Serverless 不意味着没有服务器，而是从应用可以在一个抽象层
 * [Docker专题汇总](http://www.zimug.com/360.html)
 * [Docker暴露2375端口，引起安全漏洞](http://geek.csdn.net/news/detail/75236)
 
+补充参考资料：
+* [容器生态圈项目一览：引擎、编排、OS、Registry、监控](http://dockone.io/article/724)
+* [容器，你还只用Docker吗？（下）](http://www.yunweipai.com/archives/10358.html) - 周晖 Pivotal 云计算首席架构师
+* [Docker 生态圈指南](http://blog.liulantao.com/docker-ecosystem-guide.html) - Liu Lantao 环信 运维总监
