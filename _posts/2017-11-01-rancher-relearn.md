@@ -47,7 +47,7 @@ tags: docker rancher
 
 # 防火墙firewall
 
-容器之间通信需要使用防火墙进行桥接。使用 Rancher 添加不同主机的时候，就必须事先打通各个主机的通信，主要是 Rancher 服务器的默认 8080 端口和 IPsec 的 500、4500端口。所以避免不了使用 firewall 相关的命令。这里列几个，其他的我会再开一篇文章记录一下。
+容器之间通信需要借助防火墙。使用 Rancher 添加不同主机的时候，就需要打通各个主机的通信，主要是 Rancher 服务器的默认 8080 端口和 IPsec 的 500、4500端口(UDP协议)。这里列几个，其他的我会再开一篇文章记录一下。
 
 关于 firewall，只要记住服务和端口两个概念即可。
 	
@@ -77,6 +77,7 @@ tags: docker rancher
 # 参考资料
 
 * [CentOS 7 为firewalld添加开放端口及相关资料](http://www.cnblogs.com/hubing/p/6058932.html)
+* [使用 nc 命令检查远程端口是否打开](https://linux.cn/article-8186-1.html)
 
 
 
