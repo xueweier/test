@@ -6,11 +6,11 @@ tags: docker rancher
 ---
 ![](https://cdn.kelu.org/blog/tags/rancher.jpg)
 
-前段时间转载了这篇[《Rancher安装手册》](/tech/2017/10/14/rancher-tutorial.html)文章， 也尝试着安装了一下，有了一些浅显的认识。今天从0开始又一次部署，算是对 Rancher 的再学习。 
+前段时间转载了这篇[《Rancher安装手册》](/tech/2017/10/14/rancher-tutorial.html)文章， 也尝试着安装了一下，有了一些浅显的认识。今天从0开始又一次部署，算是对 Rancher 的再学习。 这一篇主要是将各种事先需要准备的一些东西。
 
 使用的环境为 CentOS 7.4 （` cat /etc/redhat-release`
 
-事先准备几个命令，因为后边会经常用到233333
+事先准备几个命令，后边你可能会经常用到(但愿不需要用到)
 
 	docker kill $(docker ps -a -q) # 杀死所有正在运行的容器
 	docker rm $(docker ps -a -q)	# 删除所有已经停止的容器
