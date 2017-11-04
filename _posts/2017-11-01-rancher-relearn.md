@@ -29,7 +29,7 @@ tags: docker rancher
 
 	# 查看安装版本号、卸载
 	yum list installed | grep docker
-	yum -y remove docker.x86_64
+	yum -y remove docker-ce.x86_64
 
 	# 查看可用的版本
 	yum makecache fast
@@ -38,6 +38,25 @@ tags: docker rancher
 ![](https://cdn.kelu.org/blog/2017/10/rancher12.jpg)
 
 	yum -y install docker-ce-17.06.0.ce
+
+### 加速
+
+安装成功后需要对 Docker 源进行加速。我试用 Docker 官方的加速办法：在 /etc/docker/daemon.json 文件并添加上 registry-mirrors 键值。
+
+	touch /etc/docker/daemon.json
+	vi /etc/docker/daemon.json
+
+```
+{  
+	"registry-mirrors": ["https://registry.docker-cn.com"]
+}
+```
+重启 Docker 后生效。
+
+### 开机自启动
+
+	systemctl enable docker
+	# Created symlink from /etc/systemd/system/multi-user.target.wants/docker.service to /usr/lib/systemd/system/docker.service.
 
 # Rancher 安装
 

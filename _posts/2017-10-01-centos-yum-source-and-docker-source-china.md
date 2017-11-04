@@ -29,7 +29,9 @@ yum.conf 文件一般位于/etc目录下，一般其中只包含main部分的配
 修改 /etc/docker/daemon.json 文件并添加上 registry-mirrors 键值。
 
 ```
-{  "registry-mirrors": ["https://registry.docker-cn.com"]}
+{  
+	"registry-mirrors": ["https://registry.docker-cn.com"]
+}
 ```
 修改保存后重启 Docker 生效。
 
