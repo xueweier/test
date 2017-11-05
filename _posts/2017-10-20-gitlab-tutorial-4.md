@@ -1,12 +1,12 @@
 ---
 layout: post
-title: gitlab 入门（四）—— docker build 创建自己的镜像
+title: gitlab 入门（四）—— 创建自己的镜像
 category: tech
 tags: git gitlab docker
 ---
-![](https://cdn.kelu.org/blog/tags/gitlab.jpg)
+![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
-这一篇主要来看如何使用 docker build 创建自己的镜像.
+这一篇主要来看如何创建自己的镜像.
 
 # 安装Go
 
@@ -330,7 +330,7 @@ foo bar
 
 转载结束。
 
-于是本篇对 `docker build` 的介绍就到此为止了。
+于是本篇对创建镜像的介绍就到此为止了。
 
 # 参考资料
 
@@ -340,4 +340,4 @@ foo bar
 * [Dockerfile配置文件说明文档详解](http://www.simapple.com/docker-dockerfile)
 * [Yarn 的安装与使用](http://www.jackpu.com/yarn-facebook-kai-yuan-de-bao-guan-li-gong-ju/)
 * [Linux中通过locale来设置字符集](http://www.linuxfly.org/post/424/)
-
+* [Dockerfile里指定执行命令用ENTRYPOING和用CMD有何不同？](https://segmentfault.com/q/1010000000417103)
