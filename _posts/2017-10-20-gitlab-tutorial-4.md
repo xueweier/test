@@ -36,7 +36,7 @@ build 很慢，耐心等等~
 
 以 <https://github.com/sameersbn/docker-gitlab/commit/711e4115b123f0dfc0c0c2e39879be51fc6f80b2> 作为学习版本。
 
-### 安装配置设置
+### 镜像基本配置
 
 基于父镜像构建其他docker镜像，父镜像：可以通过docker pull 命令获得，也可以自己制作
 
