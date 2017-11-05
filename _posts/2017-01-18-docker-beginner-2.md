@@ -163,6 +163,7 @@ Dockerfile是自动构建docker镜像的配置文件，Dockerfile中的命令非
 
 参考资料：
 
+* [Makefiles for your Dockerfiles](http://jmkhael.io/makefiles-for-your-dockerfiles/)
 * [Dockerfie 官方文档](https://docs.docker.com/engine/reference/builder/)
 * [Dockerfile 最佳实践文档](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
 * [DockerFile简介与实例](http://www.zimug.com/308.html)
