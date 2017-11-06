@@ -71,6 +71,15 @@ tags: linux
 
         echo /dev/sdc swap swap defaults 0 0  >> /etc/fstab //将/dev/sdc自动挂载成Swap写入fstab文件里
         
+# 常见错误
+
+1. 在 openvz 的机器中，你可能会遇到这样一个错误：
+
+		swapon: /swapfile: swapon failed: Operation not permitted
+	
+	对于这个问题我还没有好的解决办法，如果你有解决办法的话欢迎和我联系。
+
+
 # 参考资料
 
 * [为debian增加swap - bi119aTe5hXk's Blog](https://blog.bi119ate5hxk.net/2017/05/14/%E4%B8%BAdebian%E5%A2%9E%E5%8A%A0swap/)
