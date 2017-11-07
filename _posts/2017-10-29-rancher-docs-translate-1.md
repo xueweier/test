@@ -6,11 +6,13 @@ tags: rancher docker
 ---
 ![](https://cdn.kelu.org/blog/tags/rancher.jpg)
 
-原文：<http://rancher.com/docs/rancher/latest/en/>
+原文：<http://rancher.com/docs/rancher/v1.6/en/>
 
 [查看本系列翻译的目录](/tech/2017/10/27/rancher-docs-translate.html)
 
 # 概述
+
+* * *
 
 Rancher 是一个开源软件平台，使得公司可以运行和管理 Docker 与 Kubernetes。在 Rancher 中，公司不再需要从头开始整合不同的开源技术搭建容器平台。Rancher 整合并提供了容器生产环境中所需的所有软件技术栈。
 
@@ -41,7 +43,7 @@ Rancher 对用户身份验证的支持非常灵活，可以自由设置登陆用
 
 下图是 Rancher 的主要组件和功能特性。
 
-![](https://cdn.kelu.org/blog/2017/10/rancher32.png)
+![](https://cdn.kelu.org/blog/2017/10/rancher33.jpg)
 
 
 
