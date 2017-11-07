@@ -103,29 +103,3 @@ $ docker run -it --label io.rancher.container.network=true ubuntu:14.04.2
 
 标签 `io.rancher.container.network` 让我们通过命令行传递了一个通知，这样 Rancher 会为把容器配置为连接到覆盖网络。
 
-**[Rancher中文手册](http://www.dockerinfo.net/docker/rancher%e4%b8%ad%e6%96%87%e6%89%8b%e5%86%8c "更多关于 Rancher中文手册 的文章")目录**
-
-*   [Rancher概述](http://www.dockerinfo.net/238.html)
-*   [Rancher快速安装指南](http://www.dockerinfo.net/247.html)
-*   **Rancher安装**
-    *   [Rancher单节点服务器安装](http://www.dockerinfo.net/258.html "Rancher单节点服务器安装-DockerInfo")
-    *   [Rancher安装多节点高可用(HA)](http://www.dockerinfo.net/260.html "Rancher安装多节点高可用(HA)-DockerInfo")
-    *   [Rancher SSL证书基本配置](http://www.dockerinfo.net/264.html "Rancher SSL证书基本配置-DockerInfo")
-    *   [Rancher实现无联网访状态问](http://www.dockerinfo.net/267.html "Rancher实现无联网访状态问-DockerInfo")
-*   **Rancher基础服务**
-    *   [Rancher基础服务 健康检查](http://www.dockerinfo.net/274.html "Rancher基础服务 健康检查-DockerInfo")
-    *   [Rancher实现的内部DNS基础服务](http://www.dockerinfo.net/278.html "Rancher实现的内部DNS基础服务-DockerInfo")
-    *   [Rancher使用Route53做外部DNS](http://www.dockerinfo.net/280.html "Rancher使用Route53做外部DNS-DockerInfo")
-    *   [Rancher元数据服务](http://www.dockerinfo.net/282.html "Rancher元数据服务-DockerInfo")
-*   **系统配置**
-    *   [Rancher系统配置API&Keys使用](http://www.dockerinfo.net/284.html "Rancher系统配置API&Keys使用-DockerInfo")
-    *   [Rancher系统配置添加镜像仓库](http://www.dockerinfo.net/286.html "Rancher系统配置添加镜像仓库-DockerInfo")
-*   [Rancher中使用Docker原生命令行](http://www.dockerinfo.net/288.html "Rancher中使用Docker原生命令行-DockerInfo")
-*   [Rancher中的标签和调度服务](http://www.dockerinfo.net/292.html "Rancher中的标签和调度服务-DockerInfo")
-*   [Rancher实现添加\删除公有云主机](http://www.dockerinfo.net/272.html "Rancher实现添加\删除公有云主机-DockerInfo")
-*   **Rancher目录**
-    *   [在Rancher部署Kubernetes](http://www.dockerinfo.net/294.html "在Rancher部署Kubernetes-DockerInfo")
-    *   [在Rancher使用Swarm](http://www.dockerinfo.net/296.html "在Rancher使用Swarm-DockerInfo")
-    *   [通过创建数据容器升级Rancher](http://www.dockerinfo.net/298.html "通过创建数据容器升级Rancher-DockerInfo")
-    *   [通过启动时使用绑定挂载升级Rancher](http://www.dockerinfo.net/300.html "通过启动时使用绑定挂载升级Rancher-DockerInfo")
-
