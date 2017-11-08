@@ -12,10 +12,9 @@ tags: rancher docker
 
 以下是这次翻译的目录：
 
-
 * [概述](/tech/2017/10/29/rancher-docs-translate-1.html)
-* 快速入门(待翻译)
-* 安装(待翻译)
+* [快速入门](/tech/2017/10/30/rancher-docs-translate-2.html)
+* [安装](/tech/2017/10/31/rancher-docs-translate-3.html))
 * 升级(待翻译)
 * 主配置(待翻译)
 * 环境(待翻译)

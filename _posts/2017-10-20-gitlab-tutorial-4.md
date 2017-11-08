@@ -205,8 +205,9 @@ gitlab 的其他安装目录配置，包括：
 	1.  如果 docker run 指定了其他命令，CMD 指定的默认命令将被忽略。
 	2.  如果 Dockerfile 中有多个 CMD 指令，只有最后一个 CMD 有效。
 
+
 	
-### RUN , CMD 和 ENTRYPOINT 的区别
+# RUN , CMD 和 ENTRYPOINT 的区别
 
 
 可以参考这篇答案，讲得非常详细：<https://segmentfault.com/q/1010000000417103>，以下是转载：
