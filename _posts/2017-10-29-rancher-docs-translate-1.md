@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rancher 中文文档 —— (一) Rancher 概述
+title: Rancher 中文文档 —— Rancher 概述
 category: tech
 tags: rancher docker
 ---
@@ -14,7 +14,7 @@ tags: rancher docker
 
 * * *
 
-Rancher 是一个开源软件平台，使得公司可以运行和管理 Docker 与 Kubernetes。在 Rancher 中，公司不再需要从头开始整合不同的开源技术搭建容器平台。Rancher 整合并提供了容器生产环境中所需的所有软件技术栈。
+Rancher 是一个开源软件平台，用于运行和管理 Docker 与 Kubernetes。在 Rancher 中，我们不再需要从头开始整合不同的开源技术搭建容器平台。Rancher 整合提供了容器生产环境中所需要的软件技术栈。
 
 
 # 基础架构
