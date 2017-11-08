@@ -6,9 +6,9 @@ tags: rancher docker
 ---
 ![](https://cdn.kelu.org/blog/tags/rancher.jpg)
 
-最近在接触 Rancher 。还不习惯阅读英文文档，决定自己翻译一下官方文档：<http://rancher.com/docs/rancher/latest/en/>。
+最近在接触 Rancher 。还不习惯阅读英文文档，决定自己翻译一些官方文档：<http://rancher.com/docs/rancher/latest/en/>。
 
-翻译的时间是2017年11月7日， 这个时候 Rancher 的版本是1.6。翻译的内容多少会带有一些自己的理解，有错误的地方欢迎指正。
+2017-11-8更新：我打算弃坑了，看完前三章已经会的差不多了233333333333333后边的我就不更新了。
 
 以下是这次翻译的目录：
 
