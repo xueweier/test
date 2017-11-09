@@ -581,12 +581,30 @@ RUN pwd
 	# ENTRYPOINT /usr/share/openresty/nginx/sbin/nginx -c /var/local/nginx/conf/nginx.conf -g 'daemon off;'
 	CMD ["/usr/share/openresty/nginx/sbin/nginx","-c","/var/local/nginx/conf/nginx.conf","-g","daemon off;"]
 
+将正常的脚本转换成 Dockerfile 基本的思路就是
+
+* 设定好这个 Dockerfile 和相关依赖包的版本号
+* 安装系统依赖
+* 清除多余软件包和文件
+* 拷贝必要的脚本或配置
+* 做好端口和挂载点声明
+* 写好并添加启动命令或脚本entrypoint.sh 
 
 这个脚本中我做了几个方便验证的东西：
 
-* 在不挂载 RESTY_DATA_DIR 的情况下，会显示默认的 nginx 页面，启用后我改成了另外一个配置，显示其他页面。
+* 挂载 volume 的验证：
 
-	 运行命令： `docker run --name 'daemon' -d -p 18080:80 --volume /var/local/nginx/:/var/local/nginx/conf/vhost --volume /var/local/log/nginx/:/var/local/log/nginx/ test4`
+	在不挂载 RESTY_DATA_DIR 的情况下，，启用后我改成了另外一个配置，显示其他页面。
+
+	运行命令： `docker run --name 'daemon4' -d -p 18080:80 test` 时，会显示默认的 nginx 页面。
+
+	挂载 RESTY_DATA_DIR 文件夹后，就换成其它界面： 
+
+		docker run --name 'daemon' -d -p 18080:80 \
+			--volume /var/local/nginx/:/var/local/nginx/conf/vhost \
+			--volume /var/local/log/nginx/:/var/local/log/nginx/ test4
+
+	挂载的nginx.conf的文件如下:
 
 		server {
 		        listen 80;
@@ -606,3 +624,5 @@ RUN pwd
 # 参考资料
 
 * [Docker命令行与守护进程如何交互？](https://blog.fundebug.com/2017/05/22/docker-cli-daemon/)
+* [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+* [Best practices for writing Dockerfiles](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
