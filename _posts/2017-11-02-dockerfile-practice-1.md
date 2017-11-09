@@ -619,7 +619,7 @@ RUN pwd
 		        }
 		    }
 		
-*  ENTRYPOINT 和 CMD 的作用是一样的。
+*  最后两行 ENTRYPOINT 和 CMD 的作用是一样的。我多写了一个看看效果。
 
 # 参考资料
 
