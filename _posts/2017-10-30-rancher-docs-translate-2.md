@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rancher 中文文档 —— (二) 快速入门指南
+title: Rancher 中文文档 —— 快速入门指南
 category: tech
 tags: rancher docker
 ---
@@ -218,7 +218,7 @@ services:
 
 Rancher CLI 的二进制包可以在 Rancher 主页面的右下角找到。适用于 Windows Mac 和 Linux.
 
-为了在Rancher CLI 中使用 Rancher 的一系列服务，我们还需要设置一些环境变量。我们需要在 Rancher 页面中创建一个帐户[API密钥](http://rancher.com/docs/rancher/v1.6/en/api/api-keys/)。点击**API** - > **Key**。点击**添加帐户API密钥**。填写名称，然后点击**创建**。保存**访问密钥**和**私有密钥**。 之后就可以使用牧场主URL，公钥和密钥，使用 `rancher config` 来配置 Rancher CLI了。
+为了在Rancher CLI 中使用 Rancher 的一系列服务，我们还需要设置一些环境变量。我们需要在 Rancher 页面中创建一个帐户[API密钥](http://rancher.com/docs/rancher/v1.6/en/api/api-keys/)。点击**API** - > **Key**。点击**添加帐户API密钥**。填写名称，然后点击**创建**。保存**Access Key**和**Secret Key**。 之后就可以通过 Rancher URL，Access Key和Secret Key，使用 `rancher config` 来配置 Rancher CLI了。
 
 ```
 # Configure Rancher CLI

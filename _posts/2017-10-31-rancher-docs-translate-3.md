@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rancher 中文文档 —— (三) Rancher 安装
+title: Rancher 中文文档 —— Rancher 安装
 category: tech
 tags: rancher docker
 ---
@@ -16,14 +16,14 @@ tags: rancher docker
 
 Rancher 由一系列的 Dcoekr 容器组成。 运行 Rancher 就像添加两个容器一样简单： 一个服务管理容器和一个作为客户端的节点容器。
 
-*   [Rancher Server - Single Container (non-HA)](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#single-container)
-*   [Rancher Server - Single Container (non-HA) - External database](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#single-container-external-database)
-*   [Rancher Server - Single Container (non-HA)- Bind mounted MySQL volume](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#single-container-bind-mount)
-*   [Rancher Server - Full Active/Active HA](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#multi-nodes)
-*   [Rancher Server - Using ELB in AWS](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#elb)
-*   [Rancher Server - AD/OpenLDAP using TLS](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#ldap)
-*   [Rancher Server - HTTP Proxy](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#http-proxy)
-*   [Rancher Server - MySQL over SSL](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#mysql-ssl)
+*   [Rancher Server -单容器（非HA）](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#single-container)
+*   [Rancher Server - 单容器（非HA） - 外部数据库](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#single-container-external-database)
+*   [Rancher Server - 单容器（非HA）- 绑定 Mysql 数据卷](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#single-container-bind-mount)
+*   [Rancher Server -全主动/主动HA](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#multi-nodes)
+*   [Rancher Server - 在 AWS 上使用 ELB](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#elb)
+*   [Rancher Server - 启用 ACTIVE DIRECTORY 或 OPENLDAP FOR TLS](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#ldap)
+*   [Rancher Server -启用 http 代理](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#http-proxy)
+*   [Rancher Server - 与 MySQL 通过 SSL 通信](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/#mysql-ssl)
 
 > 注意：Rancher 服务器容器帮助选项`docker run rancher/server --help`
 
@@ -105,7 +105,7 @@ $ sudo docker run -d --restart=unless-stopped -p 8080:8080 rancher/server \
 
 > 注： Rancher server 的早期版本中，我们使用环境变量连接到外部数据库，这些环境变量也会继续生效，不过我们建议使用参数来运行 Rancher
 
-# 启动 Rancher 服务器 - 单容器 - 绑定 Mysql数据卷
+# 启动 Rancher 服务器 - 单容器 - 绑定 Mysql 数据卷
 
 如果你想将容器的数据库与主机商的存储设备绑定起来，那么应当这么启动 Rancher server：
 ```
