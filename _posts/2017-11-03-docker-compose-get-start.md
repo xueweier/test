@@ -6,7 +6,7 @@ tags: docker
 ---
 ![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
-昨天写完了 Dockerfile，使用 Docker run 将容器启动起来了。今天使用 docker compose 的方式将它启动起来。先前转载过一篇教程，也可以看一看：[《Docker Compose工具快速入门 | 转》](/tech/2017/10/21/docker-compose.html)
+昨天写完了 Dockerfile，使用 Docker run 将容器启动起来了。今天使用 docker compose 的方式将它启动起来。先前转载过一篇教程，也可以看一看：《[Docker Compose工具快速入门](/tech/2017/10/21/docker-compose.html)》
 
 # 安装
 
