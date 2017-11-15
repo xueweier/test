@@ -2,7 +2,9 @@
 layout: post
 title: Go 初学者的一些琐碎问题
 category: tech
-tags: go
+tags:
+  - go
+style: summer
 ---
 ![](https://cdn.kelu.org/blog/tags/go.jpg)
 
@@ -20,8 +22,6 @@ tags: go
 
 # 字符串相同却不相等
 
-你所见到的，不一定是真实的。
-
 ![](https://cdn.kelu.org/blog/2017/11/pingponggo1.jpg)
 
 一开始特别奇怪，明明两个变量一摸一样，字符串判断时候却认为他们不一样。。。颇有真假孙悟空的感觉。
@@ -32,25 +32,15 @@ tags: go
 
 	* 使用 reflect 包的 reflect.TypeOf 方法，发现都是 string 类型
 	* switch 下用Go的空接口：
-		
 			// 建一个函数t 设置参数i 的类型为空接口，空接口可以接受任何数据类型
-			
 			func t(i interface{}) {    //函数t 有一个参数i 
-			
 			    switch i.(type) {      //多选语句switch
-			
 			    case string:
-			
 			        //是字符时做的事情
-			
 			    case int:
-			
 			        //是整数时做的事情
-			
 			    }
-			
 			    return
-			
 			}
 	
 			// _i.(type)_ 只能在switch中使用
@@ -58,7 +48,6 @@ tags: go
 * 是不是像 c 一样数组还有 \n 的诡异操作：
 
 	查看str的长度：
-
 	![](https://cdn.kelu.org/blog/2017/11/pingponggo2.jpg)
 
 	终于发现了问题所在。
@@ -82,7 +71,7 @@ tags: go
 
 # 用到的包
 
-<https://golang.org/pkg/>
+可以直接查看官方文档： <https://golang.org/pkg/>
 
 * "fmt"
 * "net"
@@ -93,7 +82,7 @@ tags: go
 
 一些参考资料：
 
-(Go语言fmt包Printf方法详解](http://www.jianshu.com/p/8be8d36e779c)
+[Go语言fmt包Printf方法详解](http://www.jianshu.com/p/8be8d36e779c)
 
 # 附源代码
 	
