@@ -6,7 +6,6 @@ tags: git
 ---
 ![](https://cdn.kelu.org/blog/tags/git.jpg)
 
-
 在一台新的服务器上写代码，刚初始化了 git 环境。冒出了一些初始化设置的提示，这一篇记录一下我所做的操作。
 
 * 配置与 github 的连接
