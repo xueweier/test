@@ -52,3 +52,7 @@ Usage: tcpping [-d] [-c] [-C] [-w sec] [-q num] [-x count] ipaddress [port]
 	tcpping xxx.com 12345
 
 ![](https://cdn.kelu.org/blog/2017/11/tcpping.png)
+
+# 参考资料
+
+* [TCPing 工具介绍](http://tookdes.org/geek/archives/tcping-intro.html)
