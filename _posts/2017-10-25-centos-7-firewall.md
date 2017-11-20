@@ -2,7 +2,7 @@
 layout: post
 title: firewalld 用法小结
 category: tech
-tags: postgresql
+tags: linux
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
