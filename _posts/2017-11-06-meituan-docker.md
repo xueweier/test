@@ -21,7 +21,7 @@ tags: docker
 
 *   IT 成本高。由于虚拟机弹性能力较弱，业务部门为了应对流量高峰和突发流量，普遍采用预留大量机器和服务实例的做法。资源没有得到充分使用产生浪费。
 
-(点击放大图像)
+
 
 [![](https://cdn.kelu.org/blog/2017/11/meituan/1.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/1.jpg)
 
@@ -33,7 +33,7 @@ tags: docker
 
 如前所述，容器平台的架构依托于美团私有云现有架构，其中私有云的大部分组件可以直接复用或者经过少量扩展开发，如图所示。
 
-(点击放大图像)
+
 
 [![](https://cdn.kelu.org/blog/2017/11/meituan/2.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/2.jpg)
 
@@ -52,7 +52,7 @@ tags: docker
 
 容器平台在网络方面复用了美团云网络基础架构和组件，逻辑架构设计如图所示。
 
-(点击放大图像)
+
 
 [![](https://cdn.kelu.org/blog/2017/11/meituan/3.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/3.jpg)
 
@@ -74,7 +74,7 @@ tags: docker
 
 为了解决本地磁盘数据卷限容能力弱的问题，我们开发了 LVM Volume 方案。该方案在宿主机上创建一个 LVM VG 作为 Volume 的存储后端。创建容器时，从 VG 中创建一个 LV 当作一块磁盘，挂载到容器里。这样 Volume 的容量便由 LVM 的 LV 加以强限制，得益于 LVM 机强大的管理能力，我们可以做到对 Volume 更精细、更高效的管理。例如，我们可以很方便地调用 LVM 命令查看 Volume 使用量，通过打标签的方式实现 Volume 伪删除和回收站功能，还可以使用 LVM 命令对 Volume 做在线扩容。
 
-(点击放大图像)
+
 
 [![](https://cdn.kelu.org/blog/2017/11/meituan/4.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/4.jpg)
 
@@ -84,7 +84,7 @@ tags: docker
 
 在设计实现容器监控之前，美团点评内部已经有了许多监控服务，例如 zabbix，falcon 和 CAT。我们不需要设计实现一套完整的监控服务，而更多地是如何高效地采集容器运行信息，根据运行环境的配置上报到相应的监控服务上。
 
-(点击放大图像)
+
 
 [![](https://cdn.kelu.org/blog/2017/11/meituan/5.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/5.jpg)
 
@@ -106,7 +106,7 @@ MosDocker 的大部分特性是解决美团点评业务场景的需求问题，�
 
 ### 原理探究：服务治理与容器编排
 
-(点击放大图像)
+
 
 [![](https://cdn.kelu.org/blog/2017/11/meituan/6.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/6.jpg)
 
@@ -126,7 +126,7 @@ MosDocker 的大部分特性是解决美团点评业务场景的需求问题，�
 *   灰度发布
 *   服务调用数据可视化
 
-(点击放大图像)
+
 
 [![](https://cdn.kelu.org/blog/2017/11/meituan/7.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/7.jpg)
 
@@ -151,13 +151,13 @@ MosDocker 的大部分特性是解决美团点评业务场景的需求问题，�
 
     以某业务为例，之前为了应对流量波动和突发流量，预留了 32 台 8 核 8G 的虚拟机。使用容器弹性方案，即 3 台容器 + 弹性扩容的方案取代固定 32 台虚拟机，平均单机 QPS 提升 85%， 平均资源占用率降低 44-56%。
 
-    (点击放大图像)
+    
 
     [![](https://cdn.kelu.org/blog/2017/11/meituan/8.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/8.jpg)
 
     图 7\. 某业务虚拟机和容器平均单机 QPS
 
-    (点击放大图像)
+    
 
     [![](https://cdn.kelu.org/blog/2017/11/meituan/9.jpg)](https://cdn.kelu.org/blog/2017/11/meituan/9.jpg)
 
