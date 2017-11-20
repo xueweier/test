@@ -186,7 +186,7 @@ article {
     margin-bottom: 1em;
 }
 
-.article_content > blockquote > p {
+.article_content > blockquote p{
     color: #aaa;
 }
 
