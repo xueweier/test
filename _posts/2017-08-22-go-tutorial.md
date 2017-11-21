@@ -29,6 +29,14 @@ Go 语言支持以下系统：
 
 安装包下载地址为：[https://golang.org/dl/](https://golang.org/dl/)。
 
+## Windows
+
+Windows 只要安装 msi 安装包即可。
+
+![](https://cdn.kelu.org/blog/2017/08/go0.jpg)
+
+## Mac
+
 我用的是 Mac，直接下载 pkg 安装包即可。需要在系统路径里增加 go 的地址
 
 	export PATH=/usr/local/go/bin:$PATH
@@ -56,6 +64,21 @@ Go 语言支持以下系统：
 
 	$ cd $HOME/go/src/hello
 	$ go run hello.go
+
+# IntelliJ IDEA 配置
+
+* 安装插件
+
+	![](https://cdn.kelu.org/blog/2017/08/go1.jpg)
+
+* 配置 GOROOT
+
+	![](https://cdn.kelu.org/blog/2017/08/go2.jpg)
+
+* 配置 GOPATH
+
+	 ![](https://cdn.kelu.org/blog/2017/08/go3.jpg)
+
 
 # 参考资料
 
