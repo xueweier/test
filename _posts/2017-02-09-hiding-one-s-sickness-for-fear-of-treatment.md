@@ -16,4 +16,8 @@ tags: literature warring_state_period hanfeizi legalism
 
     居五日，桓公体痛；使人索扁鹊，已逃秦矣。桓侯遂死。 
 
+![](https://cdn.kelu.org/blog/2017/02/bianque/1.jpg)
 
+![](https://cdn.kelu.org/blog/2017/02/bianque/2.jpg)
+
+![](https://cdn.kelu.org/blog/2017/02/bianque/3.jpg)
