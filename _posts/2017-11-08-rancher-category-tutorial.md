@@ -2,7 +2,7 @@
 layout: post
 title: Rancher 上线应用商店的基本流程
 category: tech
-tags: linux
+tags: rancher
 ---
 ![](https://cdn.kelu.org/blog/tags/rancher.jpg)
 
@@ -46,7 +46,8 @@ Rancher提供了一个应用商店，通过商店中的应用程序模版的可�
 	category: Entertainment
 	maintainer: kelvin blood <admin@kelu.org>
 
-将这个项目部署到 Rancher 可以访问的 git 服务器上，在 Rancher 设置中添加好就可以使用了。
+将这个项目部署到 Rancher 可以访问的 git 服务器上，在 Rancher 设置中添加好就可以使用了。可以查看我的：
+<https://github.com/kelvinblood/community-catalog/tree/init>
 
 # Rancher 添加
 
