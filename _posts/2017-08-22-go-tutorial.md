@@ -65,6 +65,12 @@ Windows 只要安装 msi 安装包即可。
 	$ cd $HOME/go/src/hello
 	$ go run hello.go
 
+## Linux
+
+	wget https://redirector.gvt1.com/edgedl/go/go1.9.2.linux-amd64.tar.gz
+	sudo tar -C /usr/local -xzf go1.9.2.linux-amd64.tar.gz 
+	sudo ln -s /usr/local/go/bin/go /usr/bin/go
+
 # IntelliJ IDEA 配置
 
 * 安装插件

@@ -42,10 +42,13 @@ tags: docker
 
     这个 issue 是我提的。提完之后自己就找到答案了。
     
-    来自[iptable filter - github](https://github.com/mobtitude/docker-vpn-pptp/issues/12)
+来自[iptable filter - github](https://github.com/mobtitude/docker-vpn-pptp/issues/12)
 
 # can't modprobe af_key in debian8
     
 这个与主机提供商有关了。主机在使用 docker 时某些项目需要使用 IPsec NETKEY 内核模块，其它主机不了解，linode的默认内核是修改过的，所以没有这个内核模块。如果想启用的话需要在后台配置里将默认启动内核改为 GRUB 2 模式。
 
 来自[docker issue - github](https://github.com/hwdsl2/docker-ipsec-vpn-server/issues/2)
+
+
+
