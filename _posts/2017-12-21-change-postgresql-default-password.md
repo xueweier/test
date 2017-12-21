@@ -8,12 +8,11 @@ tags: postgresql
 
 1. 登录PostgreSQL
 
-	`sudo` `-u postgres psql`
-
+		sudo -u postgres psql
 
 1. 修改登录PostgreSQL密码
 
-	`ALTER USER postgres WITH PASSWORD ``'postgres'``;`
+		ALTER USER postgres WITH PASSWORD 'postgres';
 
 注意：
 
