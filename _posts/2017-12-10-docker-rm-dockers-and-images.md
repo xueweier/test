@@ -31,4 +31,4 @@ docker rm $(docker ps -qf status=exited)
 ```
 # 参考资料
 
-* [# [Docker 技巧：删除 Docker 容器和镜像](https://segmentfault.com/a/1190000004491286)](https://segmentfault.com/a/1190000004491286)
+* [Docker 技巧：删除 Docker 容器和镜像](https://segmentfault.com/a/1190000004491286)
