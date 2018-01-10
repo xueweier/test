@@ -13,4 +13,6 @@ tags: docker
 	docker-compose up -d
 	docker-compose down --rmi 'all'
 
+# 参考资料
+
 * [Docker-compose down doesn’t remove images](https://forums.docker.com/t/docker-compose-down-doesnt-remove-images/22778)

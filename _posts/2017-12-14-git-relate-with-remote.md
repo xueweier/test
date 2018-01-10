@@ -6,8 +6,6 @@ tags: git
 ---
 ![](https://cdn.kelu.org/blog/tags/git.jpg)
 
-
-
 1.在本地目录下关联远程repository ：
 
 	git remote add origin git@github.com:git_username/repository_name.git
