@@ -4,6 +4,8 @@ title:  nginx开启IPV6支持配置
 category: tech
 tags: nginx
 ---
+![](https://cdn.kelu.org/blog/tags/nginx.jpg)
+
 ## 查看nginx是否支持ipv6
 
 	YUKI.N > /usr/share/openresty/nginx/sbin/nginx -V
