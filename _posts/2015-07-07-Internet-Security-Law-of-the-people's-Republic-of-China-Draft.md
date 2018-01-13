@@ -2,7 +2,7 @@
 layout: post
 title: 中华人民共和国网络安全法(草案)
 category: software
-tags: law prc
+tags: law gov
 ---
 
 [第一章	总则](#1)  

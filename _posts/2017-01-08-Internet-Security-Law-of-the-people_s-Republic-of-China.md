@@ -2,7 +2,7 @@
 layout: post
 title: 中华人民共和国网络安全法
 category: software
-tags: law prc
+tags: law gov
 ---
 
 快捷链接：[《中华人民共和国网络安全法(草案)》](http://blog.kelu.org/software/2015/07/07/Internet-Security-Law-of-the-people's-Republic-of-China-Draft.html)
