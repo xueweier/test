@@ -7,7 +7,7 @@ tags: linux
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 
-CentOS 下的设置与 Debian 颇不同。目前在是不需要，也就不写了。
+CentOS 下的设置与 Debian 颇不同。目前不需要，也就不写了。
 
 
 Debian 下设置示例如下：
