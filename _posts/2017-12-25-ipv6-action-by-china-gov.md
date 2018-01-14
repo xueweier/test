@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  推进互联网协议第六版（IPv6）规模部署行动计划 | 国务院
-category: sotfware
+category: software
 tags: law gov
 ---
 
