@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  关于督促互联网网络接入服务企业依法持证经营的通知 | 工信部
-category: sotfware
+category: software
 tags: law gov
 ---
 工信管函〔2018〕84号
