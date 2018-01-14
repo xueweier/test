@@ -7,7 +7,7 @@ data_dir: ./_data
 collections: null
 regenerate: false
 
-plugins:
+plugins-dir:
   - jekyll-feed
 
 # 阅读处理
