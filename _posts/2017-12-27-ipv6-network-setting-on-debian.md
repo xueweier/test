@@ -6,9 +6,7 @@ tags: linux
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
-
 CentOS 下的设置与 Debian 颇不同。目前不需要，也就不写了。
-
 
 Debian 下设置示例如下：
 
@@ -34,7 +32,6 @@ Debian 下设置示例如下：
 	        netmask 64
 	        gateway xxxx::1
 	        dns-nameservers 2001:xxxx::2
-
 
 设置完成后重启网络：
 
