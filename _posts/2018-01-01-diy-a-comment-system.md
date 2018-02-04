@@ -49,15 +49,15 @@ tags: tech
 
 *   填写代码库并保存：[https://github.com/panjunwen/Valine-Admin.git](https://github.com/panjunwen/Valine-Admin.git)
 
-![ping-mu-kuai-zhao-2017-11-12-xia-wu-2-45-11](https://cloud.panjunwen.com/2017/11/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-45-11.png)
+![](https://cloud.panjunwen.com/2017/11/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-45-11.png)
 
 *   切换到部署标签页，分支使用master，点击部署即可：
 
-![ping-mu-kuai-zhao-2017-11-12-xia-wu-2-43-52](https://cloud.panjunwen.com/2017/11/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-43-52.png)
+![](https://cloud.panjunwen.com/2017/11/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-43-52.png)
 
 2.此外，你需要设置云引擎的环境变量以提供必要的信息，如下示例：
 
-![ping-mu-kuai-zhao-2017-11-12-xia-wu-2-46-35](https://cloud.panjunwen.com/2017/11/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-46-35.png)
+![](https://cloud.panjunwen.com/2017/11/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-46-35.png)
 
 3.设置二级域名后你可以访问评论管理后台。
 
