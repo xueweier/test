@@ -4,6 +4,7 @@ title:  Disqus后的评论系统—— 基于 LeanCloud 的 Valine
 category: software
 tags: tech
 ---
+![](https://cdn.kelu.org/blog/tags/leancloud.jpg)
 
 偶然看到这个评论系统，解决了disqus被墙后的评论系统问题，现在我也在用~
 
@@ -14,10 +15,9 @@ tags: tech
 1.  [注册`Leancloud`](https://leancloud.cn/dashboard/login.html#/signup)
 2.  [创建应用](https://leancloud.cn/dashboard/applist.html#/newapp)
 3.  选择刚刚创建的`应用`>`设置`>选择`应用 Key`，然后你就能看到`APP ID`和`APP KEY`：
-    [![](https://ws1.sinaimg.cn/large/006qRazegy1fibactm2csj30x80f2dhn.jpg)](https://ws1.sinaimg.cn/large/006qRazegy1fibactm2csj30x80f2dhn.jpg)
+    ![](https://cdn.kelu.org/blog/2018/01/006qRazegy1fibactm2csj30x80f2dhn.jpg)
 4.  填写`应用`>`设置`>`安全设置`中的`Web 安全域名`：
-    [![](https://ws1.sinaimg.cn/large/006qRazegy1fiba67warvj30re0k5abv.jpg)](https://ws1.sinaimg.cn/large/006qRazegy1fiba67warvj30re0k5abv.jpg)
-
+    ![](https://cdn.kelu.org/blog/2018/01/006qRazegy1fiba67warvj30re0k5abv.jpg)
 # 二、添加js代码
 
 在文件中的 `</body>` 前插入下方的代码即可：
