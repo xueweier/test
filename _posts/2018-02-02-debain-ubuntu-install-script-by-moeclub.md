@@ -15,15 +15,11 @@ tags: network
 	同时也可以解决内核版本与软件不兼容的问题。
 	只要有root权限,还您一个纯净的系统。
 
-* * *
-
 *   **注意**:
 
 	全自动安装默认root密码:`Vicer`,安装完成后请立即更改密码.
 	请使用 `passwd root` 命令更改密码.
 	**特别注意:_`OpenVZ`构架不适用._**
-
-* * *
 
 *   **需要**:
 
@@ -32,8 +28,6 @@ tags: network
 	3.`ip` 获取网关，掩码等;
 	4.`sed awk grep` 处理文本流；
 	5.`VNC` 安装系统(此项为可选)。
-
-* * *
 
 *   **确保安装了所需软件**:
 
@@ -62,44 +56,45 @@ tags: network
 		                                -a/-m
 
 
-* * *
-
 *   **全自动/非全自动示例**:
 
-	*   全自动安装:
+	全自动安装:
 	
 		bash DebianNET.sh  -d  wheezy  -v  i386  -a
 	
-	*   VNC手动安装:
+	VNC手动安装:
 	
 		bash DebianNET.sh  -d  wheezy  -v  i386  -m
 
-* * *
-
 *   **使用示例**:
 
-	*   【默认】安装Debian 7 x32：
+	【默认】安装Debian 7 x32：
+
 		bash DebianNET.sh  -d  wheezy  -v  i386
 		bash DebianNET.sh  -d  7  -v  32
-* * *
-	*   安装Debian 8 x64：
+	
+	安装Debian 8 x64：
+
 		bash DebianNET.sh  -d  jessie  -v  amd64
 		bash DebianNET.sh  -d  8  -v  64
-* * *
-	*   安装Debian 9 x64：
+
+	安装Debian 9 x64：
+
 		bash DebianNET.sh  -d  stretch  -v  amd64
 		bash DebianNET.sh  -d  9  -v  64
-* * *
-	*   安装Ubuntu 14.04 x64：
+
+	安装Ubuntu 14.04 x64：
+
 		bash DebianNET.sh  -u  trusty  -v  64
-* * *
-	*   安装Ubuntu 16.04 x64：
+
+	安装Ubuntu 16.04 x64：
+
 		bash DebianNET.sh  -u  xenial  -v  64
-* * *
-	*   安装Ubuntu 18.04 x64：
+
+	安装Ubuntu 18.04 x64：
+
 		bash DebianNET.sh  -u  bionic  -v  64
-* * *
 
 *   **【默认】预览**:
 
-![](https://cdn.kelu.org/blog/2018/02/InstallOS.png)
+	![](https://cdn.kelu.org/blog/2018/02/InstallOS.png)
