@@ -6,6 +6,8 @@ tags: network
 ---
 ![](https://cdn.kelu.org/blog/tags/network.jpg)
 
+原文地址：<https://www.wolfcstech.com/2017/04/13/Traceroute原理/>
+
 **traceroute**，现代 Linux 系统上的 **tracepath**，还有Windows 系统上的 **tracert**，均是用于同一目的的网络调试工具。它们用于显示数据包在IP网络中经过的路由器的IP地址。
 
 # 原理
@@ -171,10 +173,10 @@ ICMP 模式
 ICMP Echo (ping) Request 探测数据包 + 中间网关发回 ICMP TTL 超时数据包 + 目标主机发回 ICMP Echo (ping) reply 数据包
 
 # 参考文档
-
-[使用tracert命令时，在一个节点后所有的节点都没有数据，这是为什么？](https://www.zhihu.com/question/50220087)
-[联通的网络， traceroute 显示全是星号， tracert 什么都不显示，怎样才能跟踪路由？](https://www.v2ex.com/t/327276)
-[traceroute显示星号，但是wireshark抓包显示返回了icmp type 11](https://segmentfault.com/q/1010000002548654)
-[traceroute 全返回_*_，我的网络是怎么了？](https://www.v2ex.com/t/338930)
-[USG6680 V5R1C00 tracert 显示星号解决方法](http://support.huawei.com/enterprise/KnowledgebaseReadAction.action?contentId=KB1000086930&idAbsPath=7919710)
-[traceroute 命令](https://www.ibm.com/support/knowledgecenter/zh/ssw_aix_61/com.ibm.aix.performance/traceroute.htm)
+* [理解 TCP 和 UDP](https://www.gitbook.com/book/jerryc8080/understand-tcp-and-udp)
+* [使用tracert命令时，在一个节点后所有的节点都没有数据，这是为什么？](https://www.zhihu.com/question/50220087)
+* [联通的网络， traceroute 显示全是星号， tracert 什么都不显示，怎样才能跟踪路由？](https://www.v2ex.com/t/327276)
+* [traceroute显示星号，但是wireshark抓包显示返回了icmp type 11](https://segmentfault.com/q/1010000002548654)
+* [traceroute 全返回_*_，我的网络是怎么了？](https://www.v2ex.com/t/338930)
+* [USG6680 V5R1C00 tracert 显示星号解决方法](http://support.huawei.com/enterprise/KnowledgebaseReadAction.action?contentId=KB1000086930&idAbsPath=7919710)
+* [traceroute 命令](https://www.ibm.com/support/knowledgecenter/zh/ssw_aix_61/com.ibm.aix.performance/traceroute.htm)
