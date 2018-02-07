@@ -30,6 +30,8 @@ Traceroute 程序首先向目标主机发出 TTL 为 1 的数据包，发送数�
 
 ![](https://cdn.kelu.org/blog/2018/02/1315506-640ab44e44f1cd0c.png)
 
+
+
 然后我们在命令行执行 `traceroute` 程序：
 
 	$ traceroute  www.163.com
