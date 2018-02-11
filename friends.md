@@ -49,9 +49,7 @@ title: 友情链接
 
 
 
-## 黄页
-
-### 政府类
+### 快速链接 - 政府类
 
 * [中国裁判文书网](http://wenshu.court.gov.cn/)
 * [中国气象数据网](http://data.cma.cn/)
