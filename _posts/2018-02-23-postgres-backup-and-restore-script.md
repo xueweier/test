@@ -6,7 +6,6 @@ tags: postgresql
 ---
 ![](https://cdn.kelu.org/blog/tags/postgresql.jpg)
 
-
 # 定期备份
 
 	#!/bin/sh
