@@ -12,9 +12,9 @@ tags: docker
 
 1.  环境准备
 
-*   服务器node01、node02
-*   node01可以访问外网，node02不能访问外网，但node01与node02之间是互通的
-*   node01和node02均已成功安装并启动Docker
+	*   服务器node01、node02
+	*   node01可以访问外网，node02不能访问外网，但node01与node02之间是互通的
+	*   node01和node02均已成功安装并启动Docker
 
 2.  在node01上，从远程仓库获取镜像
 
