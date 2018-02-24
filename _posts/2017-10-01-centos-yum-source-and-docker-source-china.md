@@ -33,6 +33,10 @@ yum.conf 文件一般位于/etc目录下，一般其中只包含main部分的配
 	"registry-mirrors": ["https://registry.docker-cn.com"]
 }
 ```
+也可以使用阿里云的源：
+
+	https://7bezldxe.mirror.aliyuncs.com
+
 修改保存后重启 Docker 生效。
 
 

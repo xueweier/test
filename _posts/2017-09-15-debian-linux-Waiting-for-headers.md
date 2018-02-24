@@ -10,3 +10,5 @@ style: summer
 解决办法
 
 	rm -rf /var/lib/apt/lists/* 
+	apt-get clean
+	apt-get update

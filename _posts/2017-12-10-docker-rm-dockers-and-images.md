@@ -1,10 +1,16 @@
 ---
 layout: post
-title: 删除 Docker 容器和镜像 | 转
+title: 删除 Docker 容器和镜像
 category: tech
 tags: docker
 ---
 ![](https://cdn.kelu.org/blog/tags/docker.jpg)
+
+## 杀死所有正在运行的容器
+
+```
+docker kill $(docker ps -a -q)
+```
 
 ## 删除所有未运行 Docker 容器
 
