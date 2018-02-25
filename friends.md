@@ -53,3 +53,12 @@ title: 友情链接
 
 * [中国裁判文书网](http://wenshu.court.gov.cn/)
 * [中国气象数据网](http://data.cma.cn/)
+
+
+
+### 快速链接 - 博客类
+
+一些随手收集的博客链接
+
+* [夜绫千裕](https://yecl.net/)
+* [slinuxer](https://blog.slinuxer.com/)
