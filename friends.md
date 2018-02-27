@@ -67,3 +67,28 @@ title: 友情链接
 * [slinuxer](https://blog.slinuxer.com/) - DL，零碎
 * [hammadakbar](http://www.hammadakbar.com/) - startup
 * [cizixs](http://cizixs.com/) - 云计算、容器、网络和分布式
+
+### 二次元
+
+* [白鹅纪](http://weixin.sogou.com/weixin?query=baieji666)
+* [哔哩哔哩](http://weixin.sogou.com/weixin?query=bilibiliwx)
+* [标志情报局](http://weixin.sogou.com/weixin?query=logonews-wx)
+
+### 可有可无 - 技术
+
+* [AI研习社](http://weixin.sogou.com/weixin?query=okweiwu)
+* [安在](http://weixin.sogou.com/weixin?query=AnZer_SH)
+* [CIO之家](http://weixin.sogou.com/weixin?query=cdacdacda)
+
+### 可有可无 - 统计
+
+* [艾瑞咨询](http://weixin.sogou.com/weixin?query=iresearch-)
+* [Analysys易观](http://weixin.sogou.com/weixin?query=enfodesk)
+* [CDA数据分析师](http://weixin.sogou.com/weixin?query=cdacdacda)
+* [CMKT](http://weixin.sogou.com/weixin?query=chinamkt)
+
+### 可有可无 - 经济
+
+* [并购优塾](http://weixin.sogou.com/weixin?query=moneyc2c)
+* [Bank资管](http://weixin.sogou.com/weixin?query=yinhangziguan)
+* [差评](http://weixin.sogou.com/weixin?query=chaping321)
