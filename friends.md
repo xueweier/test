@@ -56,8 +56,8 @@ title: 友情链接
 
 ### 快速链接 - 资源类
 
-* [Linux C编程一站式学习]（https://akaedu.github.io/book/index.html)
-* [FreeBSD 使用手册]（https://www.freebsd.org/doc/zh_CN/books/handbook)
+* [Linux C编程一站式学习](https://akaedu.github.io/book/index.html)
+* [FreeBSD 使用手册](https://www.freebsd.org/doc/zh_CN/books/handbook)
 * [ScalersTalk成长持续论](http://weixin.sogou.com/weixin?query=scalerstalk)
 
 
