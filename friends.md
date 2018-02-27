@@ -21,10 +21,9 @@ title: 友情链接
     #content h3{
         margin: 50px 0 20px 0
     }
-
 </style>
 
-<h3 style="margin: 0 0 20px 0;">我的小伙伴们</h3>
+<h3 style="margin: 0 0 30px 0;">我的小伙伴们</h3>
 
 <ul class="link-items">
     <li class="link-item" style="width: 64px">
@@ -55,10 +54,16 @@ title: 友情链接
 * [中国气象数据网](http://data.cma.cn/)
 
 
+### 快速链接 - 资源类
+
+* [Linux C编程一站式学习]（https://akaedu.github.io/book/index.html)
+* [FreeBSD 使用手册]（https://www.freebsd.org/doc/zh_CN/books/handbook)
+* [ScalersTalk成长持续论](http://weixin.sogou.com/weixin?query=scalerstalk)
+
 
 ### 快速链接 - 博客类
 
-一些随手收集的博客链接
-
-* [夜绫千裕](https://yecl.net/)
-* [slinuxer](https://blog.slinuxer.com/)
+* [夜绫千裕](https://yecl.net/) - 宅，舰娘
+* [slinuxer](https://blog.slinuxer.com/) - DL，零碎
+* [hammadakbar](http://www.hammadakbar.com/) - startup
+* [cizixs](http://cizixs.com/) - 云计算、容器、网络和分布式
