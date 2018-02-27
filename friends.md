@@ -52,6 +52,7 @@ title: 友情链接
 
 * [中国裁判文书网](http://wenshu.court.gov.cn/)
 * [中国气象数据网](http://data.cma.cn/)
+* [中国信通院](http://www.caict.ac.cn/) - 很多有用的报告
 
 
 ### 快速链接 - 资源类
@@ -79,6 +80,7 @@ title: 友情链接
 * [AI研习社](http://weixin.sogou.com/weixin?query=okweiwu)
 * [安在](http://weixin.sogou.com/weixin?query=AnZer_SH)
 * [CIO之家](http://weixin.sogou.com/weixin?query=cdacdacda)
+* [极客邦 - InfoQ](https://www.geekbang.org/)
 
 ### 可有可无 - 统计
 
