@@ -52,4 +52,4 @@ tags: gov
 
 * 八国集团开放数据国家行动计划
 
-	![](https://cdn.kelu.org/blog/2018/02/gov_20180209133508.  jpg)
+	![](https://cdn.kelu.org/blog/2018/02/gov_20180209133508.jpg)
