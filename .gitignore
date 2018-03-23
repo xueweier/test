@@ -12,3 +12,5 @@ _sass/
 /.s.PGSQL.5432
 /.s.PGSQL.5432.lock
 *.json
+_config.yml
+Gemfile.lock
