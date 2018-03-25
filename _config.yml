@@ -20,7 +20,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # 输出
 permalink:     date
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 7
 paginate_path: /page:num
 excerpt_separator: "\n\n\n"
