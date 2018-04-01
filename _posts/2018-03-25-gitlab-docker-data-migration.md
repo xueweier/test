@@ -6,8 +6,6 @@ tags: docker gitlab
 ---
 ![](https://cdn.kelu.org/blog/tags/gitlab.jpg)
 
-
-
 这篇文章介绍下如何将容器化的 gitlab 进行数据迁移。
 
 # gitlab是什么
@@ -42,16 +40,22 @@ gitlab/gitlab-ce:9.5.1-ce.0
    docker exec -t <your container name> gitlab-rake gitlab:backup:create
    ```
 
-   备份结束后，在宿主机的  `/app/allblue/gitlab/data/backups` 目录下将得到形如`1493107454_2017_04_25_9.1.0_gitlab_backup.tar`的文件。
+   备份文件位于宿主机的  `/app/gitlab/data/backups` 目录下。
 
-   打包 /app/gitlab/config 文件夹。
+   配置文件位于 `/app/gitlab/config` 文件夹内。
 
 2. 新机器上运行相同的 run 命令
 
    ```
-   docker stop gitlab # 停止容器
-   mv 1493107454_2017_04_25_9.1.0_gitlab_backup.tar  /app/gitlab/data/backups # 用旧的数据文件和配置文件替换新的。
-   mv config /app/gitlab/config # 用旧的数据文件和配置文件替换新的。
+   # 运行容器
+   docker run xxx
+
+   # 停止容器
+   docker stop gitlab 
+
+   # 数据文件和配置文件替换
+   mv 1493107454_2017_04_25_9.1.0_gitlab_backup.tar  /app/gitlab/data/backups 
+   mv config /app/gitlab/config
    ```
 
 3. 重新运行容器，进入容器后断开 gitlab 与 数据库的连接
@@ -88,4 +92,3 @@ gitlab/gitlab-ce:9.5.1-ce.0
 
 * [GitLab的安装及使用教程](https://yq.aliyun.com/articles/74395)
 * [docs.gitlab.com](https://docs.gitlab.com/omnibus/settings/backups.html#backup-and-restore-omnibus-gitlab-configuration)
-

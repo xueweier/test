@@ -48,4 +48,3 @@ This is because you are running a 1.3.0 build on your remote target, and the req
 
 * [replication error，Test connection success，V1.2.2](https://github.com/vmware/harbor/issues/3856)
 
-
