@@ -1,6 +1,5 @@
 ---
-l
-ayout: post
+layout: post
 title: Linux命令之 dig
 category: tech
 tags: linux linux-command

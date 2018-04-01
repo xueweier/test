@@ -1,6 +1,5 @@
 ---
-l
-ayout: post
+layout: post
 title: 适用于各种项目的 gitignore
 category: tech
 tags: linux git
