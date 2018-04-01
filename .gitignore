@@ -1,10 +1,28 @@
-*.DS_Store
-*.swp
+# Eclipse
+.classpath
+.project
+.settings/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/
+
+# vim
 *~
+*.swp
+
+# jekyll
 _site/
 _sass/
 .sass-cache/
-.idea/
 .jekyll-metadata
 /Gemfile
 /.TeamViewer.lock

@@ -22,10 +22,6 @@ tags: docker
 ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo Asia/Shanghai > /etc/timezone
 ```
 
-
-
 # 参考资料
-
-
 
 * [如何解决Docker容器和宿主机时间同步问题](https://yq.aliyun.com/articles/30987)
