@@ -6,8 +6,6 @@ tags: harbor
 ---
 ![](https://cdn.kelu.org/blog/tags/harbor.png)
 
-
-
 在进行 harbor 同步时候遇到了这个问题，记录下来。
 
 # harbor是什么
