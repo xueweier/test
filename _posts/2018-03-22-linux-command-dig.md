@@ -6,8 +6,6 @@ tags: linux linux-command
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
-
-
 dig的全称是 (domain information groper)。它是一个用来灵活探测DNS的工具。它会打印出DNS name server的回应。它灵活性好、易用、输出清晰，经常被 DNS 管理员作为 DNS 问题的故障诊断工具。
 
 可以直接使用网页接口体验: <https://www.diggui.com/>

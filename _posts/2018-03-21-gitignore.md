@@ -6,7 +6,9 @@ tags: linux git
 ---
 ![](https://cdn.kelu.org/blog/tags/git.jpg)
 
+这篇文章会不断更新。
 
+### 简约版
 
 ```
 # Eclipse
@@ -29,9 +31,9 @@ target/
 # Vim
 *~
 *.swp
-
-
 ```
+
+### 完全版
 
 以下是由 github 官方维护的，专门针对 JetBrains 全线产品的 gitignore:
 
