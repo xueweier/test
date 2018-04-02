@@ -41,8 +41,20 @@ This is because you are running a 1.3.0 build on your remote target, and the req
 
 可以知道，这是两个harbor版本不一致造成的：我的源 Harbor 版本为 1.2.2 版本，新环境中的 Harbor 为 1.3.0。
 
+# 其他问题
+
+在运行过程中，也出现了下面这个现象:
+
+​	harbor-adminserver 容器始终无法启动。
+
+查看日志可以了解到，secretkey_path 是个文件夹，通过删除data文件夹后重新install解决。
+
+
+
 
 # 参考资料
 
 * [replication error，Test connection success，V1.2.2](https://github.com/vmware/harbor/issues/3856)
+* [Gitlab迁移（Docker版）](https://segmentfault.com/a/1190000011147277)
+* [install harbor 1.1.1-rc4 harbor-adminserver Error #2294](https://github.com/vmware/harbor/issues/2294)
 

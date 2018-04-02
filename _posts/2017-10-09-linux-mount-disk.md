@@ -7,7 +7,6 @@ style: summer
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
-
 给手上的一台 Windows 安装 CentOS 后，发现 1T 的硬盘没有利用上。所以这一篇介绍怎么将它配置好。
 
 主要用到一下知识点：

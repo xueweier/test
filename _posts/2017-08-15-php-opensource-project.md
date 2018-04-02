@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 转 | php 开源项目整理
+title: php 开源项目整理
 category: tech
 tags:  php
 ---
