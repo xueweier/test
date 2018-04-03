@@ -3,8 +3,10 @@
     <meta charset="utf-8" />
     {% if page.title != null %}
     <title> {{ page.title }}  | 血衫非弧の一存 </title>
+    <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 12 }}">
     {% else %}
     <title>血衫非弧の一存</title>
+    <meta name="description" content="血衫非弧的个人博客，总结一些踩过的开发坑，零碎的多，总结性的少，对负责实施的朋友较有帮助。">
     {% endif %}
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="8; url=/">
