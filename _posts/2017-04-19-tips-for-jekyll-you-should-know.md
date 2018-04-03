@@ -7,7 +7,7 @@ tags: jekyll github
 
 ![](https://cdn.kelu.org/blog/tags/github.jpg)
 
-这篇文章大部分转载自[《48 个你需要知道的 Jekyll 使用技巧 - crispgm.com》](https://crispgm.com/page/48-tips-for-jekyll-you-should-know.html)，有修改
+这篇文章大部分转载。
 
 ## 简介
 
@@ -389,6 +389,150 @@ Liquid Filters 是一种针对 Liquid 中变量的过滤器，语法是：
 
 详见 <http://jekyllrb.com/docs/templates/#filters>
 
+#### site全局根结点
+
+在全局根结点site中有 site.tags.TAG 和 site.categories.category.CATEGORY 变量，可以列出所有拥有TAG标签或者CATEGORY的文章的列表(这里的变量只能写英文)。 另外site.[CONFIGURATION_DATA]**使得所有在_config.yml中的数据都能够通过site变量调用。**
+
+#### 循环
+
+和平常的解释性语言很像
+
+```
+{ % for post in site.posts % }
+    <a href="{ { post.url } }">{ { post.title } }</a>
+{ % endfor % }
+```
+
+#### if判断
+
+注意逻辑“与或”分别是`and`,`or`
+
+```
+{ % if user % }
+  Hello 
+{ % endif % }
+
+# Same as above
+{ % if user != null % }
+  Hello 
+{ % endif % }
+
+{ % if user.name == 'tobi' % }
+  Hello tobi
+{ % elsif user.name == 'bob' % }
+  Hello bob
+{ % endif % }
+
+{ % if user.name == 'tobi' or user.name == 'bob' % }
+  Hello tobi or bob
+{ % endif % }
+
+{ % if user.name == 'bob' and user.age > 45 % }
+  Hello old bob
+{ % endif % }
+
+{ % if user.name != 'tobi' % }
+  Hello non-tobi
+{ % endif % }
+
+# Same as above
+{ % unless user.name == 'tobi' % }
+  Hello non-tobi
+{ % endunless % }
+# Check for the size of an array
+{ % if user.payments == empty % }
+   you never paid !
+{ % endif % }
+
+{ % if user.payments.size > 0  % }
+   you paid !
+{ % endif % }
+
+{ % if user.age > 18 % }
+   Login here
+{ % else % }
+   Sorry, you are too young
+{ % endif % }
+
+# array = 1,2,3
+{ % if array contains 2 % }
+   array includes 2
+{ % endif % }
+
+# string = 'hello world'
+{ % if string contains 'hello' % }
+   string includes 'hello'
+{ % endif % }
+
+```
+
+#### 自动生成摘要
+
+```
+  { % for post in site.posts % }
+     { { post.url } } { { post.title } }
+      { { post.excerpt | remove: 'test' } }
+  { % endfor % }
+
+```
+
+#### 删除指定文本
+
+remove 可以删除变量中的指定内容
+
+`{ { post.url | remove: 'http' } }`
+
+#### 删除 html 标签
+
+`{ { post.excerpt | strip_html } }`
+
+#### 代码高亮并且显示行数
+
+```
+{ % highlight ruby linenos % }
+\# some ruby code
+{ % endhighlight % }
+
+```
+
+#### 获得数组的大小
+
+`{ { array | size } }`
+
+#### 赋值
+
+`{ % assign index = 1 % }`
+
+#### 搜索指定key
+
+```
+# Select all the objects in an array where the key has the given value.
+{ { site.members | where:"graduation_year"，"2014" } } 
+
+```
+
+#### 排序
+
+`{ { site.pages | sort: 'title'， 'last' } }`
+
+#### 转换成JSON
+
+`{ { site.data.projects | jsonify } }`
+
+#### 把一个对象变成一个字符串
+
+`{ { page.tags | array_to_sentence_string } }`
+
+#### 单词的个数
+
+`{ { page.content | number_of_words } }`
+
+#### 得到数组指定范围的结果集
+
+`{ % for post in site.posts limit:20 % }`
+
+
+
 ## 插件
 
 #### 插件简介
@@ -538,3 +682,11 @@ GitHub 的付费用户建立的私有项目 Private Repo，也可以开启 GitHu
 #### GitHub Pages 无法在使用 `gh-pages` 分支作为源的情况下关闭
 
 有些奇怪的设定，真想关闭直接删除掉，在 Source 选择 None 就好。
+
+
+
+# 参考资料
+
+* [《48 个你需要知道的 Jekyll 使用技巧 - crispgm.com》](https://crispgm.com/page/48-tips-for-jekyll-you-should-know.html)
+* [Jekyll 语法小节](http://yulijia.net/cn/%E8%BD%AF%E4%BB%B6%E4%B8%96%E7%95%8C/2015/03/12/jekyll-syntax.html#%E5%88%A0%E9%99%A4-html-%E6%A0%87%E7%AD%BE)
+* [Liquid](https://shopify.github.io/liquid/)
