@@ -10,11 +10,9 @@ tags: mysql
 
 本文记录 mysql 数据库级联同步的配置步骤。
 
-目前已有3、4两台以pos的方式互为主主。目前将其迁移到新环境1、2，故而先对其进行级联复制，使用4为主库，1为从库，2为子从库，最后再将1和2调整为主主同步。
+目前已有3、4两台以pos的方式互为主主。正在将其迁移到新环境1、2，故而先对其进行级联复制，使用4为主库，1为从库，2为子从库，最后再将1和2调整为主主同步。
 
 由于原环境为pos的方式进行同步，故而级联复制也以pos方式进行。
-
-# my.cnf 配置
 
 1. 三个数据库实例修改my.cnf配置文件，
 
@@ -121,3 +119,64 @@ tags: mysql
    ```
 
    按照同样的方式，导出1的数据文件，将2作为1的slave 。
+
+8. MySQL修正
+
+   在级联同步ok，环境迁移稳定后，我们还需要将先前的1作为4的slave停下来，再将其作为2的slave，组成主主模式。
+
+   在1上执行
+
+   ```
+   mysql -h0.0.0.0 -ppasswd
+
+   mysql> show databases;
+   mysql> show slave status\G;
+   mysql> stop slave;
+   mysql> reset slave all;
+
+   mysql> show master status;
+   ```
+
+   在2上查看file和pos：
+
+   ```
+   mysql -h0.0.0.0 -ppasswd
+
+   mysql> show slave status\G;
+   mysql> show master status;
+   ```
+
+   在1上 执行slave操作
+
+   ```
+   mysql> change master to master_host='xxx', master_port=3000, master_user='slave', master_password='slave', master_log_file='mysql-bin.000005', master_log_pos=915704247;
+   start slave;
+
+   show slave status\G;
+   ```
+
+   验证操作按照先前的方式，创建删除数据库进行对照。
+
+   ​
+
+9. tips
+
+   做验证的时候，以前有遇到在某个库多一两个数据库的情况，删除多的数据库后，从库同步会失败并停止同步。此时可以让从库跳过这个错误，继续同步。
+
+   ```
+   # 从查看同步情况
+   mysql> show slave status\G  
+
+   # 跳过一个报错：
+   mysql> stop slave; 
+   mysql> set global sql_slave_skip_counter=1; 
+   mysql> start slave; 
+
+   mysql> show slave status\G 
+   ```
+
+   ​
+
+   ​
+
+   ​
