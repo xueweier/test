@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git pull 时报错：RPC failed; Connection was reset fatal: The remote end hung up unexpectedly
+title: git pull 时报错 The remote end hung up unexpectedly
 category: tech
 tags: linux git
 ---
