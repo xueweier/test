@@ -35,7 +35,7 @@ Markdown 其实向来是文字爱好者和码农们的小众需求，但市面�
 
 然而看看市面上现在比较流行的 Markdown 编辑器，都基本采用了「写字」和「预览」相分离的策略，无论是像 Mou 这样将窗口左右排列，还是像 Typed 一样两种状态需要切换显示，都似乎离 Markdown 的初衷渐行渐远：优雅可控的格式是为了让文字本身更易读。然而，在实际使用的时候，由于文字的输入源和文字的输出源是割裂的，这件事情本身就显得不纯粹，再加上众多 Markdown 编辑器始终没有着手解决表格、代码等格式的编辑，也使 Markdown 变得不那么优雅。是的，如果你用 Markdown 原生格式去编辑过一个表格，你应该懂我的意思。
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267194.png)
+![img](https://cdn.kelu.org/blog/2018/03/267194.jpg)
 
 ## 看看 Typora 是怎么解决这个问题的
 
@@ -63,23 +63,23 @@ Markdown 其实向来是文字爱好者和码农们的小众需求，但市面�
 
 简直反人类啊！还好，Markdown 提供了像 Office 一样的表格编辑能力。通过菜单栏或快捷键 Command+T 可以插入表格，Typora 会弹出一个表格插入设置，你可以预先设定好行数和列数，确定后表格就出现了。每一列上面还有三个按钮，可以控制本列的文字向左、居中、向右对齐。甚至，你可以点击左上角改变表格的行数和列数，是不是一种 Office 的既视感，但却又如此得恰到好处，弥补了 Markdown 编辑器中反人类的表格编辑设定。
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267198.png)
+![img](https://cdn.kelu.org/blog/2018/03/267198.jpg)
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267197.png)
+![img](https://cdn.kelu.org/blog/2018/03/267197.jpg)
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267199.png)
+![img](https://cdn.kelu.org/blog/2018/03/267199.jpg)
 
 ## 插入图片也变得如此简单
 
 在传统的 Markdown 编辑器中，如果想要插入一张图片，默认的语法是这样的：
 
-`![logo](http://typora.io/img/favicon-128.png)`
+`![logo](http://typora.io/img/favicon-128.jpg)`
 
 而在 Typora 中，你只需要像把图片拖拽进去，就大功告成了。再也不用记住语法格式，再也不用输文件名，再也不用自己去找文件的路径地址，就是这么简单。
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267201.png)
+![img](https://cdn.kelu.org/blog/2018/03/267201.jpg)
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267200.png)
+![img](https://cdn.kelu.org/blog/2018/03/267200.jpg)
 
 ## 还有最好用的代码和数学公式输入
 
@@ -87,29 +87,29 @@ Typora 里代码和数学公式的输入，也做得一样出色。当插入代�
 
 除此之外，Typora 的编辑还支持插入任务列表、目录、YAML Front Matters。在所有 Markdown 编辑器中，Typora 的代码和数学公式输入，绝对算上得最好用的之一。
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267203.png)
+![img](https://cdn.kelu.org/blog/2018/03/267203.jpg)
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267205.png)
+![img](https://cdn.kelu.org/blog/2018/03/267205.jpg)
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267204.png)
+![img](https://cdn.kelu.org/blog/2018/03/267204.jpg)
 
 ## 支持显示目录大纲
 
 Typora 还可以根据当前文档的标题层级，自动生成显示大纲，将光标移动到窗口右上角，就会出现字数统计和大纲预览，如果有需要的话，还可以将目录层级固定在左侧显示。突然间，就觉得 Mou 1.0 来得有些迟了，已经深深地爱上 Typora 不能自拔。
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267207.png)
+![img](https://cdn.kelu.org/blog/2018/03/267207.jpg)
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267209.png)
+![img](https://cdn.kelu.org/blog/2018/03/267209.jpg)
 
 ## 百变主题，随心定制
 
 Typora 默认提供了六套主题样式：Github、默认主题 Gothic、出版风格的 Newsprint、夜间模式 Night、Pixyll 和 Whitey，每一款主题都非常精美。并且，主题是基于 CSS 样式的，这意味着你可以自己新增任何主题，或者在当前主题的基础上做一些微调。想想某些厂商的换肤换色，不知道高到哪里去了。
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267211.png)
+![img](https://cdn.kelu.org/blog/2018/03/267211.jpg)
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267212.png)
+![img](https://cdn.kelu.org/blog/2018/03/267212.jpg)
 
-![img](https://cdn.sspai.com/attachment/origin/2015/07/18/267213.png)
+![img](https://cdn.kelu.org/blog/2018/03/267213.jpg)
 
 经过一段时间的体验和使用，Typora 几乎就是我理想中的 Markdown 编辑器应有的样子，尽管还是 Beta 版，但完成度之高、性能之稳定已经令人折服，贯穿其中的给人从始至终「干净、纯粹」的感觉。
 
