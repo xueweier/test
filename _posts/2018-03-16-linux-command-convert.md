@@ -6,8 +6,6 @@ tags: linux linux-command
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
-
-
 Linux 的 convert 命令可以用来转换图像的格式，支持JPG, BMP, PCX, GIF, PNG, TIFF, XPM和XWD等类型:
 
 ```
@@ -73,3 +71,4 @@ convert 1.png -fill white -pointsize 13 -draw “text 10,15 ‘lifesinger 2006�
 
 * [通过命令行处理图形-使用 ImageMagick 进行翻转、缩放大小、旋转以及更多操作](https://www.ibm.com/developerworks/cn/linux/l-graf/index.html)
 * [composite命令](http://www.imagemagick.org/script/composite.php)
+* [在 Linux 下将 PNG 和 JPG 批量互转的四种方法](https://www.linuxprobe.com/linux-jpg-png.html)

@@ -6,8 +6,6 @@ tags: linux git
 ---
 ![](https://cdn.kelu.org/blog/tags/git.jpg)
 
-
-
 在进行git clone 下载项目是，出现了这样的错误：
 
 ```
