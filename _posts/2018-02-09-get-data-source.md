@@ -679,7 +679,7 @@ http://www.colliers.com/-/media/files/marketresearch/apac/china/northchina-resea
 
 ![img](https://cdn.kelu.org/blog/2018/02/a58da35de421b5bc7ffdc2c2f87bc2eb_hd.jpg)
 
-![img](https://pic4.zhimg.com/80/112aa9928566ba682dcc590f576034f5_hd.jpg)
+![img](https://cdn.kelu.org/blog/2018/02/112aa9928566ba682dcc590f576034f5_hd.jpg)
 
 导出数据，大功告成！
 
