@@ -296,207 +296,229 @@ tags: data
 
 l 微信数据（营销老是要分析一些KOL和自媒体）
 
-\1. [排名列表_日榜](https://link.zhihu.com/?target=http%3A//www.newrank.cn/public/info/list.html%3Fperiod%3Dday%26type%3Ddata%23%23%23)
+1.  [排名列表_日榜](https://link.zhihu.com/?target=http%3A//www.newrank.cn/public/info/list.html%3Fperiod%3Dday%26type%3Ddata%23%23%23)
 
-\2. [新媒体指数](https://link.zhihu.com/?target=http%3A//www.gsdata.cn/index.php/rank/detail%3Fgid%3D0)
 
-\3. [微问数据_微信公众号分析](https://link.zhihu.com/?target=http%3A//wewen.io/)
+2.  [新媒体指数](https://link.zhihu.com/?target=http%3A//www.gsdata.cn/index.php/rank/detail%3Fgid%3D0)
 
-\4. [微榜 | 爱微帮新媒体榜 Beta](https://link.zhihu.com/?target=http%3A//top.aiweibang.com/)
 
-\5. [simplyKOL微信数据](https://link.zhihu.com/?target=http%3A//kol.simplybrand.com/KOLSec/Page/index.html)
+3.  [微问数据_微信公众号分析](https://link.zhihu.com/?target=http%3A//wewen.io/)
 
-\6. [微指数_微信大数据领导者_微信文章_微信营销_微信公众账号大全_微信排行榜](https://link.zhihu.com/?target=http%3A//www.weizhishu.com/monitor/account)
 
-\7. [微信公众平台导航_微信公众账号大全](https://link.zhihu.com/?target=http%3A//wosao.cn/)
+4. [ 微榜 爱微帮新媒体榜 Beta](https://link.zhihu.com/?target=http%3A//top.aiweibang.com/)
+5.  [simplyKOL微信数据](https://link.zhihu.com/?target=http%3A//kol.simplybrand.com/KOLSec/Page/index.html)
 
-\8. [可查90数据-易赞](https://link.zhihu.com/?target=http%3A//www.yeezan.com/web/public/search) （部分数据配合数据透视，有更多惊喜）
+
+6. [微指数_微信大数据领导者_微信文章_微信营销_微信公众账号大全_微信排行榜](https://link.zhihu.com/?target=http%3A//www.weizhishu.com/monitor/account)
+
+7. [微信公众平台导航_微信公众账号大全](https://link.zhihu.com/?target=http%3A//wosao.cn/)
+
+8. [可查90数据-易赞](https://link.zhihu.com/?target=http%3A//www.yeezan.com/web/public/search) （部分数据配合数据透视，有更多惊喜）
 
 l 微博数据（宝强过后微博又开始红了一段时间）
 
-\1. [知微传播分析-WeiboReach](https://link.zhihu.com/?target=http%3A//www.weiboreach.com/)
+1. [知微传播分析-WeiboReach](https://link.zhihu.com/?target=http%3A//www.weiboreach.com/)
 
-\2. [微博认证-名人堂](https://link.zhihu.com/?target=http%3A//verified.weibo.com/%3Fo%3D1)
 
-\3. [发现－热门微博](https://link.zhihu.com/?target=http%3A//d.weibo.com/%3Ffrom%3Dsignin)
+2. [微博认证-名人堂](https://link.zhihu.com/?target=http%3A//verified.weibo.com/%3Fo%3D1)
 
-\4. [微风云_微博风云榜](https://link.zhihu.com/?target=http%3A//www.tfengyun.com/)
 
-\5. [数据首页-微博数据中心-新浪微博](https://link.zhihu.com/?target=http%3A//data.weibo.com/datacenter/recommendapp)
+3. [发现－热门微博](https://link.zhihu.com/?target=http%3A//d.weibo.com/%3Ffrom%3Dsignin)
+
+4. [微风云_微博风云榜](https://link.zhihu.com/?target=http%3A//www.tfengyun.com/)
+
+1. [数据首页-微博数据中心-新浪微博](https://link.zhihu.com/?target=http%3A//data.weibo.com/datacenter/recommendapp)
 
 l APP数据（帮几家金融机构的APP，做过推广和优化，所以收藏了一些网站）
 
-\1. [热门苹果应用搜索](https://link.zhihu.com/?target=http%3A//www.asou.com/AsouHot/index) 只查IOS
+1. [热门苹果应用搜索](https://link.zhihu.com/?target=http%3A//www.asou.com/AsouHot/index) 只查IOS
 
-\2. [App Annie App Store Stats | iOS热门 App 排行榜 中国 - 所有类别](https://link.zhihu.com/?target=https%3A//www.appannie.com/apps/ios/top/china/overall/%3Fdevice%3Diphone) 只查IOS
 
-\3. [应用雷达-iOS深度移动推广运营服务平台|苹果APP排名搜索优化统计分析](https://link.zhihu.com/?target=http%3A//www.ann9.com/) 只查IOS
+2. [App Annie App Store Stats iOS热门 App 排行榜 中国 - 所有类别](https://link.zhihu.com/?target=https%3A//www.appannie.com/apps/ios/top/china/overall/%3Fdevice%3Diphone) 只查IOS
 
-\4. [友盟指数 - 最专业的移动互联网行业发展趋势指数](https://link.zhihu.com/?target=http%3A//www.umindex.com/devices/ios_provinces)
 
-\5. [首页-应用排名分析平台-爱盈利](https://link.zhihu.com/?target=http%3A//rank.aiyingli.com/index.php/home/index/index.html)
+3. [应用雷达-iOS深度移动推广运营服务平台 苹果APP排名搜索优化统计分析](https://link.zhihu.com/?target=http%3A//www.ann9.com/) 只查IOS
 
-\6. [ASO100 - 中国最专业的 App Store 排名、ASO 数据平台](https://link.zhihu.com/?target=http%3A//aso100.com/index.php)
 
-\7. [App竞品大数据平台_App运营、ASO优化必上APPDUU](https://link.zhihu.com/?target=http%3A//www.appduu.com/)
+4. [友盟指数 - 最专业的移动互联网行业发展趋势指数](https://link.zhihu.com/?target=http%3A//www.umindex.com/devices/ios_provinces)
 
-\8. [APP宏观数据—友盟指数 - 最专业的移动互联网行业发展趋势指数](https://link.zhihu.com/?target=http%3A//www.umindex.com/%3Fspm%3D0.0.0.0.RuO8Ft)
 
-\9. [应用排名分析平台-爱盈利](https://link.zhihu.com/?target=http%3A//rank.aiyingli.com/index.php/home/index/index.html)
+1. [首页-应用排名分析平台-爱盈利](https://link.zhihu.com/?target=http%3A//rank.aiyingli.com/index.php/home/index/index.html)
 
-\10. [APP排名查询-易观千帆](https://link.zhihu.com/?target=http%3A//qianfan.analysys.cn/view/app/detail.html%3FappIds%3D2022613%26categoryIds%3D1191160)（数据比较详细，可惜只能免费查三天）
 
-\11. [安卓&IOS APP数据-酷传 - 添加应用](https://link.zhihu.com/?target=http%3A//jk.coolchuan.com/add%3Fsource%3Djk_index) 安卓和IOS都可以查
+6. [ASO100 - 中国最专业的 App Store 排名、ASO 数据平台](https://link.zhihu.com/?target=http%3A//aso100.com/index.php)
+
+
+7. [App竞品大数据平台_App运营、ASO优化必上APPDUU](https://link.zhihu.com/?target=http%3A//www.appduu.com/)
+
+
+8. [APP宏观数据—友盟指数 - 最专业的移动互联网行业发展趋势指数](https://link.zhihu.com/?target=http%3A//www.umindex.com/%3Fspm%3D0.0.0.0.RuO8Ft)
+
+
+9. [应用排名分析平台-爱盈利](https://link.zhihu.com/?target=http%3A//rank.aiyingli.com/index.php/home/index/index.html)
+
+
+10. [APP排名查询-易观千帆](https://link.zhihu.com/?target=http%3A//qianfan.analysys.cn/view/app/detail.html%3FappIds%3D2022613%26categoryIds%3D1191160)（数据比较详细，可惜只能免费查三天）
+
+
+11. [安卓&IOS APP数据-酷传 - 添加应用](https://link.zhihu.com/?target=http%3A//jk.coolchuan.com/add%3Fsource%3Djk_index) 安卓和IOS都可以查
 
 二、网站权重和数据（网站SEO和SEM不太懂，但是有一家很牛的供应商，主要做中间商，整理方案）营销的时候，SEO和舆情更配
 
-\1. [Alexa网站排名查询](https://link.zhihu.com/?target=http%3A//www.alexa.cn/)
+1. [Alexa网站排名查询](https://link.zhihu.com/?target=http%3A//www.alexa.cn/)
 
-\2. [中国站长站](https://link.zhihu.com/?target=http%3A//www.chinaz.com/)
 
-\3. [站长工具-百度权重排名查询-站长seo查询 - 爱站网](https://link.zhihu.com/?target=http%3A//www.aizhan.com/)
+2. [中国站长站](https://link.zhihu.com/?target=http%3A//www.chinaz.com/)
 
-\4. [网站排名_网站数据流量查询_中国网站排名_网络媒体精品推荐](https://link.zhihu.com/?target=http%3A//www.iwebchoice.com/)
 
-\5. [友情链接—友情链接查询|友情链接检查工具-站长帮手网](https://link.zhihu.com/?target=http%3A//check.links.cn/)
+3. [站长工具-百度权重排名查询-站长seo查询 - 爱站网](https://link.zhihu.com/?target=http%3A//www.aizhan.com/)
 
-\6. [PR真假—PR查询|PR真假查询|PR劫持检测-站长帮手网](https://link.zhihu.com/?target=http%3A//pr.links.cn/)
 
-\7. [友情链接交换—go9go友情链接平台--想链就链go9go](https://link.zhihu.com/?target=http%3A//www.go9go.cn/)
+4. [网站排名_网站数据流量查询_中国网站排名_网络媒体精品推荐](https://link.zhihu.com/?target=http%3A//www.iwebchoice.com/)
+5. [友情链接—友情链接查询 友情链接检查工具-站长帮手网](https://link.zhihu.com/?target=http%3A//check.links.cn/)
+6. [PR真假—PR查询 PR真假查询 PR劫持检测-站长帮手网](https://link.zhihu.com/?target=http%3A//pr.links.cn/)
 
-\8. [行业网站排名_行业网站排行榜_行业网站大全 - 网站排行榜](https://link.zhihu.com/?target=http%3A//top.chinaz.com/hangye/)
+7. [友情链接交换—go9go友情链接平台--想链就链go9go](https://link.zhihu.com/?target=http%3A//www.go9go.cn/)
+
+8. [行业网站排名_行业网站排行榜_行业网站大全 - 网站排行榜](https://link.zhihu.com/?target=http%3A//top.chinaz.com/hangye/)
 
 三、综合指数（写传播结案和分析客户传播节奏的时候用）
 
-\1. [百度指数](https://link.zhihu.com/?target=http%3A//index.baidu.com/)
+1. [百度指数](https://link.zhihu.com/?target=http%3A//index.baidu.com/)
 
-\2. [搜狗指数](https://link.zhihu.com/?target=http%3A//zhishu.sogou.com/)
+2. [搜狗指数](https://link.zhihu.com/?target=http%3A//zhishu.sogou.com/)
 
-\3. [Google 趋势](https://link.zhihu.com/?target=http%3A//www.google.cn/trends/%3Fhl%3Dzh-CN)
+3. [Google 趋势](https://link.zhihu.com/?target=http%3A//www.google.cn/trends/%3Fhl%3Dzh-CN)
 
-\4. [好搜指数-搜索大数据分享平台](https://link.zhihu.com/?target=http%3A//index.haosou.com/%23index)
+4. [好搜指数-搜索大数据分享平台](https://link.zhihu.com/?target=http%3A//index.haosou.com/%23index)
 
-\5. [微指数首页](https://link.zhihu.com/?target=http%3A//data.weibo.com/index%3Fsudaref%3Dwww.digitaling.com)
+1. [微指数首页](https://link.zhihu.com/?target=http%3A//data.weibo.com/index%3Fsudaref%3Dwww.digitaling.com)
 
-\6. [热搜榜单首页--百度搜索风云榜](https://link.zhihu.com/?target=http%3A//top.baidu.com/category%3Fc%3D12%26fr%3Dtopbuzz_b396_c12)
+6. [热搜榜单首页--百度搜索风云榜](https://link.zhihu.com/?target=http%3A//top.baidu.com/category%3Fc%3D12%26fr%3Dtopbuzz_b396_c12)
 
-\7. [艾曼指数首页](https://link.zhihu.com/?target=http%3A//www.imzs.com/)
+7. [艾曼指数首页](https://link.zhihu.com/?target=http%3A//www.imzs.com/)
 
-\8. [淘宝指数 - 淘宝消费者数据研究平台](https://link.zhihu.com/?target=http%3A//shu.taobao.com/)（已经没有了，以前很好用）
 
-\9. [阿里指数 - 社会化大数据分析平台](https://link.zhihu.com/?target=https%3A//alizs.taobao.com/%3Fspm%3D0.0.0.0.yhqwuK)（必须要开过淘宝店的账号，更可气的是只能查询单一行业）
+8. [淘宝指数 - 淘宝消费者数据研究平台](https://link.zhihu.com/?target=http%3A//shu.taobao.com/)（已经没有了，以前很好用）
 
-\10. [阿里指数_最权威专业的行业价格、供应、采购趋势分析](https://link.zhihu.com/?target=http%3A//index.1688.com/)（这个就能完美解决上面的问题）
+
+9. [阿里指数 - 社会化大数据分析平台](https://link.zhihu.com/?target=https%3A//alizs.taobao.com/%3Fspm%3D0.0.0.0.yhqwuK)（必须要开过淘宝店的账号，更可气的是只能查询单一行业）
+
+
+10. [阿里指数_最权威专业的行业价格、供应、采购趋势分析](https://link.zhihu.com/?target=http%3A//index.1688.com/)（这个就能完美解决上面的问题）
 
 四、票房和电视收视率（额……为什么有这些网站，才不会告诉别人，是因为我喜欢看电影）
 
-\1. [中国票房](https://link.zhihu.com/?target=http%3A//www.cbooo.cn/)
+1. [中国票房](https://link.zhihu.com/?target=http%3A//www.cbooo.cn/)
 
-\2. [电视收视率—CSM](https://link.zhihu.com/?target=http%3A//www.csm.com.cn/)
+2. [电视收视率—CSM](https://link.zhihu.com/?target=http%3A//www.csm.com.cn/)
 
-\3. [猫眼票房分析](https://link.zhihu.com/?target=http%3A//piaofang.maoyan.com/)
+3. [猫眼票房分析](https://link.zhihu.com/?target=http%3A//piaofang.maoyan.com/)
 
-\4. [精选预告片 - 预告片世界](https://link.zhihu.com/?target=http%3A//www.yugaopian.com/highlight)
+4. [精选预告片 - 预告片世界](https://link.zhihu.com/?target=http%3A//www.yugaopian.com/highlight)
 
 五、视频指数（近期想切入视频IP市场的推广，也就是想想）
 
-\1. [搜库-专找视频](https://link.zhihu.com/?target=http%3A//www.soku.com/newtop/all.html)
+1. [搜库-专找视频](https://link.zhihu.com/?target=http%3A//www.soku.com/newtop/all.html)
 
-\2. [腾讯视频指数](https://link.zhihu.com/?target=http%3A//v.qq.com/datacenter/index.html)
+2. [腾讯视频指数](https://link.zhihu.com/?target=http%3A//v.qq.com/datacenter/index.html)
 
-\3. [中国网络视频指数 – 网络视频收视数据分析平台](https://link.zhihu.com/?target=http%3A//index.youku.com/)
+3. [中国网络视频指数 – 网络视频收视数据分析平台](https://link.zhihu.com/?target=http%3A//index.youku.com/)
 
-\4. [优酷指数 - 中国第一视频网,提供视频播放,视频发布,视频搜索](https://link.zhihu.com/?target=http%3A//index.youku.com/rank_top/)
+4. [优酷指数 - 中国第一视频网,提供视频播放,视频发布,视频搜索](https://link.zhihu.com/?target=http%3A//index.youku.com/rank_top/)
 
-\5. [搜狐视频指数中心 - 搜狐视频](https://link.zhihu.com/?target=http%3A//index.tv.sohu.com/)
+1. [搜狐视频指数中心 - 搜狐视频](https://link.zhihu.com/?target=http%3A//index.tv.sohu.com/)
 
-\6. [爱奇艺指数](https://link.zhihu.com/?target=http%3A//index.iqiyi.com/)
+6. [爱奇艺指数](https://link.zhihu.com/?target=http%3A//index.iqiyi.com/)
 
 六、内容排行（这个网站偶尔看一下热点吧，用的比较少）
 
-\1. [网评排行-搜狐](https://link.zhihu.com/?target=http%3A//comment.news.sohu.com/djpm/)
+1. [网评排行-搜狐](https://link.zhihu.com/?target=http%3A//comment.news.sohu.com/djpm/)
 
 一、经济数据
 
-\1. [人民银行](https://link.zhihu.com/?target=http%3A//www.pbc.gov.cn/)
+1. [人民银行](https://link.zhihu.com/?target=http%3A//www.pbc.gov.cn/)
 
-\2. [国家数据](https://link.zhihu.com/?target=http%3A//data.stats.gov.cn/)
+2. [国家数据](https://link.zhihu.com/?target=http%3A//data.stats.gov.cn/)
 
-\3. [中国银行业监督管理委员会](https://link.zhihu.com/?target=http%3A//www.cbrc.gov.cn/index.html)
+3. [中国银行业监督管理委员会](https://link.zhihu.com/?target=http%3A//www.cbrc.gov.cn/index.html)
 
-\4. [中国统计信息网](https://link.zhihu.com/?target=http%3A//www.tjcn.org/)
+4. [中国统计信息网](https://link.zhihu.com/?target=http%3A//www.tjcn.org/)
 
-\5. [统计数据](https://link.zhihu.com/?target=http%3A//www.stats.gov.cn/tjsj/)
+1. [统计数据](https://link.zhihu.com/?target=http%3A//www.stats.gov.cn/tjsj/)
 
-\6. [中华人民共和国国家统计局 统计数据](https://link.zhihu.com/?target=http%3A//www.stats.gov.cn/tjsj/)
+6. [中华人民共和国国家统计局 统计数据](https://link.zhihu.com/?target=http%3A//www.stats.gov.cn/tjsj/)
 
-\7. [专项统计数据-中国证券业协会](https://link.zhihu.com/?target=http%3A//www.sac.net.cn/hysj/zxtjsj/)
+7. [专项统计数据-中国证券业协会](https://link.zhihu.com/?target=http%3A//www.sac.net.cn/hysj/zxtjsj/)
 
-\8. [居民消费价格指数（CPI） _ 数据中心 _ 东方财富网](https://link.zhihu.com/?target=http%3A//data.eastmoney.com/cjsj/cpi.html)
+8. [居民消费价格指数（CPI） _ 数据中心 _ 东方财富网](https://link.zhihu.com/?target=http%3A//data.eastmoney.com/cjsj/cpi.html)
 
 二、企业数据（有时候接到一些Brief，大部分客户不靠谱，可能会问候一下他企业背景）
 
-\1. [全国企业信用信息公示系统](https://link.zhihu.com/?target=http%3A//gsxt.saic.gov.cn/) (官方出品)
+1. [全国企业信用信息公示系统](https://link.zhihu.com/?target=http%3A//gsxt.saic.gov.cn/) (官方出品)
 
-\2. [企业信息—天眼查-最专业的企业工商信息查询](https://link.zhihu.com/?target=http%3A//www.tianyancha.com/)（这个比官方的好用）
+2. [企业信息—天眼查-最专业的企业工商信息查询](https://link.zhihu.com/?target=http%3A//www.tianyancha.com/)（这个比官方的好用）
 
-\3. [企业名录-企业黄页_必途网企业黄页大全](https://link.zhihu.com/?target=http%3A//china.b2b.cn/)
+3. [企业名录-企业黄页_必途网企业黄页大全](https://link.zhihu.com/?target=http%3A//china.b2b.cn/)
 
-\4. [企业信用查询_企业信用报告查询系统_注册信息查询网-信用视界](https://link.zhihu.com/?target=http%3A//www.x315.com/)
+4. [企业信用查询_企业信用报告查询系统_注册信息查询网-信用视界](https://link.zhihu.com/?target=http%3A//www.x315.com/)
 
 三、金融数据
 
 l 网贷数据（去年P2P，不，是互联网金融很火的）
 
-\1. [金汇金融__平台指数_P2P网贷平台评级_网贷315](https://link.zhihu.com/?target=http%3A//www.wd315.cn/p/list-0-0-%25E9%2587%2591%25E6%25B1%2587%25E9%2587%2591%25E8%259E%258D-0-1.html)
+1. [金汇金融__平台指数_P2P网贷平台评级_网贷315](https://link.zhihu.com/?target=http%3A//www.wd315.cn/p/list-0-0-%25E9%2587%2591%25E6%25B1%2587%25E9%2587%2591%25E8%259E%258D-0-1.html)
 
-\2. [【p2p网贷平台排名】最新网贷平台排名_网络借贷平台排名_网络贷款平台排名-网贷之家](https://link.zhihu.com/?target=http%3A//shuju.wangdaizhijia.com/)
+2. [【p2p网贷平台排名】最新网贷平台排名_网络借贷平台排名_网络贷款平台排名-网贷之家](https://link.zhihu.com/?target=http%3A//shuju.wangdaizhijia.com/)
 
-\3. [平台报告-零壹数据](https://link.zhihu.com/?target=http%3A//data.01caijing.com/p2p/report/index.html)
+3. [平台报告-零壹数据](https://link.zhihu.com/?target=http%3A//data.01caijing.com/p2p/report/index.html)
 
-\4. [上海贷款_小额贷款_贷款公司_银行贷款 - 融360](https://link.zhihu.com/?target=http%3A//shanghai.rong360.com/)
+4. [上海贷款_小额贷款_贷款公司_银行贷款 - 融360](https://link.zhihu.com/?target=http%3A//shanghai.rong360.com/)
 
-\5. [平台指数_P2P网贷平台评级_网贷315](https://link.zhihu.com/?target=http%3A//www.wd315.cn/p/index.html)
+1. [平台指数_P2P网贷平台评级_网贷315](https://link.zhihu.com/?target=http%3A//www.wd315.cn/p/index.html)
 
-\6. [新金网 - 最专业的互联网金融导航网站](https://link.zhihu.com/?target=http%3A//hlwjr.n.puji114.com/)
+6. [新金网 - 最专业的互联网金融导航网站](https://link.zhihu.com/?target=http%3A//hlwjr.n.puji114.com/)
 
-\7. [P2P网贷平台数据排行对比_网贷平台数据_网贷天眼](https://link.zhihu.com/?target=http%3A//www.p2peye.com/platdata.html)
+7. [P2P网贷平台数据排行对比_网贷平台数据_网贷天眼](https://link.zhihu.com/?target=http%3A//www.p2peye.com/platdata.html)
 
-\8. [p2p排行榜,网络理财排行榜,第三方p2p平台排行榜 - 76676-最大的投资理财产品点评平台](https://link.zhihu.com/?target=http%3A//www.76676.com/html/product/listhome/)
+8. [p2p排行榜,网络理财排行榜,第三方p2p平台排行榜 - 76676-最大的投资理财产品点评平台](https://link.zhihu.com/?target=http%3A//www.76676.com/html/product/listhome/)
 
 l 上市公司年报（竟然为了分析社媒趋势去看BAT的年报，表示看不懂呀）
 
-\1. [中国—巨潮资讯网](https://link.zhihu.com/?target=http%3A//www.cninfo.com.cn/cninfo-new/index)
+1. [中国—巨潮资讯网](https://link.zhihu.com/?target=http%3A//www.cninfo.com.cn/cninfo-new/index)
 
-\2. [美国—SEC.gov | Company Search Page](https://link.zhihu.com/?target=http%3A//www.sec.gov/edgar/searchedgar/companysearch.html)
 
-\3. [香港—:: HKEx :: HKExnews ::](https://link.zhihu.com/?target=http%3A//www.hkexnews.hk/listedco/listconews/advancedsearch/search_active_main_c.aspx)
+2. [美国—SEC.gov Company Search Page](https://link.zhihu.com/?target=http%3A//www.sec.gov/edgar/searchedgar/companysearch.html)
+
+3. [香港—:: HKEx :: HKExnews ::](https://link.zhihu.com/?target=http%3A//www.hkexnews.hk/listedco/listconews/advancedsearch/search_active_main_c.aspx)
 
 l 信托（信托切入互联网金融相对较慢，今年刚开始接触的几个客户）
 
-\1. [研究报告 - 中国信托业协会](https://link.zhihu.com/?target=http%3A//www.xtxh.net/xtxh/reports/index.htm)
+1. [研究报告 - 中国信托业协会](https://link.zhihu.com/?target=http%3A//www.xtxh.net/xtxh/reports/index.htm)
 
-\2. [中国互联网金融研究中心 中国互联网金融网 中国互联网金融联盟 中国电子商务研究中心](https://link.zhihu.com/?target=http%3A//www.100ec.cn/zt/jr/)
+2. [中国互联网金融研究中心 中国互联网金融网 中国互联网金融联盟 中国电子商务研究中心](https://link.zhihu.com/?target=http%3A//www.100ec.cn/zt/jr/)
 
 l 其他
 
-\1. [案例报告列表_融资案例_并购案例_行业案例_企业案例_数据_分析—投资潮](https://link.zhihu.com/?target=http%3A//www.investide.cn/db/case/index.do)
+1. [案例报告列表_融资案例_并购案例_行业案例_企业案例_数据_分析—投资潮](https://link.zhihu.com/?target=http%3A//www.investide.cn/db/case/index.do)
 
-\2. [融资数据—融资事件列表页 | IT桔子](https://link.zhihu.com/?target=https%3A//www.itjuzi.com/investevents)
 
-\3. [研究院_ChinaVenture投资中国网](https://link.zhihu.com/?target=http%3A//www.chinaventure.com.cn/cmsmodel/report/study/count/list.shtml)
+2. [融资数据—融资事件列表页 IT桔子](https://link.zhihu.com/?target=https%3A//www.itjuzi.com/investevents)
 
-\4. [百度财富-专业金融服务平台](https://link.zhihu.com/?target=http%3A//caifu.baidu.com/)
 
-\5. [世界银行-Data | The World Bank](https://link.zhihu.com/?target=http%3A//data.worldbank.org/)
+3. [研究院_ChinaVenture投资中国网](https://link.zhihu.com/?target=http%3A//www.chinaventure.com.cn/cmsmodel/report/study/count/list.shtml)
 
-\6. [全球股市指数](https://link.zhihu.com/?target=http%3A//stockq.cn/)
 
-\7. [股指期货数据](https://link.zhihu.com/?target=http%3A//www.cffex.com.cn/)
+4. [百度财富-专业金融服务平台](https://link.zhihu.com/?target=http%3A//caifu.baidu.com/)
+5. [世界银行-Data The World Bank](https://link.zhihu.com/?target=http%3A//data.worldbank.org/)
+
+6. [全球股市指数](https://link.zhihu.com/?target=http%3A//stockq.cn/)
+
+7. [股指期货数据](https://link.zhihu.com/?target=http%3A//www.cffex.com.cn/)
 
 四、汽车数据（有一个汽车配件的客户，讲真，汽车客户真的比金融客户前期好搞，不过后期服务就呵呵了）
 
-\1. [数据中心 世界汽车统计 中国汽车工业协会](https://link.zhihu.com/?target=http%3A//www.caam.org.cn/data/)
+1. [数据中心 世界汽车统计 中国汽车工业协会](https://link.zhihu.com/?target=http%3A//www.caam.org.cn/data/)
 
 五、建筑数据（我也不知道为什么有这个网站）
 
@@ -504,35 +526,35 @@ l 其他
 
 六、医疗数据
 
-\1. [世界卫生组织 | 规划和项目](https://link.zhihu.com/?target=http%3A//www.who.int/entity/zh/)
+1. [世界卫生组织 规划和项目](https://link.zhihu.com/?target=http%3A//www.who.int/entity/zh/)
 
 七、服装数据（才不会告诉你，我是学国际经济与贸易出身的，后来才做了互联网营销策划，其中有一万只羊驼在奔跑）
 
-\1. [中国皮革原材料指数](https://link.zhihu.com/?target=http%3A//www.chinaleather.org/Channels/ZhiShuFaBu/1735/default.shtml)
+1. [中国皮革原材料指数](https://link.zhihu.com/?target=http%3A//www.chinaleather.org/Channels/ZhiShuFaBu/1735/default.shtml)
 
-\2. [海宁周价格指数](https://link.zhihu.com/?target=http%3A//www.chinaleather.org/Expand/Share/Page/NSCMoreList.aspx%3FNSCID%3D3925)
+2. [海宁周价格指数](https://link.zhihu.com/?target=http%3A//www.chinaleather.org/Expand/Share/Page/NSCMoreList.aspx%3FNSCID%3D3925)
 
-\3. [中国柯桥纺织指数](https://link.zhihu.com/?target=http%3A//www.kqindex.gov.cn/zsfx.asp)
+3. [中国柯桥纺织指数](https://link.zhihu.com/?target=http%3A//www.kqindex.gov.cn/zsfx.asp)
 
-\4. [大朗毛织价格指数](https://link.zhihu.com/?target=http%3A//index.dalang.gov.cn/home/index/index.html)
+4. [大朗毛织价格指数](https://link.zhihu.com/?target=http%3A//index.dalang.gov.cn/home/index/index.html)
 
 八、工业指数
 
-\1. [今日国际原油价格,原油价格走势图,原油价格指数-油价网](https://link.zhihu.com/?target=http%3A//youjia.chemcp.com/YuanYouJiaGe.asp)
+1. [今日国际原油价格,原油价格走势图,原油价格指数-油价网](https://link.zhihu.com/?target=http%3A//youjia.chemcp.com/YuanYouJiaGe.asp)
 
-\2. [上海有色金属价格指数](https://link.zhihu.com/?target=http%3A//www.ishupai.com/d/56)
+2. [上海有色金属价格指数](https://link.zhihu.com/?target=http%3A//www.ishupai.com/d/56)
 
-\3. [水泥指数](https://link.zhihu.com/?target=http%3A//index.ccement.com/)
+3. [水泥指数](https://link.zhihu.com/?target=http%3A//index.ccement.com/)
 
 其他数据
 
-\1. [中国统计信息服务中心 口碑查询](https://link.zhihu.com/?target=http%3A//www.researchina.cn/)
+1. [中国统计信息服务中心 口碑查询](https://link.zhihu.com/?target=http%3A//www.researchina.cn/)
 
-\2. [最具公信力的名人影响力指标 - 必应 影响力](https://link.zhihu.com/?target=http%3A//cn.bing.com/yxl)
+2. [最具公信力的名人影响力指标 - 必应 影响力](https://link.zhihu.com/?target=http%3A//cn.bing.com/yxl)
 
-\3. [全部榜单--百度搜索风云榜](https://link.zhihu.com/?target=http%3A//top.baidu.com/boards%3Ffr%3Dtopbuzz_b1192)
+3. [全部榜单--百度搜索风云榜](https://link.zhihu.com/?target=http%3A//top.baidu.com/boards%3Ffr%3Dtopbuzz_b1192)
 
-\4. [百度预测-大数据 知天下](https://link.zhihu.com/?target=http%3A//trends.baidu.com/)
+4. [百度预测-大数据 知天下](https://link.zhihu.com/?target=http%3A//trends.baidu.com/)
 
 l [原始数据-数据淘](https://link.zhihu.com/?target=http%3A//www.datataotao.com/search/list%3FpriceType%3D1%26count%3D10%26page%3D1)（这个网站听说可以买到原始数据，不过没有试过）
 
