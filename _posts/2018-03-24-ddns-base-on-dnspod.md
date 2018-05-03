@@ -12,7 +12,7 @@ DDNS（Dynamic Domain Name Server）是动态域名服务的缩写。
 
 DDNS是将用户的动态IP地址映射到一个固定的域名解析服务上，用户每次连接网络的时候客户端程序就会通过信息传递把该主机的动态IP地址传送给位于服务商主机上的服务器程序，服务器程序负责提供DNS服务并实现动态域名解析。
 
-　　![DDNS](http://cdn.kelu.org/blog/2018/03/20160621164657407.png)
+　　![DDNS](https://cdn.kelu.org/blog/2018/03/20160621164657407.jpg)
 
 动态域名服务的对象是指IP是动态的，是变动的。普通的DNS都是基于静态IP的，有可能是一对多或多对多，IP都是固定的一个或多个。但DDNS的IP是变动的、随机的。
 
@@ -42,7 +42,7 @@ test.org www
 ```
 ## 效果图
 
-![keluddnskit](http://cdn.kelu.org/blog/2018/03/keluddnskit.jpg)
+![keluddnskit](https://cdn.kelu.org/blog/2018/03/keluddnskit.jpg)
 
 ## todo
 
