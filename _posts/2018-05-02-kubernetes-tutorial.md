@@ -8,7 +8,7 @@ tags: virtualization kubernetes docker
 
 kubernetes 网上的资料良莠不均，刚开始表示完全不知道从何入手。最近在入门中，将一些资料做了整理，精简了大部分得出了这一篇文章。可以参照文末参考资料查看原文。当前最新版的k8s版本为：1.10.
 
-# 什么是Kubernetes？
+# 一 什么是Kubernetes？
 
 Kubernetes（k8s）是 google 开源的一套自动化容器管理平台，前身是 Borg，用于容器的部署、自动化调度和集群管理。
 
@@ -22,11 +22,7 @@ Kubernetes（k8s）是 google 开源的一套自动化容器管理平台，前�
 
 ## kubernetes能做什么？
 
-可以在物理或虚拟机的Kubernetes集群上运行容器化应用，Kubernetes能提供一个以“**容器为中心的基础架构**”，满足在生产环境中运行应用的一些常见需求：负载均衡、服务发现、高可用、滚动升级、自动伸缩等。
-
-
-
-Kubernetes是为生产环境而设计的容器调度管理系统，对于负载均衡、服务发现、高可用、滚动升级、自动伸缩等容器云平台的功能要求有原生支持。
+Kubernetes能提供一个以“**容器为中心的基础架构**”，可以在物理或虚拟机的Kubernetes集群上运行容器化应用，满足在生产环境中运行应用的一些常见需求：负载均衡、服务发现、高可用、滚动升级、自动伸缩等。
 
 ## kubernetes不能做什么？
 
@@ -40,11 +36,57 @@ Kubernetes是为生产环境而设计的容器调度管理系统，对于负载�
 
 Kubernetes 实际上是一个希腊词κυβερνήτης, 意思是"船的舵手"。*K8s*是将中间8个字母“ubernete”替换为“8”的缩写。
 
-# Kubernetes 架构
+# 二 Kubernetes 架构
 
-一个K8s集群是由分布式存储（etcd）、服务节点（Minion，也称为Node）和控制节点（Master）构成的。所有的集群状态都保存在etcd中，Master节点上则运行集群的管理控制模块。Node节点是真正运行应用容器的主机节点，在每个Minion节点上都会运行一个Kubelet代理，控制该节点上的容器、镜像和存储卷等。
+一个K8s集群是由分布式存储（etcd）、服务节点（Node）和控制节点（Master）构成的。所有的集群状态都保存在etcd中，Master节点上则运行集群的管理控制模块。Node节点是真正运行应用容器的主机节点，在每个Minion节点上都会运行一个Kubelet代理，控制该节点上的容器、镜像和存储卷等。
 
 ![](https://cdn.kelu.org/blog/2018/05/000.jpg)
+
+
+
+Master 节点：:
+
+Master 是 Kubernetes Cluster 的大脑，运行着如下 Daemon 服务：
+
+* kube-apiserver
+
+  Kubernetes Cluster 的前端接口，各种客户端工具（CLI 或 UI）以及 Kubernetes 其他组件可以通过它管理 Cluster 的各种资源。
+
+* kube-scheduler
+
+  负责决定将 Pod 放在哪个 Node 上运行。Scheduler 在调度时会充分考虑 Cluster 的拓扑结构，当前各个节点的负载，以及应用对高可用、性能、数据亲和性的需求。
+
+* kube-controller-manager
+
+  负责管理 Cluster 各种资源，保证资源处于预期的状态。
+
+* etcd
+
+  负责保存 Kubernetes Cluster 的配置信息和各种资源的状态信息。当数据发生变化时，etcd 会快速地通知 Kubernetes 相关组件。
+
+* Pod 网络
+
+  Pod 要能够相互通信，Kubernetes Cluster 必须部署 Pod 网络，flannel 是其中一个可选方案。
+
+Node节点：
+
+Node 是 Pod 运行的地方，Kubernetes 支持 Docker、rkt 等容器 Runtime。 Node上运行的 Kubernetes 组件有 
+
+* kubelet
+
+  kubelet 是 Node 的 agent，当 Scheduler 确定在某个 Node 上运行 Pod 后，会将 Pod 的具体配置信息（image、volume 等）发送给该节点的 kubelet，kubelet 根据这些信息创建和运行容器，并向 Master 报告运行状态。
+
+* kube-proxy
+
+  service 在逻辑上代表了后端的多个 Pod，外界通过 service 访问 Pod。
+
+   kube-proxy 就是负责将访问 service 的 TCP/UPD 数据流转发到后端的容器。如果有多个副本，kube-proxy 会实现负载均衡。
+
+* Pod 网络
+
+
+
+
 
 K8s在实现上述架构时基于以下架构理念：
 
@@ -72,7 +114,7 @@ Kubernetes设计理念和功能其实就是一个类似Linux的分层架构，�
 
 # Kubernetes的核心技术概念
 
-API对象是K8s集群中的管理操作单元。K8s集群系统每支持一项新功能，引入一项新技术，一定会新引入对应的API对象，支持对该功能的管理操作。例如副本集Replica Set对应的API对象是RS。
+API对象是K8s集群中的管理操作单元。K8s集群系统每支持一项新功能，引入一项新技术，一定会新引入对应的API对象，支持对该功能的管理操作。
 
 每个API对象都有3大类属性：
 
@@ -94,99 +136,90 @@ K8s中所有的配置都是通过API对象的spec去设置的，也就是用户�
 
 声明式操作在分布式系统中的好处是稳定，不怕丢操作或运行多次，例如设置副本数为3的操作运行多次也还是一个结果，而给副本数加1的操作就不是声明式的，运行多次结果就错了。
 
-# kurbernetes 组件
-
-Master 组件
-
-- [kube-apiserver](https://kubernetes.io/docs/admin/kube-apiserver)： 提供了资源操作的唯一入口，并提供认证、授权、访问控制、API注册和发现等机制；
-- [ETCD](https://kubernetes.io/docs/admin/etcd)： 默认的存储系统，保存所有集群数据，使用时需要为etcd数据提供备份计划。
-- [kube-controller-manager](https://kubernetes.io/docs/admin/kube-controller-manager)： 负责维护集群的状态，比如故障检测、自动扩展、滚动更新等；
-  - 节点（Node）控制器。
-  - 复制（Replication）控制器RC：负责维护系统中每个副本中的pod。
-  - 端点（Endpoints）控制器：填充Endpoints对象（即连接Services＆Pods）。
-  - Service Account和Token控制器：为新的Namespace 创建默认帐户访问API Token。
-- cloud-controller-manager：负责与底层云提供商的平台交互。云控制器管理器是Kubernetes版本1.6中引入的，目前还是Alpha的功能。
-- kube-scheduler： 负责资源的调度，按照预定的调度策略将Pod调度到相应的机器上；
-- 插件 addons
-  - DNS
-  - Ingress Controller为服务提供外网入口
-  - [Dashboard](https://kubernetes.io/docs/tasks/access-kubernetes-api/http-proxy-access-api/)提供GUI
-  - Heapster 提供资源监控
-  - Cluster-level Logging
-  - Federation提供跨可用区的集群
-  - Fluentd-elasticsearch提供集群日志采集、存储与查询
-
-Node组件
-
-- kubelet：负责维护容器的生命周期，同时也负责Volume（CVI）和网络（CNI）的管理；
-- kube-proxy：为Service提供cluster内部的服务发现和负载均衡；
-
-
 
 # 概念
 
 1. Pod
 
-   Pod是在K8s集群中运行部署应用或服务的最小单元，支持多容器的。Pod的设计理念是支持多个容器在一个Pod中共享网络地址和文件系统，可以通过进程间通信和文件共享这种简单高效的方式组合完成服务。
+   Pod是在K8s集群中运行部署应用或服务的最小单元，每个 Pod 包含一个或多个容器。Pod 中的容器会作为一个整体被 Master 调度到一个 Node 上运行。
 
-2. 复制控制器（Replication Controller，RC）
+2.  Controller
 
-   RC是K8s集群中最早的保证Pod高可用的API对象。通过监控运行中的Pod来保证集群中运行指定数目的Pod副本。
+   Kubernetes 通常不会直接创建 Pod，而是通过 Controller 来管理 Pod 的。Controller 中定义了 Pod 的部署特性，比如有几个副本，在什么样的 Node 上运行等。为了满足不同的业务场景，Kubernetes 提供了多种 Controller。
+
+   * Deployment 管理 Pod 的多个副本，并确保 Pod 按照期望的状态运行。
+   * ReplicaSet  实现了 Pod 的多副本管理。
+   * DaemonSet 用于每个 Node 最多只运行一个 Pod 副本的场景。
+   * StatefuleSet 保证 Pod 的每个副本在整个生命周期中名称是不变的。而其他 Controller 不提供这个功能，当某个 Pod 发生故障需要删除并重新启动时，Pod 的名称会发生变化。同时 StatefuleSet 会保证副本按照固定的顺序启动、更新或者删除。
+   * Job ：用于运行结束就删除的应用。而其他 Controller 中的 Pod 通常是长期持续运行。
 
 3. Service
 
-   在K8集群中，客户端需要访问的服务就是Service对象。每个Service会对应一个集群内部有效的虚拟IP，集群内部通过虚拟IP访问一个服务。
+   Deployment 可以部署多个副本，每个 Pod 都有自己的 IP，每次销毁重启时IP都会发生变化。
 
-   在K8s集群中微服务的负载均衡是由Kube-proxy实现的。Kube-proxy是K8s集群内部的负载均衡器。它是一个分布式代理服务器，在K8s的每个节点上都有一个；这一设计体现了它的伸缩性优势，需要访问服务的节点越多，提供负载均衡能力的Kube-proxy就越多，高可用节点也随之增多。
+   而 Service 定义了外界访问一组特定 Pod 的方式。Service 有自己的 IP 和端口，Service 为 Pod 提供了负载均衡。
 
-4. Job
+   Kubernetes 运行容器（Pod）与访问容器（Pod）这两项任务分别由 Controller 和 Service 执行。
 
-   Job是K8s用来控制批处理型任务的API对象。批处理业务与长期业务的主要区别是批处理业务的运行有头有尾，而长期伺服业务在用户不停止的情况下永远运行。
+4. Namespace
 
-   Job管理的Pod根据用户的设置把任务成功完成就自动退出了。成功完成的标志根据不同的spec.completions策略而不同：单Pod型任务有一个Pod成功就标志完成；定数成功型任务保证有N个任务全部成功；工作队列型任务根据应用确认的全局成功而标志成功。
+   Namespace 为K8s集群提供虚拟的隔离作用。Namespace 可以将一个物理的 Cluster 逻辑上划分成多个虚拟 Cluster，每个 Cluster 就是一个 Namespace。不同 Namespace 里的资源是完全隔离的。
 
-5. 后台支撑服务集（DaemonSet）
 
-   后台支撑型服务的核心关注点在K8s集群中的节点（物理机或虚拟机），要保证每个节点上都有一个此类Pod运行。典型的后台支撑型服务包括，存储，日志和监控等在每个节点上支持K8s集群运行的服务。
 
-6. 存储卷（Volumn）
+# 用 kubeadm 创建 Cluster
 
-   K8s 集群中的存储卷跟Docker的存储卷有些类似，只不过Docker的存储卷作用范围为一个容器，而K8s的存储卷的生命周期和作用范围是一个Pod。
+这里只做一些概念描述，具体步骤会再开一篇新文章描述。这部分摘自《[部署 k8s Cluster（上）- 每天5分钟玩转 Docker 容器技术（118）](http://www.cnblogs.com/CloudMan6/p/8269620.html)》有删减。
 
-   **每个Pod中声明的存储卷由Pod中的所有容器共享。**
+* kubelet 运行在 Cluster 所有节点上，负责启动 Pod 和容器。
 
-   K8s还支持使用Persistent Volumn Claim即PVC这种逻辑存储，使用这种存储，使得存储的使用者可以忽略后台的实际存储技术（例如AWS，Google或GlusterFS和Ceph），而将有关存储实际技术的配置交给存储管理员通过Persistent Volumn来配置。
+* kubeadm 用于初始化 Cluster。
 
-7. 持久存储卷（Persistent Volumn，PV）和持久存储卷声明（Persistent Volumn Claim，PVC）
+* kubectl 是 Kubernetes 命令行工具。
 
-   PV和PVC使得K8s集群具备了存储的逻辑抽象能力，使得在配置Pod的逻辑里可以忽略对实际后台存储技术的配置，而把这项配置的工作交给PV的配置者，即集群的管理者。存储的PV和PVC的关系，跟计算的Node和Pod的关系是非常类似的；
+  通过 kubectl 可以部署和管理应用，查看各种资源，创建、删除和更新各种组件。
 
-   PV和Node是资源的提供者，根据集群的基础设施变化而变化，由K8s集群管理员配置；
+1. 初始化master
 
-   而PVC和Pod是资源的使用者，根据业务服务的需求变化而变化，有K8s集群的使用者即服务的管理员来配置
+   ```
+   kubeadm init --apiserver-advertise-address 192.168.56.105 --pod-network-cidr=10.244.0.0/16
 
-8. 节点（Node）
+   --apiserver-advertise-address 指明用 Master 的哪个 interface 与 Cluster 的其他节点通信。如果 Master 有多个 interface，建议明确指定，如果不指定，kubeadm 会自动选择有默认网关的 interface。
 
-   K8s集群中的计算能力由Node提供，最初Node称为服务节点Minion，后来改名为Node，是所有Pod运行所在的工作主机，可以是物理机也可以是虚拟机。
+   --pod-network-cidr 指定 Pod 网络的范围。Kubernetes 支持多种网络方案，而且不同网络方案对 --pod-network-cidr 有自己的要求，这里设置为 10.244.0.0/16 是因为我们将使用 flannel 网络方案，必须设置成这个 CIDR。在后面的实践中我们会切换到其他网络方案，比如 Canal。
+   ```
 
-9. Secret
+   初始化做的事情有:
 
-   Secret是用来保存和传递密码、密钥、认证凭证这些敏感信息的对象。使用Secret的好处是可以避免把敏感信息明文写在配置文件里。在K8s集群中配置和使用服务不可避免的要用到各种敏感信息实现登录、认证等功能，例如访问AWS存储的用户名密码。为了避免将类似的敏感信息明文写在所有需要使用的配置文件中，可以将这些信息存入一个Secret对象，而在配置文件中通过Secret对象引用这些敏感信息。这种方式的好处包括：意图明确，避免重复，减少暴漏机会。
+   ① kubeadm 执行初始化前的检查。
 
-10. 用户帐户（User Account）和服务帐户（Service Account）
+   ② 生成 token 和证书。
 
-   顾名思义，用户帐户为人提供账户标识，而服务账户为计算机进程和K8s集群中运行的Pod提供账户标识。用户帐户和服务帐户的一个区别是作用范围；用户帐户对应的是人的身份，人的身份与服务的namespace无关，所以用户账户是跨namespace的；而服务帐户对应的是一个运行中程序的身份，与特定namespace是相关的。
+   ③ 生成 KubeConfig 文件，kubelet 需要这个文件与 Master 通信。
 
-11. Namespace
+   ④ 安装 Master 组件，会从 goolge 的 Registry 下载组件的 Docker 镜像，这一步可能会花一些时间，主要取决于网络质量。
 
-    Namespace 为K8s集群提供虚拟的隔离作用，K8s集群初始有两个Namespace，分别是默认default和系统kube-system，除此以外，管理员可以创建新的名字空间。
+   ⑤ 安装附加组件 kube-proxy 和 kube-dns。
 
-12. RBAC模式授权 和 ABAC模式授权
+   ⑥ Kubernetes Master 初始化成功。
 
-    基于角色的访问控制（Role-based Access Control，RBAC），基于属性的访问控制（Attribute-based Access Control，ABAC）。RBAC主要是引入了角色（Role）和角色绑定（RoleBinding）的抽象概念。
+   ⑦ 提示如何配置 kubectl。
 
-    在ABAC中，K8s集群中的访问策略只能跟用户直接关联；而在RBAC中，访问策略可以跟某个角色关联，具体的用户在跟一个或多个角色相关联。这一新的概念抽象一定会使集群服务管理和使用更容易扩展和重用。
+   ⑧ 提示如何安装 Pod 网络。
 
+   ⑨ 提示如何注册其他节点到 Cluster。
+
+2. 配置 kubectl
+
+3. 安装 Pod 网络
+
+   要让 Kubernetes Cluster 能够工作，必须安装 Pod 网络，否则 Pod 之间无法通信。
+
+   Kubernetes 支持多种网络方案，例如 flannel 和 Canal。
+
+4. 注册其他节点到 Cluster
+
+几乎所有的 Kubernetes 组件本身也运行在 Pod 里，kubelet 是唯一没有以容器形式运行的 Kubernetes 组件，它在 Ubuntu 中通过 Systemd 运行。
 
 
 附录：
@@ -222,3 +255,6 @@ Node组件
 * [Kubernetes中文社区 中文文档](http://docs.kubernetes.org.cn/)
 * [Kubernetes与云原生应用](http://www.infoq.com/cn/articles/kubernetes-and-cloud-native-applications-part01)
 * [Kubernetes Documentation](https://kubernetes.io/)
+* [使用 Kubernetes 进行可扩展微服务](https://cn.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
+* [awesome-kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
+* [k8s 重要概念 - 每天5分钟玩转 Docker 容器技术（117）](http://www.cnblogs.com/CloudMan6/p/8252204.html)
