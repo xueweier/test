@@ -123,6 +123,6 @@ tips：
 
 * [Error: no available release name found #3055](https://github.com/kubernetes/helm/issues/3055)
 * [利用 Helm 简化 Kubernetes 应用部署](https://www.alibabacloud.com/help/zh/doc-detail/58587.htm)
-* [Monocular UI](https://kubeapps.com/)
+* [Monocular UI](https://github.com/kubernetes-helm/monocular)
 * <https://jimmysong.io/kubernetes-handbook/>
 * [kubernetes-helm部署及本地repo搭建](https://blog.csdn.net/liukuan73/article/details/79319900)

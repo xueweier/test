@@ -47,7 +47,7 @@ NFS服务器可以允许NFS客户端将远端NFS服务器端的共享目录挂�
 
    ```
    docker run -d                                   \
-     --name nfs
+     -- name nfs                                    \
      -v /app/exports.txt:/etc/exports:ro           \
      -v /nfs:/nfs                                  \
      --cap-add SYS_ADMIN                           \
@@ -67,5 +67,6 @@ NFS服务器可以允许NFS客户端将远端NFS服务器端的共享目录挂�
 
 # 参考资料
 
-* [Not starting NFS kernel #3](https://github.com/cpuguy83/docker-nfs-server/issues/3)[在Kubernetes集群中用Helm托管安装Ceph集群并提供后端存储](https://www.kubernetes.org.cn/3896.html)
+* [Not starting NFS kernel #3](https://github.com/cpuguy83/docker-nfs-server/issues/3)
+* [在Kubernetes集群中用Helm托管安装Ceph集群并提供后端存储](https://www.kubernetes.org.cn/3896.html)
 * [ehough/docker-nfs-server - github](https://github.com/ehough/docker-nfs-server) 
