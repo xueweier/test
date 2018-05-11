@@ -8,8 +8,6 @@ tags: proxy
 
 这篇文章记录如何在 CentOS 7 下使用代理服务器，以此在国内服务器下载 k8s 的镜像，例如<k8s.gcr.io/defaultbackend:1.3>
 
-
-
 # 代理客户端
 
 代理客户端用来连接本地与服务器。
@@ -78,6 +76,8 @@ tags: proxy
 
    将会显示ip的具体位置。
 
+
+
 # privoxy
 
 许多应用没有 socks 的能力。privoxy 用来将 socks5 代理转为 http 代理，就可以给大部分应用提供代理支持了。
@@ -117,7 +117,7 @@ tags: proxy
 4. 验证运行状况
 
    ```
-   curl --socks5 127.0.0.1:1080 -i http://ip.cn
+   curl -i http://ip.cn
    ```
 
    将会显示ip的具体位置。
