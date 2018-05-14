@@ -12,9 +12,7 @@ tags: kubernetes docker
 
 系列文章：
 
-* [kubernetes 简介](/tech/2018/05/02/kubernetes-tutorial.html)
-* [kubernetes helm 入门](/tech/2018/05/05/k8s-helm-tutorial.html)
-* [kubernetes 安装入门](/tech/2018/05/09/k8s-install-tutorial.html)
+
 
 # 环境配置
 
@@ -83,13 +81,14 @@ tags: kubernetes docker
 1. 配置阿里K8S YUM源
 
     ```
-   cat <<EOF > /etc/yum.repos.d/kubernetes.repo
-   [kubernetes]
-   name=Kubernetes
-   baseurl=https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
-   enabled=1
-   gpgcheck=0
-   EOF
+       cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+       [kubernetes]
+       name=Kubernetes
+       baseurl=https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
+       enabled=1
+       gpgcheck=0
+       EOF
+    ```
 
    yum -y install epel-release
    yum clean all
@@ -234,7 +233,7 @@ tags: kubernetes docker
     kubeadm reset
     ```
 
-13. 安装dashboard
+13. 安装UI界面 dashboard
 
     在k8s中 dashboard可以有两种访问方式：kubeconfig（HTTPS）和token（http）。
 
@@ -258,3 +257,70 @@ tags: kubernetes docker
     ```
     kubectl get svc,pod --all-namespaces | grep dashboard
     ```
+
+# 简单使用
+
+一些简单的命令行使用说明：
+
+```
+kubectl cluster-info  # 查看集群信息
+kubectl get pods      # 查看当前的 Pod
+kubectl get services  # 查看应用被映射到节点的哪个端口
+kubectl get services,pods --all-namespaces # 查看所有namespaces的应用和pod
+
+kubectl get deployment # 查看副本数
+kubectl describe deployment
+kubectl get replicaset
+kubectl describe replicaset
+```
+
+简单的创建资源：
+
+1. 用 kubectl 命令直接创建
+
+   ```
+   # 通过 kubectl 创建 Deployment。
+   # Deployment 创建 ReplicaSet。
+   # ReplicaSet 创建 Pod。
+   kubectl run nginx-deployment --image=nginx:1.7.9 --replicas=2
+
+   kubectl run kubernetes-bootcamp \
+         --image=docker.io/jocatalin/kubernetes-bootcamp:v1 \
+         --port=8080
+   ```
+
+2. 用yml配置文件创建
+
+   `kubectl apply` 不但能够创建 Kubernetes 资源，也能对资源进行更新，非常方便。
+
+   不过 Kubernets 还提供了几个类似的命令，例如 `kubectl create`、`kubectl replace`、`kubectl edit` 和 `kubectl patch`。
+
+   ```
+   kubectl apply -f nginx.yml
+   ```
+
+3. 更新配置
+
+   ```
+   # 将8080端口映射到主机的随机端口
+   kubectl expose deployment/kubernetes-bootcamp \
+         --type="NodePort" \
+         --port 8080
+         
+
+   # 更新副本数
+   kubectl scale deployments/kubernetes-bootcamp --replicas=3      
+
+   # 滚动更新
+   kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
+
+   # 回退
+   kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
+
+   # 删除
+   kubectl delete pvc mypvc1 --force
+   kubectl delete pv mypv1 --force
+
+   ```
+
+   ​

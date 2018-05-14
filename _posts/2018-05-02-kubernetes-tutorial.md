@@ -258,3 +258,4 @@ K8s中所有的配置都是通过API对象的spec去设置的，也就是用户�
 * [使用 Kubernetes 进行可扩展微服务](https://cn.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 * [awesome-kubernetes](https://ramitsurana.github.io/awesome-kubernetes/)
 * [k8s 重要概念 - 每天5分钟玩转 Docker 容器技术（117）](http://www.cnblogs.com/CloudMan6/p/8252204.html)
+* <https://steemit.com/@cloudman6>

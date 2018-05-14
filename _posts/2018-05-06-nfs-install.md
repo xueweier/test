@@ -31,7 +31,12 @@ NFS服务器可以允许NFS客户端将远端NFS服务器端的共享目录挂�
 
 2. 安装docker
 
-   略过。 
+   ```
+   curl -sSL https://get.docker.com/ | sh
+   usermod -aG docker $USER
+   systemctl enable docker
+   systemctl start docker
+   ```
 
 3. 准备nfs配置文件
 

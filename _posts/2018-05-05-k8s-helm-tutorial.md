@@ -111,10 +111,6 @@ tips：
 
    因为我们还没有准备 PersistentVolume，当前 release 还不可用。
 
-# UI安装
-
-
-
 
 
 未完待续... 
