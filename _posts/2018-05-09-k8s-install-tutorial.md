@@ -1,0 +1,260 @@
+---
+layout: post
+title: kubernetes 安装入门(centos)
+category: tech
+tags: kubernetes docker
+---
+![](https://cdn.kelu.org/blog/tags/k8s.jpg)
+
+这篇文章记录如何使用 kubeadm 安装 kubernetes。
+
+目前官方推荐使用这种方法安装上测试环境，暂时不建议上生产环境。
+
+系列文章：
+
+* [kubernetes 简介](/tech/2018/05/02/kubernetes-tutorial.html)
+* [kubernetes helm 入门](/tech/2018/05/05/k8s-helm-tutorial.html)
+* [kubernetes 安装入门](/tech/2018/05/09/k8s-install-tutorial.html)
+
+# 环境配置
+
+1. 安装docker
+
+   ```
+   curl -sSL https://get.docker.com/ | sh
+   usermod -aG docker $USER
+   systemctl enable docker
+   systemctl start docker
+   ```
+
+2. 关闭系统防火墙
+
+   ```
+   systemctl stop firewalld && systemctl disable firewalld
+   ```
+
+   ​
+
+3. 关闭SElinux
+
+   ```
+   $ setenforce 0 （临时关闭）
+   $ vi /etc/selinux/config （长久关闭）
+   SELINUX=disabled
+   ```
+
+   ​
+
+4. 关闭系统交换区（出于k8s的性能考虑）
+
+   ```
+   （临时关闭）
+   $ swapoff -a && sysctl -w vm.swappiness=0
+
+   （长久关闭）
+   $ swapoff -a && cat >> /etc/sysctl.conf << EOF 
+   vm.swappiness=0
+   EOF
+
+   $ sysctl -p
+   ```
+
+5. 配置系统内核参数使流过网桥的流量也进入iptables/netfilter框架中：
+
+   ```
+   $ cat >> /etc/sysctl.conf<< EOF
+   net.ipv4.ip_forward= 1
+   net.bridge.bridge-nf-call-ip6tables= 1
+   net.bridge.bridge-nf-call-iptables= 1
+   EOF
+
+   $ sysctl -p
+   ```
+
+6. 重启docker和daemon
+
+   ```
+   systemctl daemon-reload
+   systemctl restart docker
+   ```
+
+# 安装
+
+1. 配置阿里K8S YUM源
+
+    ```
+   cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+   [kubernetes]
+   name=Kubernetes
+   baseurl=https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
+   enabled=1
+   gpgcheck=0
+   EOF
+
+   yum -y install epel-release
+   yum clean all
+   yum makecache
+    ```
+
+2. 安装kubeadm和相关工具包
+
+   ```
+   yum -y installkubelet kubeadm kubectl kubernetes-cni
+   ```
+
+3. 修改 "cgroup-driver"值
+
+   ```
+   $ vi /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
+   修改 "cgroup-driver"值 由systemd变为cgroupfs
+   ```
+
+4. 启动Docker与kubelet服务
+
+   ```
+   systemctl enable docker && systemctl start docker
+   systemctl enable kubelet && systemctl start kubelet
+   ```
+
+5. 查看系统日志
+
+   此时kubelet的服务运行状态是异常的，因为缺少主配置文件kubelet.conf。但可以暂不处理，因为在完成Master节点的初始化后才会生成这个配置文件。
+
+   ```
+   tail -f /var/log/messages
+   ```
+
+6. kubeadm初始化master节点
+
+   目前最新版是1.10，也可以不用这个配置。
+
+   ```
+   kubeadm init --kubernetes-version=v1.10.0 --pod-network-cidr=10.244.0.0/16
+   ```
+
+   最后一段的输出信息，类似于 
+
+   ```
+   kubeadm join ...
+   ```
+
+   需要保存一份，后续添加工作节点还要用到。
+
+7. 配置kubectl认证信息
+
+   ```
+   # 对于非root用户
+   mkdir -p $HOME/.kube
+   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+   sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+   # 对于root用户
+   export KUBECONFIG=/etc/kubernetes/admin.conf
+   也可以直接放到~/.bash_profile
+   echo "export KUBECONFIG=/etc/kubernetes/admin.conf" >> ~/.bash_profile
+   ```
+
+8. 安装flannel网络
+
+   ```
+   mkdir -p /etc/cni/net.d/
+   cat <<EOF> /etc/cni/net.d/10-flannel.conf
+   {
+   “name”: “cbr0”,
+   “type”: “flannel”,
+   “delegate”: {
+   “isDefaultGateway”: true
+   }
+   }
+   EOF
+
+   mkdir /usr/share/oci-umount/oci-umount.d -p
+   mkdir /run/flannel/
+
+   cat <<EOF> /run/flannel/subnet.env
+   FLANNEL_NETWORK=10.244.0.0/16
+   FLANNEL_SUBNET=10.244.1.0/24
+   FLANNEL_MTU=1450
+   FLANNEL_IPMASQ=true
+   EOF
+
+   kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/v0.9.1/Documentation/kube-flannel.yml
+   ```
+
+   ​
+
+9. node加入集群(可选)
+
+   将第6步中的最后那个命令在node节点上运行即可。
+
+   ```
+   kubeadm join --token xxx --discovery-token-ca-cert-hash sha256:xxx 172.10.1.100:6443
+   ```
+
+   如果忘记token，在master节点上运行：
+
+   ```
+   kubeadm token list                             
+   ```
+
+   默认token的有效期为24小时，当过期之后，该token就不可用了。解决方法如下：
+
+   ```
+   # 重新生成新的token
+   kubeadm token create
+   kubeadm tokenlist
+
+   # 获取ca证书sha256编码hash值
+   openssl x509-pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'
+
+   # 节点加入集群
+   kubeadm join--token rgeekl.4nf2l6qi0o2f0504 --discovery-token-ca-cert-hash sha256:2058b1b61b196cc5bf3097b38185e72d55c55cc5596cc9210e98cb1e91197a6b  172.10.1.100:6443
+   ```
+
+10. 将 master 设置为node（可选)
+
+    ```
+    kubectl taint nodes --all node-role.kubernetes.io/master-
+    ```
+
+11. 验证
+
+    ```
+    # 查看节点状态
+    kubectl get nodes
+    # 查看pods状态
+    kubectl get pods --all-namespaces
+    # 查看K8S集群状态
+    kubectl get cs
+    ```
+
+12. 重新安装(可选)
+
+    ```
+    kubeadm reset
+    ```
+
+13. 安装dashboard
+
+    在k8s中 dashboard可以有两种访问方式：kubeconfig（HTTPS）和token（http）。
+
+    这里只介绍 Token 方式的访问。
+
+    ```
+    $ git clone https://github.com/gh-Devin/kubernetes-dashboard.git
+    $ cd kubernetes-dashboard
+    $ ls
+    heapster-rbac.yaml  heapster.yaml  kubernetes-dashboard-admin.rbac.yaml  kubernetes-dashboard.yaml
+
+    $ vi kubernetes-dashboard.yaml
+    # 因为权限问题，要将serviceAccountName: kubernetes-dashboard
+    # 改为serviceAccountName: kubernetes-dashboard-admin
+
+    $ kubectl  -n kube-system create -f .
+    ```
+
+    查看pod，确定是否已正常running
+
+    ```
+    kubectl get svc,pod --all-namespaces | grep dashboard
+    ```
