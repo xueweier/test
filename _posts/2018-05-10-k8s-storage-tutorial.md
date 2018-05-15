@@ -47,32 +47,79 @@ metadata:
   name: mypv1
 spec:
   capacity:
-    storage: 1Gi
+    storage: 20Gi
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
   storageClassName: nfs
+  mountOptions:
+    - hard
+    - nfsvers=4
   nfs:
-    path: /app/k8smount
+    path: /
     server: 172.10.1.100
     
 kubectl apply -f nfs-pv1.yml    
 ```
 
-## PVC
+## mysql
 
 ```
 apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+spec:
+  ports:
+  - port: 3306
+  selector:
+    app: mysql
+  clusterIP: None
+---
+apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: mypvc1
+  name: mysql-pv-claim
 spec:
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 1Gi
+      storage: 20Gi
   storageClassName: nfs
+---
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: mysql
+spec:
+  selector:
+    matchLabels:
+      app: mysql
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+      - image: mysql:5.6
+        name: mysql
+        env:
+          # Use secret in real usage
+        - name: MYSQL_ROOT_PASSWORD
+          value: password
+        ports:
+        - containerPort: 3306
+          name: mysql
+        volumeMounts:
+        - name: mysql-persistent-storage
+          mountPath: /var/lib/mysql
+      volumes:
+      - name: mysql-persistent-storage
+        persistentVolumeClaim:
+          claimName: mysql-pv-claim
   
 kubectl apply -f nfs-pvc1.yml
 ```
