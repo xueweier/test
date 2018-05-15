@@ -121,7 +121,33 @@ spec:
         persistentVolumeClaim:
           claimName: mysql-pv-claim
   
-kubectl apply -f nfs-pvc1.yml
+kubectl apply -f mysql-deployment.yml
 ```
 
-未完待续
+检查PersistentVolumeClaim的信息
+
+```
+kubectl describe pvc mysql-pv-claim
+```
+
+进入MySQL实例
+
+```
+kubectl run -it --rm --image=mysql:5.6 --restart=Never mysql-client -- mysql -h mysql -ppassword
+```
+
+测试
+
+```
+mysql> create database test;
+mysql> show databases;
+```
+
+此时可以在nfs的共享目录中发现相应的文件。
+
+# 参考资料
+
+* [在kubernetes中运行单节点有状态MySQL应用](https://scotch.io/@ykfq/kubernetesmysql)
+* [k8s学习笔记之持久化存储](https://zhuanlan.zhihu.com/p/29706309)
+* [Kubernetes之存储调研整理](https://yucs.github.io/2017/12/14/2017-12-14-kubernetes_volume/)
+* [Kubernetes中的存储 - IBM](https://www.ibm.com/developerworks/community/wikis/form/anonymous/api/wiki/0be57f75-2769-40b2-9ea4-99fbec0f9073/page/5145e8c8-4833-4e5b-b623-d73d579c562e/attachment/85e05b23-0fb5-4068-992b-65c8110c58f5/media/Kubernetes%E7%AC%AC%E5%85%AD%E8%AE%B2.pdf)
