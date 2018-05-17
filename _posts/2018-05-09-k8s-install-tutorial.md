@@ -12,8 +12,6 @@ tags: kubernetes docker
 
 系列文章：
 
-
-
 # 环境配置
 
 1. 安装docker

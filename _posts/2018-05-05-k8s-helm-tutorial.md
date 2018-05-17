@@ -102,23 +102,200 @@ tips：
 
    关于 Helm 相关命令的说明，您可以参阅 [Helm 文档](https://docs.helm.sh/helm/#helm-repo-add)
 
-4. 使用helm安装应用
+   鉴于国内使用镜像非常不方便Σ(っ °Д °;)っ，请添加国内的镜像进行使用[kube-charts-mirror](https://github.com/BurdenBear/kube-charts-mirror) 
 
    ```
-   helm install stable/mysql
-   helm list
+   helm repo add stable https://burdenbear.github.io/kube-charts-mirror/
    ```
 
-   因为我们还没有准备 PersistentVolume，当前 release 还不可用。
+4. 使用helm安装应用例子
+
+   * 安装好pv或者storageclass
+
+     ```
+     apiVersion: v1
+     kind: PersistentVolume
+     metadata:
+       name: helm-mysql
+     spec:
+       capacity:
+         storage: 8Gi
+       accessModes:
+         - ReadWriteOnce
+       persistentVolumeReclaimPolicy: Retain
+       mountOptions:
+         - hard
+         - nfsvers=4
+       nfs:
+         path: /helm-mysql
+         server: 172.10.1.100
+
+     kubectl apply -f helm-mysql-pv.yml
+     ```
+
+   * 安装mysql
+
+     ```
+     helm install stable/mysql --name helm-mysql
+     helm list
+     ```
 
 
+# helm的使用
 
-未完待续... 
+参考官方文档。<https://docs.helm.sh/>
+
+# nginx-ingress 安装
+
+一些教程会告诉如下安装：
+
+```
+helm install stable/nginx-ingress
+```
+
+实际运行中，我发现容器会报如下错误
+
+![](https://cdn.kelu.org/blog/2018/05/20180515191730.jpg)
+
+> It seems the cluster it is running with Authorization enabled (like RBAC) and there is no permissions for the ingress controller. Please check the configuration
+
+参考 [ingress-nginx](https://github.com/kubernetes/ingress-nginx/blob/master/docs/deploy/index.md) 官方文档和<https://github.com/CenterForOpenScience/helm-charts/tree/master/nginx-ingress>，应该做如下调整：
+
+```
+helm install stable/nginx-ingress --name ingress --set rbac.create=true
+```
+
+很遗憾我目前ingress出现了问题，无法使用。暂时不影响下文使用。
+
+# monocular 安装
+
+创建 monocular 使用的pv：
+
+```
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: monocular-mongodb
+spec:
+  capacity:
+    storage: 8Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle 
+  mountOptions:
+    - hard
+    - nfsvers=4
+  nfs:
+    path: /monocular
+    server: 172.10.1.100
+
+kubectl apply -f monocular-pv.yml
+```
+
+参照GitHub的教程进行安装：
+
+* [Install](https://github.com/kubernetes-helm/monocular)
+
+- [Configuration](https://github.com/kubernetes-helm/monocular/blob/master/deployment/monocular/README.md#configuration)
+- [Deployment](https://github.com/kubernetes-helm/monocular/blob/master/deployment/monocular/README.md)
+- [Development](https://github.com/kubernetes-helm/monocular/blob/master/docs/development.md)
+
+我创建了一个自己的配置文件，使用 kubernetes helm 国内镜像的配置 custom.yaml 
+
+```
+$ cat > custom.yaml <<EOF
+ingress:
+  hosts:
+  - monocular.local
+api:
+  config:
+    repos:
+      - name: stable
+        url: https://burdenbear.github.io/kube-charts-mirror
+        source: https://github.com/kubernetes/charts/tree/master/stable
+      - name: monocular
+        url: https://kubernetes-helm.github.io/monocular
+        source: https://github.com/kubernetes-helm/monocular/tree/master/charts     
+EOF
+```
+
+添加 repo
+
+```
+helm repo add monocular https://kubernetes-helm.github.io/monocular
+```
+
+安装pv
+
+```
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: monocular-mongodb
+spec:
+  capacity:
+    storage: 8Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  mountOptions:
+    - hard
+    - nfsvers=4
+  nfs:
+    path: /monocular
+    server: 172.10.1.100
+    
+$ kubectl apply -f monocular-pv.yml    
+```
+
+安装 monocular
+
+```
+helm install monocular/monocular --name monocular --set controller.hostNetwork=true -f custom.yaml
+```
+
+如果出现错误，重新来过的话，清空重置：
+
+```
+helm del --purge monocular
+kubectl delete pv monocular-mongodb
+```
+
+最终并没有成功使用ingress访问，还是用了普通访问service的方式访问：
+
+```
+kubectl get service
+```
+
+按照port访问monocular-monocular-ui即可。
+
+# 问题记录
+
+1. ingress 不显示IP
+
+   ```
+   kubectl get ing
+   NAME                  HOSTS                ADDRESS   PORTS     AGE
+   monocular-monocular   monocular.kelu.org             80        12h
+   ```
+
+   <https://github.com/kubernetes/ingress-nginx/issues/1467>
+
+   ```
+   kubectl get ing monocular-monocular -o yaml
+   kubectl get pods |grep ingress-controller
+   kubectl get nodes
+   ```
+
+   * [[BUG] No ingress endpoint created with nginx ingress controller 0.9.0-beta.3 after multiple create/delete operations #602 | ingress-nginx](https://github.com/kubernetes/ingress-nginx/issues/602)
+   * [IP does not found #1467 | ingress-nginx](https://github.com/kubernetes/ingress-nginx/issues/1467)
+   * [Response "Unauthorized" #692 | dashboard](https://github.com/kubernetes/dashboard/issues/692)
 
 # 参考资料
 
 * [Error: no available release name found #3055](https://github.com/kubernetes/helm/issues/3055)
 * [利用 Helm 简化 Kubernetes 应用部署](https://www.alibabacloud.com/help/zh/doc-detail/58587.htm)
+* https://docs.helm.sh/
 * [Monocular UI](https://github.com/kubernetes-helm/monocular)
 * <https://jimmysong.io/kubernetes-handbook/>
 * [kubernetes-helm部署及本地repo搭建](https://blog.csdn.net/liukuan73/article/details/79319900)
