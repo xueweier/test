@@ -8,14 +8,6 @@ tags: kubernetes docker
 
 这篇文章记录如何使用 kubernetes 的存储资源，包括volume、pv&pvc等。
 
-系列文章：
-
-- [kubernetes 简介](/tech/2018/05/05/k8s-tutorial.html)
-- [kubernetes 安装入门](/tech/2018/05/02/kubernetes-install-tutorial.html)
-- [kubernetes storage 入门](/tech/2018/05/10/kubernetes-storage-tutorial.html)
-- [kubernetes helm 入门](/tech/2018/05/09/k8s-helm-tutorial.html)
-
-
 # 一、Volume
 
 Volume 的生命周期独立于容器，Pod 中的容器可能被销毁和重建，但 Volume 会被保留。
