@@ -6,8 +6,6 @@ tags: kubernetes docker
 ---
 ![](https://cdn.kelu.org/blog/tags/k8s.jpg)
 
-
-
 当作一个todolist吧，需要把下面的资料和博客都看一遍。
 
 目前看的博文最多的是 cloudman6 和 jimmysong
