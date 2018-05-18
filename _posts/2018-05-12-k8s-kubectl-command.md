@@ -76,7 +76,7 @@ $ kubectl explain pods,svc                       # get the documentation for pod
    $ kubectl delete pod,service baz foo                                        # Delete pods and services with same names "baz" and "foo"
    $ kubectl delete pods,services -l name=myLabel                              # Delete pods and services with label name=myLabel
    $ kubectl delete pods,services -l name=myLabel --include-uninitialized      # Delete pods and services, including uninitialized ones, with label name=myLabel
-   $ kubectl -n my-ns delete po,svc --all                                      # Delete all pods and services, including uninitialized ones, in namespace my-ns,
+   $ kubectl -n default delete pv --all                                      # 删除default 下所有的pv
    ```
 
 3. 查
@@ -252,41 +252,43 @@ $ kubectl explain pods,svc                       # get the documentation for pod
 
     `-o` 或者 `-output` 标签
 
-   | Output format                       | Description                                                  |
-   | ----------------------------------- | ------------------------------------------------------------ |
-   | `-o=custom-columns=<spec>`          | Print a table using a comma separated list of custom columns |
-   | `-o=custom-columns-file=<filename>` | Print a table using the custom columns template in the `<filename>` file |
-   | `-o=json`                           | Output a JSON formatted API object                           |
-   | `-o=jsonpath=<template>`            | Print the fields defined in a [jsonpath](https://kubernetes.io/docs/reference/kubectl/jsonpath) expression |
-   | `-o=jsonpath-file=<filename>`       | Print the fields defined by the [jsonpath](https://kubernetes.io/docs/reference/kubectl/jsonpath) expression in the `<filename>` file |
-   | `-o=name`                           | Print only the resource name and nothing else                |
-   | `-o=wide`                           | Output in the plain-text format with any additional information, and for pods, the node name is included |
-   | `-o=yaml`                           | Output a YAML formatted API object                           |
+| Output format                       | Description                                                  |
+| ----------------------------------- | ------------------------------------------------------------ |
+| `-o=custom-columns=<spec>`          | Print a table using a comma separated list of custom columns |
+| `-o=custom-columns-file=<filename>` | Print a table using the custom columns template in the `<filename>` file |
+| `-o=json`                           | Output a JSON formatted API object                           |
+| `-o=jsonpath=<template>`            | Print the fields defined in a [jsonpath](https://kubernetes.io/docs/reference/kubectl/jsonpath) expression |
+| `-o=jsonpath-file=<filename>`       | Print the fields defined by the [jsonpath](https://kubernetes.io/docs/reference/kubectl/jsonpath) expression in the `<filename>` file |
+| `-o=name`                           | Print only the resource name and nothing else                |
+| `-o=wide`                           | Output in the plain-text format with any additional information, and for pods, the node name is included |
+| `-o=yaml`                           | Output a YAML formatted API object                           |
 
 7. 输出debug级别
 
     `-v` 或者 `--v` 标志
 
-   | 级别    | 描述                                                         |
-   | ------- | ------------------------------------------------------------ |
-   | `--v=0` | Generally useful for this to ALWAYS be visible to an operator. |
-   | `--v=1` | A reasonable default log level if you don’t want verbosity.  |
-   | `--v=2` | Useful steady state information about the service and important log messages that may correlate to significant changes in the system. This is the recommended default log level for most systems. |
-   | `--v=3` | Extended information about changes.                          |
-   | `--v=4` | Debug level verbosity.                                       |
-   | `--v=6` | Display requested resources.                                 |
-   | `--v=7` | Display HTTP request headers.                                |
-   | `--v=8` | Display HTTP request contents.                               |
-   | `--v=9` | Display HTTP request contents without truncation of contents. |
+| 级别    | 描述                                                         |
+| ------- | ------------------------------------------------------------ |
+| `--v=0` | Generally useful for this to ALWAYS be visible to an operator. |
+| `--v=1` | A reasonable default log level if you don’t want verbosity.  |
+| `--v=2` | Useful steady state information about the service and important log messages that may correlate to significant changes in the system. This is the recommended default log level for most systems. |
+| `--v=3` | Extended information about changes.                          |
+| `--v=4` | Debug level verbosity.                                       |
+| `--v=6` | Display requested resources.                                 |
+| `--v=7` | Display HTTP request headers.                                |
+| `--v=8` | Display HTTP request contents.                               |
+| `--v=9` | Display HTTP request contents without truncation of contents. |
 
 # 问题定位命令
 
-1.  集群信息
+1. 集群信息
 
    ```
    $ kubectl cluster-info                                                  # 集群信息
    $ kubectl cluster-info dump                                             # 更详细的集群信息
    $ kubectl cluster-info dump --output-directory=/path/to/cluster-state   # 输出到文件
+
+   $ kubectl config current-context
    ```
 
 2. top

@@ -145,7 +145,87 @@ tips：
 
 参考官方文档。<https://docs.helm.sh/>
 
-# nginx-ingress 安装
+## 自定义chart
+
+创建一个Chart的骨架：
+
+```
+helm create testapi-chart
+```
+
+目录结构如下所示，我们主要关注目录中的这三个文件即可：Chart.yaml、values.yaml和NOTES.txt。
+
+```
+testapi-chart
+├── charts
+├── Chart.yaml
+├── templates
+│   ├── deployment.yaml
+│   ├── _helpers.tpl
+│   ├── NOTES.txt
+│   └── service.yaml
+└── values.yaml
+```
+
+打开Chart.yaml，填写应用的详细信息
+
+打开并根据需要编辑values.yaml
+
+对Chart进行校验
+
+```
+helm lint
+```
+
+对Chart进行打包：
+
+```
+helm package testapi-chart --debug
+```
+
+使用Helm serve命令启动一个repo server，该server缺省使用’$HELM_HOME/repository/local’目录作为Chart存储，并在8879端口上提供服务。
+
+```
+helm serve&
+```
+
+启动本地repo server后，将其加入Helm的repo列表。
+
+```
+helm repo add local http://127.0.0.1:8879
+"local" has been added to your repositories
+```
+
+现在再查找testapi chart包，就可以找到了。
+
+## chart 搜索
+
+```
+helm search 
+```
+
+## 添加源
+
+添加中国的源：
+
+```
+helm repo add stable https://burdenbear.github.io/kube-charts-mirror/
+```
+
+参考 <https://github.com/BurdenBear/kube-charts-mirror>
+
+## 常用命令行
+
+```
+helm list
+helm search
+helm repo list
+helm serve&
+```
+
+# monocular 安装
+
+nginx-ingress 安装
 
 一些教程会告诉如下安装：
 
@@ -166,8 +246,6 @@ helm install stable/nginx-ingress --name ingress --set rbac.create=true
 ```
 
 很遗憾我目前ingress出现了问题，无法使用。暂时不影响下文使用。
-
-# monocular 安装
 
 创建 monocular 使用的pv：
 
@@ -299,3 +377,4 @@ kubectl get service
 * [Monocular UI](https://github.com/kubernetes-helm/monocular)
 * <https://jimmysong.io/kubernetes-handbook/>
 * [kubernetes-helm部署及本地repo搭建](https://blog.csdn.net/liukuan73/article/details/79319900)
+* [DockOne微信分享（一六九）：Helm：强大的Kubernetes包管理工具](http://dockone.io/article/5269)
