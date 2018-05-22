@@ -41,11 +41,13 @@ tags: kubernetes docker
 
 4. 关闭系统交换区（出于k8s的性能考虑）
 
+   不关闭临时分区的话参考后文，k8s初始化时修改配置文件即可。
+
    ```
-   （临时关闭）
+   （临时）
    $ swapoff -a && sysctl -w vm.swappiness=0
 
-   （长久关闭）
+   （长久）
    $ swapoff -a && cat >> /etc/sysctl.conf << EOF 
    vm.swappiness=0
    EOF
@@ -77,19 +79,19 @@ tags: kubernetes docker
 1. 配置阿里K8S YUM源
 
     ```
-       cat <<EOF > /etc/yum.repos.d/kubernetes.repo
-       [kubernetes]
-       name=Kubernetes
-       baseurl=https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
-       enabled=1
-       gpgcheck=0
-       EOF
+    cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+    [kubernetes]
+    name=Kubernetes
+    baseurl=https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
+    enabled=1
+    gpgcheck=0
+    EOF
+
+    yum -y install epel-release
+    yum clean all
+    yum makecache
     ```
 
-   yum -y install epel-release
-   yum clean all
-   yum makecache
-    ```
 
 2. 安装kubeadm和相关工具包
 
@@ -97,11 +99,15 @@ tags: kubernetes docker
    yum -y installkubelet kubeadm kubectl kubernetes-cni
    ```
 
-3. 修改 "cgroup-driver"值
+3. 修改 kubeadm.conf
 
    ```
    $ vi /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
-   修改 "cgroup-driver"值 由systemd变为cgroupfs
+   # 修改 "cgroup-driver"值 由systemd变为cgroupfs
+   Environment="KUBELET_CGROUP_ARGS=--cgroup-driver=cgroupfs"
+
+   # 第九行增加swap-on=false
+   Environment="KUBELET_EXTRA_ARGS=--fail-swap-on=false"
    ```
 
 4. 启动Docker与kubelet服务
@@ -124,7 +130,7 @@ tags: kubernetes docker
    目前最新版是1.10，也可以不用这个配置。
 
    ```
-   kubeadm init --kubernetes-version=v1.10.0 --pod-network-cidr=10.244.0.0/16
+   kubeadm init --kubernetes-version=v1.10.0 --pod-network-cidr=10.244.0.0/16 --ignore-preflight-errors Swap
    ```
 
    最后一段的输出信息，类似于 

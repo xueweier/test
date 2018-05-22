@@ -29,7 +29,15 @@ NFS服务器可以允许NFS客户端将远端NFS服务器端的共享目录挂�
    modprobe nfsd
    ```
 
-2. 安装docker
+2. 安装nfs-utils
+
+   ```
+   apt-get install nfs-common
+   # 或者
+   yum install nfs-utils
+   ```
+
+3. 安装docker
 
    ```
    curl -sSL https://get.docker.com/ | sh
@@ -52,7 +60,7 @@ NFS服务器可以允许NFS客户端将远端NFS服务器端的共享目录挂�
 
    ```
    docker run -d                                   \
-     -- name nfs                                    \
+     --name nfs                                    \
      -v /app/exports.txt:/etc/exports:ro           \
      -v /nfs:/nfs                                  \
      --cap-add SYS_ADMIN                           \

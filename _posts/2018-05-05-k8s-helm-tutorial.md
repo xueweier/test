@@ -68,7 +68,7 @@ helm 包含两个组件：helm 客户端 和 tiller 服务器：
    然后安装helm服务端tiller
 
    ```
-   helm init -i sz-pg-oam-docker-hub-001.tendcloud.com/library/kubernetes-helm-tiller:v2.9.0
+   helm init
    ```
 
    使用`-i`指定自己的镜像，因为官方的镜像因为某些原因无法拉取。
