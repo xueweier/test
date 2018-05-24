@@ -174,19 +174,29 @@ testapi-chart
 对Chart进行校验
 
 ```
-helm lint
+helm lint testapi-chart
 ```
 
 对Chart进行打包：
 
 ```
 helm package testapi-chart --debug
+
+Successfully packaged chart and saved it to: /var/local/k8s/helm/alpine-0.1.0.tgz
+[debug] Successfully saved /var/local/k8s/helm/alpine-0.1.0.tgz to /root/.helm/repository/local
+```
+
+安装本地repository中的chart
+
+```
+helm search local
+helm install --name example local/mychart --set service.type=NodePort
 ```
 
 使用Helm serve命令启动一个repo server，该server缺省使用’$HELM_HOME/repository/local’目录作为Chart存储，并在8879端口上提供服务。
 
 ```
-helm serve&
+helm serve --address 0.0.0.0:8879 &
 ```
 
 启动本地repo server后，将其加入Helm的repo列表。
@@ -201,7 +211,7 @@ helm repo add local http://127.0.0.1:8879
 ## chart 搜索
 
 ```
-helm search 
+helm search
 ```
 
 ## 添加源
@@ -219,55 +229,29 @@ helm repo add stable https://burdenbear.github.io/kube-charts-mirror/
 ```
 helm list
 helm search
+helm search mysql --versions
 helm repo list
-helm serve&
+helm serve &
 ```
 
 # monocular 安装
 
-nginx-ingress 安装
+因为没能把nginx-ingress安装成功，最后选择了Træfik-ingress
 
-一些教程会告诉如下安装：
+## Træfik-ingress 安装
 
-```
-helm install stable/nginx-ingress
-```
-
-实际运行中，我发现容器会报如下错误
-
-![](https://cdn.kelu.org/blog/2018/05/20180515191730.jpg)
-
-> It seems the cluster it is running with Authorization enabled (like RBAC) and there is no permissions for the ingress controller. Please check the configuration
-
-参考 [ingress-nginx](https://github.com/kubernetes/ingress-nginx/blob/master/docs/deploy/index.md) 官方文档和<https://github.com/CenterForOpenScience/helm-charts/tree/master/nginx-ingress>，应该做如下调整：
+官网 <https://docs.traefik.io/>，以下按照 user-guide 进行安装，其实就是两个命令行：
 
 ```
-helm install stable/nginx-ingress --name ingress --set rbac.create=true
+$ kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-rbac.yaml
+$ kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-ds.yaml
 ```
 
-很遗憾我目前ingress出现了问题，无法使用。暂时不影响下文使用。
-
-创建 monocular 使用的pv：
+就可以看到效果了：
 
 ```
-apiVersion: v1
-kind: PersistentVolume
-metadata:
-  name: monocular-mongodb
-spec:
-  capacity:
-    storage: 8Gi
-  accessModes:
-    - ReadWriteOnce
-  persistentVolumeReclaimPolicy: Recycle 
-  mountOptions:
-    - hard
-    - nfsvers=4
-  nfs:
-    path: /monocular
-    server: 172.10.1.100
-
-kubectl apply -f monocular-pv.yml
+curl $(minikube ip)
+404 page not found
 ```
 
 参照GitHub的教程进行安装：
@@ -278,6 +262,8 @@ kubectl apply -f monocular-pv.yml
 - [Deployment](https://github.com/kubernetes-helm/monocular/blob/master/deployment/monocular/README.md)
 - [Development](https://github.com/kubernetes-helm/monocular/blob/master/docs/development.md)
 
+## config
+
 我创建了一个自己的配置文件，使用 kubernetes helm 国内镜像的配置 custom.yaml 
 
 ```
@@ -285,25 +271,25 @@ $ cat > custom.yaml <<EOF
 ingress:
   hosts:
   - monocular.local
+  annotations:
+    traefik.frontend.rule.type: PathPrefixStrip
+    kubernetes.io/ingress.class: traefik 
 api:
   config:
     repos:
-      - name: stable
-        url: https://burdenbear.github.io/kube-charts-mirror
-        source: https://github.com/kubernetes/charts/tree/master/stable
       - name: monocular
         url: https://kubernetes-helm.github.io/monocular
         source: https://github.com/kubernetes-helm/monocular/tree/master/charts     
 EOF
 ```
 
-添加 repo
+## 添加 repo
 
 ```
 helm repo add monocular https://kubernetes-helm.github.io/monocular
 ```
 
-安装pv
+## 安装pv
 
 ```
 apiVersion: v1
@@ -315,7 +301,7 @@ spec:
     storage: 8Gi
   accessModes:
     - ReadWriteOnce
-  persistentVolumeReclaimPolicy: Retain
+  persistentVolumeReclaimPolicy: Recycle
   mountOptions:
     - hard
     - nfsvers=4
@@ -326,7 +312,7 @@ spec:
 $ kubectl apply -f monocular-pv.yml    
 ```
 
-安装 monocular
+## 安装 monocular
 
 ```
 helm install monocular/monocular --name monocular --set controller.hostNetwork=true -f custom.yaml
@@ -339,35 +325,18 @@ helm del --purge monocular
 kubectl delete pv monocular-mongodb
 ```
 
-最终并没有成功使用ingress访问，还是用了普通访问service的方式访问：
+获得 ingress 地址：
 
 ```
-kubectl get service
+$ kubectl get ingress monocular-monocular
+
+NAME                  HOSTS           ADDRESS   PORTS     AGE
+monocular-monocular   monocular.local            80        9s
 ```
 
-按照port访问monocular-monocular-ui即可。
+访问后自定义域名后界面如下：
 
-# 问题记录
-
-1. ingress 不显示IP
-
-   ```
-   kubectl get ing
-   NAME                  HOSTS                ADDRESS   PORTS     AGE
-   monocular-monocular   monocular.kelu.org             80        12h
-   ```
-
-   <https://github.com/kubernetes/ingress-nginx/issues/1467>
-
-   ```
-   kubectl get ing monocular-monocular -o yaml
-   kubectl get pods |grep ingress-controller
-   kubectl get nodes
-   ```
-
-   * [[BUG] No ingress endpoint created with nginx ingress controller 0.9.0-beta.3 after multiple create/delete operations #602 | ingress-nginx](https://github.com/kubernetes/ingress-nginx/issues/602)
-   * [IP does not found #1467 | ingress-nginx](https://github.com/kubernetes/ingress-nginx/issues/1467)
-   * [Response "Unauthorized" #692 | dashboard](https://github.com/kubernetes/dashboard/issues/692)
+![](https://cdn.kelu.org/blog/2018/05/monocular.gif)
 
 # 参考资料
 
