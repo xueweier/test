@@ -44,5 +44,11 @@ title: 友情链接
             <p class="sitename">像素创造狮</p>
         </a>
     </li>
+    <li class="link-item" style="width: 64px">
+        <a href="https://www.sooele.com" title="sooele.com" class="link-item-inner effect-apollo" target="_blank">
+            <img src="/assets/img/friends/sooele.jpg">
+            <p class="sitename">Sooele</p>
+        </a>
+    </li>
 </ul>
 

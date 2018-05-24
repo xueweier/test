@@ -49,28 +49,6 @@ Successfully packaged chart and saved it to: /var/local/k8s/helm/alpine-0.1.0.tg
 [debug] Successfully saved /var/local/k8s/helm/alpine-0.1.0.tgz to /root/.helm/repository/local
 ```
 
-# 本地repo
-
-使用Helm serve命令启动一个repo server，该server缺省使用’$HELM_HOME/repository/local’目录作为Chart存储，并在8879端口上提供服务。
-
-```
-helm serve --address 0.0.0.0:8879 &
-```
-
-启动本地repo server后，将其加入Helm的repo列表。
-
-```
-helm repo add local http://127.0.0.1:8879
-"local" has been added to your repositories
-```
-
-现在再查找testapi chart包，就可以找到了。
-
-```
-helm search local
-helm install --name example local/alpine --set service.type=NodePort
-```
-
 # chart中定义依赖
 
 在chart目录中创建一个requirements.yaml文件定义该chart的依赖。
@@ -101,9 +79,22 @@ Deleting outdated charts
 
 在次安装运行chart时会把依赖中定义的chart运行起来。
 
-# 自定义chart repository
+# 部署本地repo
 
-把每个chart打包的tar文件集中存放到charts目录，使用以下命令生成index.yaml文件。
+使用Helm serve命令启动一个repo server，该server缺省使用’$HELM_HOME/repository/local’目录作为Chart存储，并在8879端口上提供服务。
+
+```
+helm serve --address 0.0.0.0:8879 &
+```
+
+启动本地repo server后，将其加入Helm的repo列表。
+
+```
+helm repo add local http://127.0.0.1:8879
+"local" has been added to your repositories
+```
+
+也可以把每个chart打包的文件集中存放到charts目录，使用以下命令生成index.yaml文件。
 
 ```
 mkdir -p charts
@@ -122,5 +113,39 @@ $ helm serve --repo-path ./charts --address 0.0.0.0:8879 &
 helm serve --repo-path ./charts --address 0.0.0.0:8879 --url http://eur2.kelu.org:8897 &
 ```
 
-可以发现index.yaml 的 url 地址变了。
+可以发现index.yaml 的 url 地址变了
+
+# 重建 chart 链接
+
+```
+helm repo index charts --url http://192.168.122.1:81/charts1
+```
+
+或者，在index.yaml中之增加新cahrt的元数据信息。
+
+```
+helm repo index charts --url http://192.168.122.1:81/charts --merge1
+```
+
+# 添加 repo
+
+通过以下命令增加repo
+
+```
+helm repo add charts http://192.168.122.1:81/charts
+[root@k8s-master ~]# helm repo list
+NAME        URL
+local       http://127.0.0.1:8879/charts
+stable      https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
+monocular   https://kubernetes-helm.github.io/monocular
+charts      http://192.168.122.1:81/charts1234567
+```
+
+# 更新repo
+
+如果repo有更新，执行repo update命令会更新所以已增加的repo
+
+```
+helm repo update
+```
 
