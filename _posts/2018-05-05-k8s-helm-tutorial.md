@@ -347,3 +347,4 @@ monocular-monocular   monocular.local            80        9s
 * <https://jimmysong.io/kubernetes-handbook/>
 * [kubernetes-helm部署及本地repo搭建](https://blog.csdn.net/liukuan73/article/details/79319900)
 * [DockOne微信分享（一六九）：Helm：强大的Kubernetes包管理工具](http://dockone.io/article/5269)
+* [Kuberentes Helm 介紹](https://kairen.github.io/2017/03/25/kubernetes/helm-quickstart/)

@@ -8,7 +8,11 @@ tags: kubernetes docker
 
 这篇文章记录如何自建 helm chart 和 helm repo。一些前置的背景知识可以在这里了解：[kubernetes helm 入门](/tech/2018/05/05/k8s-helm-tutorial.html)
 
-# 创建chart 
+# 一 入门
+
+## 1. chart
+
+### 创建chart
 
 ```
 helm create alpine
@@ -32,7 +36,7 @@ alpine
 
 打开并根据需要编辑 values.yaml
 
-# chart校验/打包
+### chart校验/打包
 
 对Chart进行校验
 
@@ -49,7 +53,7 @@ Successfully packaged chart and saved it to: /var/local/k8s/helm/alpine-0.1.0.tg
 [debug] Successfully saved /var/local/k8s/helm/alpine-0.1.0.tgz to /root/.helm/repository/local
 ```
 
-# chart中定义依赖
+### chart中定义依赖
 
 在chart目录中创建一个requirements.yaml文件定义该chart的依赖。
 
@@ -79,7 +83,7 @@ Deleting outdated charts
 
 在次安装运行chart时会把依赖中定义的chart运行起来。
 
-# 部署本地repo
+### 部署本地repo
 
 使用Helm serve命令启动一个repo server，该server缺省使用’$HELM_HOME/repository/local’目录作为Chart存储，并在8879端口上提供服务。
 
@@ -115,7 +119,7 @@ helm serve --repo-path ./charts --address 0.0.0.0:8879 --url http://eur2.kelu.or
 
 可以发现index.yaml 的 url 地址变了
 
-# 重建 chart 链接
+### 重建 chart 链接
 
 ```
 helm repo index charts --url http://192.168.122.1:81/charts1
@@ -127,7 +131,9 @@ helm repo index charts --url http://192.168.122.1:81/charts1
 helm repo index charts --url http://192.168.122.1:81/charts --merge1
 ```
 
-# 添加 repo
+## 2. repo
+
+### 添加 repo
 
 通过以下命令增加repo
 
@@ -141,7 +147,7 @@ monocular   https://kubernetes-helm.github.io/monocular
 charts      http://192.168.122.1:81/charts1234567
 ```
 
-# 更新repo
+### 更新repo
 
 如果repo有更新，执行repo update命令会更新所以已增加的repo
 
@@ -149,3 +155,25 @@ charts      http://192.168.122.1:81/charts1234567
 helm repo update
 ```
 
+### 使用mongo删除monocular的repo
+
+monocular的repo是存在数据库中的，与命令行的helm完全独立。
+
+当你在monocular中添加一个拥有很多内容的源的时候，api容器组会不断缓存，只有缓存完成后才会提供服务，此时你心急如焚想删掉这个该死的源，可以直接在mongo数据库里删除：
+
+```
+mongo
+show databases;
+use monocular;
+db.repos.remove(xxx)
+```
+
+![](https://cdn.kelu.org/blog/2018/05/20180525092317.jpg)
+
+
+
+# 二 进阶
+
+## chart与monocular界面对应关系
+
+![](https://cdn.kelu.org/blog/2018/05/20180525095704.jpg)

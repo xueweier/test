@@ -27,8 +27,6 @@ tags: kubernetes docker
    systemctl stop firewalld && systemctl disable firewalld
    ```
 
-   ​
-
 3. 关闭SElinux
 
    ```
@@ -36,8 +34,6 @@ tags: kubernetes docker
    $ vi /etc/selinux/config （长久关闭）
    SELINUX=disabled
    ```
-
-   ​
 
 4. 关闭系统交换区（出于k8s的性能考虑）
 
@@ -96,7 +92,7 @@ tags: kubernetes docker
 2. 安装kubeadm和相关工具包
 
    ```
-   yum -y installkubelet kubeadm kubectl kubernetes-cni
+   yum -y install kubelet kubeadm kubectl kubernetes-cni
    ```
 
 3. 修改 kubeadm.conf
@@ -170,7 +166,7 @@ tags: kubernetes docker
    EOF
 
    mkdir /usr/share/oci-umount/oci-umount.d -p
-   mkdir /run/flannel/
+   mkdir -p /run/flannel/
 
    cat <<EOF> /run/flannel/subnet.env
    FLANNEL_NETWORK=10.244.0.0/16
