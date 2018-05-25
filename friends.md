@@ -50,5 +50,11 @@ title: 友情链接
             <p class="sitename">Sooele</p>
         </a>
     </li>
+    <li class="link-item" style="width: 64px">
+        <a href="https://blog.ni-co.moe/" title="ni-co.moe" class="link-item-inner effect-apollo" target="_blank">
+            <img src="/assets/img/friends/shirakun.jpg">
+            <p class="sitename">shirakun</p>
+        </a>
+    </li>
 </ul>
 
