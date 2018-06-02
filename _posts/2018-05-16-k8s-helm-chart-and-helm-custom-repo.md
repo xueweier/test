@@ -41,13 +41,26 @@ alpine
 对Chart进行校验
 
 ```
-helm lint alpine
+$ helm lint alpine
+
+==> Linting alpine
+[INFO] Chart.yaml: icon is recommended
+
+1 chart(s) linted, no failures
+```
+
+可以添加一个图标，在Chart.yaml最后一行里添加：
+
+```
+$ vi alpine/Chart.yaml
+
+icon: https://cdn.kelu.org/kelu.jpg
 ```
 
 对Chart进行打包：
 
 ```
-helm package alpine --debug
+$ helm package alpine --debug
 
 Successfully packaged chart and saved it to: /var/local/k8s/helm/alpine-0.1.0.tgz
 [debug] Successfully saved /var/local/k8s/helm/alpine-0.1.0.tgz to /root/.helm/repository/local
@@ -114,7 +127,8 @@ $ helm serve --repo-path ./charts --address 0.0.0.0:8879 &
 我们可以自定义repo地址：
 
 ```
-helm serve --repo-path ./charts --address 0.0.0.0:8879 --url http://eur2.kelu.org:8897 &
+helm serve --address 0.0.0.0:8879 --url http://eur2.kelu.org:8879 &
+helm serve --repo-path ./charts --address 0.0.0.0:8879 --url http://eur2.kelu.org:8879 &
 ```
 
 可以发现index.yaml 的 url 地址变了
@@ -122,13 +136,13 @@ helm serve --repo-path ./charts --address 0.0.0.0:8879 --url http://eur2.kelu.or
 ### 重建 chart 链接
 
 ```
-helm repo index charts --url http://192.168.122.1:81/charts1
+helm repo index charts --url http://192.168.122.1:81/charts
 ```
 
 或者，在index.yaml中之增加新cahrt的元数据信息。
 
 ```
-helm repo index charts --url http://192.168.122.1:81/charts --merge1
+helm repo index charts --url http://192.168.122.1:81/charts --merge
 ```
 
 ## 2. repo
@@ -144,7 +158,7 @@ NAME        URL
 local       http://127.0.0.1:8879/charts
 stable      https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
 monocular   https://kubernetes-helm.github.io/monocular
-charts      http://192.168.122.1:81/charts1234567
+charts      http://192.168.122.1:81/charts
 ```
 
 ### 更新repo
@@ -155,7 +169,7 @@ charts      http://192.168.122.1:81/charts1234567
 helm repo update
 ```
 
-### 使用mongo删除monocular的repo
+### 使用mongo删除在monocular的repo
 
 monocular的repo是存在数据库中的，与命令行的helm完全独立。
 

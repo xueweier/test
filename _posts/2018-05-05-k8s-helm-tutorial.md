@@ -243,7 +243,10 @@ helm serve &
 官网 <https://docs.traefik.io/>，以下按照 user-guide 进行安装，其实就是两个命令行：
 
 ```
+# 创建角色和rbac绑定
 $ kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-rbac.yaml
+
+# ServiceAccount, DaemonSet(直接绑定主机端口)，service
 $ kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-ds.yaml
 ```
 
@@ -253,6 +256,10 @@ $ kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/e
 curl $(minikube ip)
 404 page not found
 ```
+
+ traefik 
+
+
 
 参照GitHub的教程进行安装：
 
