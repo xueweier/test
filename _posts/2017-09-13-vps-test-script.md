@@ -2,14 +2,13 @@
 layout: post
 title: VPS主机测试脚本
 category: tech
-tags:  linux 
-style: summer
+tags:  linux vps
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 持续更新。
 
-目前参考自[单使用脚本测试VPS](https://www.zhujiboke.com/2017/01/30.html)：
+目前参考自[使用脚本测试VPS](https://www.zhujiboke.com/2017/01/30.html)：
 
 # 硬盘IO及全球下载速度测试
 
@@ -38,6 +37,16 @@ style: summer
 	wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh
 	chmod +x unixbench.sh
 	./unixbench.sh
+
+# 线路测试
+
+```
+wget —no-check-certificate https://raw.githubusercontent.com/wn789/Superspeed/master/superspeed.sh
+chmod +x superspeed.sh
+./superspeed.sh
+```
+
+![](https://cdn.kelu.org/blog/2017/09/0603141338.jpg)
 
 # 参考资料
 

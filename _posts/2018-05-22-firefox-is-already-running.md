@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 解决 Firefox is already running, but is not responding 错误。
+title: 解决 Firefox is already running, but is not responding 错误
 category: tech
 tags: kubernetes docker
 ---
