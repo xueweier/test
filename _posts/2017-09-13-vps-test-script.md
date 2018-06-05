@@ -46,6 +46,8 @@ chmod +x superspeed.sh
 ./superspeed.sh
 ```
 
+![](https://cdn.kelu.org/blog/2017/09/2018-06-05_19-38-17.jpg)
+
 ![](https://cdn.kelu.org/blog/2017/09/0603141338.jpg)
 
 # 参考资料
