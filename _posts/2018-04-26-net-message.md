@@ -93,7 +93,9 @@ tags: vps network
 
 # 日本
 
-* BBTEC，也就是我们常说的SoftBank线路。
+目前连接中日两国之间的国际网络线路主要有四条，分别是NTT、IIJ、KDDI、日本软银（Soft Bank）:
+
+* BBTEC，也就是我们常说的 SoftBank 线路。
 * NTT 这个线路是非常棒的，如今已经被很多国人玩坏了。
 * IIJ 很多日本机器商家仅仅对本地人友好，也就是说我们很难买到日本机器，尤其是很棒的线路的。
 * KDDI，原来的Linode的JP1就是走这个线路。
