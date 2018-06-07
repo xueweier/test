@@ -8,7 +8,9 @@ tags: linux
 
 ClusterShell 是一个轻量级的运维工具，可以在一台机器上向多台机器发送指令，轻松实现类似《黑客帝国》中批量关闭电厂的效果：
 
-![](https://cdn.kelu.org/blog/2018/05/matrix1.gif)ClusterShell每天在Linux超级计算机（拥有超过5000个计算节点）上使用。使用很简单，只要在主控机上配置好子节点的ssh密钥登陆，同时做好节点配置即可，非常便捷。这篇文章介绍它的安装和简单使用。
+![](https://cdn.kelu.org/blog/2018/05/matrix1.gif)
+
+ClusterShell每天在Linux超级计算机（拥有超过5000个计算节点）上使用。使用很简单，只要在主控机上配置好子节点的ssh密钥登陆，同时做好节点配置即可，非常便捷。这篇文章介绍它的安装和简单使用。
 
 # 安装
 
@@ -17,6 +19,8 @@ yum install -y clustershell
 // or
 apt-get install clustershell
 ```
+
+
 
 # 配置
 
