@@ -120,114 +120,47 @@ kompose convert -f docker-compose.yaml
 
 之后，我们使用 helm 创建 charts 的命令行创建chart，清空 templates 目录后将刚才的文件挪进去。
 
-###修改
+### 修改
 
 不过使用 kompose 转换的文件还是有一些问题的，直接放到文件夹中并不好用。比如它没有使用values.yaml，没有生成namespace，没有资源限制等等，我们需要用以下的方式将其改造的更符合我们的要求。
 
 注意事项:
 
 1. name: 字段不允许使用骆驼峰模式，可使用分隔符 -，英文需要全部小写。
-2. value.yaml中的变量，不要使用分隔符 - ，会与 {{- -}} 产生冲突。否则编译的时候会报错可以使用骆驼峰。
+2. value.yaml中的变量，不要使用分隔符 - ，会与变量解释器产生冲突，编译的时候报错。可以使用骆驼峰。
 3. 注意缩进问题，缩进不对或者带tab也会报错。
 
 接下来做一些改造：
 
-1.  在 template 文件夹中使用_helpers.tpl文件，以便在 yaml 文件中使用重复的字段。
+1. 在 template 文件夹中使用_helpers.tpl文件，以便在 yaml 文件中使用重复的字段。
 
    我做了一个简单的小改造：
 
-   ```
-   {{/* vim: set filetype=mustache: */}}
-   {{/*
-   Expand the name of the chart.
-   */}}
-   {{- define "name" -}}
-   {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" -}}
-   {{- end -}}
-
-   {{/*
-   Create a default fully qualified app name.
-   We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
-   */}}
-   {{- define "fullname" -}}
-   {{- $name := default .Chart.Name .Values.nameOverride -}}
-   {{- printf "%s-%s" $name .Release.Name | trunc 63 | trimSuffix "-" -}}
-   {{- end -}}
-   ```
+   ![](https://cdn.kelu.org/blog/2018/06/20180620161144.jpg)
 
    这里面定义了两个变量，name和fullname，可以在yaml文件中直接使用：
 
-   ```
-   {{ template "fullname" . }}
-   ```
+   ![](https://cdn.kelu.org/blog/2018/06/20180620161200.jpg)
 
 2. 使用 ingress：
 
    我这里使用的是traefik作为ingress的实现方式，需要事先安装好traefik。ingress.yaml 配置如下：
 
-   ```
-   apiVersion: extensions/v1beta1
-   kind: Ingress
-   metadata:
-     name: kapua-ingress
-     namespace: {{ template "fullname" . }}
-     labels:
-       app: kapua
-     annotations:
-        "kubernetes.io/ingress.class": "traefik"
-        "nginx.ingress.kubernetes.io/rewrite-target": "/"
-   spec:
-     rules:
-       - host: xiaozhitest.caih.local
-         http:
-           paths:
-             - path: /
-               backend:
-                 serviceName: kapua-console
-                 servicePort: 8080
-   ```
+   ![](https://cdn.kelu.org/blog/2018/06/20180620162000.jpg)
 
-3.  创建 namespace
+   ​
 
-   ```
-   apiVersion: v1
-   kind: Namespace
-   metadata:
-     name: {{ template "fullname" . }}
-   ```
+3. 创建 namespace
+
+   ![](https://cdn.kelu.org/blog/2018/06/20180620162031.jpg)
 
 4. 配置灵活的 values.yaml，将镜像前缀设置成可配的(方便内网应用部署)
 
-   ```
-   # values.yaml
-   image:
-     prefix: "10.18.1.230:80/"
-     kapuaApi: "iot/kapua-api:0.3.1"
-     kapuaBroker: "iot/kapua-broker:0.3.1"
-     kapuaConsole: "iot/kapua-console:0.3.1"
-     kapuaElasticsearch: "iot/elasticsearch:5.4.0"
-     kapuaSql: "iot/kapua-sql:0.3.1"
-     
-   # test.deployment.yaml
-   ...
-     image: {{ .Values.image.prefix }}{{ .Values.image.kapuaApi }}
-   ```
+   ![](https://cdn.kelu.org/blog/2018/06/20180620162102.jpg)
 
 5. 为Java虚拟机 jvm 做资源限制，以console作为例子
 
-   ```
-   apiVersion: extensions/v1beta1
-   kind: Deployment
-   metadata:
-     name: kapua-console
-     namespace: {{ template "fullname" . }}
-   ...
-       spec:
-         containers:
-         - env:
-           - name: JAVA_OPTS
-             value: {{ .Values.kapuaApi.javaOpts }} -Dcommons.db.connection.host=${SQL_DB_ADDR} -Dcommons.db.connection.port=${SQL_DB_PORT} -Dbroker.host=${BROKER_PORT_1883_TCP_ADDR} -Ddatastore.elasticsearch.nodes=${DATASTORE_ADDR} -Ddatastore.elasticsearch.port=${DATASTORE_PORT} -Ddatastore.client.class=${DATASTORE_CLIENT} -Dcertificate.jwt.private.key=file:///home/kapua/key.pk8 -Dcertificate.jwt.certificate=file:///home/kapua/cert.pem
-   ```
+   ![](https://cdn.kelu.org/blog/2018/06/20180620162537.jpg)
 
    在values.yaml中配置如下：
 
@@ -241,50 +174,15 @@ kompose convert -f docker-compose.yaml
 
 6. 使用service的name为服务创建别名，以broker作为例子：
 
-   ```
-   apiVersion: v1
-   kind: Service
-   metadata:
-     creationTimestamp: null
-     labels:
-       io.kompose.service: kapua-broker
-     name: {{ .Values.kapuaBroker.service.name }}
-     namespace: {{ template "fullname" . }}
-     ...
-   ```
+   ![](https://cdn.kelu.org/blog/2018/06/20180620162638.jpg)
+
+   ​
 
 7. 限制pod和container的资源
 
-   ```
-   #apiVersion: v1
-   #kind: LimitRange
-   #metadata:
-   #  name: {{ template "name" . }}-limit
-   #  namespace: {{ template "fullname" . }}
-   #spec:
-   #  limits:
-   #  - max:
-   #      cpu: 1
-   #      memory: 1Gi
-   #    min:
-   #      cpu: 0.5
-   #      memory: 6Mi
-   #    type: Pod
-   #
-   #  - default:
-   #      cpu: 0.5
-   #      memory: 200Mi
-   #    defaultRequest:
-   #      cpu: 0.5
-   #      memory: 100Mi
-   #    max:
-   #      cpu: 1
-   #      memory: 800Mi
-   #    min:
-   #      cpu: 0.1
-   #      memory: 3Mi
-   #    type: Container
-   ```
+   ![](https://cdn.kelu.org/blog/2018/06/20180620162732.jpg)
+
+   ​
 
 # 参考资料
 
