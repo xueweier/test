@@ -32,7 +32,7 @@ tags: linux cloud
 2. 计算优化型c3、c4两个系列的内存／vCPU比例为2
 3. 内存优化型r3、r4两个系列的内存／vCPU比例为8（x1系列比较特殊，略去）
 
-![img](https://pic1.zhimg.com/80/v2-4fe2ebd50e4e7c2c259f11713631c543_hd.jpg)
+![](https://cdn.kelu.org/blog/2018/04/4.jpg)
 
 相应的，我们从这个表里面能获取到的关键信息是什么呢？
 
