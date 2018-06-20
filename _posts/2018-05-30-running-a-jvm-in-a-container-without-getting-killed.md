@@ -122,3 +122,5 @@ ES_JAVA_OPTS ="- Xms4000m -Xmx4000m"./bin/elasticsearch
 * [Set JVM heap size via jvm.options](https://www.elastic.co/guide/en/elasticsearch/reference/5.4/heap-size.html)
 * [Install Elasticsearch with Docker](https://www.elastic.co/guide/en/elasticsearch/reference/5.4/docker.html)
 * [Passing ES_JAVA_OPTS variable with spaces when using docker compose](https://stackoverflow.com/questions/44926335/passing-es-java-opts-variable-with-spaces-when-using-docker-compose)
+* [Why my Java application is OOMKilled](https://banzaicloud.com/blog/java-resource-limits/)
+* [Docker and Java: Why My App Is OOMKilled](https://dzone.com/articles/why-my-java-application-is-oomkilled)
