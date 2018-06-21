@@ -2,7 +2,7 @@
 layout: post
 title: 陋室铭 刘禹锡
 category: literature
-tags: literature tang_dynasty
+tags: tang_dynasty
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 

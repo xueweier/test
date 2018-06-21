@@ -2,7 +2,7 @@
 layout: post
 title: 山坡羊·潼关怀古
 category: literature
-tags: literature yuan_dynasty
+tags: yuan_dynasty
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 

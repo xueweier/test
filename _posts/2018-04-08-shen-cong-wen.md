@@ -2,7 +2,7 @@
 layout: post
 title: 怎么看沈从文 49 后不再从事文学创作？ | 知乎
 category: literature
-tags: literature modern_times
+tags: modern_times
 ---
 ![](https://cdn.kelu.org/blog/tags/shencongwen.jpg)
 

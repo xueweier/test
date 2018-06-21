@@ -2,7 +2,7 @@
 layout: post
 title: 罗马共和国时代公民权扩展的原因 | 前线
 category: literature
-tags: literature modern_times
+tags: modern_times
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 

@@ -2,7 +2,7 @@
 layout: post
 title: 丛话七·臆论 | 履园丛话
 category: literature
-tags: qing_dynasty 
+tags: qing_dynasty
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
