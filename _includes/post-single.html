@@ -1,4 +1,5 @@
-   <article>
+<article>
+
         <div class="article_header">
             <h1 class="article_title">{{ page.title }}</h1>
           <h5 class="article_meta">{{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;
@@ -13,7 +14,16 @@
 
         </div>
         <div class="article_index_contents">
-            <div class="article_content"> {{ content }} </div>
+            <div class="article_content"> 
+{% if page.category == "japanese" or page.category == "literature"  or page.category == "finance" %}
+<style type="text/css">
+
+.article_content p {font-size: medium;}
+</style>
+{% endif %}
+		    
+		    {{ content }} 
+	    </div>
         </div>
     </article>
    <hr class="article_horizontal_rule green">

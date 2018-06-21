@@ -1,6 +1,6 @@
 ---
 layout: post
-title: kubernetes helm chart和 helm repo
+title: kubernetes helm chart
 category: tech
 tags: kubernetes docker
 ---
@@ -8,7 +8,7 @@ tags: kubernetes docker
 
 这篇文章记录如何自建 helm chart 和 helm repo。一些前置的背景知识可以在这里了解：[kubernetes helm 入门](/tech/2018/05/05/k8s-helm-tutorial.html)
 
-# 一 入门
+
 
 ## 1. chart
 
@@ -183,11 +183,3 @@ db.repos.remove(xxx)
 ```
 
 ![](https://cdn.kelu.org/blog/2018/05/20180525092317.jpg)
-
-
-
-# 二 进阶
-
-## chart与monocular界面对应关系
-
-![](https://cdn.kelu.org/blog/2018/05/20180525095704.jpg)
