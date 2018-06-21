@@ -100,14 +100,14 @@ layout: two-column-sidebar
     {% assign skip_status = 0 %}
     {% elsif skip_status == 0 %}
     {% if flag == 1 %}
-    <a class="nextpostslink"
-       href="{{ middle_page_1_str | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">...</a>
+    <a class="nextpostslink {{ middle_page_1_str }}"
+       href="/{{ middle_page_1_str}}">...</a>
     {% elsif page < paginator.page %}
-    <a class="nextpostslink"
-       href="{{ middle_page_1_str | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">...</a>
+    <a class="nextpostslink {{ middle_page_1_str }}"
+       href="/{{ middle_page_1_str}}">...</a>
     {% else %}
-    <a class="nextpostslink"
-       href="{{ middle_page_2_str | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">...</a>
+    <a class="nextpostslink {{ middle_page_2_str }}"
+       href="/{{ middle_page_2_str}}">...</a>
     {% endif %}
     {% assign skip_status = 1 %}
     {% else %}

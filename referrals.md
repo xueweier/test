@@ -25,4 +25,13 @@ tags: product
 
 # 博客
 
-* []()
+1. kubernetes
+
+   * [一个博客](https://jishu.io/)
+   * [又一个博客](https://blog.fleeto.us/)
+
+2. 运维
+
+   * [阿里中间件团队博客](http://jm.taobao.org/)
+
+   ​
