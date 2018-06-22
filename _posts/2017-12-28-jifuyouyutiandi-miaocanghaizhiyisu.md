@@ -2,7 +2,7 @@
 layout: post
 title: 《赤壁赋》寄蜉蝣于天地，渺沧海之一粟 苏轼
 category: literature
-tags: literature song_dynasty sushi
+tags: song_dynasty sushi
 ---
 ![](https://cdn.kelu.org/blog/tags/sushi.jpg)
 

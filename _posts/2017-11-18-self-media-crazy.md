@@ -2,7 +2,7 @@
 layout: post
 title: 自媒体界没有良知，人性尚存 | 转
 category: literature
-tags: literature modern_times
+tags: modern_times
 ---
 ![](https://cdn.kelu.org/blog/2017/11/selfmedia.jpg)
 

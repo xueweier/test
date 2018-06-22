@@ -2,7 +2,7 @@
 layout: post
 title:  如何做一次访谈？ | 转
 category: literature
-tags: literature modern_times
+tags: modern_times
 ---
 ![](https://cdn.kelu.org/blog/2017/10/int1.jpg)
 

@@ -2,7 +2,7 @@
 layout: post
 title:  一些常见古文词汇的英文翻译
 category: literature
-tags: literature
+tags: 
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
@@ -44,25 +44,25 @@ tags: literature
   * Northern Qi 北齊 (550-577) 
   * Western Wei 西魏 (535-556) 
   * Northern Zhou 北周 (557-581) 
- 
+
 * Sui Dynasty 隋 (581-618) 
 
 * Tang Dynasty 唐 (618-907) 
- 
+
 * Five Dynasties 五代: 
   * Later Liang 後梁 (907-923) 
   * Later Tang 後唐 (923-936) 
   * Later Jin 後晉 (936-946) 
   * Later Han 後漢 (947-950) 
   * Later Zhou 後周 (951-960) 
- 
+
 * Song Dynasty 宋: 
   * Northern Song Dynasty 北宋 (960-1127) 
   * Southern Song Dynasty 南宋 (1127-1279) 
- 
+
 * Liao Dynasty 遼 (916-1125) 
 * Jin Dynasty 金 (1115-1234) 
- 
+
 * Yuan Dynasty 元 (1271-1368) 
 * Ming Dynasty 明 (1368-1644) 
 * Qing Dynasty 清 (1644-1911) 

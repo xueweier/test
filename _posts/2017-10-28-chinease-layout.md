@@ -2,7 +2,7 @@
 layout: post
 title:  简单做好中文排版 | 转
 category: literature
-tags: literature modern_times
+tags: modern_times
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 

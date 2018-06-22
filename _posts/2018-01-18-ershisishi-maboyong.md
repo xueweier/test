@@ -2,7 +2,7 @@
 layout: post
 title:  如何阅读《二十四史》？  马伯庸
 category: literature
-tags: literature eastern_jin_dynasty sushi
+tags: eastern_jin_dynasty sushi
 ---
 ![](https://cdn.kelu.org/blog/tags/maboyong.jpg)
 

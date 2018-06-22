@@ -2,7 +2,7 @@
 layout: post
 title:  五代十国 - 维基百科
 category: literature
-tags: literature five_dynasties_and_ten_kingdoms_period
+tags: five_dynasties_and_ten_kingdoms_period
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 

@@ -2,7 +2,7 @@
 layout: post
 title:  兰亭集序 王羲之
 category: literature
-tags: literature eastern_jin_dynasty sushi
+tags: eastern_jin_dynasty sushi
 ---
 ![](https://cdn.kelu.org/blog/tags/wangxizhi.jpg)
 
