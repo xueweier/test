@@ -2,7 +2,7 @@
 layout: post
 title:  生于忧患死于安乐 - 孟子
 category: literature
-tags: warring_state_period confucianism
+tags: literature warring_state_period confucianism mengzi
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
