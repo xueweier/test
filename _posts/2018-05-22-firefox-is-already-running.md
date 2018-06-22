@@ -2,7 +2,7 @@
 layout: post
 title: 解决 Firefox is already running, but is not responding 错误
 category: tech
-tags: kubernetes docker
+tags: chrome
 ---
 ![](https://cdn.kelu.org/blog/tags/firefox.jpg)
 
@@ -17,7 +17,10 @@ tags: kubernetes docker
 在linux的终端输入：
 
 ```
-firefox -profilemanager
+firefox -profilemanager 
+
+# 或者
+firefox -p
 ```
 
 在出现的页面中将当前出错的 Profile 删除掉，然后新建个即可。

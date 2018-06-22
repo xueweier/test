@@ -157,10 +157,10 @@ tags: kubernetes docker
    mkdir -p /etc/cni/net.d/
    cat <<EOF> /etc/cni/net.d/10-flannel.conf
    {
-   “name”: “cbr0”,
-   “type”: “flannel”,
-   “delegate”: {
-   “isDefaultGateway”: true
+   "name": "cbr0",
+   "type": "flannel",
+   "delegate": {
+   "isDefaultGateway": true
    }
    }
    EOF
@@ -178,14 +178,14 @@ tags: kubernetes docker
    kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/v0.9.1/Documentation/kube-flannel.yml
    ```
 
-   ​
-
 9. node加入集群(可选)
 
-   将第6步中的最后那个命令在node节点上运行即可。
+   将第6步中的最后那个命令在node节点上运行即可。如果需要可以在后边加上跳过swap检测。
 
    ```
-   kubeadm join --token xxx --discovery-token-ca-cert-hash sha256:xxx 172.10.1.100:6443
+   kubeadm join --token xxx --discovery-token-ca-cert-hash sha256:xxx 172.10.1.100:6443  --ignore-preflight-errors Swap
+
+   kubeadm join 10.19.0.55:6443 --token yvcyj2.8sx9plzgg0x2pyui --discovery-token-ca-cert-hash sha256:39a0baf9d08046eecbd593049b4d71e47d47478c01b6761c911da9589aed1f73 --ignore-preflight-errors Swap
    ```
 
    如果忘记token，在master节点上运行：
@@ -199,13 +199,15 @@ tags: kubernetes docker
    ```
    # 重新生成新的token
    kubeadm token create
-   kubeadm tokenlist
+   kubeadm token list
 
    # 获取ca证书sha256编码hash值
-   openssl x509-pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'
+   openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'
 
    # 节点加入集群
-   kubeadm join--token rgeekl.4nf2l6qi0o2f0504 --discovery-token-ca-cert-hash sha256:2058b1b61b196cc5bf3097b38185e72d55c55cc5596cc9210e98cb1e91197a6b  172.10.1.100:6443
+   kubeadm join --token xxx --discovery-token-ca-cert-hash sha256:xxx  172.10.1.100:6443  --ignore-preflight-errors Swap
+
+   kubeadm join 10.19.0.55:6443 --token yvcyj2.8sx9plzgg0x2pyui --discovery-token-ca-cert-hash sha256:39a0baf9d08046eecbd593049b4d71e47d47478c01b6761c911da9589aed1f73 --ignore-preflight-errors Swap
    ```
 
 10. 将 master 设置为node（可选)

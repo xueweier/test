@@ -76,7 +76,8 @@ $ kubectl explain pods,svc                       # get the documentation for pod
    $ kubectl delete pod,service baz foo                                        # Delete pods and services with same names "baz" and "foo"
    $ kubectl delete pods,services -l name=myLabel                              # Delete pods and services with label name=myLabel
    $ kubectl delete pods,services -l name=myLabel --include-uninitialized      # Delete pods and services, including uninitialized ones, with label name=myLabel
-   $ kubectl -n default delete pv --all                                      # 删除default 下所有的pv
+   $ kubectl -n default delete pv --all                                      # 删除 default 下所有的pv
+   $ kubectl delete node xxx                                                 # 删除 node
    ```
 
 3. 查
