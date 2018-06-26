@@ -349,7 +349,7 @@ $ kubectl explain pods,svc                       # get the documentation for pod
    ```
    $ kubectl logs my-pod                                 # dump pod logs (stdout)
    $ kubectl logs my-pod -c my-container                 # dump pod container logs (stdout, multi-container case)
-   $ kubectl logs -f my-pod                              # stream pod logs (stdout)
+   $ kubectl logs -f my-pod --namespace="xx"                             # stream pod logs (stdout)
    $ kubectl logs -f my-pod -c my-container              # stream pod container logs (stdout, multi-container case)
    $ kubectl run -i --tty busybox --image=busybox -- sh  # Run pod as interactive shell
    $ kubectl attach my-pod -i                            # Attach to Running Container

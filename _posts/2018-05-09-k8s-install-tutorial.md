@@ -148,7 +148,8 @@ tags: kubernetes docker
    # 对于root用户
    export KUBECONFIG=/etc/kubernetes/admin.conf
    也可以直接放到~/.bash_profile
-   echo "export KUBECONFIG=/etc/kubernetes/admin.conf" >> ~/.bash_profile
+   echo "export KUBECONFIG=/etc/kubernetes/admin.conf" >> /etc/bash_profile
+   echo "export KUBECONFIG=/etc/kubernetes/admin.conf" >> /etc/bashrc
    ```
 
 8. 安装flannel网络
@@ -202,7 +203,7 @@ tags: kubernetes docker
    kubeadm token list
 
    # 获取ca证书sha256编码hash值
-   openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'
+   openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der 2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'
 
    # 节点加入集群
    kubeadm join --token xxx --discovery-token-ca-cert-hash sha256:xxx  172.10.1.100:6443  --ignore-preflight-errors Swap
