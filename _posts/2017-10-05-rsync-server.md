@@ -48,12 +48,13 @@ rsync的操作有两种
 
 我选择了第二种情况，特别简单，只需要写好配置文件即可。
 
-	mkdir /etc/rsyncd
-	touch rsyncd.conf
+	mkdir -p /etc/rsyncd
+	cd /etc/rsyncd
+	vi rsyncd.conf
 
 修改配置文件rsyncd.conf
 
-	address = 172.104.xx.xx
+	address = 172.104.xx.xx # 本机地址
 	uid = root
 	gid = root
 	use chroot = yes
@@ -68,7 +69,7 @@ rsync的操作有两种
 	log format = %t %a %m %f %b
 	syslog facility = local3
 	timeout = 300
-
+	
 	[cdn]   # 需要同步的文件夹，按照自己的需要写
 	path = /var/local/cdn
 	ignore errors
