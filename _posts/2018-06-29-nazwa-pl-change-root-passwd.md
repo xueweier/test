@@ -19,7 +19,7 @@ tags: linux vps
 在编辑窗口中，转到以**linux**条目开头的行。删除参数**root = UUID = e35103f0-80 ...**之后的信息并将其替换为以下条目：
 
 ```
-rw init = / bin / bash
+rw init = /bin/bash
 ```
 
 ![img](https://cdn.kelu.org/blog/2018/06/csm_centos_root_2_58a1038c0d.jpg)
@@ -49,7 +49,7 @@ rw init = / bin / bash
 4. 重新启动系统。
 
    ```
-   root @（none）：/＃exec / sbin / reboot -f
+   root @（none）：/＃exec /sbin/reboot -f
    ```
 
    
@@ -63,7 +63,7 @@ rw init = / bin / bash
 在编辑窗口中，转到以**linux**条目开头的行。删除参数**root = UUID = 8c132507-315c ...**之后的信息并将其替换为以下条目：
 
 ```
-rw init = / bin / bash
+rw init = /bin/bash
 ```
 
 ![img](https://cdn.kelu.org/blog/2018/06/csm_debian_root_2_045fb2e406.jpg)
@@ -91,7 +91,7 @@ rw init = / bin / bash
 4. 重新启动系统。
 
    ```
-   root @（none）：/＃exec / sbin / reboot -f
+   root @（none）：/＃exec /sbin/reboot -f
    ```
 
    ![img](https://cdn.kelu.org/blog/2018/06/csm_debian_root_3_b9ccc6d193.jpg)
