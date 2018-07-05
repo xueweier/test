@@ -27,11 +27,15 @@ tags: product
 
 1. kubernetes
 
-   * [一个博客](https://jishu.io/)
-   * [又一个博客](https://blog.fleeto.us/)
-
+   * <https://jishu.io/>
+   * <https://blog.fleeto.us/>
 2. 运维
 
    * [阿里中间件团队博客](http://jm.taobao.org/)
-
-   ​
+3. 休闲
+   * <https://www.moerats.com/>
+   * <http://www.hostsoft.cn/blog/>
+   * <https://thief.one/>
+   * <http://cizixs.com/>
+   * <http://toko.moe/>
+   * <http://cizixs.com/>
