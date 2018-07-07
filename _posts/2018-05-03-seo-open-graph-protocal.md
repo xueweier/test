@@ -34,11 +34,6 @@ og是一种新的HTTP头部标记，由 Facebook在 2010年F8会议上公布的�
 
 - `og:title` - 对象标题，例如“The Rock”。
 - `og:type`- 对象类型
-  - video 视频
-  - audio 音频
-  - link 链接
-  - photo 图片
-  - product 产品
 - `og:image` - 图片网址。
 - `og:url` - 网页的永久URL，例如“http://www.imdb.com/title/tt0117500/”。
 
@@ -96,6 +91,107 @@ og:nick 店铺名 不可为空 需唯一
 
 og:postfee 运费 不可为空 需唯一
 
+### Music
+
+- Namespace URI: [`http://ogp.me/ns/music#`](http://ogp.me/ns/music)
+
+`og:type` : 
+
+[`music.song`](http://ogp.me/#type_music.song) 
+
+- `music:duration` - [integer](http://ogp.me/#integer) >=1 - The song's length in seconds.
+- `music:album` - [music.album](http://ogp.me/#type_music.album) [array](http://ogp.me/#array) - The album this song is from.
+- `music:album:disc` - [integer](http://ogp.me/#integer) >=1 - Which disc of the album this song is on.
+- `music:album:track` - [integer](http://ogp.me/#integer) >=1 - Which track this song is.
+- `music:musician` - [profile](http://ogp.me/#type_profile) [array](http://ogp.me/#array) - The musician that made this song.
+
+[`music.album`](http://ogp.me/#type_music.album)
+
+- `music:song` - [music.song](http://ogp.me/#type_music.song) - The song on this album.
+- `music:song:disc` - [integer](http://ogp.me/#integer) >=1 - The same as `music:album:disc` but in reverse.
+- `music:song:track` - [integer](http://ogp.me/#integer) >=1 - The same as `music:album:track` but in reverse.
+- `music:musician` - [profile](http://ogp.me/#type_profile) - The musician that made this song.
+- `music:release_date` - [datetime](http://ogp.me/#datetime) - The date the album was released.
+
+[`music.playlist`](http://ogp.me/#type_music.playlist)
+
+- `music:song` - Identical to the ones on [music.album](http://ogp.me/#type_music.album)
+- `music:song:disc`
+- `music:song:track`
+- `music:creator` - [profile](http://ogp.me/#type_profile) - The creator of this playlist.
+
+[`music.radio_station`](http://ogp.me/#type_music.radio_station)
+
+- `music:creator` - [profile](http://ogp.me/#type_profile) - The creator of this station.
+
+### Video
+
+- Namespace URI: [`http://ogp.me/ns/video#`](http://ogp.me/ns/video)
+
+`og:type` values:
+
+[`video.movie`](http://ogp.me/#type_video.movie)
+
+- `video:actor` - [profile](http://ogp.me/#type_profile) [array](http://ogp.me/#array) - Actors in the movie.
+- `video:actor:role` - [string](http://ogp.me/#string) - The role they played.
+- `video:director` - [profile](http://ogp.me/#type_profile) [array](http://ogp.me/#array) - Directors of the movie.
+- `video:writer` - [profile](http://ogp.me/#type_profile) [array](http://ogp.me/#array) - Writers of the movie.
+- `video:duration` - [integer](http://ogp.me/#integer) >=1 - The movie's length in seconds.
+- `video:release_date` - [datetime](http://ogp.me/#datetime) - The date the movie was released.
+- `video:tag` - [string](http://ogp.me/#string) [array](http://ogp.me/#array) - Tag words associated with this movie.
+
+[`video.episode`](http://ogp.me/#type_video.episode)
+
+- `video:actor` - Identical to [video.movie](http://ogp.me/#type_video.movie)
+- `video:actor:role`
+- `video:director`
+- `video:writer`
+- `video:duration`
+- `video:release_date`
+- `video:tag`
+- `video:series` - [video.tv_show](http://ogp.me/#type_video.tv_show) - Which series this episode belongs to.
+
+[`video.tv_show`](http://ogp.me/#type_video.tv_show)
+
+A multi-episode TV show. The metadata is identical to [video.movie](http://ogp.me/#type_video.movie).
+
+[`video.other`](http://ogp.me/#type_video.other)
+
+A video that doesn't belong in any other category. The metadata is identical to [video.movie](http://ogp.me/#type_video.movie).
+
+### article
+
+[`article`](http://ogp.me/#type_article) - Namespace URI: [`http://ogp.me/ns/article#`](http://ogp.me/ns/article)
+
+- `article:published_time` - [datetime](http://ogp.me/#datetime) - When the article was first published.
+- `article:modified_time` - [datetime](http://ogp.me/#datetime) - When the article was last changed.
+- `article:expiration_time` - [datetime](http://ogp.me/#datetime) - When the article is out of date after.
+- `article:author` - [profile](http://ogp.me/#type_profile) [array](http://ogp.me/#array) - Writers of the article.
+- `article:section` - [string](http://ogp.me/#string) - A high-level section name. E.g. Technology
+- `article:tag` - [string](http://ogp.me/#string) [array](http://ogp.me/#array) - Tag words associated with this article.
+
+### book
+
+[`book`](http://ogp.me/#type_book) - Namespace URI: [`http://ogp.me/ns/book#`](http://ogp.me/ns/book)
+
+- `book:author` - [profile](http://ogp.me/#type_profile) [array](http://ogp.me/#array) - Who wrote this book.
+- `book:isbn` - [string](http://ogp.me/#string) - The [ISBN](http://en.wikipedia.org/wiki/International_Standard_Book_Number)
+- `book:release_date` - [datetime](http://ogp.me/#datetime) - The date the book was released.
+- `book:tag` - [string](http://ogp.me/#string) [array](http://ogp.me/#array) - Tag words associated with this book.
+
+### profile
+
+[`profile`](http://ogp.me/#type_profile) - Namespace URI: [`http://ogp.me/ns/profile#`](http://ogp.me/ns/profile)
+
+- `profile:first_name` - [string](http://ogp.me/#string) - A name normally given to an individual by a parent or self-chosen.
+- `profile:last_name` - [string](http://ogp.me/#string) - A name inherited from a family or marriage and by which the individual is commonly known.
+- `profile:username` - [string](http://ogp.me/#string) - A short unique string to identify them.
+- `profile:gender` - [enum](http://ogp.me/#enum)(male, female) - Their gender.
+
+### website
+
+[`website`](http://ogp.me/#type_website) - Namespace URI: [`http://ogp.me/ns/website#`](http://ogp.me/ns/website)
+
 ## 其他可选
 
 以下属性对于任何对象都是可选的，通常建议：
@@ -120,11 +216,7 @@ og:postfee 运费 不可为空 需唯一
 <meta property="og:video" content="http://example.com/bond/trailer.swf" />
 ```
 
-
-
 更详细的请参考下文的参考资料。
-
-
 
 # 参考资料
 
