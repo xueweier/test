@@ -2,7 +2,7 @@
 layout: post
 title:  观海同志 - 萌娘百科
 category: literature
-tags: literature prc
+tags: gov
 ---
 
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
@@ -24,4 +24,3 @@ tags: literature prc
     后米数欲兴兵，皆为符制未果。乃阴使疲华，故钓台事发，烽烟几起。南洋诸藩，多行僭越。一时风起云涌，大有山雨之势。
     
     又数月，飓风袭米。水漫东岸，浪摧市墟。伤亡无算，由是大损。奥氏临灾地，睹波涛，闻声浪，始悟上意。默立良久，终以手加额，慨然长叹：“帝诚不我欺！”
-

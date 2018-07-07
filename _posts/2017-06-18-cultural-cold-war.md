@@ -2,7 +2,7 @@
 layout: post
 title:  文化冷战：好的宣传就是要做得不像宣传 | 转自简书
 category: literature
-tags: literature modern_times
+tags: modern_times
 ---
 ![](https://cdn.kelu.org/blog/2017/06/codewar.jpg)
 
