@@ -2,7 +2,7 @@
 layout: post
 title:  《大明王朝1566》邀请海瑞出山的情节
 category: literature
-tags: literature ming_dynasty
+tags: ming_dynasty
 ---
 ![](https://cdn.kelu.org/blog/2017/09/damingwangchao.jpg)
 
