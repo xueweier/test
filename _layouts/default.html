@@ -1,16 +1,33 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="血衫非弧の一存" />
+    <meta property="og:url" content="https://blog.kelu.org{{ page.url }}" />
+    <meta property="og:image" content="https://cdn.kelu.org/kelu.jpg" />
+
     {% if page.title != null %}
     <title> {{ page.title }}  | 血衫非弧の一存 </title>
     <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 12 }}">
+    <meta property="og:title" content="{{ page.title }}  | 血衫非弧の一存" />
+    <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 12 }}"/>
+    <meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}"/>
+    <meta property="article:author" content="血衫非弧"/>
+    <meta property='article:publisher' content='https://kelu.org' />
+    <meta property="article:tag" content=" {% for tag in page.tags %} {{tag}} {% endfor %} "/>
+
     {% else %}
+
     <title>血衫非弧の一存</title>
-    <meta name="description" content="血衫非弧的个人博客，总结一些踩过的开发坑，零碎的多，总结性的少，对负责实施的朋友较有帮助。">
+    <meta name="description" content="网站记录了我运维开发的历程，着重于过程分享，希望能够帮助大家少踩坑，少有总结性的。不定期更新微信公众号和本博客。">
+    <meta property="og:title" content="血衫非弧の一存" />
+    <meta property="og:description" content="网站记录了我运维开发的历程，着重于过程分享，希望能够帮助大家少踩坑，少有总结性的。不定期更新微信公众号和本博客。"/>
     {% endif %}
+
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="8; url=/">
     {% endif %}
+
     <link rel="stylesheet" type="text/css" media="all" href="/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="血衫非弧の一存 - Feed" href="https://blog.kelu.org/atom.xml">
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
