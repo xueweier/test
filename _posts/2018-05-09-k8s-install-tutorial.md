@@ -100,6 +100,7 @@ tags: kubernetes docker
    ```
    $ vi /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
    # 修改 "cgroup-driver"值 由systemd变为cgroupfs
+   # 原因是 cgroup-driver参数要与docker的一致，否则就会出问题
    Environment="KUBELET_CGROUP_ARGS=--cgroup-driver=cgroupfs"
 
    # 第九行增加swap-on=false
@@ -192,7 +193,10 @@ tags: kubernetes docker
    如果忘记token，在master节点上运行：
 
    ```
-   kubeadm token list                             
+   # 确认token是否有效
+   kubeadm token list      
+
+   kubeadm token create --print-join-command
    ```
 
    默认token的有效期为24小时，当过期之后，该token就不可用了。解决方法如下：
