@@ -6,6 +6,12 @@ tags: linux
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
+> 传统软件工程上来说，对成形软件的测试有着三个阶段：alpha、beta 和gamma，用来标识测试的阶段与范围。alpha 指的是内测，即现在说的 CB，即开发团队内部测试的版本或者有限用户的体验测试版本。beta 指的是公测，即针对所有用户公开的测试版本。而做过一些修改，成为正式发布的候选版本时（现在叫做 RC - Release Candidate），叫做 gamma。
+>
+> 对于互联网产品来说，一般会喜欢将“beta”期做久一点，比如上面有人说的[http://weibo.com](https://link.zhihu.com/?target=http%3A//weibo.com)，还有[http://google.com](https://link.zhihu.com/?target=http%3A//google.com)及网络游戏等。这样做的原因可能有所谓“降低被喷的风险”的作用，但是实际上根本原因还是互联网产品其本身特点，因为几乎所有互联网产品都要基于用户参与，如果用户量、交互量未达到产品预期目标，就是在“beta”阶段。这是合乎软件生命周期基本规律的。
+>
+> ——转自知乎<https://www.zhihu.com/question/20028437>
+
 
 
 **开发期Pre-alpha**
