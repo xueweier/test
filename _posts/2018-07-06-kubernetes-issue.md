@@ -14,6 +14,8 @@ tags: docker kubernetes
 
 # cri-tools 版本问题
 
+在增加 kubernetes 节点时，冒出这个错误。
+
 ```
 configmaps "kubelet-config-1.11" is forbidden: cannot get configmaps in the namespace "kube-system"
 
@@ -26,6 +28,7 @@ configmaps "kubelet-config-1.11" is forbidden: cannot get configmaps in the name
 
 ```
 apt-get remove cri-tools
+yum remove cri-tools
 ```
 
 参考：[kubeadm init/join CRI preflight check fails unnecessarily#814](https://github.com/kubernetes/kubeadm/issues/814)
