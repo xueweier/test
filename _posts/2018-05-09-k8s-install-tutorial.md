@@ -329,3 +329,8 @@ kubectl describe replicaset
    ```
 
    ​
+
+   # 参考资料
+
+   * [Kubernetes架构设计与核心原理](http://www.dockerinfo.net/1048.html)
+
