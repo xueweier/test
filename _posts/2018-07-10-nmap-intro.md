@@ -34,7 +34,24 @@ tags: linux nmap test
 >
 > 转自：<https://zhuanlan.zhihu.com/p/32342884>
 
-# snmp简介
+# nmap简介
+
+Nmap是一款开源免费的网络发现（Network Discovery）和安全审计（Security Auditing）工具，是世界千万安全专家列为必备的工具之一，在其中的一些影视作品中《黑客帝国2》、《特警判官》中都有亮相。
+
+**Nmap包含四项基本功能：**
+
+1. **主机发现（Host Discovery）**
+2. **端口扫描（Port Scanning）**
+3. **版本侦测（Version Detection）**
+4. **操作系统侦测（Operating System Detection）**
+
+**默认的情况下，我们的查找是查找最有可能开放的1000端口，但是使用快速端口查找(参数 -F )会查找最有可能开放的100个端口，这样也就节约了10倍的时间**
+
+NMAP 有很多的脚本和漏洞分析等功能，PS/PU/PA/PY不只是可以用来做主机发现的，主要还是作为获取端口列表用的，如果是要做主机发现，我们可以在基本的扫描（TCP扫描、SYN扫描等）的基础之上加上 sn 参数来进行主机发现，这样就不会对端口进行扫描，提升了扫描的效率。
+
+
+
+常用有4种扫描方式：
 
 1. PING 扫描 (-sP)
 2. UDP 扫描 (-sU)
@@ -88,9 +105,15 @@ TCP Connect 扫描通过执行下面的步骤来工作：
 
 其它情况与 tcp syn 一致。
 
+### 时间优化
 
+时间优化的参数是(-T0~5)，最快的扫描速度为-T5,最慢的扫描速度为-T0**,**
 
-# SNMP用法
+**实现的原理：通过设置各个端口的扫描周期，从而来控制整个扫描的时间，比如说T0各个端口的扫描周期大约为5分钟，而T5各个端口的扫描周期为5ms**
+
+扫描的周期过快，会很容易被防火墙和IDS发现并记录，因为防火墙大多数会将端口周期过段识别为扫描从而屏蔽掉，如果不对其进行设置的话，默认值为T4
+
+# nmap用法
 
 nmap参数：
 
@@ -245,3 +268,5 @@ nmap支持很多语言的扩展，本文简单介绍下python中如何使用nmap
 * [Zmap详细用户手册和DDOS的可行性](http://drops.xmd5.com/static/drops/tools-515.html)
 * <https://svn.nmap.org/>
 * [Nmap脚本使用指南](https://zhuanlan.zhihu.com/p/26618074)
+* [端口扫描之王——nmap入门精讲（一）](https://www.cnblogs.com/st-leslie/p/5115280.html)
+* [端口扫描之王——nmap入门精讲（二）](https://www.cnblogs.com/st-leslie/p/5118112.html)
