@@ -56,7 +56,9 @@ umount /mnt
 createrepo /var/www/html/yum/CentOS6.3
 ```
 
-#启动 httpd 服务器
+需要等待比较长时间。
+
+# 启动 httpd 服务器
 
 ```
 systemctl restart httpd
