@@ -17,15 +17,21 @@ yum --showduplicates list cri-tools
 
 ![](https://cdn.kelu.org/blog/2018/07/20180717092634.jpg)
 
+列出的版本信息具体内容是：
 
+```
+package_name.architecture  version_number–build_number  repository
+```
 
 # 下载rpm
 
 在知道rpm包版本好后，我们希望将其下载下来，以供内网环境安装。用如下方法下载:
 
 ```
-yum install --downloadonly --downloaddir=/tmp/ cri-tools.x86_64 1.0.0_beta.1-0
-yum install --downloadonly --downloaddir=/tmp/ cri-tools.x86_64-1.0.0_beta.1-0
+yum install --downloadonly --downloaddir=/tmp/ [package-name]-[version].[architecture]
+
+# 例如：
+yum install --downloadonly --downloaddir=/tmp/ cri-tools-1.0.0_beta.1-0
 ```
 
 
