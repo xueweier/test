@@ -20,3 +20,4 @@ Docker for Windows 依赖于 Hyper-V，需要在 控制面板->程序与功能->
 
 * [Docker - Docker for Windows 10 入門篇](https://skychang.github.io/2017/01/06/Docker-Docker_for_Windows_10_First/)
 * [Windows 上的 Docker 引擎](https://docs.microsoft.com/zh-cn/virtualization/windowscontainers/manage-docker/configure-docker-daemon)
+* [Cannot start docker after installation on Windows](https://stackoverflow.com/questions/36885985/cannot-start-docker-after-installation-on-windows)
