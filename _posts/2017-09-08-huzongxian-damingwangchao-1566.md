@@ -4,7 +4,7 @@ title:  《大明王朝1566》第十七集 胡宗宪对奏情节
 category: literature
 tags: ming_dynasty
 ---
-![](https://cdn.kelu.org/blog/2017/09/damingwangchao.jpg)
+![](https://cdn.kelu.org/blog/tags/damingwangchao.jpg)
 
 胡宗宪: 
 
