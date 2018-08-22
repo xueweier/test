@@ -32,3 +32,6 @@ _sass/
 *.json
 _config.yml
 Gemfile.lock
+
+local/
+docker-compose.yml
