@@ -6,15 +6,11 @@ tags: windows
 ---
 ![](https://cdn.kelu.org/blog/tags/windows.jpg)
 
-
-
 # 命令
 
 ```
 netsh interface portproxy add/set/show/delete v4tov4/v4tov6/v6tov6/v6tov4
 ```
-
-
 
 # 例子
 
