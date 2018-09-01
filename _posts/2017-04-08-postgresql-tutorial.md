@@ -33,7 +33,7 @@ pg是针对事务型企业应用的严肃、功能完善的数据库，只有单
     apt-get update
     apt-get -y upgrade
     apt-get -y install postgresql-9.4 pgadmin3
-    
+
 安装完成后系统会生成 postgres 用户。默认密码也是 postgres。
 
 # 添加用户和数据库
@@ -42,7 +42,7 @@ pg是针对事务型企业应用的严肃、功能完善的数据库，只有单
 
     sudo su - postgres
     psql
-    
+
 一些操作:    
     
     # 为postgres用户设置一个密码。
@@ -59,9 +59,9 @@ pg是针对事务型企业应用的严肃、功能完善的数据库，只有单
     
     退出控制台
     \q
-    
+
 # 控制台命令
-    
+
     - \h：查看SQL命令的解释，比如\h select。
     - \?：查看psql命令列表。
     - \l：列出所有数据库。
@@ -71,7 +71,7 @@ pg是针对事务型企业应用的严肃、功能完善的数据库，只有单
     - \du：列出所有用户。
     - \e：打开文本编辑器。
     - \conninfo：列出当前数据库和连接的信息
-        
+
 # 数据库操作
 
 基本的数据库操作，就是使用一般的SQL语言。
@@ -98,7 +98,7 @@ pg是针对事务型企业应用的严肃、功能完善的数据库，只有单
     ALTER TABLE user_tbl RENAME TO backup_tbl;
     # 删除表格 
     DROP TABLE IF EXISTS backup_tbl;
-        
+
 # 数据库备份还原 pg_dump
 
 备份是维护不可或缺的一部分。 pg_dump 是一个用于备份 PostgreSQL 数据库的工具。它甚至可以在数据库正在并发使用的时候进行完整一致的备份。 pg_dump 不阻塞其它用户对数据库的访问（读或者写）。
@@ -119,7 +119,7 @@ pg_restore 可以以两种模式操作。如果声明了数据库名字， 那�
 
     pg_restore -d db_dst db_src.dump
 
-
+用法:  pg_dump [选项]... [数据库名字]
 用法:  pg_dump [选项]... [数据库名字]
 
     一般选项:
@@ -158,7 +158,7 @@ pg_restore 可以以两种模式操作。如果声明了数据库名字， 那�
       --serializable-deferrable   wait until the dump can run without anomalies
      --use-set-session-authorization
        使用 SESSION AUTHORIZATION 命令代替ALTER OWNER 命令来设置所有权
-       
+
 pg_restore [option...]
 
     参数：
@@ -189,7 +189,7 @@ pg_restore [option...]
         声明备份文件的格式。因为pg_restore 会自动判断格式，所以如果声明了，它可以是下面之一：
         t 备份是一个 tar 归档。 使用这个格式允许在恢复数据库的时候重新排序和/或把表模式元素排除出去。 同时还可能在恢复的时候限制装载的数据。 
         c 备份的格式是来自pg_dump的客户化格式。 这是最灵活的格式，因为它允许重新对数据排序，也允许重载表模式元素。 缺省时这个格式是压缩的。 
-
+    
     -i
     --ignore-version
         忽略数据库版本检查。 
@@ -256,7 +256,26 @@ pg_restore [option...]
     --disable-triggers
         这个选项只有在执行仅恢复数据的时候才相关。它告诉 pg_restore 在装载数据的时候执行一些命令临时关闭在目标表上的触发器。 如果你在表上有完整性检查或者其它触发器， 而你又不希望在装载数据的时候激活它们，那么可以使用这个选项。
         目前，为 --disable-triggers 发出的命令必须以超级用户发出。 因此，你应该也要用 -S 声明一个超级用户名，或者更好是设置 --use-set-session-authorization 并且以 PostgreSQL 超级用户身份运行 pg_restore。 
-   
+
+# 查看版本
+
+1. 查看客户端版本
+
+   ```
+   psql --version
+   ```
+
+   ​
+
+2. 查看服务器版本
+
+   ```
+   select version();
+   SELECT current_setting('server_version_num');
+   ```
+
+
+
 # 参考资料
 
 * [PostgreSQL教程][2]

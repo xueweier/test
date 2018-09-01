@@ -30,6 +30,10 @@ exportfs  -av
 
 # 挂载
 
+```
+mount \\10.8.11.192\nfs x:\
+```
+
 ![img](https://cdn.kelu.org/blog/2018/08/714585576.jpg)
 
 
