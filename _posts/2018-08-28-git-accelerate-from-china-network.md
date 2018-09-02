@@ -12,7 +12,9 @@ tags: git
 
    http代理或socks代理均可，git目前都支持。
 
-2.  git 的 http 协议代理
+   ​
+
+2. git 的 http 协议代理
 
    如果是http代理，假设端口为1080，按照如下设置：
 
@@ -27,13 +29,13 @@ tags: git
    git config --global http.proxy 'socks5://127.0.0.1:1080' 
    git config --global https.proxy 'socks5://127.0.0.1:1080'
 
-   #只对github.com
+   # 只对github.com 代理
    git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
-   #取消代理
+   # 取消代理
    git config --global --unset http.https://github.com.proxy)
-
    ```
+   ​
 
 3. git 的 git 协议的代理
 
