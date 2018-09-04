@@ -1,6 +1,6 @@
 ---
 layout: post
-title: can't create socket: Permission denied
+title: cannot create socket: Permission denied
 category: tech
 tags: tmux linux
 ---
