@@ -2,7 +2,7 @@
 layout: post
 title: api 使用 session 与 token 的利弊
 category: tech
-tags: database
+tags: api
 ---
 ![](https://cdn.kelu.org/blog/tags/api.jpg)
 
