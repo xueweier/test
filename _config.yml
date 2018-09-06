@@ -39,4 +39,4 @@ port: 4000
 lsi: false
 highlighter: rouge
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-time-machine
