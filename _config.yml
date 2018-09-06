@@ -38,3 +38,5 @@ url: http://blog.kelu.org
 port: 4000
 lsi: false
 highlighter: rouge
+
+theme: jekyll-theme-slate
